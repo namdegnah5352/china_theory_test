@@ -9,4 +9,4 @@ Main Functions
     - Learning Function
     - Testing Function
     - Search Function
-    - Browse Function
+    - Browse Function.
