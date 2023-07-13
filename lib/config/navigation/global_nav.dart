@@ -3,6 +3,7 @@ import '../constants.dart';
 import '../../data/special.dart';
 import '../../data/settings_data.dart';
 import '../../data/question.dart';
+import 'app_navigation.dart';
 
 class GlobalNav {
   late final SharedPreferences? sharedPreferences;
@@ -15,8 +16,10 @@ class GlobalNav {
   late List<Special> specials;
   SettingsData? settingsData;
   List<Question>? questions;
+  late final AppNavigation appNavigation;
 
   init() async {
+    appNavigation = AppNavigation();
     sharedPreferences = await SharedPreferences.getInstance();
     setUpShared(sharedPreferences!);
   }

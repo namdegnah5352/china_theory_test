@@ -1,10 +1,7 @@
 import '../data/question.dart';
 import 'dart:math';
-import 'package:flutter/material.dart';
-import '../screens/question_search_screen.dart';
-import '../screens/settings.dart';
-import '../screens/special_screen.dart';
 import '../config/navigation/global_nav.dart';
+import '../config/navigation/navigation_paths.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 
@@ -12,17 +9,17 @@ Question getRandomQuestion() {
   int i = globalNav.questions!.length;
   var random = Random();
   int r = random.nextInt(i);
-  return  globalNav.questions![r];
+  return globalNav.questions![r];
 }
 
-Future<void> loadSearchPage(BuildContext context) async {
-  await Navigator.of(context).push(MaterialPageRoute(builder: (_) => const QuestionSearchScreen()));
+Future<void> loadSearchPage() async {
+  await globalNav.appNavigation.pushNamed(NavigationPaths.search);
 }
 
-Future<void> loadSettinsPage(BuildContext context) async {
-  await Navigator.of(context).push(MaterialPageRoute(builder: (_) => const Settings()));
+Future<void> loadSettinsPage() async {
+  await globalNav.appNavigation.pushNamed(NavigationPaths.settings);
 }
 
-Future<void> loadSpecialPage(BuildContext context) async {
-  await Navigator.of(context).push(MaterialPageRoute(builder: (_) => const SpecialScreen()));
+Future<void> loadSpecialPage() async {
+  await globalNav.appNavigation.pushNamed(NavigationPaths.special);
 }

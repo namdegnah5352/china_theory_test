@@ -18,7 +18,7 @@ class _AppDrawerState extends State<AppDrawer> {
         setState(() {
           navDrawerIndex = selectedIndex;
           Navigator.pop(context);
-          Destination.values[navDrawerIndex].function(context);
+          Destination.values[navDrawerIndex].function();
         });
       },
       selectedIndex: navDrawerIndex,

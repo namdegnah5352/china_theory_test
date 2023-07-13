@@ -3,6 +3,7 @@ import '/config/navigation/global_nav.dart';
 import 'data/settings_data.dart';
 import 'config/enums.dart';
 import 'data/read_config.dart';
+import 'config/navigation/app_router.dart';
 
 late GlobalNav globalNav;
 
@@ -79,7 +80,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     updateSettingsData();
-
+    final AppRouter appRouter = AppRouter();
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       themeMode: themeMode,
@@ -94,6 +95,8 @@ class _MyAppState extends State<MyApp> {
         useMaterial3: true,
         brightness: Brightness.dark,
       ),
+      navigatorKey: globalNav.appNavigation.navigatorKey,
+      onGenerateRoute: appRouter.onGenerateRoute,
       home: const ReadConfig(),
     );
   }
