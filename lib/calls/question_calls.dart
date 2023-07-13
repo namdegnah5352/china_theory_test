@@ -4,22 +4,25 @@ import 'package:flutter/material.dart';
 import '../screens/question_search_screen.dart';
 import '../screens/settings.dart';
 import '../screens/special_screen.dart';
+import '../config/navigation/global_nav.dart';
 
-Question getRandomQuestion(List<Question> questions) {
-  int i = questions.length;
+GlobalNav globalNav = GlobalNav.instance;
+
+Question getRandomQuestion() {
+  int i = globalNav.questions!.length;
   var random = Random();
   int r = random.nextInt(i);
-  return questions[r];
+  return  globalNav.questions![r];
 }
 
-Future<void> loadSearchPage(BuildContext context, List<Question> data) async {
-  await Navigator.of(context).push(MaterialPageRoute(builder: (_) => QuestionSearchScreen(data: data)));
+Future<void> loadSearchPage(BuildContext context) async {
+  await Navigator.of(context).push(MaterialPageRoute(builder: (_) => const QuestionSearchScreen()));
 }
 
-Future<void> loadSettinsPage(BuildContext context, List<Question>? data) async {
+Future<void> loadSettinsPage(BuildContext context) async {
   await Navigator.of(context).push(MaterialPageRoute(builder: (_) => const Settings()));
 }
 
-Future<void> loadSpecialPage(BuildContext context, List<Question> quesitons) async {
-  await Navigator.of(context).push(MaterialPageRoute(builder: (_) => SpecialScreen(questions: quesitons)));
+Future<void> loadSpecialPage(BuildContext context) async {
+  await Navigator.of(context).push(MaterialPageRoute(builder: (_) => const SpecialScreen()));
 }

@@ -4,10 +4,12 @@ import 'question_list_tile.dart';
 import '../calls/question_calls.dart';
 import 'question_screen.dart';
 import 'app_drawer.dart';
+import '../config/navigation/global_nav.dart';
+
+GlobalNav globalNav = GlobalNav.instance;
 
 class QuestionSearch extends StatefulWidget {
-  final List<Question> questions;
-  const QuestionSearch(this.questions, {super.key});
+  const QuestionSearch({super.key});
 
   @override
   State<QuestionSearch> createState() => _QuestionSearchState();
@@ -17,21 +19,21 @@ class _QuestionSearchState extends State<QuestionSearch> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: AppDrawer(widget.questions),
+      drawer: AppDrawer(),
       appBar: AppBar(
         title: const Text('Questions'),
         actions: [
           IconButton(
             onPressed: () {
-              Question question = getRandomQuestion(widget.questions);
-              Navigator.of(context).push(MaterialPageRoute(builder: (context) => QuestionScreen(question, widget.questions)));
+              Question question = getRandomQuestion();
+              Navigator.of(context).push(MaterialPageRoute(builder: (context) => QuestionScreen(question)));
             },
             icon: const Icon(Icons.search),
           ),
           IconButton(
             onPressed: () {
               setState(() {
-                widget.questions.shuffle();
+                globalNav.questions!.shuffle();
               });
             },
             icon: const Icon(Icons.shuffle),
@@ -46,12 +48,12 @@ class _QuestionSearchState extends State<QuestionSearch> {
             children: [
               const SizedBox(height: 40),
               ListView.builder(
-                itemCount: widget.questions.length,
+                itemCount: globalNav.questions!.length,
                 shrinkWrap: true,
                 physics: const NeverScrollableScrollPhysics(),
                 itemBuilder: (context, index) {
-                  Question question = widget.questions[index];
-                  return QuestionListTile(question, widget.questions);
+                  Question question = globalNav.questions![index];
+                  return QuestionListTile(question);
                 },
               ),
             ],

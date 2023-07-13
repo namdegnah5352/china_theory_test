@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import '../calls/question_calls.dart' as calls;
-import '../data/question.dart';
 
 class AppDrawer extends StatefulWidget {
-  final List<Question> questions;
-  const AppDrawer(this.questions, {super.key});
+  const AppDrawer({super.key});
 
   @override
   State<AppDrawer> createState() => _AppDrawerState();
@@ -20,7 +18,7 @@ class _AppDrawerState extends State<AppDrawer> {
         setState(() {
           navDrawerIndex = selectedIndex;
           Navigator.pop(context);
-          Destination.values[navDrawerIndex].function(context, widget.questions);
+          Destination.values[navDrawerIndex].function(context);
         });
       },
       selectedIndex: navDrawerIndex,

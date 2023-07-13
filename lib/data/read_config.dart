@@ -25,6 +25,7 @@ class _ReadConfigState extends State<ReadConfig> {
       question.picture = question.getPicture(50, false, null);
       question.special = globalNav.specials.firstWhereOrNull((element) => element.id == question.id);
     }
+    globalNav.questions = data;
     print('The number of questions done is ${data.length} out of 1500');
     return data;
   }
@@ -35,7 +36,7 @@ class _ReadConfigState extends State<ReadConfig> {
         future: loadJsonData(context),
         builder: (BuildContext context, AsyncSnapshot<List<Question>> snapshot) {
           if (snapshot.hasData) {
-            return QuestionSearch(snapshot.data!);
+            return const QuestionSearch();
           } else {
             return loadingScreen(context);
           }

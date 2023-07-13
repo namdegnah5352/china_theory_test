@@ -10,8 +10,7 @@ GlobalNav globalNav = GlobalNav.instance;
 
 class QuestionScreen extends StatefulWidget {
   final Question question;
-  final List<Question> questions;
-  const QuestionScreen(this.question, this.questions, {super.key});
+  const QuestionScreen(this.question, {super.key});
 
   @override
   State<QuestionScreen> createState() => _QuestionScreenState();
@@ -196,8 +195,8 @@ class _QuestionScreenState extends State<QuestionScreen> {
         onPressed: (value || truthSettings)
             ? () {
                 Navigator.pop(context);
-                Question question = getRandomQuestion(widget.questions);
-                Navigator.of(context).push(MaterialPageRoute(builder: (context) => QuestionScreen(question, widget.questions)));
+                Question question = getRandomQuestion();
+                Navigator.of(context).push(MaterialPageRoute(builder: (context) => QuestionScreen(question)));
               }
             : null,
         style: ButtonStyle(

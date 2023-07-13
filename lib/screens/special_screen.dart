@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
-import '../data/question.dart';
 import '../calls/search_calls.dart' as calls;
 import '../config/app_colors.dart';
 import '../config/text_styles.dart';
 import '../screens/question_list_tile.dart';
+import '../config/navigation/global_nav.dart';
+
+GlobalNav globalNav = GlobalNav.instance;
 
 class SpecialScreen extends StatefulWidget {
-  const SpecialScreen({required this.questions, super.key});
-  final List<Question> questions;
+  const SpecialScreen({super.key});
 
   @override
   State<SpecialScreen> createState() => _SearchScreenState();
@@ -17,7 +18,7 @@ class _SearchScreenState extends State<SpecialScreen> {
   @override
   void initState() {
     super.initState();
-    calls.fulldata = widget.questions;
+    calls.fulldata = globalNav.questions!;
     calls.specialInput();
   }
 
@@ -52,7 +53,7 @@ class _SearchScreenState extends State<SpecialScreen> {
                 final question = calls.results[index];
                 return Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20),
-                  child: QuestionListTile(question, widget.questions),
+                  child: QuestionListTile(question),
                 );
               }),
         ),

@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../constants.dart';
 import '../../data/special.dart';
 import '../../data/settings_data.dart';
+import '../../data/question.dart';
 
 class GlobalNav {
   late final SharedPreferences? sharedPreferences;
@@ -14,6 +14,7 @@ class GlobalNav {
   GlobalNav._internal();
   late List<Special> specials;
   SettingsData? settingsData;
+  List<Question>? questions;
 
   init() async {
     sharedPreferences = await SharedPreferences.getInstance();

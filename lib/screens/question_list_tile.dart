@@ -4,8 +4,7 @@ import 'question_screen.dart';
 
 class QuestionListTile extends StatefulWidget {
   final Question question;
-  final List<Question> questions;
-  const QuestionListTile(this.question, this.questions, {super.key});
+  const QuestionListTile(this.question, {super.key});
 
   @override
   State<QuestionListTile> createState() => _QuestionListTileState();
@@ -25,7 +24,7 @@ class _QuestionListTileState extends State<QuestionListTile> {
         subtitle: Text(widget.question.id),
         trailing: widget.question.picture ?? const Text(''),
         onTap: () => Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => QuestionScreen(widget.question, widget.questions),
+          builder: (context) => QuestionScreen(widget.question),
         )),
       ),
     );

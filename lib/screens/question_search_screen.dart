@@ -4,10 +4,12 @@ import '../calls/search_calls.dart' as calls;
 import '../config/app_colors.dart';
 import '../config/text_styles.dart';
 import '../screens/question_list_tile.dart';
+import '../config/navigation/global_nav.dart';
+
+GlobalNav globalNav = GlobalNav.instance;
 
 class QuestionSearchScreen extends StatefulWidget {
-  const QuestionSearchScreen({required this.data, super.key});
-  final List<Question> data;
+  const QuestionSearchScreen({super.key});
 
   @override
   State<QuestionSearchScreen> createState() => _PasswordSearchScreenState();
@@ -30,7 +32,7 @@ class _PasswordSearchScreenState extends State<QuestionSearchScreen> {
   @override
   void initState() {
     super.initState();
-    calls.fulldata = widget.data;
+    calls.fulldata = globalNav.questions!;
     _searchTextController.addListener(_validationComplete);
   }
 
@@ -66,7 +68,7 @@ class _PasswordSearchScreenState extends State<QuestionSearchScreen> {
                 final question = calls.results[index];
                 return Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20),
-                  child: QuestionListTile(question, widget.data),
+                  child: QuestionListTile(question),
                 );
               }),
         ),
