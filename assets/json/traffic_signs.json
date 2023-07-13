@@ -1,0 +1,2808 @@
+{
+	"content": [
+		{
+			"Id": "3.4",
+			"value": "Safe Driving"
+		}
+	],
+	"question": [
+		{
+			"Q": "The sign in the picture is _______.",
+			"Id": "2.2.1.1",
+			"A": "A warning sign",
+			"B": "A prohibitive sign",
+			"C": "An indicative sign",
+			"D": "A directional sign",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "A warning sign is designed to warn",
+			"Id": "2.2.1.2",
+			"A": "The vehicles and pedestrians to be careful at a dangerous place",
+			"B": "The vehicles and pedestrians not to pass",
+			"C": "The driver there is a curve ahead",
+			"D": "The driver there is a congestion-prone section ahead",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "The sign in the picture is _______.",
+			"Id": "2.2.1.3",
+			"A": "A warning sign",
+			"B": "A prohibitive sign",
+			"C": "An indicative sign",
+			"D": "A directional sign",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "A directional sign is designed to",
+			"Id": "2.2.1.4",
+			"A": "Warn the vehicles and pedestrians to be careful about a dangerous place",
+			"B": "Prohibit or restrict the vehicles and pedestrians from passing",
+			"C": "Indicate the vehicles and pedestrians to go ahead",
+			"D": "Give information about road direction, place and distance",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "The sign in the picture is _______.",
+			"Id": "2.2.1.5",
+			"A": "A warning sign",
+			"B": "A prohibitive sign",
+			"C": "An indicative sign",
+			"D": "A directional sign",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "A prohibitive sign is designed to",
+			"Id": "2.2.1.6",
+			"A": "Warn the vehicles and pedestrians to be careful about a dangerous place",
+			"B": "Give information about road direction, place and distance",
+			"C": "Indicate the vehicles and pedestrians to go ahead",
+			"D": "Prohibit or restrict the vehicles and pedestrians from passing",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "The sign in the picture is _______.",
+			"Id": "2.2.1.7",
+			"A": "A warning sign",
+			"B": "A prohibitive sign",
+			"C": "An indicative sign",
+			"D": "A directional sign",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "An indicative sign is designed to indicate the vehicles and pedestrians to",
+			"Id": "2.2.1.8",
+			"A": "Be careful about a dangerous place",
+			"B": "Go ahead according to the line and direction indicated by the sign",
+			"C": "Drive with care",
+			"D": "Go ahead either in the direction or not in the direction indicated",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The sign in the picture is _______.",
+			"Id": "2.2.1.9",
+			"A": "A warning sign",
+			"B": "A prohibitive sign",
+			"C": "A directional sign",
+			"D": "An auxiliary sign",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "When the main sign is unable to completely express or indicate the requirements, _ should be set to ensure safe driving and smooth traffic.",
+			"Id": "2.2.1.10",
+			"A": "An indicative mark",
+			"B": "A warning mark",
+			"C": "An auxiliary sign",
+			"D": "A three-dimensional mark",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "The sign in the picture is _________.",
+			"Id": "2.2.1.11",
+			"A": "A tourist zone sign",
+			"B": "An indicative sign",
+			"C": "A directional sign",
+			"D": "An auxiliary sign",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The picture indicates ______",
+			"Id": "2.2.1.12",
+			"A": "A speed-reducing marking",
+			"B": "A width-limiting mark",
+			"C": "A tunnel marking",
+			"D": "A three-dimensional mark",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.13",
+			"A": "A right turn",
+			"B": "A detour",
+			"C": "A sharp left curve",
+			"D": "A sharp right curve",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.14",
+			"A": "Downhill road",
+			"B": "Uphill road",
+			"C": "Steep downhill road",
+			"D": "Steep uphill road",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.15",
+			"A": "Steep downhill road",
+			"B": "Sliding",
+			"C": "Downhill road",
+			"D": "Steep uphill road",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.16",
+			"A": "Road narrows on both sides",
+			"B": "Road narrows on the left side",
+			"C": "Road narrows on the right side",
+			"D": "Reduce speed",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.17",
+			"A": "Road narrows on both sides",
+			"B": "Road narrows on the left side",
+			"C": "Road narrows on the right side",
+			"D": "Reduce speed",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.18",
+			"A": "Mind side wind",
+			"B": "Watch for pedestrians",
+			"C": "The red light is on",
+			"D": "Mind the traffic lights",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.19",
+			"A": "Watch for falling rocks",
+			"B": "Dangerous hillside road",
+			"C": "Mind downhill sliding",
+			"D": "Steep downhill road",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.20",
+			"A": "Mind danger",
+			"B": "Mind side wind",
+			"C": "Watch for falling rocks",
+			"D": "Dangerous hillside road",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.21",
+			"A": "Slippery road",
+			"B": "Embankment road",
+			"C": "Dangerous hillside road",
+			"D": "Steep downhill road",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.22",
+			"A": "Village",
+			"B": "Tunnel",
+			"C": "Overflowing bridge",
+			"D": "Embankment road",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.23",
+			"A": "Ferry",
+			"B": "Embankment road",
+			"C": "Hump bridge",
+			"D": "Overflowing bridge",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.24",
+			"A": "Dangerous hillside road",
+			"B": "Village",
+			"C": "Watch for falling rocks",
+			"D": "School",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.25",
+			"A": "Tunnel",
+			"B": "Culvert bridge",
+			"C": "Hump bridge",
+			"D": "Overflowing bridge",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.26",
+			"A": "Dangerous hillside road",
+			"B": "Watch for pedestrians",
+			"C": "Watch for children",
+			"D": "Man at work",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.27",
+			"A": "Overflowing road",
+			"B": "Mind splash",
+			"C": "Slippery",
+			"D": "Hump bridge",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.28",
+			"A": "Embankment road",
+			"B": "Slippery",
+			"C": "Sharp curve",
+			"D": "Dangerous hillside road",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.29",
+			"A": "Hump road",
+			"B": "House",
+			"C": "Tunnel",
+			"D": "Village",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.30",
+			"A": "Accident ahead",
+			"B": "No passing",
+			"C": "Stop",
+			"D": "Danger",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.31",
+			"A": "Watch for children",
+			"B": "Crosswalk",
+			"C": "School",
+			"D": "Village",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.32",
+			"A": "Sharp curve",
+			"B": "Continuous curves",
+			"C": "Curve driving",
+			"D": "No turning",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.33",
+			"A": "Drive in order",
+			"B": "Inverse curve",
+			"C": "Roundabout",
+			"D": "Detour",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.34",
+			"A": "Turn left or turn right",
+			"B": "No passing",
+			"C": "Two-way traffic",
+			"D": "Intersection",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.35",
+			"A": "Bump road",
+			"B": "Hump bridge",
+			"C": "Tunnel",
+			"D": "Embankment road",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.36",
+			"A": "No animal passing",
+			"B": "Watch for animals",
+			"C": "Animal passing",
+			"D": "Animal-driven cart",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.36",
+			"A": "No animal passing",
+			"B": "Watch for animals",
+			"C": "Animal passing",
+			"D": "Animal-driven cart",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.37",
+			"A": "Bridge widens",
+			"B": "Bridge widens on both sides",
+			"C": "Narrow bridge",
+			"D": "Hump bridge",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.38",
+			"A": "No passing through level crossing",
+			"B": "Crosswalk",
+			"C": "Unmanned level crossing",
+			"D": "Manned level crossing",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.39",
+			"A": "Unmanned level crossing",
+			"B": "No passing",
+			"C": "No passing through level crossing",
+			"D": "Manned level crossing",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.40",
+			"A": "No passing for non-motorized vehicles",
+			"B": "Watch for non-motorized vehicles",
+			"C": "Passing for non-motorized vehicles",
+			"D": "No passing for bicycles",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.41",
+			"A": "Level crossing 50m ahead",
+			"B": "Level crossing 100m ahead",
+			"C": "Level crossing 150m ahead",
+			"D": "Level crossing 500m ahead",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.42",
+			"A": "Danger",
+			"B": "No passing for all motor vehicles",
+			"C": "No tailgating",
+			"D": "Accident-prone section",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.43",
+			"A": "Slow passing",
+			"B": "No slow passing",
+			"C": "Fast passing",
+			"D": "Jammed section",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.44",
+			"A": "Bypassing from the left side",
+			"B": "Bypassing from both sides",
+			"C": "Bypassing from the right side",
+			"D": "No bypassing",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.45",
+			"A": "No tow away",
+			"B": "No entry for non-motorized vehicles",
+			"C": "No entry for two specific vehicles",
+			"D": "No entry for all motorized vehicles",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.46",
+			"A": "Right turn is allowed",
+			"B": "Changing to the right lane is prohibited",
+			"C": "Right U turn is prohibited",
+			"D": "Right turn is prohibited",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.47",
+			"A": "No U turn",
+			"B": "No left turn",
+			"C": "U turn is allowed",
+			"D": "Left turn is allowed",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.48",
+			"A": "No road borrowing",
+			"B": "No overtaking",
+			"C": "Overtaking ban is lifted",
+			"D": "Overtaking is allowed",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.49",
+			"A": "No road borrowing",
+			"B": "No overtaking",
+			"C": "Overtaking ban is lifted",
+			"D": "No lane changing",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.50",
+			"A": "Left turn is allowed",
+			"B": "No left turn",
+			"C": "Left U turn is allowed",
+			"D": "No lane changing to the left side",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.51",
+			"A": "Honk ban is lifted",
+			"B": "Honk is allowed",
+			"C": "Radio listening is prohibited",
+			"D": "No honk",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.52",
+			"A": "Width is limited",
+			"B": "Height is limited",
+			"C": "Width limit is lifted",
+			"D": "Bridge width is limited",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.53",
+			"A": "Vehicle distance is limited",
+			"B": "Height is limited",
+			"C": "Width is limited",
+			"D": "Height limit is lifted",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.54",
+			"A": "Weight is limited",
+			"B": "Road number",
+			"C": "Speed is limited",
+			"D": "Speed limit is lifted",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.55",
+			"A": "Weight is limited",
+			"B": "Road number",
+			"C": "Speed is limited",
+			"D": "Speed limit is lifted",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.56",
+			"A": "No two-way passing",
+			"B": "Going first when crossing each other",
+			"C": "Two-way traffic",
+			"D": "Yielding when crossing each other",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.57",
+			"A": "Going straight is allowed",
+			"B": "Going straight is prohibited",
+			"C": "Going straight fast",
+			"D": "No entry",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.58",
+			"A": "Going straight and turning right are prohibited",
+			"B": "Going straight and turning left are allowed",
+			"C": "Going straight and turning left are prohibited",
+			"D": "Going straight and turning right are allowed",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.59",
+			"A": "Going straight and turning Right are prohibited",
+			"B": "Going straight and turning left are allowed",
+			"C": "Going straight and turning left are prohibited",
+			"D": "Going straight and turning right are allowed",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.60",
+			"A": "Left and right turns are allowed",
+			"B": "Left and right turns are prohibited",
+			"C": "Left turn is allowed",
+			"D": "Right turn is allowed",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.61",
+			"A": "Axle weight is limited",
+			"B": "Height is limited",
+			"C": "Weight is limited",
+			"D": "Width is limited",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.62",
+			"A": "Width is limited",
+			"B": "Height is limited",
+			"C": "Weight is limited",
+			"D": "Axle weight is limited",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.63",
+			"A": "No long stopping for vehicles",
+			"B": "No entry for motorized vehicles",
+			"C": "No entry",
+			"D": "No long or temporary stopping for vehicles",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.64",
+			"A": "No long stopping for vehicles",
+			"B": "No long or temporary stopping for vehicles",
+			"C": "No temporary stopping for vehicles",
+			"D": "No entry for vehicles",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.65",
+			"A": "Stop for inspection",
+			"B": "No passing",
+			"C": "No entry",
+			"D": "Stop to yield",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.66",
+			"A": "No temporary stopping for vehicles",
+			"B": "Stop to yield",
+			"C": "No long or temporary stopping for vehicles",
+			"D": "No entry for motorized vehicles",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.67",
+			"A": "Stop to yield",
+			"B": "Yield when crossing each other",
+			"C": "No yielding",
+			"D": "Reduce speed and yield",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.68",
+			"A": "No entry for large buses",
+			"B": "No entry",
+			"C": "No entry for small buses",
+			"D": "No entry for motorized vehicles",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means all vehicles are allowed only to _________.",
+			"Id": "2.2.1.69",
+			"A": "Go straight",
+			"B": "Enter",
+			"C": "Go one-way",
+			"D": "Stop",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means all vehicles are allowed only to _________.",
+			"Id": "2.2.1.70",
+			"A": "Turn right",
+			"B": "Go on the right side",
+			"C": "Go on the left side",
+			"D": "Turn left",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means all vehicles are allowed only to _________.",
+			"Id": "2.2.1.71",
+			"A": "Turn right",
+			"B": "Go one-way",
+			"C": "Go on the right side",
+			"D": "Go on the left side",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means all vehicles are allowed only to _________.",
+			"Id": "2.2.1.72",
+			"A": "Go straight and turn right",
+			"B": "Go straight and turn left",
+			"C": "Go along the lanes",
+			"D": "Turn left ahead",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means all vehicles are allowed only to _________.",
+			"Id": "2.2.1.73",
+			"A": "Go straight and turn left",
+			"B": "Go along the lanes",
+			"C": "Go straight and turn right",
+			"D": "Right -turn intersection ahead",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means all vehicles are _______.",
+			"Id": "2.2.1.74",
+			"A": "Prohibited from turning left or right",
+			"B": "Prohibited from going straight",
+			"C": "Prohibited from making U turns from either side",
+			"D": "Allowed to turn left and right",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means all vehicles are allowed only to ______.",
+			"Id": "2.2.1.75",
+			"A": "Go on the right road",
+			"B": "Stop on the right side",
+			"C": "Turn right",
+			"D": "Go on the left road",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means all vehicles are allowed only to ______.",
+			"Id": "2.2.1.76",
+			"A": "Turn left",
+			"B": "Go on the left road",
+			"C": "Stop on the left side",
+			"D": "Go on the right road",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture allows _______ only.",
+			"Id": "2.2.1.77",
+			"A": "Non-motorized vehicles",
+			"B": "Small buses",
+			"C": "All motorized vehicles",
+			"D": "Taxicabs",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means this section is only for _______.",
+			"Id": "2.2.1.78",
+			"A": "The passing of motorized vehicles",
+			"B": "The passing of bicycles",
+			"C": "The parking of bicycles",
+			"D": "The passing of non-motorized vehicles",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means this lane is only for ______.",
+			"Id": "2.2.1.79",
+			"A": "The passing of motorized vehicles",
+			"B": "The one-way passing of small buses",
+			"C": "Vehicle tests",
+			"D": "Small buses",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means this lane is ________.",
+			"Id": "2.2.1.80",
+			"A": "A no entry lane",
+			"B": "A straight-going lane",
+			"C": "A one-way lane",
+			"D": "A fast lane",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means these lanes are for______.",
+			"Id": "2.2.1.81",
+			"A": "Going straight and turning left",
+			"B": "Turning and going straight",
+			"C": "Going in different directions",
+			"D": "Going straight and turning right",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means the vehicles are allowed only to _____.",
+			"Id": "2.2.1.82",
+			"A": "Turn left",
+			"B": "Make U turn",
+			"C": "Go in two ways",
+			"D": "Go around on the right side",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means this lane is for _____.",
+			"Id": "2.2.1.83",
+			"A": "Both going straight and turning right",
+			"B": "Turning right ahead",
+			"C": "Going straight and turning left",
+			"D": "Turning left ahead",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means _____ for motorized vehicles going into the road ahead.",
+			"Id": "2.2.1.84",
+			"A": "The average speed limit",
+			"B": "The minimum speed limit",
+			"C": "The minimum speed limit is lifted",
+			"D": "The maximum speed limit",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means this place is ______.",
+			"Id": "2.2.1.85",
+			"A": "Students’ passage",
+			"B": "Pedestrian street",
+			"C": "Crosswalk",
+			"D": "Children’s passage",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means _______ when a motorized vehicle reaches this sign.",
+			"Id": "2.2.1.86",
+			"A": "Listening to radio is banned",
+			"B": "The no honk ban is lifted",
+			"C": "Honking is prohibited",
+			"D": "Honk is required",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means this lane is only for ______",
+			"Id": "2.2.1.87",
+			"A": "The passing of motorized vehicles",
+			"B": "The passing of bicycles",
+			"C": "The parking of bicycles",
+			"D": "The passing of non-motorized vehicles",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means motorized vehicles are allowed to _______.",
+			"Id": "2.2.1.88",
+			"A": "Bypass",
+			"B": "Make a U turn",
+			"C": "Turn",
+			"D": "Reverse",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture indicates the place ahead is ______.",
+			"Id": "2.2.1.89",
+			"A": "A demarcation line for road management",
+			"B": "An interchange",
+			"C": "An intersection",
+			"D": "A road branching point",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture indicates the place ahead is ______.",
+			"Id": "2.2.1.90",
+			"A": "A demarcation line for road management",
+			"B": "An intersection",
+			"C": "A road branching point",
+			"D": "An interchange",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means _______.",
+			"Id": "2.2.1.91",
+			"A": "A car park",
+			"B": "A service area",
+			"C": "No parking",
+			"D": "A dead-end road",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means _______.",
+			"Id": "2.2.1.92",
+			"A": "A T-shaped intersection",
+			"B": "A dead-end road",
+			"C": "An intersection",
+			"D": "A car park",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture indicates the place ahead is _____.",
+			"Id": "2.2.1.93",
+			"A": "A passing bay",
+			"B": "A road widening on the right side",
+			"C": "An emergency stopping strip",
+			"D": "Go on the right side",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture is used to indicate the correct line for vehicles to ____ at the intersection ahead.",
+			"Id": "2.2.1.94",
+			"A": "Make a U turn",
+			"B": "Make a detour",
+			"C": "Turn",
+			"D": "Change lane",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The signs in the picture are ________, meaning lanes branch out ahead and vehicles should go straight or leave the main road as indicated by the arrows.",
+			"Id": "2.2.1.95",
+			"A": "Lane merging guide signs",
+			"B": "Intersection guide signs",
+			"C": "Lane branching guide signs",
+			"D": "Exit guide signs",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The signs in the picture are ______, meaning lanes merge ahead and vehicles should keep a safe distance with the merging vehicles.",
+			"Id": "2.2.1.96",
+			"A": "Lane merging guide signs",
+			"B": "Intersection guide signs",
+			"C": "Lane branching guide signs",
+			"D": "Exit guide signs",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The signs in the picture are _______, used to guide the vehicle drivers to change direction",
+			"Id": "2.2.1.97",
+			"A": "Merging guide signs",
+			"B": "Line guide signs",
+			"C": "Branching guide signs",
+			"D": "Intersection guide signs",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.98",
+			"A": "Passing by the left side",
+			"B": "Passing by the right side",
+			"C": "Passing is prohibited",
+			"D": "Passing on both sides",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.99",
+			"A": "Passing by the left side",
+			"B": "Passing by the right side",
+			"C": "Passing on both sides",
+			"D": "Passing is prohibited",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.100",
+			"A": "A place",
+			"B": "Distance to a tourist area",
+			"C": "Direction to a tourist area",
+			"D": "Exit alert",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The sign in the picture means ________.",
+			"Id": "2.2.1.101",
+			"A": "A crosswalk",
+			"B": "Watch for children",
+			"C": "Hikers",
+			"D": "Watch for pedestrians",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "Traffic markings are divided into ______ according to functions",
+			"Id": "2.3.1.1",
+			"A": "Direction",
+			"B": "Prohibition",
+			"C": "Lane line, exit and entry",
+			"D": "Indication, prohibition and warning",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "The picture is a sign for a T-shaped intersection.",
+			"Answer": "true",
+			"Id": "2.2.2.1",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for a T-shaped intersection.",
+			"Answer": "false",
+			"Id": "2.2.2.2",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for a sharp Right turn.",
+			"Answer": "true",
+			"Id": "2.2.2.3",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for a sharp curve",
+			"Answer": "false",
+			"Id": "2.2.2.4",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for continuous curves.",
+			"Answer": "true",
+			"Id": "2.2.2.5",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for two-way curves",
+			"Answer": "false",
+			"Id": "2.2.2.6",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for yielding when crossing each other",
+			"Answer": "false",
+			"Id": "2.2.2.7",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The whole picture is a crosswalk sign.",
+			"Answer": "false",
+			"Id": "2.2.2.8",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for traffic lights.",
+			"Answer": "true",
+			"Id": "2.2.2.9",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for a slippery road.",
+			"Answer": "true",
+			"Id": "2.2.2.10",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for an unmanned level crossing.",
+			"Answer": "true",
+			"Id": "2.2.2.11",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a village sign.",
+			"Answer": "true",
+			"Id": "2.2.2.12",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for tunnel opening.",
+			"Answer": "false",
+			"Id": "2.2.2.13",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for level crossing 100m ahead.",
+			"Answer": "false",
+			"Id": "2.2.2.14",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for level crossing 100m ahead.",
+			"Answer": "true",
+			"Id": "2.2.2.15",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a slowdown sign.",
+			"Answer": "true",
+			"Id": "2.2.2.16",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for no left bypassing.",
+			"Answer": "false",
+			"Id": "2.2.2.17",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for Right bypassing.",
+			"Answer": "true",
+			"Id": "2.2.2.18",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for no passing.",
+			"Answer": "true",
+			"Id": "2.2.2.19",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for no passing.",
+			"Answer": "false",
+			"Id": "2.2.2.20",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for no entry to motorized vehicles.",
+			"Answer": "true",
+			"Id": "2.2.2.21",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for no overtaking.",
+			"Answer": "true",
+			"Id": "2.2.2.22",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for limited axle weight.",
+			"Answer": "false",
+			"Id": "2.2.2.23",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for limited weight.",
+			"Answer": "false",
+			"Id": "2.2.2.24",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a stop-for-inspection sign.",
+			"Answer": "true",
+			"Id": "2.2.2.25",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a stop-and-yield sign.",
+			"Answer": "false",
+			"Id": "2.2.2.26",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for no left turn.",
+			"Answer": "true",
+			"Id": "2.2.2.27",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for left and Right turns.",
+			"Answer": "false",
+			"Id": "2.2.2.28",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign prohibiting going straight and turning Right.",
+			"Answer": "true",
+			"Id": "2.2.2.29",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign prohibiting temporary vehicle stopping.",
+			"Answer": "false",
+			"Id": "2.2.2.30",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign prohibiting long stopping by vehicles.",
+			"Answer": "false",
+			"Id": "2.2.2.31",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign prohibiting U turn.",
+			"Answer": "false",
+			"Id": "2.2.2.32",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for going by the Right road.",
+			"Answer": "false",
+			"Id": "2.2.2.33",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a one-way sign.",
+			"Answer": "true",
+			"Id": "2.2.2.34",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for going first when crossing each other.",
+			"Answer": "true",
+			"Id": "2.2.2.35",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for yielding to traffic on the branch road.",
+			"Answer": "false",
+			"Id": "2.2.2.36",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for small bus lane.",
+			"Answer": "false",
+			"Id": "2.2.2.37",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for watching out for pedestrians.",
+			"Answer": "false",
+			"Id": "2.2.2.38",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for going straight and turning Right at an interchange.",
+			"Answer": "true",
+			"Id": "2.2.2.39",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for going straight and turning left at an interchange.",
+			"Answer": "true",
+			"Id": "2.2.2.40",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a left-turn sign.",
+			"Answer": "false",
+			"Id": "2.2.2.41",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a one-way sign.",
+			"Answer": "false",
+			"Id": "2.2.2.42",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a Right-turn sign.",
+			"Answer": "false",
+			"Id": "2.2.2.43",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for motorized vehicle lane.",
+			"Answer": "true",
+			"Id": "2.2.2.44",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for an accident-prone section.",
+			"Answer": "false",
+			"Id": "2.2.2.45",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a direction and place sign.",
+			"Answer": "true",
+			"Id": "2.2.2.46",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for expressway entry ahead.",
+			"Answer": "true",
+			"Id": "2.2.2.47",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for expressway beginning.",
+			"Answer": "false",
+			"Id": "2.2.2.48",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for expressway exit ahead.",
+			"Answer": "true",
+			"Id": "2.2.2.49",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The picture is a sign for passing from both sides.",
+			"Answer": "false",
+			"Id": "2.2.2.50",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "A three-dimensional mark is designed to remind the drivers there is a structure above the road surface in the carriageway or nearby and they should avoid collision.",
+			"Answer": "true",
+			"Id": "2.2.2.51",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When the main sign is unable to completely indicate the regulations, an auxiliary sign should be set.",
+			"Answer": "true",
+			"Id": "2.2.2.52",
+			"Type": "Logic"
+		},
+		{
+			"Q": "The sign in the picture is designed to indicate the time ranges specified in the main sign.",
+			"Answer": "true",
+			"Id": "2.2.2.53",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The sign in the picture is designed to indicate the type of the vehicles specified in the main sign.",
+			"Answer": "true",
+			"Id": "2.2.2.54",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The sign in the picture is designed to indicate the section 200m ahead specified in the main sign.",
+			"Answer": "false",
+			"Id": "2.2.2.55",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The sign in the picture is designed to indicate the section within 100m on the left side specified in the main sign.",
+			"Answer": "true",
+			"Id": "2.2.2.56",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The sign in the picture is designed to indicate the sections beyond 50m on both sides specified in the main sign.",
+			"Answer": "false",
+			"Id": "2.2.2.57",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The sign in the picture is designed to indicate the section 100m ahead specified in the main sign.",
+			"Answer": "false",
+			"Id": "2.2.2.58",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The sign in the picture is designed to indicate the area specified in the main sign.",
+			"Answer": "true",
+			"Id": "2.2.2.59",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The sign in the picture is designed to indicate the reasons for warning or prohibition.",
+			"Answer": "true",
+			"Id": "2.2.2.60",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The sign in the picture is designed to indicate the road 300m ahead is closed.",
+			"Answer": "true",
+			"Id": "2.2.2.61",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The sign in the picture is designed to indicate the vehicles should turn Right.",
+			"Answer": "false",
+			"Id": "2.2.2.62",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "Traffic markings are divided into ______ according to functions.",
+			"Id": "2.3.1.1",
+			"A": "Direction",
+			"B": "Prohibition",
+			"C": "Lane line, exit and entry",
+			"D": "Indication, prohibition and warning",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "The white marking in the picture is ________.",
+			"Id": "2.3.1.2",
+			"A": "A warning marking",
+			"B": "A prohibitive marking",
+			"C": "An indicative marking",
+			"D": "An auxiliary marking",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The double yellow solid lines in the picture are ________.",
+			"Id": "2.3.1.3",
+			"A": "A warning marking",
+			"B": "A prohibitive marking",
+			"C": "An indicative marking",
+			"D": "An auxiliary marking",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The double yellow central solid lines in the picture are _______.",
+			"Id": "2.3.1.4",
+			"A": "A warning marking",
+			"B": "A prohibitive marking",
+			"C": "An indicative marking",
+			"D": "An auxiliary marking",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The lane-dividing line in the picture is used to separate _______.",
+			"Id": "2.3.1.5",
+			"A": "The vehicles running in the same direction",
+			"B": "The vehicles running in the opposite directions",
+			"C": "The motorized vehicles, the non-motorized vehicles and the pedestrians",
+			"D": "The motorized vehicles and the non-motorized vehicles",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The crosswalk in the picture is a marking for the pedestrians to cross _______.",
+			"Id": "2.3.1.6",
+			"A": "A street",
+			"B": "A carriageway",
+			"C": "A level crossing",
+			"D": "An expressway",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The yellow marking in the picture is _________.",
+			"Id": "2.3.1.7",
+			"A": "The border line of a carriageway",
+			"B": "The lane-dividing line",
+			"C": "The central line of a two-way, double lane road",
+			"D": "The line prohibiting lane change",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The yellow marking in the picture is _________.",
+			"Id": "2.3.1.8",
+			"A": "The border line of a carriageway",
+			"B": "The line prohibiting lane change",
+			"C": "The central line of a two-way, double lane road",
+			"D": "The lane dividing line",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The yellow markings in the picture are designed to _________.",
+			"Id": "2.3.1.9",
+			"A": "Divide the carriageways in the same direction",
+			"B": "Indicate the border of a road",
+			"C": "Allow the vehicles to cross the line for overtaking",
+			"D": "Prohibit the vehicles from crossing the line for overtaking or rolling on the line",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The white solid line vertical to the road side in the picture is _________.",
+			"Id": "2.3.1.10",
+			"A": "A stop line",
+			"B": "A yield line",
+			"C": "A slowdown and yield line",
+			"D": "A marking for a prohibitive area",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The white diamond-shaped markings in the picture are _______.",
+			"Id": "2.3.1.11",
+			"A": "A slowdown and yield line",
+			"B": "A crosswalk alert marking",
+			"C": "A slowdown and yield line",
+			"D": "A marking for a prohibitive area",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The bay-stopping marking in the picture is _________ for trolleys and motor vehicles (long-distance buses).",
+			"Id": "2.3.1.12",
+			"A": "An area for long stopping",
+			"B": "A pull-over, slowdown and yield section",
+			"C": "A separating guide lane and a stopping area",
+			"D": "A section for no overtaking or yielding",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The areas in the white broken lines at an intersection in the picture are _________.",
+			"Id": "2.3.1.13",
+			"A": "Left-turn guide areas",
+			"B": "Right -turn waiting areas",
+			"C": "Right -turn guide areas",
+			"D": "Left-turn waiting areas",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The white parallel solid lines (zebra lines) vertical to the road side in the picture are markings for _______.",
+			"Id": "2.3.1.14",
+			"A": "Ascertaining the distance between the vehicles on the expressway",
+			"B": "Pedestrian crossing",
+			"C": "Vehicle stopping",
+			"D": "Toll island ground",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The speed limit signs in the picture indicate _________.",
+			"Id": "2.3.1.15",
+			"A": "The average speed standards for motorized vehicles",
+			"B": "The motorized vehicles should not run slower than the speeds specified in the markings",
+			"C": "The motorized vehicles should not run faster than the speeds specified in the markings",
+			"D": "The designed speed standards",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The markings in the picture are _____, with the solid line prohibiting vehicles from crossing the line to overtake or turning left.",
+			"Id": "2.3.1.16",
+			"A": "The central line of a road",
+			"B": "A lane-dividing line",
+			"C": "A crosswalk line",
+			"D": "The central yellow broken and solid lines",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The marking in the picture ___________.",
+			"Id": "2.3.1.17",
+			"A": "Prohibits vehicles from stopping at the road side for a long time",
+			"B": "Prohibits vehicles from stopping at the road side temporarily",
+			"C": "Prohibits vehicles from stopping at the road side for a long time or temporarily",
+			"D": "Allows vehicles to stop at the road side for a long time or temporarily",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The marking in the picture ___________.",
+			"Id": "2.3.1.18",
+			"A": "Prohibits vehicles from stopping at the road side temporarily",
+			"B": "Prohibits vehicles from stopping at the road side for a long time or temporarily",
+			"C": "Prohibits vehicles from stopping at the road side for a long time",
+			"D": "Allows vehicles to stop at the road side for a long time or temporarily",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The marking in the picture ___________.",
+			"Id": "2.3.1.19",
+			"A": "No passing areas",
+			"B": "No stopping areas",
+			"C": "Central circles",
+			"D": "Simplified cross-hatched areas",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The white double solid lines in the picture are a marking for _________",
+			"Id": "2.3.1.20",
+			"A": "No stopping",
+			"B": "Stopping",
+			"C": "Stopping of non-motorized vehicles",
+			"D": "Stopping and yielding",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The white double broken lines in the picture are a marking for ______.",
+			"Id": "2.3.1.21",
+			"A": "Slowing down and yielding",
+			"B": "No stopping",
+			"C": "Stopping and yielding",
+			"D": "Stopping of non-motorized vehicles",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The picture is ____.",
+			"Id": "2.3.1.22",
+			"A": "A marking for central circle",
+			"B": "A simplified cross-hatched area for no temporary stopping",
+			"C": "A marking for no U turn",
+			"D": "A parking space",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The pictures are markings for ____.",
+			"Id": "2.3.1.23",
+			"A": "No passing",
+			"B": "No turn",
+			"C": "No U turn",
+			"D": "No stopping",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The central yellow broken and solid lines in the picture mean ______.",
+			"Id": "2.3.1.24",
+			"A": "The broken line prohibits vehicles from crossing and overtaking",
+			"B": "The solid line allows vehicles to turn left",
+			"C": "The solid line prohibits vehicles from crossing to overtake or turning left",
+			"D": "The broken line prohibits vehicles from turning left",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The central yellow broken and solid lines in the picture means _________.",
+			"Id": "2.3.1.25",
+			"A": "The broken line prohibits vehicles from turning left",
+			"B": "The solid line allows vehicles to turn left",
+			"C": "The solid line allows vehicles to cross for overtaking",
+			"D": "The broken line allows vehicles to cross for overtaking or to turn left",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The yellow marking at the center of an intersection in the picture is _______.",
+			"Id": "2.3.1.26",
+			"A": "A cross-hatched marking",
+			"B": "A marking prohibiting non-motorized vehicles from passing",
+			"C": "A central circle",
+			"D": "A guide line",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The zebra marking in the picture is _________.",
+			"Id": "2.3.1.27",
+			"A": "A stopping island",
+			"B": "A junction guide line",
+			"C": "A crosswalk",
+			"D": "A waiting area for non-motorized vehicles",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The road sign in the picture is __________.",
+			"Id": "2.3.1.28",
+			"A": "A passenger getting-off area",
+			"B": "A passenger getting-on area",
+			"C": "A stopping and waiting area",
+			"D": "A long stopping area",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The yellow central broken line on a two-way road is used to separate the traffic flow in the same direction.",
+			"Answer": "false",
+			"Id": "2.3.2.1",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The white lane-dividing line in the picture is used to separate the traffic flow in opposite directions.",
+			"Answer": "false",
+			"Id": "2.3.2.2",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The white solid lines in the picture are lane borderlines used to indicate the borders of the lanes for motorized vehicles.",
+			"Answer": "true",
+			"Id": "2.3.2.3",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The areas within the white markings in the picture are the areas for vehicle parking.",
+			"Answer": "true",
+			"Id": "2.3.2.4",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The areas within the white markings in the picture are the areas for no vehicle parking",
+			"Answer": "false",
+			"Id": "2.3.2.5",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The white left-turn guide broken line in the picture means the left-turning vehicles should drive on the Right side of the guide line.",
+			"Answer": "false",
+			"Id": "2.3.2.6",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The guide arrows on the road in the picture indicate the directions in which the vehicles should drive.",
+			"Answer": "true",
+			"Id": "2.3.2.7",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The central yellow broken and solid lines in the picture indicate that the solid line prohibits vehicles from crossing to overtake or turning left and the broken line also prohibits vehicles from crossing to overtake or turning left.",
+			"Answer": "false",
+			"Id": "2.3.2.8",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The central circle in the picture is used to distinguish between the sharp and gentle turns of the vehicles and guide the left and Right turns of the vehicles at the intersection. The vehicles are not allowed to roll over the marking.",
+			"Answer": "true",
+			"Id": "2.3.2.9",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The yellow cross-hatched marking at the center of the intersection in the picture is used to indicate to the drivers that no temporary stopping is allowed in this area in order to prevent traffic congestion",
+			"Answer": "true",
+			"Id": "2.3.2.10",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The yellow marking at the center of the intersection in the picture is an area prohibiting the passing of non-motorized vehicles, used to indicate to the drivers that temporary stopping is prohibited in this area.",
+			"Answer": "false",
+			"Id": "2.3.2.11",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The zebra markings in the picture mean the vehicles should go along the indicated lines and may roll on or cross over the markings.",
+			"Answer": "false",
+			"Id": "2.3.2.12",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The special lanes in the yellow broken lines in the picture are exclusively for the use of certain types of vehicles and other types of vehicles may use them for overtaking or running a long distance.",
+			"Answer": "false",
+			"Id": "2.3.2.13",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The road marking in the picture is a special space for taxicabs to take and drop passengers and other vehicles may use it for temporary stopping.",
+			"Answer": "false",
+			"Id": "2.3.2.14",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The road markings in the picture are speed limit markings, used to limit the maximum or minimum speeds of the vehicles.",
+			"Answer": "true",
+			"Id": "2.3.2.15",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for ________.",
+			"Id": "2.4.1.1",
+			"A": "Going straight",
+			"B": "Turning",
+			"C": "Stopping",
+			"D": "Pulling over",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is _______",
+			"Id": "2.4.1.2",
+			"A": "A signal for turning",
+			"B": "An auxiliary signal for going straight",
+			"C": "A signal for stopping",
+			"D": "A signal for going straight",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is ______.",
+			"Id": "2.4.1.3",
+			"A": "A signal for pulling over",
+			"B": "An auxiliary signal for turning right",
+			"C": "A signal for turning left gently",
+			"D": "A signal for turning right",
+			"Answer": "C",
+			"Type": "P"
+		},
+		{
+			"Q": "The hand signal of the police in the picture is ______.",
+			"Id": "2.4.1.4",
+			"A": "A signal for turning left",
+			"B": "An auxiliary signal for turning left",
+			"C": "A signal for stopping",
+			"D": "A signal for turning left sharply",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is ________.",
+			"Id": "2.4.1.5",
+			"A": "A signal for waiting to turn left",
+			"B": "A signal for turning left",
+			"C": "An auxiliary signal for turning left sharply",
+			"D": "A signal for turning left sharply",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is ________.",
+			"Id": "2.4.1.6",
+			"A": "An auxiliary signal for stopping",
+			"B": "A signal for stopping",
+			"C": "A signal for turning",
+			"D": "A signal for pulling over",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is _______.",
+			"Id": "2.4.1.7",
+			"A": "A signal for pulling to the left",
+			"B": "A signal for stopping",
+			"C": "A signal for turning right",
+			"D": "A signal for pulling over",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is ______.",
+			"Id": "2.4.1.8",
+			"A": "A signal for pulling over",
+			"B": "A signal for slowing down",
+			"C": "An auxiliary signal for stopping",
+			"D": "A signal for turning right",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is ______.",
+			"Id": "2.4.1.9",
+			"A": "A signal for slowing down",
+			"B": "A signal for pulling over",
+			"C": "An auxiliary signal for stopping",
+			"D": "A signal for turning left",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is _______.",
+			"Id": "2.4.1.10",
+			"A": "A signal for pulling over",
+			"B": "A signal for the front vehicle to yield to the back car",
+			"C": "An auxiliary signal for stopping",
+			"D": "A signal for slowing down",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is _______.",
+			"Id": "2.4.1.11",
+			"A": "A signal for pulling over",
+			"B": "A signal for a rule-breaking vehicle to pull over",
+			"C": "An auxiliary signal for stopping",
+			"D": "A signal for slowing down",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for going straight.",
+			"Answer": "true",
+			"Id": "2.4.2.1",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for turning left.",
+			"Answer": "false",
+			"Id": "2.4.2.2",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is an auxiliary signal for going straight.",
+			"Answer": "true",
+			"Id": "2.4.2.3",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is an auxiliary signal for turning left.",
+			"Answer": "false",
+			"Id": "2.4.2.4",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for turning Right.",
+			"Answer": "false",
+			"Id": "2.4.2.5",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for turning left sharply.",
+			"Answer": "false",
+			"Id": "2.4.2.6",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for stopping.",
+			"Answer": "false",
+			"Id": "2.4.2.7",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for the front vehicle to yield to the back vehicle.",
+			"Answer": "false",
+			"Id": "2.4.2.8",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for turning Right.",
+			"Answer": "false",
+			"Id": "2.4.2.9",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for the front vehicle to yield to the back vehicle.",
+			"Answer": "true",
+			"Id": "2.4.2.10",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "The hand signal of the traffic police in the picture is a signal for a rule-breaking vehicle to pull over.",
+			"Answer": "true",
+			"Id": "2.4.2.11",
+			"Type": "Plogic"
+		},
+		{
+			"Q": "Before entering the driver’s cab, the driver _________ to make sure it is safe.",
+			"Id": "3.1.1.1",
+			"A": "Should observe the outside of the vehicle",
+			"B": "Does not have to observe the outside of the vehicle",
+			"C": "Can open the door and enter the vehicle right away",
+			"D": "Should observe the weather conditions",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When the driver and passengers get off a vehicle, they should ______.",
+			"Id": "3.1.1.2",
+			"A": "Open the door and get off the vehicle immediately after the vehicle stops",
+			"B": "Observe the traffic conditions in front",
+			"C": "Open the door before observing the traffic conditions beside and behind the vehicle",
+			"D": "Observe the traffic conditions beside and behind the vehicle before slowly opening the door",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving a motorized vehicle, the driver _____ the steering wheel.",
+			"Id": "3.1.1.3",
+			"A": "May temporarily take both hands off",
+			"B": "May operate at will",
+			"C": "Is prohibited from simultaneously taking both hands off",
+			"D": "May steer at the same place",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When applying the brake pedal, the driver should use ________.",
+			"Id": "3.1.1.4",
+			"A": "The front sole of the left foot",
+			"B": "The front sole of the right foot",
+			"C": "The central sole of the right foot",
+			"D": "The heel of the right foot",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When applying the brake pedal, the driver should use ________.",
+			"Id": "3.1.1.5",
+			"A": "Observe before depressing",
+			"B": "Does not have to observe when depressing or releasing",
+			"C": "Observe when depressing",
+			"D": "Observe when releasing",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When changing the gear, _________.",
+			"Id": "3.1.1.6",
+			"A": "The driver should not bow his head and look down",
+			"B": "The driver should push and pull slowly",
+			"C": "The driver should observe the gear position",
+			"D": "The driver can push and pull forcefully",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "The gear “2” of a motor vehicle with automatic transmission is used for _______.",
+			"Id": "3.1.1.7",
+			"A": "Driving on a gentle slope",
+			"B": "Stopping",
+			"C": "Normal driving",
+			"D": "Overtaking",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "The gear “P” of a motor vehicle with automatic transmission is used for ______.",
+			"Id": "3.1.1.8",
+			"A": "Driving on a steep slope",
+			"B": "Parking",
+			"C": "Normal driving",
+			"D": "Stopping at an intersection",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When starting up a motor vehicle with automatic transmission, the driver _____ and shift from the P gear to another gear.",
+			"Id": "3.1.1.9",
+			"A": "Does not depress the brake pedal",
+			"B": "Depresses the accelerator pedal",
+			"C": "Depresses the brake pedal",
+			"D": "Releases the handbrake",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When parking a motor vehicle with automatic transmission, the gear lever should _____ and the key should be pulled off.",
+			"Id": "3.1.1.10",
+			"A": "Be in the R gear",
+			"B": "Be in the N gear",
+			"C": "Be in the D gear",
+			"D": "Be in the P gear",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When starting the engine of a motor vehicle with automatic transmission, the gear lever should be placed in _____ position.",
+			"Id": "3.1.1.11",
+			"A": "Be in the D gear",
+			"B": "Be in the P gear",
+			"C": "Be in the N gear",
+			"D": "Any gear",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The driver may use the left foot to depress the brake pedal of a motor vehicle with automatic transmission.",
+			"Answer": "false",
+			"Id": "3.1.2.1",
+			"Type": "Logic"
+		},
+		{
+			"Q": "The driver must use the Right foot to depress the brake pedal of a motor vehicle with either automatic or manual transmission",
+			"Answer": "true",
+			"Id": "3.1.2.2",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When a motor vehicle with automatic transmission runs on a steep slope, the “2” gear should be used.",
+			"Answer": "false",
+			"Id": "3.1.2.3",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When a motor vehicle with automatic transmission runs on a steep slope, the “L” gear should be used.",
+			"Answer": "true",
+			"Id": "3.1.2.4",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When a motor vehicle with automatic transmission runs on a level road, the “L” gear should be used.",
+			"Answer": "false",
+			"Id": "3.1.2.5",
+			"Type": "Logic"
+		},
+		{
+			"Q": "The key of a motor vehicle with automatic transmission cannot be pulled out when the gear lever is in a position other than the “P” gear.",
+			"Answer": "true",
+			"Id": "3.1.2.6",
+			"Type": "Logic"
+		},
+		{
+			"Q": "Before driving, the driver should check whether the coolant, engine oil and fuel oil are leaking.",
+			"Answer": "true",
+			"Id": "3.1.2.7",
+			"Type": "Logic"
+		},
+		{
+			"Q": "The main impact of rainy weather on safe driving is _______.",
+			"Id": "3.2.1.1",
+			"A": "The electric equipment is prone to getting wet and causing short circuit",
+			"B": "The road is wet and slippery and the visibility is poor",
+			"C": "The engine is prone to stop",
+			"D": "The resistance to the vehicle increases.",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "As the road is wet and slippery after rain, brake application when driving can easily _____.",
+			"Id": "3.2.1.2",
+			"A": "Cause engine kill",
+			"B": "Be ignored by the drivers of other vehicles",
+			"C": "Cause collision due to poor visibility",
+			"D": "Cause skid and sideways slide",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle runs on a wet and slippery road, the adhesion to the road surface ___ as the speed increases.",
+			"Id": "3.2.1.3",
+			"A": "Increases drastically",
+			"B": "Increases gradually",
+			"C": "Decreases drastically",
+			"D": "Does not change",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "The main impact of foggy weather on safe driving is _________.",
+			"Id": "3.2.1.4",
+			"A": "The engine can easily stop",
+			"B": "The vehicle can easily slide sideways",
+			"C": "The resistance the vehicle increases",
+			"D": "The visibility is low and the vision is poor",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When running at a high speed, the steering wheel can have a feel of “being deprived” due to the impact of _______. The driver should firmly hold the steering wheel and drives at a lower speed.",
+			"Id": "3.2.1.5",
+			"A": "Ice and snow",
+			"B": "Heavy rain",
+			"C": "Side wind",
+			"D": "Fog",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "The main feature of pedestrians participating in road traffic is _________.",
+			"Id": "3.2.1.6",
+			"A": "They move slowly",
+			"B": "The like to get together and look on",
+			"C": "They are not stable",
+			"D": "They walk around at will and can easily change directions",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "The main impact of the road conditions at night on safe driving is ________.",
+			"Id": "3.2.1.7",
+			"A": "The visibility is low and unfavorable for observing road traffic conditions",
+			"B": "The road surface is complex and changing",
+			"C": "The physical strength of the driver decreases",
+			"D": "The driver can easily have impulse and illusion",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "At night, the driver’s observation is markedly poorer than in the daytime and the range of visibility range is ___.",
+			"Id": "3.2.1.8",
+			"A": "Longer",
+			"B": "Shorter",
+			"C": "Unchanged",
+			"D": "Irregular",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The main impact of the road conditions in icy and snowy weather is ______.",
+			"Id": "3.2.1.9",
+			"A": "The electric equipment can easily get wet and cause short circuit",
+			"B": "The visibility is lower and the field of vision is blurred",
+			"C": "The resistance to the vehicle increases",
+			"D": "The road surface is slippery and the sunshine reflection is strong, which interferes with the driver’s view",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving in icy and snowy weather, ________.",
+			"Id": "3.2.1.10",
+			"A": "The braking distance becomes longer",
+			"B": "The resistance to slide becomes larger",
+			"C": "The road grip becomes stronger",
+			"D": "The braking performance does not change",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "The main impact of muddy roads on safe driving is _________.",
+			"Id": "3.2.1.11",
+			"A": "The resistance to the vehicle becomes weaker",
+			"B": "The tires can easily spin and skid",
+			"C": "The visibility become lower and blurs the field of vision",
+			"D": "The road grip becomes stronger",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The reason that a road destroyed by flood affects safe driving and smooth passage is ______.",
+			"Id": "3.2.1.12",
+			"A": "It is impossible to see the hidden holes and bumps in road surface",
+			"B": "The road surface is slippery and can easily cause skidding when braking",
+			"C": "The vehicle can easily skid",
+			"D": "The sunshine reflection blurs the view",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "The main impact of mountain roads on safe driving is _______.",
+			"Id": "3.2.1.13",
+			"A": "The road signs are fewer",
+			"B": "The traffic conditions are boring",
+			"C": "The slopes are long, the curves are sharp and there are more dangerous road sections",
+			"D": "The traffic flow is heavy",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle coming in the opposite direction suddenly overtakes and occupies your lane, the correct way to deal with this situation is to __________.",
+			"Id": "3.2.1.14",
+			"A": "Speed up and go forward",
+			"B": "Reduce speed and avoid as much as possible",
+			"C": "Maintain the original speed",
+			"D": "Obstruct the way of that vehicle",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "If all lights of a vehicle on the road go off suddenly at night, the driver should _______.",
+			"Id": "3.2.1.15",
+			"A": "Drive at reduced speed",
+			"B": "Brake as fast as possible and stop where it is",
+			"C": "Brake immediately and stop on the road side",
+			"D": "Stop slowly under inertia",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "Violent wind can cause a sideways swerve to a running vehicle.",
+			"Answer": "true",
+			"Id": "3.2.2.1",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When driving at night, the driver’s visibility range becomes shorter and his observation becomes poorer. At the same time, the driver can easily become tired because he has to highly concentrate his attention.",
+			"Answer": "true",
+			"Id": "3.2.2.2",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When driving at night, the driver can still see clearly the road conditions in front within a shortly after he encounters the high beam light in the opposite direction.",
+			"Answer": "false",
+			"Id": "3.2.2.3",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When driving in icy and snowy weather, light reflection from the accumulated snow can easily make a driver feel dizzy and have an illusion.",
+			"Answer": "true",
+			"Id": "3.2.2.4",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When driving in icy and snowy weather, the vehicle steadiness decreases and sudden acceleration can very easily cause spins and slides.",
+			"Answer": "true",
+			"Id": "3.2.2.5",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When braking on a muddy road, the tires can easily spin or drift and cause traffic accidents.",
+			"Answer": "true",
+			"Id": "3.2.2.6",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When passing through an overflowing road, a high gear should be used to pass rapidly.",
+			"Answer": "false",
+			"Id": "3.2.2.7",
+			"Type": "Logic"
+		},
+		{
+			"Q": "Mountain roads are noted for long and steep slopes, narrow surfaces and sharp curves, which can easily cause traffic accidents.",
+			"Answer": "false",
+			"Id": "3.2.2.8",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When a driver suddenly encounters a vehicle in the opposite direction that forces its way by overtaking and occupying his lane, the driver may refuse to avoid it and force it to yield to you.",
+			"Answer": "false",
+			"Id": "3.2.2.9",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When all lights of a vehicle suddenly go off while running at night, the driver should immediately brake and stop.",
+			"Answer": "false",
+			"Id": "3.2.2.10",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When discovering a vehicle requiring help while driving, the driver should _______.",
+			"Id": "3.3.1.1",
+			"A": "Reduce speed and stop to give help",
+			"B": "Speed up and pass",
+			"C": "Ignore it",
+			"D": "Find an excuse to reject",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When another driver asks directions while driving, the driver should _________.",
+			"Id": "3.3.1.2",
+			"A": "Ignore it",
+			"B": "Answer with patience",
+			"C": "Find an excuse to reject",
+			"D": "Answer for a pay",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When encountering a traffic accident ahead and help is needed while driving, the driver should ________.",
+			"Id": "3.3.1.3",
+			"A": "Bypass to dodge it as much as possible",
+			"B": "Immediately report to the police, stop and look on.",
+			"C": "Help to preserve the scene and immediately report to the police",
+			"D": "Speed up and pass to ignore it",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When discovering another vehicle having safety hazard while driving, the driver should _______.",
+			"Id": "3.3.1.4",
+			"A": "Leave as fast as possible",
+			"B": "Follow the vehicle and observe",
+			"C": "Ignore it",
+			"D": "Remind the other side in a timely manner",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When finding another vehicle stuck in a damaged road and unable to run while driving, the driver should ____.",
+			"Id": "3.3.1.5",
+			"A": "Leave as fast as possible",
+			"B": "Help as much as possible",
+			"C": "Go ahead by changing road",
+			"D": "Pass by a detour",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When discovering the persons injured in a traffic accident need rescue while driving, the driver should _____.",
+			"Id": "3.3.1.6",
+			"A": "Send the injured persons to hospital in a timely manner or make emergency calls",
+			"B": "Dodge as much as possible",
+			"C": "Go ahead by bypassing the scene",
+			"D": "Find an excuse to dodge the scene",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When encountering a vehicle in the opposite direction forcing its way by using his lane, the driver should _____.",
+			"Id": "3.3.1.7",
+			"A": "Go ahead by the center of the road",
+			"B": "Voluntarily yield to the other side",
+			"C": "Use the high beam light to warn the other side",
+			"D": "Force the other side to drive by the right side",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When discovering traffic congestion ahead while driving, the driver should ________.",
+			"Id": "3.3.1.8",
+			"A": "Find a chance to overtake the vehicle in front",
+			"B": "Weave through other vehicles",
+			"C": "Reduce speed, stop and wait in line",
+			"D": "Honk to urge other vehicles",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When finding a vehicle in the opposite direction having difficulty to go forward and needing to borrow road while crossing each other, the driver should ________.",
+			"Id": "3.3.1.9",
+			"A": "Not occupy the road of the other side and should go forward normally",
+			"B": "Indicate the other side to stop and yield",
+			"C": "Speed up and go forward by the right side",
+			"D": "Yield to the other side as much as possible",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When discovering a vehicle behind wanting to overtake while driving, the driver should _______.",
+			"Id": "3.3.1.10",
+			"A": "Move to the right side and yield in a timely manner",
+			"B": "Reduce speed and go ahead slowly",
+			"C": "Speed up and go ahead by the right side",
+			"D": "Not yield",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When discovering another vehicle stuck in a muddy road and requiring help while driving, the driver should ___.",
+			"Id": "3.3.1.11",
+			"A": "Bypass",
+			"B": "Help voluntarily",
+			"C": "Ignore it",
+			"D": "Make detour",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The three golden rules for cautious driving are concentration, careful observation and _______.",
+			"Id": "3.3.1.12",
+			"A": "Be bold and careful",
+			"B": "Be nimble",
+			"C": "Early prevention",
+			"D": "Drive slowly",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle runs normally, the driver should be able to foresee road conditions and can ___ when approaching an obstacle.",
+			"Id": "3.3.1.13",
+			"A": "Take an emergency brake and stop the vehicle",
+			"B": "Swiftly steer away and bypass",
+			"C": "Rapidly dodge to avoid collision",
+			"D": "Steadily stop the vehicle",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving a vehicle, the driver should drive in a safe, ______ and friendly manner.",
+			"Id": "3.3.1.14",
+			"A": "Courteous",
+			"B": "Nimble",
+			"C": "Selfish",
+			"D": "Jump-starting",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When discovering the vehicle in front running slowly while driving, the driver should _______",
+			"Id": "3.3.1.15",
+			"A": "Overtake from the right side when approaching the vehicle in front",
+			"B": "Change lane and overtake in advance",
+			"C": "Honk to urge",
+			"D": "Overtake by using the lane for non-motorized vehicles",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When overtaking, the driver should ________ if the vehicle in front refuses to reduce speed or yield.",
+			"Id": "3.3.1.16",
+			"A": "Continuously honk and speed up to overtake",
+			"B": "Speed up and continue to overtake",
+			"C": "Stop overtaking",
+			"D": "Follow closely and find chance to overtake again",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When overtaking, the driver should ________ if he discovers the vehicle in front is overtaking.",
+			"Id": "3.3.1.17",
+			"A": "Follow closely and find chance to overtake",
+			"B": "Speed up to overtake forcefully",
+			"C": "Continuously honk to urge the vehicle in front to yield",
+			"D": "Stop overtaking and allow the vehicle in front to overtake first",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When passing through an inundated road, the driver should ________.",
+			"Id": "3.3.1.18",
+			"A": "Reduce speed and go slowly with special care",
+			"B": "Speed up and pass rapidly",
+			"C": "Maintain the normal speed and pass",
+			"D": "Speed up and pass at a low gear",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving a vehicle, the driver ______ for the sake of safety.",
+			"Id": "3.3.1.19",
+			"A": "May wear slippers",
+			"B": "May wear any shoes",
+			"C": "Should not wear slippers",
+			"D": "May wear high heels",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When discovering a road congestion ahead, the correct way to deal with this situation is to _______.",
+			"Id": "3.3.1.20",
+			"A": "Continue to weave through",
+			"B": "Find space and overtake one vehicle after another",
+			"C": "Honk to indicate the vehicle in front to speed up",
+			"D": "Stop and wait in line",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When discovering a congestion at the intersection ahead, the correct way to deal with this situation is to ___.",
+			"Id": "3.3.1.21",
+			"A": "Reduce speed, stop and wait till the congestion is cleared",
+			"B": "Continue to enter the intersection",
+			"C": "Honk to indicate the vehicle in front to speed and pass",
+			"D": "Find chance to pass from both sides",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When overtaking, the driver should ______ if the vehicle in front refuses to give room for overtaking.",
+			"Id": "3.3.1.22",
+			"A": "Overtake rapidly",
+			"B": "Stop overtaking",
+			"C": "Continuously honk and overtake",
+			"D": "Turn on the head light and overtake",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving slowly in a congested road, the driver should ______ if another vehicle forcefully “cuts in”.",
+			"Id": "3.3.1.23",
+			"A": "Honk to warn it against cutting in",
+			"B": "Speed up to closely follow the vehicle in front and refuse to allow it to cut in",
+			"C": "Voluntarily yield to ensure safe driving",
+			"D": "Squeeze the “cutting-in” vehicle to force it to leave",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When cleaning a vehicle, the Wrong way for the driver is to _______.",
+			"Id": "3.3.1.24",
+			"A": "Refrain from littering garbage",
+			"B": "Put the garbage in order and put into a garbage bag",
+			"C": "Put the garbage in a designated place",
+			"D": "Throw the garbage to the road",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When washing a vehicle in the urban areas, the driver should do so _______.",
+			"Id": "3.3.1.25",
+			"A": "At a car wash",
+			"B": "At will on the road",
+			"C": "At the riverside",
+			"D": "At the side of a reservoir",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving, the driver should throw the waste paper or wastes _______.",
+			"Id": "3.3.1.26",
+			"A": "To the street outside the window of the vehicle",
+			"B": "Into the garbage bin (bag) in the vehicle",
+			"C": "To the unmanned road",
+			"D": "Under the seat or in the compartment of the vehicle",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving, the driver should remind the passengers to throw the garbage _____.",
+			"Id": "3.3.1.27",
+			"A": "To the street outside the window of the vehicle",
+			"B": "To the unmanned road",
+			"C": "Into the garbage bin (bag) in the vehicle",
+			"D": "Under the seat or in the compartment of the vehicle",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving a vehicle through an inundated road with pedestrians on both sides, the driver should ________.",
+			"Id": "3.3.1.28",
+			"A": "Speed up and pass",
+			"B": "Go forward normally",
+			"C": "Reduce speed and go slowly",
+			"D": "Continuously honk",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving a vehicle through an inundated road with non-motorized vehicles on both sides, the driver should ______.",
+			"Id": "3.3.1.29",
+			"A": "Reduce speed and go slowly",
+			"B": "Go forward normally",
+			"C": "Speed up and pass",
+			"D": "Continuously honk",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When having a contradiction or dispute with other people, the driver should ______.",
+			"Id": "3.3.1.30",
+			"A": "Let off his emotions when driving",
+			"B": "Drive with emotions",
+			"C": "Drive in a rage",
+			"D": "Calm down before driving again",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving on a road, the driver should control the speed according to _____ and drive safely within the specified scope.",
+			"Id": "3.3.1.31",
+			"A": "His experience",
+			"B": "Speedometer reading",
+			"C": "His feeling",
+			"D": "Roadside reference objects",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving, the driver should strictly obey the relevant provisions of the laws and regulations and consciously safeguard the traffic order.",
+			"Answer": "true",
+			"Id": "3.3.2.1",
+			"Type": "Logic"
+		},
+		{
+			"Q": "qualified driver should not only be technically adept, but more importantly have good driving habits and ethical attainments.",
+			"Answer": "true",
+			"Id": "3.3.2.2",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When driving a vehicle on the road, the driver should try to limit his speed from exceeding 10% of the prescribed speed limits.",
+			"Answer": "false",
+			"Id": "3.3.2.3",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When driving a vehicle on the road, the driver should drive safely at the prescribed speed.",
+			"Answer": "true",
+			"Id": "3.3.2.4",
+			"Type": "Logic"
+		},
+		{
+			"Q": "In normal driving, the driver does his best to run close to or on the central line so as not to give any chance to the vehicles in the opposite direction to occupy his own route.",
+			"Answer": "false",
+			"Id": "3.3.2.5",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When driving a vehicle on different roads, the driver should consciously obey the speed limits and do not exceed them.",
+			"Answer": "true",
+			"Id": "3.3.2.6",
+			"Type": "Logic"
+		},
+		{
+			"Q": "It is illegal for a driver to use a cell phone while driving.",
+			"Answer": "true",
+			"Id": "3.3.2.7",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When encountering an obstacle on the road, the driver should drive as fast as possible so as to pass the obstacle rapidly.",
+			"Answer": "false",
+			"Id": "3.3.2.8",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When two vehicles cross each other, the drivers should drive close to the central line of the road in advance so as to prevent the opposite vehicle from occupying too much road surface.",
+			"Answer": "false",
+			"Id": "3.3.2.9",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When overtaking, the driver should try his best to increase the horizontal distance and, when necessary, may cross the solid line to overtake.",
+			"Answer": "false",
+			"Id": "3.3.2.10",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When encountering another driver requesting help while driving, the driver may respond to his request and offer enthusiastic help.",
+			"Answer": "true",
+			"Id": "3.3.2.11",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When encountering another vehicle having a traffic accident and urgently needing help to send the injured persons, the driver should reject the request and let them wait the ambulance with patience",
+			"Answer": "false",
+			"Id": "3.3.2.12",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When encountering a traffic accident on the road, the driver should bypass or make a U turn to escape as fast as possible and should never go and help transport the injured persons.",
+			"Answer": "false",
+			"Id": "3.3.2.13",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When following a vehicle on the road, the distance from the vehicle in front is not important. As long as the driver goes forward at the same speed as the vehicle in front does, he can avoid rear-end collision.",
+			"Answer": "false",
+			"Id": "3.3.2.14",
+			"Type": "Logic"
+		},
+		{
+			"Q": "The three principles for careful driving are concentration, careful observation and early prevention.",
+			"Answer": "true",
+			"Id": "3.3.2.15",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When driving, the driver should observe the road conditions in the near distance so as to deviate from the route.",
+			"Answer": "false",
+			"Id": "3.3.2.16",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When the traffic conditions at an intersection are complicated, the driver should be patiently waiting instead of taking chance.",
+			"Answer": "true",
+			"Id": "3.3.2.17",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When driving, the driver should be courteous and defensive, instead of being offensive",
+			"Answer": "true",
+			"Id": "3.3.2.18",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When driving, the driver may spit to the road or street out of the window.",
+			"Answer": "false",
+			"Id": "3.3.2.19",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When passing a no-horn road section where the pedestrians fail to yield, the driver should honk intermittently to remind them to yield.",
+			"Answer": "false",
+			"Id": "3.3.2.20",
+			"Type": "Logic"
+		},
+		{
+			"Q": "If the driver finds there is no vehicle following, he can change lanes without turning on the turn signal.",
+			"Answer": "false",
+			"Id": "3.3.2.21",
+			"Type": "Logic"
+		},
+		{
+			"Q": "In hot weather, the driver may drive a vehicle barebacked, barefooted or wearing slippers.",
+			"Answer": "false",
+			"Id": "3.3.2.22",
+			"Type": "Logic"
+		},
+		{
+			"Q": "It is not safe for a woman driver to wear high heels to drive a vehicle",
+			"Answer": "true",
+			"Id": "3.3.2.23",
+			"Type": "Logic"
+		},
+		{
+			"Q": "It is a bad habit for a driver to put his left arm on the window of the vehicle or hold the gear lever in his Right hand for a long time.",
+			"Answer": "true",
+			"Id": "3.3.2.24",
+			"Type": "Logic"
+		},
+		{
+			"Q": "Driving and smoking has no harm on safe driving.",
+			"Answer": "false",
+			"Id": "3.3.2.25",
+			"Type": "Logic"
+		},
+		{
+			"Q": "It is not a bad habit for a driver to frequently change lanes.",
+			"Answer": "false",
+			"Id": "3.3.2.26",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When driving in a mountain area, the driver may honk briefly to express thanks if the vehicle in the opposite direction voluntarily yields.",
+			"Answer": "true",
+			"Id": "3.3.2.27",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When crossing each other on a narrow road, the driver should slow down, yield and stop first.",
+			"Answer": "true",
+			"Id": "3.3.2.28",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When a driver needs to borrow a lane to bypass an obstacle in front and a vehicle in the opposite direction is approaching the obstacle, the driver should ___________.",
+			"Id": "3.4.1.1",
+			"A": "Reduce speed or stop and yield to the vehicle coming in the opposite direction",
+			"B": "Speed up and bypass the obstacle in advance",
+			"C": "Honk to indicate the vehicle in the opposite direction to yield",
+			"D": "Rapidly occupy the lane and force the vehicle coming in the opposite direction to stop and yield",
+			"Answer": "A",
+			"Type": "N"
+		}		
+	]
+}
