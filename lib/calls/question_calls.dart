@@ -23,3 +23,11 @@ Future<void> loadSettinsPage() async {
 Future<void> loadSpecialPage() async {
   await globalNav.appNavigation.pushNamed(NavigationPaths.special);
 }
+
+Future<void> loadHomePage() async {
+  await globalNav.appNavigation.pushNamed(NavigationPaths.home);
+}
+
+Future<void> loadQuestionPage(Question question) async {
+  await globalNav.appNavigation.pushNamed(NavigationPaths.question, arguments: question);
+}

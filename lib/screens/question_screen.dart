@@ -193,10 +193,10 @@ class _QuestionScreenState extends State<QuestionScreen> {
       height: 100,
       child: FilledButton.tonal(
         onPressed: (value || truthSettings)
-            ? () {
+            ? () async {
                 Navigator.pop(context);
                 Question question = getRandomQuestion();
-                Navigator.of(context).push(MaterialPageRoute(builder: (context) => QuestionScreen(question)));
+                await loadQuestionPage(question);
               }
             : null,
         style: ButtonStyle(

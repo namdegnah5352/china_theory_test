@@ -25,9 +25,23 @@ class _AppDrawerState extends State<AppDrawer> {
       children: <Widget>[
         Padding(
           padding: const EdgeInsets.fromLTRB(28, 16, 16, 10),
-          child: Text(
-            'Mail',
-            style: Theme.of(context).textTheme.titleSmall,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const SizedBox(height: 20),
+              Center(
+                child: Icon(
+                  Icons.list,
+                  size: 150,
+                  color: Theme.of(context).iconTheme.color,
+                ),
+              ),
+              const SizedBox(height: 20),
+              Text(
+                'Select Option',
+                style: Theme.of(context).textTheme.titleSmall,
+              ),
+            ],
           ),
         ),
         ...Destination.values.map((destination) {
@@ -44,7 +58,8 @@ class _AppDrawerState extends State<AppDrawer> {
 }
 
 enum Destination {
-  search('Search', Icon(Icons.home_outlined), Icon(Icons.search), calls.loadSearchPage),
+  home('Home', Icon(Icons.home_outlined), Icon(Icons.home), calls.loadHomePage),
+  search('Search', Icon(Icons.search_outlined), Icon(Icons.search), calls.loadSearchPage),
   special('Special', Icon(Icons.outbond_outlined), Icon(Icons.outbond), calls.loadSpecialPage),
   settings('Settings', Icon(Icons.inbox_outlined), Icon(Icons.inbox), calls.loadSettinsPage);
 

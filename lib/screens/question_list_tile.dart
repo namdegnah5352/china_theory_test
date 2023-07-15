@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../data/question.dart';
 import 'question_screen.dart';
+import '../calls/question_calls.dart';
 
 class QuestionListTile extends StatefulWidget {
   final Question question;
@@ -23,9 +24,7 @@ class _QuestionListTileState extends State<QuestionListTile> {
         title: Text(widget.question.questionText),
         subtitle: Text(widget.question.id),
         trailing: widget.question.picture ?? const Text(''),
-        onTap: () => Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => QuestionScreen(widget.question),
-        )),
+        onTap: () => loadQuestionPage(widget.question),
       ),
     );
   }

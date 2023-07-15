@@ -4,6 +4,8 @@ import '../../screens/settings.dart';
 import '../../screens/special_screen.dart';
 import '../../screens/question_search_screen.dart';
 import '../../data/read_config.dart';
+import '../../screens/question_screen.dart';
+import '../../data/question.dart';
 
 class AppRouter {
   Route? onGenerateRoute(RouteSettings settings) {
@@ -21,6 +23,14 @@ class AppRouter {
       case NavigationPaths.search:
         return MaterialPageRoute(
           builder: (_) => const QuestionSearchScreen(),
+        );
+      case NavigationPaths.question:
+        return MaterialPageRoute(
+          builder: (_) => QuestionScreen(arg as Question),
+        );
+      case NavigationPaths.home:
+        return MaterialPageRoute(
+          builder: (_) => const ReadConfig(),
         );
       default:
         return MaterialPageRoute(

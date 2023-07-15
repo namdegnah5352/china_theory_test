@@ -19,14 +19,15 @@ class _QuestionSearchState extends State<QuestionSearch> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: AppDrawer(),
+      drawer: const AppDrawer(),
       appBar: AppBar(
+        backgroundColor: Theme.of(context).primaryColor.withOpacity(0.25),
         title: const Text('Questions'),
         actions: [
           IconButton(
-            onPressed: () {
+            onPressed: () async {
               Question question = getRandomQuestion();
-              Navigator.of(context).push(MaterialPageRoute(builder: (context) => QuestionScreen(question)));
+              await loadQuestionPage(question);
             },
             icon: const Icon(Icons.search),
           ),
