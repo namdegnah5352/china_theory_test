@@ -9,4 +9,6 @@ class AppConstants {
   //sounds
   static const soundsKey = 'soundsKey';
   static const sounds = false;
+  //visual
+  static const appBarOpacity = 0.4;
 }

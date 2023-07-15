@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import '../data/question.dart';
+import '../config/constants.dart';
 import '../calls/search_calls.dart' as calls;
-import '../config/app_colors.dart';
-import '../config/text_styles.dart';
 import '../screens/question_list_tile.dart';
 import '../config/navigation/global_nav.dart';
 
@@ -40,7 +38,7 @@ class _PasswordSearchScreenState extends State<QuestionSearchScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).primaryColor.withOpacity(0.25),
+        backgroundColor: Theme.of(context).primaryColor.withOpacity(AppConstants.appBarOpacity),
         title: const Text('Search Questions'),
       ),
       body: SafeArea(child: buildPage()),

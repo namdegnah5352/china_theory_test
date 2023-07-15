@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../calls/search_calls.dart' as calls;
-import '../config/app_colors.dart';
-import '../config/text_styles.dart';
+import '../config/constants.dart';
 import '../screens/question_list_tile.dart';
 import '../config/navigation/global_nav.dart';
 
@@ -27,7 +26,7 @@ class _SearchScreenState extends State<SpecialScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Specials'),
-        backgroundColor: Theme.of(context).primaryColor.withOpacity(0.25),
+        backgroundColor: Theme.of(context).primaryColor.withOpacity(AppConstants.appBarOpacity),
       ),
       body: SafeArea(child: buildPage()),
     );

@@ -1,3 +1,4 @@
+import 'package:china_theory_test/config/constants.dart';
 import 'package:flutter/material.dart';
 import '../data/question.dart';
 import 'question_list_tile.dart';
@@ -21,7 +22,7 @@ class _QuestionSearchState extends State<QuestionSearch> {
     return Scaffold(
       drawer: const AppDrawer(),
       appBar: AppBar(
-        backgroundColor: Theme.of(context).primaryColor.withOpacity(0.25),
+        backgroundColor: Theme.of(context).primaryColor.withOpacity(AppConstants.appBarOpacity),
         title: const Text('Questions'),
         actions: [
           IconButton(
