@@ -1,4 +1,4 @@
-import '../data/question.dart';
+import '../domain/entities/question.dart';
 import 'dart:math';
 import '../config/navigation/global_nav.dart';
 import '../config/navigation/navigation_paths.dart';

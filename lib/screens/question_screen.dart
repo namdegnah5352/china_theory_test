@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import '../data/question.dart';
+import '../domain/entities/question.dart';
 import '../calls/question_calls.dart';
 import '../config/navigation/global_nav.dart';
 import '../config/constants.dart';
 import 'package:audioplayers/audioplayers.dart';
-import '../data/special.dart';
+import '../domain/entities/special.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 

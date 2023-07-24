@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '/config/navigation/global_nav.dart';
-import 'data/settings_data.dart';
+import 'domain/entities/settings_data.dart';
 import 'config/enums.dart';
-import 'data/read_config.dart';
+import 'screens/read_config.dart';
 import 'config/navigation/app_router.dart';
 
 late GlobalNav globalNav;

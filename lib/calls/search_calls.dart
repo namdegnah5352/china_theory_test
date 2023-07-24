@@ -1,5 +1,5 @@
 import '../config/constants.dart';
-import '../data/question.dart';
+import '../domain/entities/question.dart';
 import '../config/navigation/global_nav.dart';
 
 late List<Question> _fulldata;

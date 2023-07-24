@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../data/question.dart';
+import '../domain/entities/question.dart';
 import 'package:flutter/services.dart';
-import '../screens/question_search.dart';
-import '../data/special.dart';
+import 'question_search.dart';
+import '../domain/entities/special.dart';
 import '../config/navigation/global_nav.dart';
 import '../config/constants.dart';
 import 'package:collection/collection.dart';

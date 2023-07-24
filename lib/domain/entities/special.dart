@@ -1,7 +1,7 @@
 import 'dart:convert';
-import '../config/constants.dart';
+import '../../config/constants.dart';
 
-import '../config/navigation/global_nav.dart';
+import '../../config/navigation/global_nav.dart';
 
 List<Special> specialModelFromJson(String str) => List<Special>.from(json.decode(str)["special"].map((x) => Special.fromJson(x)));
 String questionModelToJson(List<Special> data) => json.encode(List<dynamic>.from(data.map((x) => x.toJson())));

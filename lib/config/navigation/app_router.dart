@@ -3,9 +3,9 @@ import 'navigation_paths.dart';
 import '../../screens/settings.dart';
 import '../../screens/special_screen.dart';
 import '../../screens/question_search_screen.dart';
-import '../../data/read_config.dart';
+import '../../screens/read_config.dart';
 import '../../screens/question_screen.dart';
-import '../../data/question.dart';
+import '../../domain/entities/question.dart';
 
 class AppRouter {
   Route? onGenerateRoute(RouteSettings settings) {

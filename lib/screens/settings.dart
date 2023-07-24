@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../data/settings_data.dart';
+import '../domain/entities/settings_data.dart';
 import '../config/enums.dart';
 import '../config/navigation/global_nav.dart';
 import '../config/constants.dart';

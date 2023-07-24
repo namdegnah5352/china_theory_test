@@ -1,6 +1,6 @@
 import 'package:china_theory_test/config/constants.dart';
 import 'package:flutter/material.dart';
-import '../data/question.dart';
+import '../domain/entities/question.dart';
 import 'question_list_tile.dart';
 import '../calls/question_calls.dart';
 import 'question_screen.dart';
