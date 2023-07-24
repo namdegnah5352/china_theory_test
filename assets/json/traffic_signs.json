@@ -286,6 +286,106 @@
 	],
 	"question": [
 		{
+			"Q": "The Law of the People’s Republic of China on Road Traffic Safety is designed to maintain road traffic order, ____ , and increase the efficiency of traffic flow.",
+			"Id": "1.1.1.1",
+			"A": "Ensure vehicles can run at high speed",
+			"B": "Fulfill transport tasks satisfactorily",
+			"C": "Protect the legitimate rights and interests of the citizens",
+			"D": "Reduce traffic accidents",
+			"Answer": "C",
+			"Type": "P"
+		},	
+		{
+			"Q": "A motorized vehicle can run on the road only after it has been registered with the _________________.",
+			"Id": "1.1.1.2",
+			"A": "Institution in charge of road transport administration",
+			"B": "Traffic control department of the public security organ",
+			"C": "Department in charge of industrial and commercial administration",
+			"D": "Tax department",
+			"Answer": "B",
+			"Type": "P"
+		},	
+		{
+			"Q": "An unregistered motorized vehicle should _________________ if it has to run on the road temporarily.",
+			"Id": "1.1.1.3",
+			"A": "Have a temporary pass",
+			"B": "Register with the public security organ",
+			"C": "Directly go and run on the road",
+			"D": "Paste a certificate of inspection on the window",
+			"Answer": "A",
+			"Type": "P"
+		},	
+		{
+			"Q": "When applying for motorized vehicle registration, the certificate or document the vehicle owner does not have to present is the ___________________.",
+			"Id": "1.1.1.4",
+			"A": "Driving license",
+			"B": "ID card and the certificate of origin of the motorized vehicle",
+			"C": "Certificate of ex-factory inspection or the certificate of import for the motorized vehicle",
+			"D": "Certificate of vehicle purchase tax payment or exemption",
+			"Answer": "A",
+			"Type": "P"
+		},	
+		{
+			"Q": "If _______, a motorized vehicle does not need the relevant registration.",
+			"Id": "1.1.1.5",
+			"A": "The ownership has changed",
+			"B": "It is used as a mortgage",
+			"C": "It is under overhaul",
+			"D": "It has been scrapped.",
+			"Answer": "C",
+			"Type": "P"
+		},	
+		{
+			"Q": "A motorized vehicle reaching the scrapping standard _________ .",
+			"Id": "1.1.1.6",
+			"A": "Is permitted to temporarily run on the road",
+			"B": "Is not allowed to run on the road",
+			"C": "May run on the road after being repaired",
+			"D": "May run on the road after the administrative fee is paid",
+			"Answer": "B",
+			"Type": "P"
+		},	
+		{
+			"Q": "The institution allowed to confiscate and detain motorized vehicle driving licenses is the _____________.",
+			"Id": "1.1.1.7",
+			"A": "Department in charge of road transport administration",
+			"B": "Traffic control department of the public security organ",
+			"C": "Department in charge of industrial and commercial administration",
+			"D": "Tax department",
+			"Answer": "B",
+			"Type": "P"
+		},	
+		{
+			"Q": "When driving a motorized vehicle on the road, the driver _____________.",
+			"Id": "1.1.1.8",
+			"A": "May not bring the driving license with him",
+			"B": "May not bring the vehicle license with him",
+			"C": "Must bring the driving license, the vehicle license and the label of mandatory insurance with him",
+			"D": "Should bring the certificate of ex-factory inspection or the certificate of import with him",
+			"Answer": "C",
+			"Type": "P"
+		},	
+		{
+			"Q": "Before driving a motorized vehicle on the road, the driver should carefully check the __________ of the vehicle.",
+			"Id": "1.1.1.9",
+			"A": "Safety and technical conditions",
+			"B": "Overall structure",
+			"C": "All parts",
+			"D": "Gear oil",
+			"Answer": "A",
+			"Type": "P"
+		},	
+	
+
+
+
+
+
+
+
+	
+	
+		{
 			"Q": "The sign in the picture is _______.",
 			"Id": "2.2.1.1",
 			"A": "A warning sign",
