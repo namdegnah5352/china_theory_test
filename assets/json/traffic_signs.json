@@ -293,8 +293,8 @@
 			"C": "Protect the legitimate rights and interests of the citizens",
 			"D": "Reduce traffic accidents",
 			"Answer": "C",
-			"Type": "P"
-		},	
+			"Type": "N"
+		},
 		{
 			"Q": "A motorized vehicle can run on the road only after it has been registered with the _________________.",
 			"Id": "1.1.1.2",
@@ -303,8 +303,8 @@
 			"C": "Department in charge of industrial and commercial administration",
 			"D": "Tax department",
 			"Answer": "B",
-			"Type": "P"
-		},	
+			"Type": "N"
+		},
 		{
 			"Q": "An unregistered motorized vehicle should _________________ if it has to run on the road temporarily.",
 			"Id": "1.1.1.3",
@@ -313,8 +313,8 @@
 			"C": "Directly go and run on the road",
 			"D": "Paste a certificate of inspection on the window",
 			"Answer": "A",
-			"Type": "P"
-		},	
+			"Type": "N"
+		},
 		{
 			"Q": "When applying for motorized vehicle registration, the certificate or document the vehicle owner does not have to present is the ___________________.",
 			"Id": "1.1.1.4",
@@ -323,8 +323,8 @@
 			"C": "Certificate of ex-factory inspection or the certificate of import for the motorized vehicle",
 			"D": "Certificate of vehicle purchase tax payment or exemption",
 			"Answer": "A",
-			"Type": "P"
-		},	
+			"Type": "N"
+		},
 		{
 			"Q": "If _______, a motorized vehicle does not need the relevant registration.",
 			"Id": "1.1.1.5",
@@ -333,8 +333,8 @@
 			"C": "It is under overhaul",
 			"D": "It has been scrapped.",
 			"Answer": "C",
-			"Type": "P"
-		},	
+			"Type": "N"
+		},
 		{
 			"Q": "A motorized vehicle reaching the scrapping standard _________ .",
 			"Id": "1.1.1.6",
@@ -343,8 +343,8 @@
 			"C": "May run on the road after being repaired",
 			"D": "May run on the road after the administrative fee is paid",
 			"Answer": "B",
-			"Type": "P"
-		},	
+			"Type": "N"
+		},
 		{
 			"Q": "The institution allowed to confiscate and detain motorized vehicle driving licenses is the _____________.",
 			"Id": "1.1.1.7",
@@ -353,8 +353,8 @@
 			"C": "Department in charge of industrial and commercial administration",
 			"D": "Tax department",
 			"Answer": "B",
-			"Type": "P"
-		},	
+			"Type": "N"
+		},
 		{
 			"Q": "When driving a motorized vehicle on the road, the driver _____________.",
 			"Id": "1.1.1.8",
@@ -363,8 +363,8 @@
 			"C": "Must bring the driving license, the vehicle license and the label of mandatory insurance with him",
 			"D": "Should bring the certificate of ex-factory inspection or the certificate of import with him",
 			"Answer": "C",
-			"Type": "P"
-		},	
+			"Type": "N"
+		},
 		{
 			"Q": "Before driving a motorized vehicle on the road, the driver should carefully check the __________ of the vehicle.",
 			"Id": "1.1.1.9",
@@ -373,18 +373,2648 @@
 			"C": "All parts",
 			"D": "Gear oil",
 			"Answer": "A",
-			"Type": "P"
-		},	
-	
+			"Type": "N"
+		},
+		{
+			"Q": "The motorized vehicle driver __________________.",
+			"Id": "1.1.1.10",
+			"A": "May drive at will when there is no traffic signal",
+			"B": "Should drive according to the traffic rules and in a safe and courteous manner",
+			"C": "May drive at will when there is no traffic police",
+			"D": "May drive according to his habit",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The driver may drive a motorized vehicle __________________.",
+			"Id": "1.1.1.11",
+			"A": "After drinking alcohol",
+			"B": "When he suffers from a disease that impedes safe driving",
+			"C": "When he is exhausted",
+			"D": "After drinking tea",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "The traffic control department of the public security organ detains the driving license of a motorized vehicle and ______________ if the driver’s accumulated penalty points reach the stipulated limit.",
+			"Id": "1.1.1.12",
+			"A": "Educated him on the law and regulations on road traffic safety",
+			"B": "Detains the motorized vehicle",
+			"C": "Revoked the vehicle license",
+			"D": "Imposed administrative detention",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "___________ of the following are not road traffic signals.",
+			"Id": "1.1.1.13",
+			"A": "Traffic lights",
+			"B": "Traffic bulletin board",
+			"C": "Command of the traffic police",
+			"D": "Traffic signs",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "___________ of the following are not road traffic signals.",
+			"Id": "1.1.1.14",
+			"A": "Warning lights",
+			"B": "Traffic signs",
+			"C": "Command of the traffic police",
+			"D": "Traffic markings",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "The illustrated hand signal of the traffic police indicates that the vehicles should _______________.",
+			"Id": "1.1.1.15",
+			"A": "Turn Right",
+			"B": "Go straight",
+			"C": "Turn left",
+			"D": "Pull over",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The illustrated hand signal of the traffic police indicates that the vehicles should _______________.",
+			"Id": "1.1.1.16",
+			"A": "Go straight",
+			"B": "Turn Right sharply",
+			"C": "Turn left sharply",
+			"D": "Pull over",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "The illustrated hand signal of the traffic police indicates that the vehicle violating the traffic rules should __________________.",
+			"Id": "1.1.1.17",
+			"A": "Pull over",
+			"B": "Turn Right",
+			"C": "Turn left",
+			"D": "Go straight",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving a motorized vehicle, the driver must obey the principle of _______.",
+			"Id": "1.1.1.18",
+			"A": "Right-hand driving",
+			"B": "Left-hand driving",
+			"C": "Inner lane driving",
+			"D": "Middle lane driving",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.19",
+			"Q": "On the road not divided into the lane for motorized vehicles, the lane for non-motorized vehicles and the sidewalk, the motorized vehicles should run ___________.",
+			"A": "On both sides of the road",
+			"B": "In the middle of the road",
+			"C": "According to lanes",
+			"D": "At will",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When there is a traffic police on the spot to direct traffic, the motorized vehicle should run according to_____.",
+			"Id": "1.1.1.20",
+			"A": "Road signs",
+			"B": "Traffic lights",
+			"C": "Command of the traffic police",
+			"D": "Road markings",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When running on the road having no traffic signs or markings, the motorized vehicle should _____________.",
+			"Id": "1.1.1.21",
+			"A": "Drive at will",
+			"B": "Speed up",
+			"C": "Stop and look around before going ahead",
+			"D": "Pass if it is safe to do so and the traffic is not obstructed",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When running on the road having maximum speed limit signs, the motorized vehicle _______________.",
+			"Id": "1.1.1.22",
+			"A": "Is not allowed to exceed the marked maximum speed",
+			"B": "Is allowed to exceed the marked maximum speed by 10%",
+			"C": "May run faster than the designed maximum speed of the vehicle",
+			"D": "Should run at the stipulated maximum speed",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When running in the road section having no speed limit signs, the motorized vehicle _____________.",
+			"Id": "1.1.1.23",
+			"A": "Should run at the designed maximum speed of the vehicle",
+			"B": "Is not subject to speed limit",
+			"C": "Should run at a safe speed",
+			"D": "May run at will",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When running at night or going through a dangerous road section, the motorized vehicle should ________.",
+			"Id": "1.1.1.24",
+			"A": "Run at the designed maximum speed",
+			"B": "Reduce speed and drive carefully",
+			"C": "Maintain the existing speed",
+			"D": "Run faster than the stipulated maximum speed",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When encountering sand, hail, rain, snow, fog, ice and other weather conditions, the vehicle should run ______.",
+			"Id": "1.1.1.25",
+			"A": "At a fairly high speed",
+			"B": "Faster than the stipulated maximum speed",
+			"C": "At the existing speed",
+			"D": "At reduced speed",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.26",
+			"Q": "When going through an intersection that has no traffic lights, traffic signs, traffic markings or traffic police, the motorized vehicle should ______________.",
+			"A": "Go through rapidly",
+			"B": "Reduce speed and go through slowly",
+			"C": "Properly speed up",
+			"D": "Maintain the existing speed",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.27",
+			"Q": "When running through a road section or intersection where lanes are reduced, the motorized vehicle should ___________________.",
+			"A": "Move to another lane and overtake",
+			"B": "Pass alternately",
+			"C": "Speed up and pass",
+			"D": "Jump to another lane and pass",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.28",
+			"Q": "when encountering slow-moving vehicles at an intersection that has no traffic signals, the motorized vehicle should ___________________.",
+			"A": "Move to the Right lane and overtake",
+			"B": "Overtake from the left",
+			"C": "Pass alternately",
+			"D": "Cut in the waiting vehicles",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "when going through a railway crossing with traffic signals, the motorized vehicle should ______________.",
+			"Id": "1.1.1.29",
+			"A": "Pass at the normal speed",
+			"B": "Maintain a safe speed",
+			"C": "Speed up as fast as possible",
+			"D": "Pass according to the traffic signals",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "when going through a railway crossing with managerial personnel, the motorized vehicle should _______.",
+			"Id": "1.1.1.30",
+			"A": "Pass at the normal speed",
+			"B": "Obey the command of the managerial personnel",
+			"C": "Speed up as fast as possible",
+			"D": "Maintain a safe speed",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "when going safely through a railway crossing without traffic signals, the motorized vehicle should _______.",
+			"Id": "1.1.1.31",
+			"A": "Pass at the original speed",
+			"B": "Slow down or stop and look",
+			"C": "Speed up and pass as fast as possible",
+			"D": "Closely follow the vehicle in front",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "when going through a railway crossing without managerial personnel, the motorized vehicle should _______.",
+			"Id": "1.1.1.32",
+			"A": "Go at the original speed",
+			"B": "Closely follow the vehicle in front",
+			"C": "Speed up and pass as fast as possible",
+			"D": "Slow down or stop and look",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "when pedestrians are crossing a crosswalk, the motorized vehicle should _________.",
+			"Id": "1.1.1.33",
+			"A": "Stop and yield",
+			"B": "Bypass",
+			"C": "Honk continuously and pass",
+			"D": "Speed up in advance and pass",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.34",
+			"Q": "when running on a road without traffic signals and encountering pedestrians crossing the road, the motorized vehicle should __________________.",
+			"A": "Honk to urge the pedestrians to go faster",
+			"B": "Speed up and pass",
+			"C": "Reduce speed or stop and yield",
+			"D": "Bypass",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.35",
+			"Q": "when a motorized vehicle has a problem on the road and needs to stop and solve it, the driver should immediately open the hazard warning flash lights and _______________.",
+			"A": "Stop on the spot so as to avoid mechanical breakdown",
+			"B": "Move the vehicle to a place where it does not obstruct the traffic",
+			"C": "Stop the vehicle immediately and place a warning sign in front of it",
+			"D": "Stop the vehicle and immediately report to the police",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.36",
+			"Q": "When a motorized vehicle breaks down on the road and cannot be moved, the driver should first turn on the hazard warning flash lights and _________________.",
+			"A": "Concentrate on solving the problem",
+			"B": "Seek help from the passing vehicles",
+			"C": "Place a warning sign in the coming direction",
+			"D": "Immediately report to the police",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle breaks down on the road and cannot be moved, the driver should first of all ______.",
+			"Id": "1.1.1.37",
+			"A": "Concentrate on solving the problem",
+			"B": "Seek help from the passing vehicles",
+			"C": "Immediately report to the police",
+			"D": "Keep the hazard warning flash lights on",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When the police car, fire engine, ambulance and wrecker are executing an emergency task, other vehicle __.",
+			"Id": "1.1.1.38",
+			"A": "May speed up and join them",
+			"B": "May overtake with care",
+			"C": "May yield depending on circumstances",
+			"D": "Should yield",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When the police car, fire engine, ambulance and wrecker are not executing an emergency task, they _______.",
+			"Id": "1.1.1.39",
+			"A": "Do not have the privileged passing right of way",
+			"B": "Have the privileged passing right of way",
+			"C": "Other vehicles and pedestrians should yield",
+			"D": "May weave through at will",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "when the road maintenance vehicle and the engineering vehicle are on duty, the passing vehicles and people__.",
+			"Id": "1.1.1.40",
+			"A": "May overtake",
+			"B": "Should avoid with care",
+			"C": "May not yield",
+			"D": "Should stick to their respective lanes",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "A Wrong parking by a motorized vehicle means _______________.",
+			"Id": "1.1.1.41",
+			"A": "Should park in the designated place",
+			"B": "No parking in the sidewalk",
+			"C": "Stopping temporarily on the road but not obstructing the passing of other vehicles and pedestrians",
+			"D": "Parking in the lane for non-motorized vehicles",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "The maximum speed indicated by an expressway speed limit sign should be no more than _____________.",
+			"Id": "1.1.1.42",
+			"A": "100km",
+			"B": "110km",
+			"C": "120km",
+			"D": "150km",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.43",
+			"Q": "When a motorized vehicle breaks down on an expressway, the warning sign should be placed ____________ away in the coming direction.",
+			"A": "30 M",
+			"B": "50 M",
+			"C": "100 M",
+			"D": "150 M",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.44",
+			"Q": "When causing a road accident involving human casualties, the driver should ____________, and report to the traffic police on duty or the traffic control department of the public security organ as soon as possible.",
+			"A": "Immediately rescue the injured people",
+			"B": "Move the vehicle to a safe place rapidly",
+			"C": "Leave the scene and discuss compensation on his own",
+			"D": "Check the vehicle damage first",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "When cau",
+			"Q": "ing a road accident involving no human casualties, the parties to the accident should __________________ if they have no dispute over the fact and cause.",
+			"A": "Park the vehicles in the original place, preserve the scene and wait for the traffic police to handle",
+			"B": "Immediately leave the scene and discuss compensation on their own",
+			"C": "Not leave the scene",
+			"D": "Preserve the scene and request the insurance company to assess the damage",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.46",
+			"Q": "When causing a road accident involving only slight property damage and the basic fact is clear, the parties to the accident ___________________.",
+			"A": "Should not leave the scene",
+			"B": "Should report to the police immediately",
+			"C": "Should first leave the scene and then discuss how to solve the problem",
+			"D": "Should park the vehicles in the original place and discuss compensation",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.47",
+			"Q": "A motorized vehicle driver who has violated the provisions on road traffic of the law and regulations on road traffic safety is subject to a warning or ______________.",
+			"A": "A fine of 20 Yuan ~ 200 Yuan",
+			"B": "A fine of 200 Yuan ~ 1,000 Yuan",
+			"C": "A fine of 500 Yuan ~ 2,000 Yuan",
+			"D": "Revocation of the driving license",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.48",
+			"Q": "A motorized vehicle driver who drives after drinking alcohol is subject to the temporary detention of the driving license for __________and also a fine of 200 Yuan ~ 500 Yuan.",
+			"A": "12 months",
+			"B": "6 months",
+			"C": "3~6 months",
+			"D": "1~3 months",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.49",
+			"Q": "A motorized vehicle driver who drives after getting drunk should be restrained by the traffic control department of the public security organ till he sobers up. In addition, the driver is subject to a detention for ________, a temporary detention of his driving license for 3~6 months and a fine of 500 Yuan ~ 2,000 Yuan.",
+			"A": "60 days",
+			"B": "30 days",
+			"C": "More than 15 days",
+			"D": "Less than 15 days",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.50",
+			"Q": "If a motorized vehicle driver violates the provisions on the parking and temporary stopping of motorized vehicles of the law and regulations on road traffic safety, the driver is subject to a fine of __________ if he is not present at the scene and his vehicle obstructs the flow of other vehicles and pedestrians",
+			"A": "10 Yuan ~ 20 Yuan",
+			"B": "20 Yuan",
+			"C": "20 Yuan ~ 200 Yuan",
+			"D": "More than 200 Yuan",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.51",
+			"Q": "If a motorized vehicle driver violates the provisions on the parking and temporary stopping of motorized vehicles of the law and regulations on road traffic safety, the driver is subject to a fine of ________ if the driver  is present at the scene but refuses to drive away, and his vehicle obstructs the flow of other vehicles and pedestrians",
+			"A": "20 Yuan ~ 200 Yuan",
+			"B": "20 Yuan",
+			"C": "10 Yuan ~ 20 Yuan",
+			"D": "More than 200 Yuan",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.52",
+			"Q": "If a motorized vehicle on the road has no license plate, the traffic control department of the public security organ should ____________________.",
+			"A": "Detain the driver",
+			"B": "Impose a fine of 200 Yuan ~ 2,000 Yuan",
+			"C": "Impose a fine of more than 2,000 Yuan",
+			"D": "Detain the vehicle",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.53",
+			"Q": "If a motorized vehicle running on the road fails to place a label of inspection, the traffic control department of the public security organ should _______________.",
+			"A": "Revoke the driving license",
+			"B": "Detain the vehicle",
+			"C": "Detain the license plate",
+			"D": "Detain the driver",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.54",
+			"Q": "If a motorized vehicle running on the road fails to place the label of insurance, the traffic control department of the public security organ should _____________________.",
+			"A": "Detain the driver",
+			"B": "Detain the license plate",
+			"C": "Revoke the driving license",
+			"D": "Detain the vehicle",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.55",
+			"Q": "If a motorized vehicle running on the road fails to bring the vehicle license with it, the traffic control department of the public security organ should __________________.",
+			"A": "Revoke the driving license",
+			"B": "Detain the license plate",
+			"C": "Detain the vehicle",
+			"D": "Detain the driver",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.56",
+			"Q": "The motorized vehicle driver who has deliberately covered or stained the license plate is subject to _______ or a fine of 20 Yuan ~ 200 Yuan.",
+			"A": "a 12-point penalty",
+			"B": "a warning",
+			"C": "adetention of the vehicle",
+			"D": "a detention of the driver",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.57",
+			"Q": "A motorized vehicle driver who has failed to install the license plate according to stipulations is subject to ____________ or a fine of 20 Yuan ~ 200 Yuan.",
+			"A": "a 12-point penalty",
+			"B": "a warning",
+			"C": "a detention of the driver",
+			"D": "a detention of the vehicle",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.58",
+			"Q": "If a motorized vehicle driver has falsified or altered vehicle registration papers or has used the falsified or altered vehicle registration papers, the traffic control department of the public security organ should confiscate these papers, ________ and impose a fine of 200 Yuan ~ 2,000 Yuan.",
+			"A": "Revoke the vehicle license",
+			"B": "Revoke the driving license",
+			"C": "Detain the driver",
+			"D": "Detain the vehicle",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.59",
+			"Q": "If a motorized vehicle driver has falsified or altered the license plate or has used the falsified or altered license plate, the traffic control department of the public security organ should _______, detain the vehicle and impose a fine of 200 Yuan ~ 2,000 Yuan.",
+			"A": "Confiscate the license plate",
+			"B": "Revoke the driving license",
+			"C": "Detain the driver",
+			"D": "Revoke the vehicle license",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.60",
+			"Q": "If a motorized vehicle driver has falsified or altered the vehicle license or has used the falsified or altered vehicle license, the traffic control department of the public security organ should confiscate the vehicle license, ___________ and impose a fine of 200 Yuan ~ 2,000 Yuan.",
+			"A": "Confiscate the license plate",
+			"B": "Detain the vehicle",
+			"C": "Detain the driver",
+			"D": "Revoke the driving license",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.61",
+			"Q": "If a motorized vehicle driver has falsified or altered the label of inspection or has used the falsified or altered label of inspection, the traffic control department of the public security organ should confiscate the label of inspection, ________ and impose a fine of 200 Yuan ~ 2,000 Yuan.",
+			"A": "Revoke the vehicle license",
+			"B": "Revoke the driving license",
+			"C": "Detain the vehicle",
+			"D": "Detain the driver",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.62",
+			"Q": "If a motorized vehicle driver has falsified or altered the label of insurance or has used the falsified or altered label of insurance, the traffic control department of the public security organ should confiscate the label of insurance, ________ and impose a fine of 200 Yuan ~ 2,000 Yuan.",
+			"A": "Revoke the vehicle license",
+			"B": "Revoke the driving license",
+			"C": "Detain the driver",
+			"D": "Detain the vehicle",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.63",
+			"Q": "If a motorized vehicle driver has falsified or altered the driving license or has used the falsified or altered driving license, the traffic control department of the public security organ should confiscate the driving license, ___________ and impose a fine of 200 Yuan ~ 2,000 Yuan.",
+			"A": "Revoke the vehicle license",
+			"B": "Confiscate the license plate",
+			"C": "Detain the vehicle",
+			"D": "Detain the driver",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.64",
+			"Q": "If a motorized vehicle driver uses the vehicle registration papers, license plate, vehicle license, label of inspection and label of insurance of other vehicles, the traffic control department of the public security organ should confiscate them, ________ and impose a fine of 200 Yuan ~ 2,000 Yuan.",
+			"A": "Detain the vehicle",
+			"B": "Detain the driver",
+			"C": "Confiscate the license plate",
+			"D": "Revoke the vehicle license",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.65",
+			"Q": "If a motorized vehicle driver has illegally installed siren and marker light, the traffic control department of the public security organ should force him to remove them, confiscate them and impose a fine of ___________.",
+			"A": "100 Yuan ~ 200 Yuan",
+			"B": "200 Yuan ~ 500 Yuan",
+			"C": "200 Yuan ~ 2,000 Yuan",
+			"D": "More than 2,000 Yuan",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.66",
+			"Q": "If a motorized vehicle driver who fails to obtain a driving license drives a motorized vehicle, the traffic control department of the public security organ should impose a fine of ____________.",
+			"A": "100 Yuan ~ 200 Yuan",
+			"B": "200 Yuan ~ 500 Yuan",
+			"C": "200 Yuan ~ 1,000 Yuan",
+			"D": "200 Yuan ~ 2,000 Yuan",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.67",
+			"Q": "If a motorized vehicle driver drives a motorized vehicle when his driving license is temporarily detained, the traffic control department of the public security organ should impose a fine of ____________.",
+			"A": "100 Yuan ~ 200 Yuan",
+			"B": "200 Yuan ~ 500 Yuan",
+			"C": "200 Yuan ~ 2,000 Yuan",
+			"D": "200 Yuan ~ 1,000 Yuan",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.68",
+			"Q": "If a motorized driver who fails to obtain a driving license drives a motorized vehicle, the traffic control department of the public security organ should impose a fine according to the stipulations and may also _____________.",
+			"A": "Detain the driver for less than 15 days",
+			"B": "Revoke the driving license",
+			"C": "Detain the vehicle",
+			"D": "Ban the driver for five years from re-obtaining a driving license",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.69",
+			"Q": "If a motorized driver whose driving license has been revoked drives a motorized vehicle, the traffic control department of the public security organ should impose a fine according to the stipulations and may also __________.",
+			"A": "Revoke the driving license",
+			"B": "Detain the driver for less than 15 days",
+			"C": "Ban the driver for five years from re-obtaining a driving license",
+			"D": "Detain the vehicle",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.70",
+			"Q": "If a motorized vehicle driver drives a motorized vehicle when his driving license is temporarily detained, the traffic control department of the public security organ should impose a fine according to the stipulations and may also ___________.",
+			"A": "Revoke the driving license",
+			"B": "Ban the driver for five years from re-obtaining a driving license",
+			"C": "Detain the driver for less than 15 days",
+			"D": "Detain the vehicle",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.71",
+			"Q": "If a motorized vehicle driver allows his vehicle to be driven by a person who has not obtained a driving license, the traffic control department of the public security organ should impose a fine of __________.",
+			"A": "100 Yuan ~ 200 Yuan",
+			"B": "200 Yuan ~ 500 Yuan",
+			"C": "200 Yuan ~ 2,000 Yuan",
+			"D": "More than 2,000 Yuan",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.72",
+			"Q": "If a motorized vehicle driver allows his vehicle to be driven by a person whose driving license has been revoked or temporarily detained, the traffic control department of the public security organ should impose a fine of _________.",
+			"A": "100 Yuan ~ 200 Yuan",
+			"B": "200 Yuan ~ 500 Yuan",
+			"C": "200 Yuan ~ 1,000 Yuan",
+			"D": "200 Yuan ~ 2,000 Yuan",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.73",
+			"Q": "If a motorized vehicle driver allows his vehicle to be driven by a person who has not obtained a driving license, the traffic control department of the public security organ should impose a fine according to the stipulations and may also _______________.",
+			"A": "Detain the driver for less than 15 days",
+			"B": "Revoke the driving license",
+			"C": "Detain the vehicle",
+			"D": "Ban the driver for five years from re-obtaining a driving license",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.74",
+			"Q": "If a motorized vehicle driver allows his vehicle to be driven by a person whose driving license has been revoked or temporarily detained, the traffic control department of the public security department should impose a fine according to the stipulations and may also ___________________.",
+			"A": "Detain the driver for less than 15 days",
+			"B": "Ban the driver for five years from re-obtaining a driving license",
+			"C": "Detain the vehicle",
+			"D": "Revoke the driving license",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.75",
+			"Q": "If a motorized vehicle driver causes a traffic accident and runs away but his conduct does not constitute a crime, the traffic control department of the public security organ should impose a fine of ____________________.",
+			"A": "100 Yuan ~ 200 Yuan",
+			"B": "200 Yuan ~ 500 Yuan",
+			"C": "200 Yuan ~ 2,000 Yuan",
+			"D": "More than 2,000 Yuan",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.76",
+			"Q": "If a motorized vehicle driver causes a traffic accident and runs away but his conduct does not constitute a crime, the traffic control department of the public security organ should impose a fine according to the stipulations and may also ________________.",
+			"A": "Detain the driver for less than 15 days",
+			"B": "Revoke the driving license",
+			"C": "Detain the vehicle",
+			"D": "Ban the driver for five years from re-obtaining a driving license",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.77",
+			"Q": "If a motorized vehicle runs _________ faster than the specified speed limit, the traffic control department of the public security organ should impose a fine of 200 Yuan ~ 2,000 Yuan.",
+			"A": "10%",
+			"B": "20%",
+			"C": "30%",
+			"D": "50%",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.78",
+			"Q": "If a motorized vehicle runs 50% faster than the specified speed limit, the traffic control department of the public security organ should impose a fine according to the stipulations and may also ________________.",
+			"A": "Detain the driver for less than 15 days",
+			"B": "Revoke the driving license",
+			"C": "Detain the vehicle",
+			"D": "Ban the driver for three years from re-obtaining a driving license",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.79",
+			"Q": "If a motorized vehicle driver forces his way through in violation of the traffic control regulations and refuses to accept dissuasion, the traffic control department of the public security organ should impose a fine of ____.",
+			"A": "100 Yuan ~ 200 Yuan",
+			"B": "200 Yuan ~ 500 Yuan",
+			"C": "200 Yuan ~ 2,000 Yuan",
+			"D": "More than 2,000 Yuan",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.80",
+			"Q": "If a motor vehicle driver has deliberately destroyed, moved or altered traffic facilities and his conduct has caused serious consequences but does not constitute a crime, the traffic control department of the public security organ should impose a fine of ________.",
+			"A": "100 Yuan ~ 200 Yuan",
+			"B": "200 Yuan ~ 500 Yuan",
+			"C": "200 Yuan ~ 1,000 Yuan",
+			"D": "200 Yuan ~ 2,000 Yuan",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.81",
+			"Q": "If a driver drives an illegally assembled motorized vehicle on the road, the driver is subject to a fine of 200 Yuan ~ 2,000 Yuan and _______________.",
+			"A": "Should also be detained",
+			"B": "The driving license should be revoked",
+			"C": "The vehicle license should be revoked",
+			"D": "Also a 12-point penalty",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.82",
+			"Q": "If a driver drives a motorized vehicle on the road, which has reached the write-off standard, the driver is subject to a fine of 200 Yuan ~ 2,000 Yuan and __________.",
+			"A": "Should also be detained",
+			"B": "The vehicle license should be revoked",
+			"C": "The driving license should be revoked",
+			"D": "The driving license should be temporarily detained",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.83",
+			"Q": "If a person sells a motorized vehicle that has reached the write-off standard, his illegal proceeds should be confiscated, a fine equivalent to the proceeds from selling the vehicle should be imposed, the vehicle should be confiscated, and ___________.",
+			"A": "The vehicle purchaser should be detained",
+			"B": "The vehicle seller should be detained",
+			"C": "The driving license of the vehicle purchaser should be revoked",
+			"D": "The vehicle should be arbitrarily written off",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.84",
+			"Q": "If a party fails to perform the decision on administrative punishment, the administrative organ that has made the decision on administrative punishment may ______________.",
+			"A": "Apply to the people’s court for enforcement",
+			"B": "Apply to the people’s procuratorate for enforcement",
+			"C": "Revoke the driving license of the party",
+			"D": "Detain the party for less than 15 days",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.85",
+			"Q": "The person who has violated the road traffic regulations should go to the ________ within 15 days to accept punishment.",
+			"A": "People procuratorate",
+			"B": "People’s court",
+			"C": "Traffic control department of the public security organ",
+			"D": "Department in charge of road transport administration",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.1.86",
+			"Q": "If a person has violated the road traffic regulations and has failed to accept punishment without justification within a time limit, _________.",
+			"A": "The person should be detained for 15 days",
+			"B": "His driving license should be revoked",
+			"C": "His vehicle should be detained",
+			"D": "Be banned for lifetime from re-obtaining a driving license",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.1.2.1",
+			"Q": "The Law of the People’s Republic of China on Road Traffic Safety is enacted to strengthen the administration over the motorized vehicles.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.2",
+			"Q": "All vehicle drivers, pedestrians and passengers on the roads within the People’s Republic of China must abide by the Law of the People’s Republic of China on Road Traffic Safety.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.3",
+			"Q": "All the units and individuals who are related to the road traffic activities within the People’s Republic of China must abide by the Law of the People’s Republic of China on Road Traffic Safety.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.4",
+			"Q": "The pedestrians and passengers on the road should act in reference to the Law of the People’s Republic of China on Road Traffic Safety.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.5",
+			"Q": "A motorized vehicle without a license plate may run on the road.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.6",
+			"Q": "A motorized vehicle without a label of inspection may run on the road.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.7",
+			"Q": "A motorized vehicle without a label of insurance may run on the road.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.8",
+			"Q": "A person who drives a motorized vehicle on the road must bring the vehicle license with the vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.9",
+			"Q": "The license plate of a motorized vehicle should be installed according to the stipulations, should be clear and complete and should not be covered or stained.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.10",
+			"Q": " No unit or individual is allowed to confiscate or detain the license plate of a motorized vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.11",
+			"Q": " If a motorized vehicle has reached the write-off standard, its revocation registration must be handled in a timely manner.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.12",
+			"Q": " Siren or marker light may be installed on a motorized vehicle according to personal need.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.13",
+			"Q": " No unit or individual is allowed to illegally assemble a motorized vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.14",
+			"Q": "A professional repair enterprise may change the model number, engine number and the chassis number of a motorized vehicle.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.15",
+			"Q": "A professional repair enterprise may change the vehicle identification code.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.16",
+			"Q": "No unit or individual is allowed to falsify or alter the registration papers, license plate, vehicle license, label of inspection and label of insurance of a motorized vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.17",
+			"Q": "If approved by a transport enterprise, the altered registration papers, license plate, vehicle license, label of inspection and label of insurance may of a motorized vehicle may be used.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.18",
+			"Q": "A unit or individual may temporarily use the label of inspection and the label of insurance of another motorized vehicle on the road.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.19",
+			"Q": "A transport enterprise may internally redistribute the labels of inspection and the labels of insurance of motorized vehicles on the road.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.20",
+			"Q": "A motorized vehicle driver may drive a motorized vehicle on the road only after he has passed the tests administered by the traffic control department of the public security organ and obtained the driving license.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.21",
+			"Q": "If a person who has a foreign driving license for motorized vehicle and has passed the tests administered by the traffic control department of the public security organ, a Chinese driving license for motorized vehicle may be issued to him.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.22",
+			"Q": "Nobody is allowed to drive a motorized vehicle that has safety hazards such as incomplete safety devices or technically substandard components",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.23",
+			"Q": "A person who drinks alcohol but is not drunk may drive a motorized vehicle.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.24",
+			"Q": "Uniformed road traffic signals are used nationwide.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.25",
+			"Q": "Driving a motorized vehicle should observe the left-hand driving principle.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.26",
+			"Q": "If a road is divided into the lane for motorized vehicles, the lane for non-motorized vehicles and the lane for pedestrians, the motorized vehicles, the non-motorized vehicles and the pedestrians should use the lanes designed respectively for them.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.27",
+			"Q": "If a road has a special lane, other vehicles may use the special lane for overtaking.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.28",
+			"Q": "A small motorized vehicle may overtake a police car performing an emergency task.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.29",
+			"Q": "Motorized vehicles are not allowed to overtake at the intersections.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.30",
+			"Q": "When a motorized vehicle passes a curve, it may overtake rapidly if no accident will occur.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.31",
+			"Q": "otorized vehicles should pass the intersections according to the traffic signals.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.32",
+			"Q": "When a road maintenance vehicle or an engineering vehicle is operating, other vehicles do not have to yield.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.33",
+			"Q": "When a motorized vehicle temporarily stops on the road, it should not obstruct the flow of other vehicles and pedestrians.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.34",
+			"Q": "A motorized vehicle whose designed maximum speed is less than 70km is allowed to enter the expressways.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.35",
+			"Q": "When a motorized vehicle breaks down on the expressway, the persons on board should swiftly move to the front of the vehicle for hiding.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.36",
+			"Q": "If a motorized vehicle breaks down or causes a traffic accident on the expressway and cannot to run normally, the vehicle should be towed by a rescue vehicle or a tow truck.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.37",
+			"Q": "When a road accident causes human casualties and the vehicle driver needs to change the scene for rescuing the wounded, the driver should mark the location.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.38",
+			"Q": "The punishments against the violations of the regulations on road traffic safety include warning, fine, temporary detention or revocation of the driving license, and detention.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.39",
+			"Q": " driver may drive on the road an illegally assembled motorized vehicle or a motorized vehicle reaching the scrapped standard.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.40",
+			"Q": "If a person who has violated the provisions of the law and regulations on road traffic safety and has caused a major traffic accident and if his act constitutes a crime, he should be held for criminal liabilities according to law and his driving license should be revoked by the traffic control department of the public security organ.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.41",
+			"Q": "If a person has caused a traffic accident and run away, the traffic control department of the public security organ should revoke his driving license and ban him for lifetime from re-obtaining a driving license.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.42",
+			"Q": "If a party fails to pay the fine within the time limit, the administrative organ that has made the decision on administrative punishment may impose an additional fine at the daily rate of 3% of the original fine.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.43",
+			"Q": "The “roads” mentioned in the Law of the People’s Republic of China on Road Traffic Safety refer to the highways, urban roads and the places that are within the jurisdiction of the units but allow the passing of social motorized vehicles.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.44",
+			"Q": "Squares, public parking lots and other places for public passing do not belong to the “roads” mentioned in the Law of the People’s Republic of China on Road Traffic Safety.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.1.2.45",
+			"Q": "The “road accidents” mentioned in the Law of the People’s Republic of China on Road Traffic Safety refer to the incidents on the road that are caused by faults or accidents and have caused human casualties or property losses.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Q": "The registration of motorized vehicles excludes the registration of ________.",
+			"Id": "1.2.1.1",
+			"A": "Loss",
+			"B": "Registration",
+			"C": "Alternation",
+			"D": "Revocation",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.2",
+			"Q": "If the residence of the owner of a registered motorized vehicle moves out of the area under the jurisdiction of the traffic control department of the public security organ, the vehicle owner should apply to the traffic control department of the public security organ that has registered the vehicle for ___________ registration.",
+			"A": "Registration",
+			"B": "Transfer",
+			"C": "Alternation",
+			"D": "Revocation",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.3",
+			"Q": "If the residence of the owner of a registered motorized vehicle moves into the area under the jurisdiction of the traffic control department of the public security organ, the vehicle owner should apply to the traffic control department of the public security organ that has registered the vehicle for __________ registration.",
+			"A": "Registration",
+			"B": "Transfer",
+			"C": "Revocation",
+			"D": "Alternation",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.4",
+			"Q": "When applying for the transfer registration of a motorized vehicle, the certificate or document the party does not have to provide to the traffic control department of the public security organ that registers this vehicle is ______________.",
+			"A": "The driving license",
+			"B": "The party’s ID card",
+			"C": "The vehicle license",
+			"D": "The certificate and document on the transfer of the ownership of the vehicle",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.5",
+			"Q": "f a registered motorized vehicle reaches the state’s mandatory write-off standard, the owner of the vehicle should ____________ before the expiration of the write-off period.",
+			"A": "Sell it to the waste recycling station",
+			"B": "Sell to the vehicle recycling enterprise",
+			"C": "Hand it over to the traffic control department of the public security organ",
+			"D": "Hand it over to the department in charge of road transport administration",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.6",
+			"Q": "If a registered motorized vehicle reaches the state’s mandatory write-off standard, ______ should present the registration paper, license plate and vehicle license of the written-off vehicle to the traffic control department of the public security organ for revocation.",
+			"A": "The owner",
+			"B": "The driver",
+			"C": "The recycling enterprise",
+			"D": "The safety and technical inspection institution",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.7",
+			"Q": "If the registration paper, license plate and vehicle license of a motorized vehicle are lost or destroyed and the vehicle owner applies for reissuing them, the owner should provide his ID card and application materials to the _______________.",
+			"A": "The transport department",
+			"B": "The traffic control department of the public security organ",
+			"C": "The department in charge of industrial and commercial administration",
+			"D": "The insurance company",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "Painting and pasting signs or advertisements on the motorized vehicles should observe the principle that ____.",
+			"Id": "1.2.1.8",
+			"A": "The painting and pasting can be done at will",
+			"B": "The painting and pasting are mainly for artistic consideration",
+			"C": "The painting and pasting should not affect safe driving",
+			"D": "The painting and pasting should be done according to customer requests",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.9",
+			"Q": "he small and mini non-commercial passenger vehicles should be inspected once every two years within __________ as from the date of registration.",
+			"A": "2 years",
+			"B": "3 years",
+			"C": "4 years",
+			"D": "6 years",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.10",
+			"Q": "The small and mini non-commercial passenger vehicles should be inspected once every ________ from the 6th to the 15th year as from the date of registration.",
+			"A": "6 months",
+			"B": "1 year",
+			"C": "2 years",
+			"D": "3 years",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "______ after a motorized vehicle driver obtains his driving license for the first time is his period of probation.",
+			"Id": "1.2.1.11",
+			"A": "3 months",
+			"B": "6 months",
+			"C": "12 months",
+			"D": "24 months",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "The motorized vehicle driver is not allowed to drive __________ during his period of probation.",
+			"Id": "1.2.1.12",
+			"A": "Small vehicle",
+			"B": "Taxicab",
+			"C": "Vehicle with automatic transmission",
+			"D": "Three-wheeled automobile",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The period of validity of a motorized vehicle driving license is respectively ____, 10 years and lifelong.",
+			"Id": "1.2.1.13",
+			"A": "1 year",
+			"B": "2 years",
+			"C": "5 years",
+			"D": "6 years",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "The cycle for recording the accumulated penalty points for violating road traffic safety regulations is ____.",
+			"Id": "1.2.1.14",
+			"A": "3 months",
+			"B": "6 months",
+			"C": "12 months",
+			"D": "24 months",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.15",
+			"Q": "If the accumulated penalty points of a motorized vehicle driver reach 12 points and the driver refuses to participate in the study course notified by the traffic control department of the public security organ and also refuses to take tests, the traffic control department of the public security organ _______________.",
+			"A": "Should publicly announce that his driving license should no longer be used",
+			"B": "Should detain his driving license",
+			"C": "Should revoke his driving license",
+			"D": "Impose a double fine on him",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motor vehicle enters the lane for non-motorized vehicles, the maximum speed should be no more than",
+			"Id": "1.2.1.26",
+			"A": "30km",
+			"B": "40km",
+			"C": "50km",
+			"D": "60km",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motor vehicle leaves the lane for non-motorized vehicles, the maximum speed should be no more than",
+			"Id": "1.2.1.27",
+			"A": "60km",
+			"B": "50km",
+			"C": "40km",
+			"D": "30km",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motor vehicle passes a level crossing, the maximum speed should be no more than _____________.",
+			"Id": "1.2.1.28",
+			"A": "50km",
+			"B": "60km",
+			"C": "30km",
+			"D": "40km",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motor vehicle passes sharp curve, the maximum speed should be no more than ________________.",
+			"Id": "1.2.1.29",
+			"A": "30km",
+			"B": "40km",
+			"C": "50km",
+			"D": "60km",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motor vehicle passes a narrow road, the maximum speed should be no more than _________.",
+			"Id": "1.2.1.30",
+			"A": "50km",
+			"B": "60km",
+			"C": "30km",
+			"D": "40km",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When vehicle passes a narrow bridge, the maximum speed should be no more than _______________.",
+			"Id": "1.2.1.31",
+			"A": "50km",
+			"B": "30km",
+			"C": "60km",
+			"D": "40km",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motor vehicle goes down a slope, the maximum speed should be no more than __________.",
+			"Id": "1.2.1.32",
+			"A": "30km",
+			"B": "40km",
+			"C": "50km",
+			"D": "60km",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motor vehicle makes a U turn, the maximum speed should be no more than _____________.",
+			"Id": "1.2.1.33",
+			"A": "50km",
+			"B": "40km",
+			"C": "30km",
+			"D": "60km",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motor vehicle makes a turn, the maximum speed should be no more than _____________.",
+			"Id": "1.2.1.34",
+			"A": "60km",
+			"B": "50km",
+			"C": "40km",
+			"D": "30km",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motor vehicle pulls a breakdown motorized vehicle, the maximum speed should be no more than ____.",
+			"Id": "1.2.1.35",
+			"A": "30km",
+			"B": "40km",
+			"C": "50km",
+			"D": "60km",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle overtakes, it ______________.",
+			"Id": "1.2.1.36",
+			"A": "Should overtake from the right side of the vehicle in front",
+			"B": "Should overtake from the left side of the vehicle in front",
+			"C": "May overtake from both sides of the vehicle in front",
+			"D": "May not obey the speed limit",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When motorized vehicles cross each other on a narrow bridge, they should _________.",
+			"Id": "1.2.1.40",
+			"A": "Speed up and pass",
+			"B": "Reduce speed and pass on the right -hand side",
+			"C": "Refuse to yield to the other side",
+			"D": "Reduce speed and pass in the middle",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "If there is an obstacle on one side of a road where two vehicles cross each other, ________ should go first.",
+			"Id": "1.2.1.41",
+			"A": "The vehicle that has no obstacle in front",
+			"B": "The vehicle that has no conditions to yield",
+			"C": "The vehicle that has obstacle in front",
+			"D": "The faster vehicle",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When motorized vehicles cross each other on a narrow slope, the correct method is to allow ___ to go first.",
+			"Id": "1.2.1.42",
+			"A": "The vehicle going up the slope",
+			"B": "The vehicle far from the top of the slope",
+			"C": "The vehicle going down the slope",
+			"D": "The vehicle going up the slope should go first, if the one going down the slope is halfway on the slope and the one to go up the slope has not begun going up the slope",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "The place where a U turn is allowed for motorized vehicles is ____________.",
+			"Id": "1.2.1.44",
+			"A": "A level crossing",
+			"B": "A crosswalk",
+			"C": "A tunnel",
+			"D": "A roundabout",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "At an intersection that has no directional traffic lights, _________________.",
+			"Id": "1.2.1.46",
+			"A": "The motorized vehicle that will turn should yield to the vehicle that will go straight",
+			"B": "The motorized vehicle that will go straight should yield to the vehicle that will turn",
+			"C": "The motorized vehicle in the opposite direction that will turn left should yield to the Vehicle that will turn right",
+			"D": "The vehicles should bypass from the left or right side and go through the intersection",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "A motorized vehicle that goes through an intersection without the traffic lights should _______.",
+			"Id": "1.2.1.47",
+			"A": "Yield to the vehicle coming from the left side of the road",
+			"B": "Yield to the vehicle coming from the right side of the road",
+			"C": "The vehicle that turns left should yield to the vehicle that turns right",
+			"D": "The vehicle that goes straight should yield to the turning vehicle",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "A motorized vehicle that encounters a traffic jam at the intersection in front should __________.",
+			"Id": "1.2.1.49",
+			"A": "Stop outside the intersection and wait, instead of entering the intersection",
+			"B": "Bypass from the left side and manage to go through the intersection",
+			"C": "Bypass from the right side and manage to go through the intersection",
+			"D": "Make a U turn immediately and leave in the opposite direction",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle has motorized vehicles stopping and waiting in line in front, the vehicle should ____.",
+			"Id": "1.2.1.50",
+			"A": "Weave through the vehicles in front from both sides",
+			"B": "Overtake the vehicles in front from the left side",
+			"C": "Overtake the vehicles in front from the right side",
+			"D": "Queue up",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle that has motorized vehicles in front moving forward slowly, the vehicle should ___.",
+			"Id": "1.2.1.51",
+			"A": "Weave through the vehicles in front from both sides",
+			"B": "Stop and wait",
+			"C": "Overtake the vehicles in front from both sides",
+			"D": "Follow the vehicles in front",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "A small passenger vehicle ___________ .",
+			"Id": "1.2.1.53",
+			"A": "Is not allowed to pull a trailer",
+			"B": "Is allowed to pull two trailers",
+			"C": "Is allowed to pull a trailer whose total weight does not exceed that of the small passenger vehicle",
+			"D": "Is only allowed to pull a residential trailer or a trailer whose total weight is less than 700 KG",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle turns left, the driver should ____________ in advance.",
+			"Id": "1.2.1.54",
+			"A": "Turn on the left-turn signal",
+			"B": "Turn on the hazard lights",
+			"C": "Turn on the right-turn signal",
+			"D": "Make hand signal to other vehicles",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle changes to the left lane, the driver should __________ in advance.",
+			"Id": "1.2.1.55",
+			"A": "Turn on the left-turn signal",
+			"B": "Turn on the hazard lights",
+			"C": "Continuously honk",
+			"D": "Make hand signals to other vehicles",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "Before a motorized vehicle overtakes, the driver should __________ in advance.",
+			"Id": "1.2.1.56",
+			"A": "Turn on the hazard lights",
+			"B": "Turn on the left-turn signal",
+			"C": "Turn on the right-turn signal",
+			"D": "Make hand signals to other vehicles",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle leaves a place where it has stopped, the driver should ________ in advance.",
+			"Id": "1.2.1.57",
+			"A": "Continuously honk",
+			"B": "Turn on the hazard lights",
+			"C": "Turn on the left-turn signal",
+			"D": "Make hand signals to other vehicles",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle makes a U turn, the driver should __________ in advance.",
+			"Id": "1.2.1.58",
+			"A": "Make hand signals to other vehicles",
+			"B": "Turn on the hazard lights",
+			"C": "Turn on the right-turn signal",
+			"D": "Turn on the left-turn signal",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle turns right, it should _______ in advance.",
+			"Id": "1.2.1.61",
+			"A": "Turn on the hazard lights",
+			"B": "Make hand signals to other vehicles",
+			"C": "Turn on the left-turn signal",
+			"D": "Turn on the right-turn signal",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle changes to a right lane, the driver should __________ in advance.",
+			"Id": "1.2.1.62",
+			"A": "Turn on the right-turn signal",
+			"B": "Make hand signals to other vehicles",
+			"C": "Turn on the hazard lights",
+			"D": "Turn on the left-turn light",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle returns to the original lane after overtaking, the driver should ________ in advance.",
+			"Id": "1.2.1.63",
+			"A": "Turn on the hazard lights",
+			"B": "Turn on the right-turn signal",
+			"C": "Make hand signals to other vehicles",
+			"D": "Turn on the left-turn signal",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle pulls over, the driver should ______ in advance.",
+			"Id": "1.2.1.64",
+			"A": "Turn on the hazard lights",
+			"B": "Make hand signals to other vehicles",
+			"C": "Turn on the right-turn signal",
+			"D": "Turn on the left-turn signal",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle runs in a foggy weather, the driver should turn on the fog light and ______.",
+			"Id": "1.2.1.65",
+			"A": "The hazard lights",
+			"B": "The directional signal",
+			"C": "The high beam light",
+			"D": "The low beam light",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle runs at night and the street lighting is poor, the driver should turn on ________.",
+			"Id": "1.2.1.67",
+			"A": "The head light, the contour light and the tail light",
+			"B": "The fog light",
+			"C": "The hazard lights",
+			"D": "The contour light",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle goes through an intersection that has no traffic lights, the driver should __________.",
+			"Id": "1.2.1.70",
+			"A": "Use the high beam light",
+			"B": "Use the low beam light",
+			"C": "Use the hazard lights",
+			"D": "Use the high and low beam lights alternately to indicate the intention",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When using a soft connection to pull a vehicle, the distance between the puller and the pulled should be _____.",
+			"Id": "1.2.1.73",
+			"A": "Less than 0.5 meters",
+			"B": "Less than 4 meters",
+			"C": "4 meters ~ 10 meters",
+			"D": "More than 10 meters",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When pulling a breakdown motorized vehicle, both the puller and the pulled should turn on _____________.",
+			"Id": "1.2.1.74",
+			"A": "The front high beam light",
+			"B": "The lift-turn signal",
+			"C": "The right -turn signal",
+			"D": "The hazard lights",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "To pull a vehicle suffering _________, a hard pulling device should be used.",
+			"Id": "1.2.1.75",
+			"A": "Engine damage",
+			"B": "Braking failure",
+			"C": "Horn failure",
+			"D": "Steering failure",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "To pull a breakdown motorized vehicle suffering steering failure, _______ should be used.",
+			"Id": "1.2.1.76",
+			"A": "A special tow truck",
+			"B": "A soft connection",
+			"C": "A special wheeled machinery",
+			"D": "A hard connection",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "To pull a breakdown motorized vehicle suffering lighting and signaling failures, _________ should be used.",
+			"Id": "1.2.1.77",
+			"A": "A soft connection",
+			"B": "A special tow truck",
+			"C": "A special wheeled machinery",
+			"D": "A hard connection",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving a motorized vehicle downhill, the driver ____.",
+			"Id": "1.2.1.78",
+			"A": "May coast down by stopping the engine",
+			"B": "May coast down by using the neutral gear and not stopping the engine",
+			"C": "May coast down by using the neutral gear",
+			"D": "Should not coast down by using the neutral gear or stopping the engine",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "A motorized vehicle is not allowed to stop __________ to an intersection.",
+			"Id": "1.2.1.82",
+			"A": "20 meters",
+			"B": "30 meters",
+			"C": "40 meters",
+			"D": "50 meters",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "A motorized vehicle is not allowed to stop _______ to a curve.",
+			"Id": "1.2.1.83",
+			"A": "50 meters",
+			"B": "40 meters",
+			"C": "30 meters",
+			"D": "20 meters",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "A motorized vehicle _________ 50 meters to a narrow road.",
+			"Id": "1.2.1.84",
+			"A": "Should speed up and pass",
+			"B": "Should speed up",
+			"C": "Should stop",
+			"D": "Should not stop",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "A motorized vehicle is not allowed to stop ______ to a steep slope.",
+			"Id": "1.2.1.85",
+			"A": "50 meters",
+			"B": "40 meters",
+			"C": "30 meters",
+			"D": "20 meters",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "A motorized vehicle is not allowed to stop ____ to a tunnel.",
+			"Id": "1.2.1.86",
+			"A": "20 meters",
+			"B": "30 meters",
+			"C": "40 meters",
+			"D": "50 meters",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "A motorized vehicle is not allowed to stop in the section ____ to the first-aid station.",
+			"Id": "1.2.1.88",
+			"A": "5 meters",
+			"B": "10 meters",
+			"C": "20 meters",
+			"D": "30 meters",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "A motorized vehicle is not allowed to stop in the section ______ to the fire hydrant or the fire brigade (station).",
+			"Id": "1.2.1.90",
+			"A": "5 meters",
+			"B": "10 meters",
+			"C": "20 meters",
+			"D": "30 meters",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "A motorized vehicle ______ in the crosswalk.",
+			"Id": "1.2.1.93",
+			"A": "May stop temporarily",
+			"B": "May stop at will",
+			"C": "May stop for a long time",
+			"D": "Is not allowed to stop",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "A non-construction motorized vehicle _________ in the construction section.",
+			"Id": "1.2.1.94",
+			"A": "Is not allowed to stop",
+			"B": "May stop at will",
+			"C": "May stop for a long time",
+			"D": "May stop temporarily",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "If an expressway has two lanes in the same direction, the minimum speed for the left lane is ________ per hour.",
+			"Id": "1.2.1.96",
+			"A": "60km",
+			"B": "80km",
+			"C": "90km",
+			"D": "100km",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle enters an expressway, it is _________.",
+			"Id": "1.2.1.118",
+			"A": "Can overtake in the ramp, the acceleration lane and the deceleration lane.",
+			"B": "not allowed to reverse, drive in the opposite direction or make a U turn by crossing the central dividing strip",
+			"C": "May drive in the emergency in a non-emergency case",
+			"D": "May test the vehicle or learn to drive",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle enters an expressway, it _______.",
+			"Id": "1.2.1.119",
+			"A": "May drive by riding or rolling on the lane dividing line",
+			"B": "May drive on the road shoulder",
+			"C": "Is not allowed to overtake in the ramp, the acceleration lane or the deceleration lane",
+			"D": "May learn to drive",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle runs on an expressway, it ________.",
+			"Id": "1.2.1.120",
+			"A": "May stop on the road shoulder to let passengers on and off",
+			"B": "May stop in the emergency lane to load and unload cargos",
+			"C": "May overtake or stop in the acceleration or deceleration lane",
+			"D": "Is not allowed to drive or stop in the emergency lane in a non-emergency case",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "The driver assumes full liability for a traffic accident if ______.",
+			"Id": "1.2.1.123",
+			"A": "The accident is caused by the fault of a pedestrian",
+			"B": "The accident is caused by the fault of a non-motorized vehicle",
+			"C": "The driver deliberately damages or falsifies the scene and destroys the evidence",
+			"D": "The accident is caused due to the violation of the traffic regulations by another motorized vehicle",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.16",
+			"Q": "If a motorized vehicle driving license is lost or destroyed and the motorized vehicle driver applies for reissuing it, the driver should provide his ID card and application materials to the _________.",
+			"A": "The transport department",
+			"B": "The traffic control department of the public security organ",
+			"C": "The department in charge of industrial and commercial administration",
+			"D": "The local police station",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.17",
+			"Q": "When there is no speed limit sign or marking, the maximum speed for motorized vehicles on an urban road without the central dividing line is ________.",
+			"A": "30km",
+			"B": "40km",
+			"C": "50km",
+			"D": "70km",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.18",
+			"Q": "When there is no speed limit sign or marking, the maximum speed for motorized vehicles on a highway without the central dividing line is ________.",
+			"A": "30km",
+			"B": "40km",
+			"C": "50km",
+			"D": "70km",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.19",
+			"Q": "When there is no speed limit sign or marking, the maximum speed for motorized vehicles on an urban road with only one lane for motorized vehicles in the same direction is ______________.",
+			"A": "30km",
+			"B": "40km",
+			"C": "50km",
+			"D": "70km",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.20",
+			"Q": "When there is no speed limit sign or marking, the maximum speed for motorized vehicles on a highway with only one lane for motorized vehicles in the same direction is ___________.",
+			"A": "30km",
+			"B": "40km",
+			"C": "50km",
+			"D": "70km",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.21",
+			"Q": "In a foggy weather with a visibility of less than 50 meters, the maximum speed for motor vehicles should be no more than ________________.",
+			"A": "45km",
+			"B": "30km",
+			"C": "50km",
+			"D": "60km",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.22",
+			"Q": "In a rainy weather with a visibility of less than 50 meters, the maximum speed for motor vehicles should be no more than ____________.",
+			"A": "30km",
+			"B": "45km",
+			"C": "50km",
+			"D": "60km",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.23",
+			"Q": "In a snowy weather with a visibility of less than 50 meters, the maximum speed for motor vehicles should be no more than ______________.",
+			"A": "60km",
+			"B": "50km",
+			"C": "45km",
+			"D": "30km",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.24",
+			"Q": "In a dusty weather with a visibility of less than 50 meters, the maximum speed for motor vehicles should be no more than _____________.",
+			"A": "45km",
+			"B": "30km",
+			"C": "50km",
+			"D": "60km",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.25",
+			"Q": "In a hailing weather with a visibility of less than 50 meters, the maximum speed for motor vehicles should be no more than _____________.",
+			"A": "30km",
+			"B": "45km",
+			"C": "50km",
+			"D": "60km",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.37",
+			"Q": "When a following vehicle gives overtaking signals on a road without a central dividing line, the vehicle in front should __________.",
+			"A": "Maintain the original speed",
+			"B": "Speed up",
+			"C": "Immediately stop and yield",
+			"D": "Reduce speed, move to the side and yield if conditions permit",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.38",
+			"Q": "When a following vehicle gives overtaking signals on a road with only one lane for motorized vehicles in the same direction, the vehicle in front should __________.",
+			"A": "Reduce speed if conditions permit",
+			"B": "Speed up right",
+			"C": "Stop in a timely manner",
+			"D": "Maintain the normal speed",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.39",
+			"Q": "When motorized vehicles have difficulty in crossing each other on a narrow mountain road, ____________ should go first.",
+			"A": "The fast-moving vehicle",
+			"B": "The loaded vehicle",
+			"C": "The vehicle close to the mountain",
+			"D": "The vehicle not close to the mountain",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.43",
+			"Q": "When crossing each other at night, the vehicle should change to the low beam light at a distance of _________ from the coming vehicle.",
+			"A": "Less than 50 meters",
+			"B": "More than 150 meters",
+			"C": "Less 30 meters",
+			"D": "Less than 100 meters",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.45",
+			"Q": "A motorized vehicle that will turn right at an intersection but has a vehicle in front in the same lane waiting for the green light should ______________.",
+			"A": "Bypass the vehicle in front from the left side and go through the intersection",
+			"B": "Honk to indicate the vehicle in front to yield",
+			"C": "ypass the vehicle in front from the right side and go through the intersection",
+			"D": "Stop and wait for his turn",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.48",
+			"Q": "When the motorized vehicles go through an intersection that has neither traffic lights nor traffic police to direct traffic, the vehicles coming in the opposite directions ___________.",
+			"A": "The vehicle that goes straight should yield to the vehicle that turns left",
+			"B": "The vehicle that turns left should yield to the vehicle that goes straight",
+			"C": "The vehicle that turns right should yield to the vehicle that turns left",
+			"D": "The vehicles may go through as they wish",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.52",
+			"Q": "Except for heavy-duty and midsize trucks, semi-trailers and vehicles carrying containers, the height of the loads on other cargo vehicles should not exceed ___________ from the ground.",
+			"A": "2.5 M",
+			"B": "3.5 M",
+			"C": "4 M",
+			"D": "4.2 M",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.59",
+			"Q": "When a motorized vehicle breaks down or causes a traffic accident at night, obstructs traffic flow and is difficult to move, the driver should turn on ___________, the contour lights and the tail lights.",
+			"A": "The hazard lights",
+			"B": "The high beam light",
+			"C": "The low beam light",
+			"D": "The fog light",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.60",
+			"Q": "When a motorized vehicle turns right, changes to the right lane, returns to the original lane after overtaking or pulls over, the driver should ___________ in advance.",
+			"A": "Turn on the hazard lights",
+			"B": "Make hand signals to other vehicles",
+			"C": "Turn on the right-turn signal",
+			"D": "Turn on the left-turn signal",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.66",
+			"Q": "When a motorized vehicle runs in the night and there are no street lamps, the driver should turn on ______, the contour light and the tail light",
+			"A": "The directional signal",
+			"B": "The fog light",
+			"C": "The hazard lights",
+			"D": "The head lights",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.68",
+			"Q": "When a motorized vehicle runs close to a sharp curve or other sections that affect the safe visibility range, the driver should _______ and honk to indicate the intention.",
+			"A": "Speed up and go forward",
+			"B": "Reduce speed and go slowly",
+			"C": "Use the hazard lights",
+			"D": "Go forward at will",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.69",
+			"Q": "When a motorized vehicle runs close to the top of a slope or other road sections that affect the safe visibility range, the vehicle should ________, and honk to indicate the intention.",
+			"A": "Go forward swiftly",
+			"B": "Use the hazard lights",
+			"C": "Reduce speed and go slowly",
+			"D": "Go forward at will",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.71",
+			"Q": "When a motorized vehicle breaks down on the road in the daytime, obstructs the traffic flow and is difficult to move, the driver should turn on the hazard lights and place a warning sign ____________ behind the vehicle.",
+			"A": "10 meters ~ 20 meters",
+			"B": "20 meters ~ 30 meters",
+			"C": "50 meters ~ 100 meters",
+			"D": "100 meters ~ 150 meters",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.79",
+			"Q": "A driver is not allowed to drive a motorized vehicle for ___ running without stopping the vehicle and having a rest.",
+			"A": "4 hours",
+			"B": "5 hours",
+			"C": "6 hours",
+			"D": "8 hours",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.80",
+			"Q": "If a driver has driven a motorized vehicle for more than four hours running, he should stop the vehicle and rest for at least ____________.",
+			"A": "5 minutes",
+			"B": "10 minutes",
+			"C": "20 minutes",
+			"D": "40 minutes",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.81",
+			"Q": "When a motorized vehicle stops temporarily at a place other than a parking lot, it should __________ but should not obstruct the flow of other vehicles and pedestrians.",
+			"A": "Stop in the lane for non-motorized vehicles",
+			"B": "Stop at the right side of the road in the coming direction",
+			"C": "Stop at the left side of the road in the opposite direction",
+			"D": "Stop at the roadside",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.87",
+			"Q": "The motorized vehicles other than the public transport vehicles are not allowed to stop in the section ______ to the bus stop.",
+			"A": "30 meters",
+			"B": "20 meters",
+			"C": "10 meters",
+			"D": "5 meters",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.89",
+			"Q": "The motorized vehicles other than those using the refueling facilities are not allowed to stop in the section ________ to a gas station.",
+			"A": "30 meters",
+			"B": "20 meters",
+			"C": "10meters",
+			"D": "5 meters",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.91",
+			"Q": "A motorized vehicle ______________ in the section that has a divider between the lane for motorized vehicles and the lane for non-motorized vehicles.",
+			"A": "May stop temporarily",
+			"B": "Is not allowed to stop",
+			"C": "May stop for a long time",
+			"D": "May stop at will",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.92",
+			"Q": "A motorized vehicle _________ in the section that has a divider between the lane for motorized vehicles and the lane for pedestrians.",
+			"A": "May stop temporarily",
+			"B": "May stop at will",
+			"C": "Is not allowed to stop",
+			"D": "May stop for a long time",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.95",
+			"Q": "When a motorized vehicle runs normally on the expressway, the minimum speed should not be less than __ per hour.",
+			"A": "50km",
+			"B": "60km",
+			"C": "70km",
+			"D": "80km",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.97",
+			"Q": "If an expressway has three or more lanes in the same direction, the minimum speed for the far left lane is __________ per hour.",
+			"A": "80km",
+			"B": "90km",
+			"C": "110km",
+			"D": "120km",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.98",
+			"Q": "If an expressway has three or more lanes in the same direction, the minimum speed for the middle lane is ________ per hour.",
+			"A": "80km",
+			"B": "90km",
+			"C": "100km",
+			"D": "110km",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.99",
+			"Q": "When a motorized vehicle runs from the ramp to the expressway, it should turn on _______ and enters the carriageway unless it does not obstruct the normal running of the motorized vehicles already on the expressway.",
+			"A": "The left-turn signal",
+			"B": "The right -turn signal",
+			"C": "The hazard lights",
+			"D": "The head light",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.100",
+			"Q": "When a motorized vehicle leaves the expressway, it should turn on _____, changes to the speed-reducing lane and reduce the speed before it leaves.",
+			"A": "The left-turn signal",
+			"B": "The Right -turn signal",
+			"C": "The hazard lights",
+			"D": "The head lights",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.101",
+			"Q": "When a motorized vehicle runs on the expressway at the speed of more than 100km per hour, it should keep a distance of ________ with the vehicle in front in the same lane.",
+			"A": "50 meters",
+			"B": "60 meters",
+			"C": "80 meters",
+			"D": "100 meters",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.102",
+			"Q": "When a motorized vehicle runs on the expressway at a speed of less than 100km per hour, it should keep a properly shorter distance with the vehicle in front in the same lane but the distance should be at least ____",
+			"A": "50 meters",
+			"B": "40 meters",
+			"C": "30 meters",
+			"D": "20 meters",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.103",
+			"Q": "When a motorized vehicle runs on the expressway in foggy and other weather conditions with a visibility range of less than 100 meters, it should keep a distance of ___________ with the vehicle in front in the same lane.",
+			"A": "100 meters",
+			"B": "50 meters",
+			"C": "40 meters",
+			"D": "30 meters",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.104",
+			"Q": "When a motorized vehicle runs on the expressway in rainy and other weather conditions with a visibility range of less than 100 meters, it should keep a distance of ________ with the vehicle in front in the same lane.",
+			"A": "30 meters",
+			"B": "40 meters",
+			"C": "50 meters",
+			"D": "100 meters",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.105",
+			"Q": "When a motorized vehicles runs on the expressway in snowy and other weather conditions with a visibility range of less than 100 meters, it should keep a distance of ________ with the vehicle in front in the same lane.",
+			"A": "100 meters",
+			"B": "50 meters",
+			"C": "40 meters",
+			"D": "30 meters",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.106",
+			"Q": "When a motorized vehicle runs on the expressway in sandy and other weather conditions with a visibility range of less than 100 meters, it should keep a distance of _____ with the vehicle in front in the same lane.",
+			"A": "30 meters",
+			"B": "40 meters",
+			"C": "50 meters",
+			"D": "100 meters",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.10 ",
+			"Q": "hen a motorized vehicle runs on the expressway in hailing and other weather conditions with a visibility range of less than 100 meters, it should keep a distance of ________ with the vehicle in front in the same lane.",
+			"A": "30 meters",
+			"B": "40 meters",
+			"C": "50 meters",
+			"D": "100 meters",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.108",
+			"Q": "When a motorized vehicle runs on the expressway in foggy and other weather conditions with a visibility range of less than 50 meters, the speed should not exceed ______ per hour.",
+			"A": "60km",
+			"B": "40km",
+			"C": "20km",
+			"D": "50km",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.109",
+			"Q": "When a motorized vehicle runs on the expressway in rainy and other weather conditions with a visibility range of less than 50 meters, the speed should not exceed _______ per hour.",
+			"A": "60km",
+			"B": "50km",
+			"C": "40km",
+			"D": "20km",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.110",
+			"Q": "When a motorized vehicle runs on the expressway in snowy and other weather conditions with a visibility range of less than 50 meters, the speed should not exceed ______ per hour.",
+			"A": "20km",
+			"B": "40km",
+			"C": "50km",
+			"D": "60km",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.111",
+			"Q": "When a motorized vehicle runs on the expressway in sandy and other weather conditions with a visibility range of less than 50 meters, the speed should not exceed ________ per hour.",
+			"A": "60km",
+			"B": "40km",
+			"C": "20km",
+			"D": "50km",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.112",
+			"Q": "When a motorized vehicle runs on the expressway in hailing and other weather conditions with a visibility range of less than 50 meters, the speed should not exceed ______ per hour.",
+			"A": "60km",
+			"B": "40km",
+			"C": "20km",
+			"D": "50km",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.113",
+			"Q": "When a motorized vehicle runs on the expressway in foggy and other weather conditions with a visibility range of less than 200 meters, the speed should not exceed ______ per hour.",
+			"A": "60km",
+			"B": "80km",
+			"C": "90km",
+			"D": "100km",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.114",
+			"Q": "When a motorized vehicle runs on the expressway in rainy and other weather conditions with a visibility range of less than 200 meters, the speed should not exceed _______ per hour.",
+			"A": "100km",
+			"B": "90km",
+			"C": "80km",
+			"D": "60km",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.115",
+			"Q": "When a motorized vehicle runs on the expressway in snowy and other weather conditions with a visibility range of less than 200 meters, the speed should not exceed _______ per hour.",
+			"A": "60km",
+			"B": "80km",
+			"C": "90km",
+			"D": "100km",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.116",
+			"Q": "When a motorized vehicle runs on the expressway in sandy and other weather conditions with a visibility range of less than 200 meters, the speed should not exceed _______ per hour.",
+			"A": "60km",
+			"B": "80km",
+			"C": "90km",
+			"D": "100km",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.117",
+			"Q": "When a motorized vehicle runs on the expressway in hailing and other weather conditions with a visibility range of less than 200 meters, the speed should not exceed _______ per hour.",
+			"A": "100km",
+			"B": "90km",
+			"C": "80km",
+			"D": "60km",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.121",
+			"Q": "f a motorized vehicle has a road accident with another motorized vehicle that has caused no human casualties and if the parties have no dispute over the fact and cause, the parties should ________.",
+			"A": "Leave the scene and discuss compensation on their own",
+			"B": "Park the vehicles on the scene, preserve the scene and wait for the traffic police to handle the case",
+			"C": "Discuss compensation on the scene",
+			"D": "Preserve the scene and request the insurance company to assess the damage",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.122",
+			"Q": "If a motorized vehicle and a non-motorized vehicle have a road accident which has caused no human casualties and if the parties have no dispute over the fact and cause, the parties should _____________.",
+			"A": "Discuss compensation on the scene",
+			"B": "Report to the police, wait for their arrival and do not drive away",
+			"C": "Leave the scene and discuss compensation on their own",
+			"D": "Preserve the scene",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.72",
+			"Q": "When a motorized vehicle breaks down on the road at night, obstructs the traffic flow and is difficult to move, the driver should turn on the hazard lights, place a warning sign ____________ behind the vehicle, and turn on the contour light and the tail light.",
+			"A": "100 meters ~ 150 meters",
+			"B": "50 meters ~ 100 meters",
+			"C": "20 meters ~ 30 meters",
+			"D": "10 meters ~ 20 meters",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.124",
+			"Q": "If a motorized vehicle registration or a driving license is obtained by deception, bribery or other illegal means, the vehicle registration or the driving license should be revoked and the applicant is not allowed to re-apply for motorized vehicle registration or driving license within ______.",
+			"A": "1 year",
+			"B": "2 years",
+			"C": "3 years",
+			"D": "5 years",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.1.125",
+			"Q": "If the driver, owner or manager of a detained motorized vehicle fails to accept the punishment within 30 days and still fails to accept the punishment ____ after the public announcement by the traffic control department of the public security organ, the vehicle shall be sold by auction.",
+			"A": "1 month",
+			"B": "3 months",
+			"C": "6 months",
+			"D": "12 months",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.2.2.9 ",
+			"Q": "f the driving license of a motorized vehicle driver is lost, the driver can still drive a motorized vehicle.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.10",
+			"Q": "The motorized vehicle driver is not allowed to drive a motorized vehicle when his driving license is detained.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.13",
+			"Q": "If a road has fast and slow lanes, all motorized vehicles except motorcycles should drive in the fast lane.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.17",
+			"Q": "When a motorized vehicle passes a sharp curve, the maximum speed should not exceed 30 kilometers per hour.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.21",
+			"Q": "A motorized vehicle is not allowed to make a U turn at the place that has a sign prohibiting no left turn.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.22",
+			"Q": "A motorized vehicle may make a U turn on a uphill road.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.24",
+			"Q": "A motorized vehicle may reverse at an intersection.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.25",
+			"Q": "A motorized vehicle is not allowed to reverse in a tunnel.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.26",
+			"Q": "A motorized vehicle may choose to reverse on a one-way road.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.31",
+			"Q": "A pulled motorized vehicle is not allowed to carry people except in the driving cab but is allowed to pull a trailer.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.32",
+			"Q": "A vehicle with breaking failure can be pulled with a soft connection.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.33",
+			"Q": "The width of the pulled motorized vehicle should not be larger than that of the pulling motorized vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.34",
+			"Q": "Do not drive a vehicle when the door or compartment is not properly closed.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.35",
+			"Q": "Do not hang or place articles close to the front and rear windows that block the vision of the driver.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.49",
+			"Q": "People can test vehicles or learn to drive motorized vehicles on the expressway.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.50",
+			"Q": "When a motorized vehicle runs on the expressway, it can overtake from the road shoulder.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.53",
+			"Q": "The acceleration lane or the deceleration lane of the expressway allows the motorized vehicles to overtake.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.1 ",
+			"Q": "f a registered motorized vehicle changes the engine, the owner of the vehicle should apply to the traffic control department of the public security organ that has registered the vehicle for registration alternation.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.2 ",
+			"Q": "f a registered motorized vehicle changes the chassis, the owner of the vehicle should apply to the traffic control department of the public security organ that has registered the vehicle for registration alternation.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.3 ",
+			"Q": "hen applying for the transfer registration of a motorized vehicle, the party should have the vehicle inspected by the traffic control department of the public security organ that has registered the vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.4 ",
+			"Q": "hen a driver drives a motorized vehicle during the period of probation, the driver should paste or hang a uniform probation mark on the rear part of the vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.5 ",
+			"Q": "he driver of a motorized vehicle may drive a police car, a fire engine, a wrecker or an ambulance during the period of probation.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.6 ",
+			"Q": "he driver of a motorized vehicle may, during the period of probation, drive a vehicle carrying dangerous articles under the supervision and guidance of a regular driver.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.7 ",
+			"Q": "f the penalty points of a motorized vehicle driver fail to reach 12 points in one scoring cycle and if the fines have all been paid, the points will be eliminated.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.8 ",
+			"Q": "f the penalty points of a motorized vehicle driver fail to reach 12 points in one scoring cycle but the fines have not been paid up, the points will also be eliminated.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.11",
+			"Q": "If a motorized vehicle driver has received 12 penalty points in one scoring cycle, the driver is not allowed to drive a motorized vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.12",
+			"Q": "If a road has fast and slow lanes, all motorized vehicles should run in the slow lane and can enter the fast lane only when overtaking.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.14",
+			"Q": "The motorized vehicle running in the fast lane should run at the prescribed speed for the fast lane, and should run in the slow lane if it fails to reach the prescribed speed for the fast lane.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.15",
+			"Q": "When a motorized vehicle crosses a narrow road or a narrow bridge, the maximum speed should not exceed 30 kilometers per hour.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.16",
+			"Q": "When a motorized vehicle crosses a level crossing, the maximum speed should not exceed 40 kilometers per hour.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.18",
+			"Q": "When a motorized vehicle pulls a breakdown vehicle, the maximum speed should not be less than 30 kilometers per hour.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.19",
+			"Q": "When a motorized vehicle crosses a non-motorized vehicle on a narrow road or a narrow bridge at night, the motorized vehicle should use the high beam light.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.23",
+			"Q": "When a motorized vehicle reverses, it should do so after knowing the situation behind the vehicle and making sure it is safe to reverse.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.27",
+			"Q": "At an intersection that has the guide lanes, the motorized vehicles should enter the guide lanes according to the directions they are headed for.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.28",
+			"Q": "When passing through an intersection that has neither traffic lights nor traffic police, the Right-turning vehicles should yield to the left-turning vehicles coming in the opposite direction.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.29",
+			"Q": "If a motorized vehicle has a breakdown or road accident, obstructs the traffic flow and is difficult to move, the vehicle should turn on the hazard lights.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.30",
+			"Q": "If a motorized vehicle has a breakdown or road accident at night, obstructs the traffic flow and is difficult to move, all the vehicle should do is to turn on the hazard lights.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.36",
+			"Q": "When a motorized vehicle crosses an overflowing road or bridge, the driver should stop and look at the situation, and passes through slowly before he makes sure that it is safe to do so.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.37",
+			"Q": "The motorized vehicles should drive slowly and yield to the pedestrians in the compounds of the units or in the residential areas.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.38",
+			"Q": "The motorized vehicles should drive according to the speed limits shown on the speed limit signs erected in the compounds of the units or in the residential areas.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.39",
+			"Q": "Closing or opening the doors of a motorized vehicle should not obstruct the flow of other vehicles and pedestrians.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.40",
+			"Q": "When a motorized vehicle is on the road, the people inside the vehicle are not allowed to stick their heads out of the window but may stretch their hands out of the window.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.41",
+			"Q": "When a motorized vehicle reaches a ferry, it should obey the command of the ferry managers and wait in line at the designated place. When getting on or leaving the ferry boat, the vehicle should drive slowly.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.42",
+			"Q": "When the speed indicated by the speed limit sign on the expressway contradicts with the speed indicated for the specific lanes, the speed indicated for the specific lanes should prevail.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.43",
+			"Q": "When a motorized vehicle runs on the expressway, its minimum distance with the vehicle in front in the same lane should not be less 30 meters.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.45",
+			"Q": "When a motorized vehicle runs on the expressway in rainy and other weather conditions with a visibility range of less than 50 meters, the speed of the vehicle should not exceed 40 kilometers per hour.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.46",
+			"Q": "When a motorized vehicle runs on the expressway in snowy and other weather conditions with a visibility range of less than 50 meters, the speed of the vehicle should not exceed 30 kilometers per hour.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.47",
+			"Q": "When a motorized vehicle runs on the expressway in sandy and other weather conditions with a visibility range of less than 50 meters, the speed of the vehicle should not exceed 50 kilometers per hour.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.51",
+			"Q": "When running on the expressway, the motorized vehicles are not allowed to reverse, drive in the opposite direction, make a U turn by crossing the central divider, or stop in the carriageways.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.52",
+			"Q": "When running on the expressway, the motorized vehicles may drive or stop in the emergency lane in non-emergency cases.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.54",
+			"Q": "When running on the expressway, the motorized vehicles are not allowed to ride and roll on the lane-dividing line or in the shoulder.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.55",
+			"Q": "If a motorized vehicle causes a road accident and the party runs away, the party is not held liable for the accident.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.56",
+			"Q": "If the party files a civil action with the people’s court during the mediation by the traffic control department of the public security organ, the mediation terminates.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.57",
+			"Q": "The party has the Right to make presentation and defense against the punishments meted out by the traffic control department of the public security organ or the traffic police.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.58",
+			"Q": "The traffic police may ignore the presentation and defense made by the party and may even increase the punishment against the party.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.20",
+			"Q": "On a road that has no central divider or central line, the motorized vehicle that has a vehicle coming in the opposite direction should reduce speed, drive on the Right side of the road and keep a safe distance with other vehicles and pedestrians.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.44",
+			"Q": "When a motorized vehicle runs on the expressway in foggy and other weather conditions with a visibility range of less than 50 meters, the vehicle should not drive at a speed of more than 20 kilometers per hour and should leave the expressway from the nearest exit as soon as possible.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.48",
+			"Q": "When a motorized vehicle runs on the expressway in hailing and other weather conditions with a visibility range of less than 50 meters, the vehicle should not drive at a speed of more than 20 kilometers per hour and should leave the expressway from the nearest exit as soon as possible.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
 
 
-
-
-
-
-
-	
-	
 		{
 			"Q": "The sign in the picture is _______.",
 			"Id": "2.2.1.1",
