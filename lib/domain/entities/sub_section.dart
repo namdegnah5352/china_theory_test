@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'question.dart';
 
 List<SubSection> subSectionModelFromJson(String str, int id) =>
     List<SubSection>.from(json.decode(str)['subsection$id'].map((x) => SubSection.fromJson(x)));
@@ -15,6 +16,7 @@ class SubSection {
   late final String value;
   late final int mcnoq;
   late final int jqnoq;
+  List<Question> questions = [];
 
   SubSection.fromJson(Map<String, dynamic> json) {
     id = json['Id'];

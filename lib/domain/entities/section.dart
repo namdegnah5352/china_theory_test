@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'sub_section.dart';
 
 List<Section> sectionModelFromJson(String str) => List<Section>.from(json.decode(str)["section"].map((x) => Section.fromJson(x)));
 String sectionModelToJson(List<Section> data) => json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
@@ -12,6 +13,7 @@ class Section {
   late final String id;
   late final String value;
   late final int percent;
+  List<SubSection> subsections = [];
 
   Section.fromJson(Map<String, dynamic> json) {
     id = json['Id'];

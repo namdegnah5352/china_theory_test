@@ -3013,8 +3013,1228 @@
 			"Answer": "Right",
 			"Type": "Logic"
 		},
-
-
+		{
+			"Id": "1.3.1.1",
+			"Q": "If a motorized vehicle driver has caused a traffic accident __________, the driver is subject to a prison term of 7 years ~ 15 years.",
+			"A": "That has caused major consequences",
+			"B": "That has caused serious injury",
+			"C": "That has caused heavy loss to public or private property",
+			"D": "And has run away, which has caused human death,",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.3.1.3",
+			"Q": "If a motorized vehicle driver runs away or commits other extremely serious acts after causing a traffic accident, the driver is subject to a prison term of _____.",
+			"A": "3 years ~ 7 years",
+			"B": "2 years ~ 5 years",
+			"C": "1 year ~ 3 years",
+			"D": "3 years ~ 5 years",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.3.1.2",
+			"Q": "If a motorized vehicle driver has caused a major accident in violation of the traffic regulations which has caused serious injury, death, or heavy loss to public or private property and which constitutes a crime of traffic accident, the driver is subject to a prison term of less than ______ or a criminal detention.",
+			"A": "1 year",
+			"B": "2 years",
+			"C": "3 years",
+			"D": "4 years",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.3.2.1",
+			"Q": "A motorized vehicle driver who escapes after causing a traffic accident is subject to a prison term of 3 years ~ 7 years.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.3.2.2",
+			"Q": "If a motorized vehicle driver escapes after causing a traffic accident which has caused human death, the driver is subject to a prison term of 7 years ~ 15 years.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.3.2.3",
+			"Q": "If a motorized vehicle driver has caused a major accident in violation of the traffic regulations which has caused serious injury or death, the driver is subject to a prison term of more than 3 years or a criminal detention.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.3.2.4",
+			"Q": "If a motorized vehicle driver has caused a major accident in violation of the traffic regulations which has caused heavy loss to public or private property and which constitutes a crime of traffic accident, the driver is subject to a prison term of less than 3 years or a criminal detention.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.4.1.1",
+			"Q": "When avoiding an emergency, a motorized vehicle driver does not assume civil liability or just assume a proper degree of civil liability for the damage arising from _________.",
+			"A": "Natural causes",
+			"B": "Excess avoidance",
+			"C": "Inappropriate measures",
+			"D": "Failure to take measures",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.4.2.1 ",
+			"Q": " motorized vehicle driver who has injured a pedestrian should assume the civil liability for traffic accident.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.4.2.2",
+			"Q": "When avoiding an emergency, a motorized vehicle driver does not need to assume civil liability for the injury of other people arising from his inappropriate measures.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.4.2.3",
+			"Q": "If a motorized vehicle driver infringes upon the property and personal safety of other people in a traffic accident arising from his fault, the driver should assume civil liability.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.4.2.4",
+			"Q": "If a normally running motorized vehicle has accidentally caused serious injury or death of other people, the driver should assume criminal liability and related administrative liability.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Q": "The case which allows the detention of the motorized vehicle driving license is _____.",
+			"Id": "1.5.1.5",
+			"A": "That the accumulated penalty points reach 12 points within one scoring cycle",
+			"B": "Smoking and eating when driving",
+			"C": "That a minor traffic accident is caused but causes no property damage",
+			"D": "That a motorized vehicle runs 10% faster than the prescribed speed limit",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "_______ should open its tow inquiry phone number and notify the parties through signs or in other ways.",
+			"Id": "1.5.1.6",
+			"A": "The police station",
+			"B": "The transport department",
+			"C": "The traffic control department of the public security organ",
+			"D": "The department in charge of municipal administration",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "The illegal devices the traffic police may confiscate are _________.",
+			"Id": "1.5.1.7",
+			"A": "The deformed front bumpers of motor vehicles",
+			"B": "The illegally installed sirens and indicator lamps",
+			"C": "The added interior audio devices",
+			"D": "The deformed rear bumpers of motor vehicles",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "If the traffic police _____, they should arbitrarily test the intracorporeal alcoholic content of the vehicle driver.",
+			"Id": "1.5.1.8",
+			"A": "Have no dispute over the reading of the alcohol breath analyzer",
+			"B": "Find the reading of the alcohol breath analyzer is below the threshold level of intoxication",
+			"C": "Find a traffic accident has been caused by a vehicle driver after drinking",
+			"D": "Find a traffic accident has been caused by a vehicle driver who has not drunk.",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "With regard to the driver who cannot control his behaviors after drinking, the traffic police may ___ on the spot.",
+			"Id": "1.5.1.9",
+			"A": "Impose a fine_",
+			"B": "Detain the driver",
+			"C": "Use restraining police equipment",
+			"D": "Criticize and educate",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.5.1.1",
+			"Q": "In the course of law enforcement, the arbitrary administrative measure the traffic police are not allowed to take is ________.",
+			"A": "Detaining the vehicle or the driving license",
+			"B": "Towing away the motorized vehicle or confiscate the illegal devices",
+			"C": "Making arrest or criminal detention on the spot",
+			"D": "Testing the contents of intracorporeal alcohol and state-controlled psychiatric and narcotic substances",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.5.1.2",
+			"Q": "With regard to the vehicle that is suspected of stealing and cannot be immediately released, the traffic police may _____ on the spot.",
+			"A": "Confiscate it",
+			"B": "Detain it",
+			"C": "Auction it",
+			"D": "Impose a fine",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.5.1.4",
+			"Q": "If a motorized vehicle runs ___ faster than the prescribed speed limit, the driving license may be detained till the day when a punishment decision is made.",
+			"A": "10%",
+			"B": "30%",
+			"C": "40%",
+			"D": "50%",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.5.1.3",
+			"Q": "If the traffic control department of the public security organ needs to investigate and verify the certificate showing the origin of a motorized vehicle and the driver, owner or manager of the vehicle refuses to accept the decision within _______, the department is not subject to the time limit of vehicle detention.",
+			"A": "10 days",
+			"B": "15 days",
+			"C": "20 days",
+			"D": "30 days",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.5.1.10",
+			"Q": " When using the data recorded by the traffic monitoring equipment to impose a fine of less than ______ on a motorized vehicle driver who has violated the traffic regulations, the police can make a punishment decision by citing the simple procedure.",
+			"A": "200 Yuan",
+			"B": "300 Yuan",
+			"C": "500 Yuan",
+			"D": "2,000 Yuan",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.5.1.11",
+			"Q": " If the traffic control department of the public security organ has recorded the illegal act of a motorized vehicle that does not fall in its jurisdiction, the department may transfer the information and evidence about the illegal act to the traffic control department of the public security organ ______.",
+			"A": "That has issued the vehicle license",
+			"B": "That has issued the driving license",
+			"C": "That has issued the qualification certificate",
+			"D": "That has issued the ID card",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.5.1.12",
+			"Q": " The traffic control department of the public security organ can confiscate and force to scrap a motorized vehicle __________, subject to the approval of the traffic control department of the public security organ at or above the county level.",
+			"A": "That has caused a traffic accident",
+			"B": "That has been used for more than 10 years",
+			"C": "That has been illegally assembled or has reached the write-off standard",
+			"D": "That has failed to pass vehicle inspection",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.5.2.9",
+			"Q": "The traffic police may detain the motorized vehicle if its driver has falsified the license plate and vehicle license.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.1",
+			"Q": "If a motorized vehicle driver whose penalty scores have reached 12 points has passed the tests, his original points will not be eliminated.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.2",
+			"Q": "If a motorized vehicle driver has caused a major traffic accident that constitutes a crime, his driving license may be detained.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.3",
+			"Q": "If a motorized vehicle runs 50% faster than the prescribed speed limit, the driver should receive criticism and education but his driving license should not be detained.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.4",
+			"Q": "The traffic control department of the public security organ should notify the driver who has violated the traffic regulations after drinking of the test result by telephone.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.5",
+			"Q": "If a motorized vehicle driver has obtained his driving license by cheating, bribery and other illegal means, his driving license should be confiscated and his driving permission should be revoked.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.6",
+			"Q": "The traffic control department of the public security organ is not allowed to detain the driving license of a person who drives a motorized vehicle after drinking.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.7",
+			"Q": "The traffic control department of the public security organ may detain the driving license of a person who drives a motorized vehicle after drinking.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.8",
+			"Q": "If a motorized vehicle driver allows his vehicle to be driven by a person who fails to obtain a motorized vehicle driving license, the traffic control department of the public security organ may revoke the driving license.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.11",
+			"Q": " If a motorized vehicle driver allows his vehicle to be driven by a person who has no driving license, the traffic police may detain the driving license of the driver.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.12",
+			"Q": " If a motorized vehicle driver has illegally installed sirens and indicator lamps on his vehicle, the traffic police should criticize and educate him but should not confiscate these devices.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.13",
+			"Q": " If the traffic police discover a driver is suspected of driving a motorized vehicle after taking drugs, they should test his intracorporeal content of psychiatric substance.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.14",
+			"Q": " When testing the intracorporeal alcoholic content of the person who has violated the traffic regulations, the public security organ should notify the family of the party.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.15",
+			"Q": " When punishing a traffic regulations violator according the data recorded by the traffic monitoring equipment, the object of the punishment can only be the driver of the motorized vehicle.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.17",
+			"Q": " With regard to a non-spot punishment, the party may appeal to the department that has issued his driving license if he has objection to accepting the punishment at the place where his vehicle plate has been issued.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.18",
+			"Q": " If an illegally assembled motorized vehicle is detained, the traffic control department of the public security organ should return it to its owner after disassembling it.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.20",
+			"Q": " If a motorized vehicle driver obtains a driving license without passing tests, he may have his driving permission confirmed through a make-up test.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.19",
+			"Q": " If the driving license of a motorized vehicle driver is detained after his penalty scores reach 12 points, the driver may participate in the study and test organized by the traffic control department of the public security organ at the place where his driving license has been issued or the place where he has violated the traffic regulations.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.16",
+			"Q": " With regard to a non-spot punishment, the party who has violated the traffic regulations has the Right to request the traffic control department of the public security organ to provide the data recorded by the traffic monitoring equipment.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.5.2.10",
+			"Q": " After a suspected vehicle is detained, the traffic police should return the vehicle upon the expiration of the period of detention no matter whether the owner of the vehicle has provided a certificate of legal origin for the vehicle.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Q": "If the party refuses to leave the scene after a traffic accident occurs, the traffic police should _________.",
+			"Id": "1.6.1.4",
+			"A": "Persuade the party",
+			"B": "Force the party to leave",
+			"C": "Wait patiently",
+			"D": "Consult with the party",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "If the party drives a vehicle and __________, the party should assume full liability for the traffic accident.",
+			"Id": "1.6.1.6",
+			"A": "Hits a pedestrian on the expressway",
+			"B": "Scratches a turning vehicle at an intersection when going straight",
+			"C": "Scratches a motorcycle in the fast lane",
+			"D": "Deliberately damages and falsifies the scene and destroys evidence after causing a traffic accident",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.6.1.1",
+			"Q": "If the party to a minor traffic accident has bought vehicle insurance, he may make a claim to the insurance company according to _________.",
+			"A": "The certificate of the person in the know",
+			"B": "The agreement on the fact of the traffic accident",
+			"C": "The report of the party",
+			"D": "The insurance policy",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.6.1.5",
+			"Q": "If a traffic accident has caused human casualties, the party should immediately stop the vehicle, rescue the wounded and at the same time _________.",
+			"A": "Identify the cause of the accident",
+			"B": "Discuss compensation with the opposite party",
+			"C": "Swiftly report to the traffic police on duty",
+			"D": "Look for witnesses on the spot",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.6.1.9",
+			"Q": "Escaping after traffic accident refers to the act that when a traffic accident occurs, the party escapes from the scene by driving a vehicle or leaving the vehicle behind in order to escape ______.",
+			"A": "Penalty points",
+			"B": "A fine",
+			"C": "Legal liability",
+			"D": "Administrative punishment",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.6.1.2",
+			"Q": "If the party fails to report a traffic accident to the police on the spot and requests the traffic control department of the public security organ afterwards to handle the accident but fails to provide the evidence, the traffic control department of the public security organ should _________ if it is unable to verify the fact of the traffic accident.",
+			"A": "Refuse to accept the case",
+			"B": "Notify the party by telephone to file a civil action with the people’s court",
+			"C": "Notify the party in writing to file a civil action with the people’s court",
+			"D": "Report the case to the traffic control department of the public security organ at the higher level for handling",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.6.1.3",
+			"Q": "If the party fails to report a traffic accident to the police on the spot and requests the traffic control department of the public security organ afterwards to handle the case, the party should provide evidence of the traffic accident to the traffic control department of the public security organ within ____ after making the request.",
+			"A": "3 days",
+			"B": "5 days",
+			"C": "7 days",
+			"D": "10 days",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.6.1.7",
+			"Q": "If both the damages oblige and obligor of a traffic accident unanimously request the traffic control department of the public security organ to mediate damages, they may file a written mediation application within _______ from the day when they receive the traffic accident investigation report.",
+			"A": "10 days",
+			"B": "7 days",
+			"C": "5 days",
+			"D": "3 days",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.6.1.8",
+			"Q": "If a mediation participant is unable to participate in mediation as scheduled for some reasons, he should notify the traffic police in charge ____ before the time slated for the mediation and request the mediation be rescheduled.",
+			"A": "24 hours",
+			"B": "18 hours",
+			"C": "12 hours",
+			"D": "6 hours",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.6.2.1",
+			"Q": "If a motorized vehicle hits a building, a public facility or other facility, the vehicle may leave the scene right away.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.6.2.4",
+			"Q": "The parties to a traffic accident are not allowed to discuss compensation matters on their own.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.6.2.2",
+			"Q": "If no agreement is reached through the mediation by the traffic police after a traffic accident, the parties may file a civil action with the people’s court.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.6.2.5",
+			"Q": "If a traffic accident has caused only partial damage to a building but has not caused human casualties, the party may leave the scene on his own.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.6.2.6",
+			"Q": "If the fact of a traffic accident is clear and the parties refuse to leave the scene and cause a traffic jam, the traffic police should order them to leave within a time limit.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.6.2.7",
+			"Q": "If the parties to a traffic accident have objection to the accident investigation report by the traffic police, they may file an administrative action to the people’s court.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.6.2.8",
+			"Q": "If mediation fails to reach agreement over a traffic accident or the parties fail to perform the result of mediation, the parties may file a civil action with the people’s court.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.6.2.9",
+			"Q": "If a traffic accident has only caused a serious injury and the driver is willing to assume full liability, they may discuss a solution on their own.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.6.2.10",
+			"Q": "If a party to a traffic accident escapes and his act causes the loss of evidence, the escaping party should assume full liability.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.6.2.3",
+			"Q": "If the parties report a traffic accident to the police afterwards and the traffic control department of the public security organ refuses to accept the case according to law, the parties may file a civil action with the people’s court over the traffic accident.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.6.2.11",
+			"Q": "The time limit for the traffic control department of the public security organ to mediate the damages of a traffic accident is 10 days, starting from the day when the hospital makes a definite diagnosis of the human injuries caused by the accident.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.1.1",
+			"Q": "The person whose motorized vehicle driving license has been revoked for less than _____ is not allowed to reapply for a driving license.",
+			"A": "2 years",
+			"B": "3 years",
+			"C": "4 years",
+			"D": "5 years",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.7.1.2",
+			"Q": "The person whose driving permission has been revoked according to law for less than _______ is not allowed to reapply for a driving license.",
+			"A": "6 years",
+			"B": "5 years",
+			"C": "4 years",
+			"D": "3 years",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.7.1.3",
+			"Q": "The person who has a driving license for a small motor vehicle and applies for the permission to drive large trucks should have less than 12 penalty points within _____ scoring cycle(s).",
+			"A": "1",
+			"B": "2",
+			"C": "3",
+			"D": "4",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.7.1.4",
+			"Q": "The person applying for a motorized vehicle driving license should take one test for each subject and can take _____ make-up test(s).",
+			"A": "1",
+			"B": "2",
+			"C": "3",
+			"D": "4",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "If an applicant cheats in a test, the eligibility for this test ________.",
+			"Id": "1.7.1.5",
+			"A": "Can be reserved if the cheating is not serious",
+			"B": "Is cancelled",
+			"C": "May be reserved",
+			"D": "May be temporarily reserved",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.7.1.6",
+			"Q": "The motorized vehicle driver should apply to the issuing vehicle management station for license change within _______ before the expiration of the driving license.",
+			"A": "90 days",
+			"B": "120 days",
+			"C": "180 days",
+			"D": "240 days",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.7.1.7",
+			"Q": "When applying for changing a driving license, the applicant should fill out the Application Form for Motorized Vehicle Driving License. The certificate and documentation the applicant does not need to provide is ____.",
+			"A": "The applicant’s ID card",
+			"B": "The medical certificate issued by a medical institution",
+			"C": "The life insurance policy",
+			"D": "The motorized vehicle driving license",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.7.1.8",
+			"Q": "If the driver’s household register has moved out of the jurisdiction of the original vehicle management station, the driver should apply to the vehicle management station _______ for license change.",
+			"A": "At the former place of his household register",
+			"B": "At the nearest place",
+			"C": "At the residential place",
+			"D": "At the new place of his household register",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.7.1.9",
+			"Q": "If a driver fails to change his driving license more than ____ after the expiration of his motorized vehicle driving license, the vehicle management station should cancel his driving license.",
+			"A": "6 months",
+			"B": "1 year",
+			"C": "2 years",
+			"D": "3 years",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.7.1.10",
+			"Q": " If the accumulated penalty scores of a motorized vehicle driver reach 12 points within a scoring cycle, the driver should receive a ______ education on the traffic law and regulations and related knowledge at the traffic control department of the public security organ at the issuing place of his driving license or the place where he violates the traffic regulations.",
+			"A": "10-day",
+			"B": "7-day",
+			"C": "5-day",
+			"D": "3-day",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.7.1.11",
+			"Q": " After a motorized vehicle driver has accumulated 12 penalty points within one scoring cycle and has received education, the vehicle management station should ______ within 20 days.",
+			"A": "Conduct subject 1 test for him",
+			"B": "Impose a fine and revoke his driving license",
+			"C": "Conduct subject 2 test",
+			"D": "Conduct subject 3 test",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": " The motorized vehicle driver who is more than 60 years old should present a physical checkup once ______.",
+			"Id": "1.7.1.12",
+			"A": "3 years",
+			"B": "2 years",
+			"C": "1 year",
+			"D": "6 months",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.7.1.13",
+			"Q": " The motorized vehicle driver who is more than 60 years old should present a certificate of physical conditions issued by a medical institution at or above the county-level or regiment-level within _______ after the scoring cycle is over.",
+			"A": "One year",
+			"B": "Half a year",
+			"C": "30 Days",
+			"D": "15 days",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.7.1.14",
+			"Q": " If there is a change in the driver’s information recorded in the motorized vehicle driving license, the driver should apply to the issuing vehicle management station for license change within ______.",
+			"A": "60 days",
+			"B": "50 days",
+			"C": "40 days",
+			"D": "30 days",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.7.1.15",
+			"Q": "If a motorized vehicle driving license is lost, the driver should provide _____ and a written statement of loss when applying for a reissue.",
+			"A": "The certificate of the working unit",
+			"B": "The certificate of the neighborhood committee",
+			"C": "The driver’s ID card",
+			"D": "The vehicle certificate",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.7.1.16",
+			"Q": " When an agent applies for a motorized vehicle driving license for his customer, the agent should provide his own ID card and an Application Form for Motorized Vehicle DrivingLicense signed by the _______.",
+			"A": "The motorized vehicle driver",
+			"B": "The motorized vehicle driver and the agent",
+			"C": "The agent",
+			"D": "The motorized vehicle manager",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.7.2.1",
+			"Q": "If the person applying for a driving license for small motor vehicles is living temporarily in a place, he should return to the place of his household register and apply.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.2",
+			"Q": "When a motorized vehicle driving license is lost, damaged or full with records, the driver should apply to the missing vehicle management station for a reissue or a replacement.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.3",
+			"Q": "If a motorized vehicle driver has received 12 accumulated penalty points twice in a scoring cycle, he should participate in the subjects 1, 2 and 3 tests",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.4",
+			"Q": "The tester should announce the test result of each subject on the spot and issue a score report",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.5",
+			"Q": "The test result of each subject should be signed by the instructor and tester.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.6",
+			"Q": "The motorized vehicle driver may entrust an agent to handle the change and reissue of his driving license.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.7",
+			"Q": "The motorized vehicle driving license obtained for the first time is valid for 10 years.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.8",
+			"Q": "The person who is addicted to drug taking and injection may apply for a motorized vehicle driving license when he is not overwhelmed by drug addiction.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.9",
+			"Q": "A patient suffering high blood pressure is not allowed to apply for a motorized vehicle driving license.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.10",
+			"Q": " The person whose motorized vehicle driving license is revoked for escaping after causing a traffic accident may apply for a driving license in two years.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.11",
+			"Q": "When applying for the first time, a person may apply for a driving license for small motor vehicles, midsize buses and large trucks.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.12",
+			"Q": "The real road test (subject 3) on driving small motor vehicles should be booked 30 days after obtaining the certificate of eligibility for a test on driving skills.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.13",
+			"Q": "If the applicant commits cheating in the course of a test, his eligibility for this test will be cancelled but the results of other tests he has passed will remain valid.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.14",
+			"Q": "The motorized vehicle driver should apply to the issuing vehicle management station for license change, within 90 days after the expiration of his driving license.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.15",
+			"Q": "The motorized vehicle driver who lives outside the jurisdiction of the issuing vehicle management station may apply to the vehicle management station at the place where he is living, for license change.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.16",
+			"Q": "When applying for license change due to the change in the information recorded in the driving license, the applicant should fill out the Application Form for Motorized Vehicle Driving License and furnish with the driver’s ID card and driving license.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.17",
+			"Q": "If a driving license is lost, the driver should provide a certificate from the community and a certificate from the working unit when applying for a reissue.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.18",
+			"Q": "The motorized vehicle driver must personally handle the change or reissue of his driving license and is not allowed to entrust other people to do for him.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.19",
+			"Q": "If a motorized vehicle driver receives 12 accumulated penalty points twice in a scoring cycle, the vehicle management station should conduct subject 3 test for him within 20 days after he passes subject 1 test.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.7.2.20",
+			"Q": "The motorized vehicle driver who is more than 60 years old should have a physical checkup annually and should submit a certificate of physical checkup within 1 year after one scoring cycle is over.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Q": "If a motorized vehicle has reached the state’s mandatory write-off standard, the owner of the vehicle should ___",
+			"Id": "1.8.1.1",
+			"A": "Break up the vehicle into parts and sell them to other users",
+			"B": "Sell it to a waste recycling station as scrap iron",
+			"C": "Sell the vehicle to a motorized vehicle recycling enterprise",
+			"D": "Have the vehicle inspected by the vehicle management station",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.8.1.2",
+			"Q": "If the transfer of a motorized vehicle is approved, the owner should have the vehicle inspected by ______ within 10 days after the transfer.",
+			"A": "The vehicle management station",
+			"B": "The institution in charge of transport administration",
+			"C": "The detachment of the traffic police",
+			"D": "The vehicle safety and technical test station",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.8.2.1",
+			"Q": "If a motorized vehicle has reached the state’s mandatory write-off standard, the owner should sell it to a waste recycling station as scrap iron.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.8.2.2",
+			"Q": "When applying for the license plate and vehicle license for the first time for a vehicle that is exempted from inspection according to the state stipulations, the vehicle should be inspected by the vehicle management station.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.8.2.3",
+			"Q": "If the relevant technical data of a motorized vehicle do not conform to the data published by the state department in charge of motorized vehicle administration, the vehicle management station will refuse to handle its registration.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.8.2.4",
+			"Q": "If a motorized vehicle has reached the state’s mandatory write-off standard, the vehicle management station will not handle its registration but will handle its transfer registration.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.8.2.5",
+			"Q": "When applying for changing the color of the body of a motorized vehicle, the owner should fill out the Application Form for Motorized Vehicle Registration Change.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.8.2.6",
+			"Q": "If a non-commercial motorized vehicle is changed to a commercial motorized vehicle, the owner must apply to the department in charge of transport administration instead of the vehicle management station for registration change.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.8.2.7",
+			"Q": "A motorized vehicle involved in a violation of the traffic regulations or a traffic accident that remains unresolved is not eligible for transfer registration.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.8.2.8",
+			"Q": "If a motorized vehicle applying for transfer registration has passed the period of inspection validity, it should have a safety and technical inspection.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.9.1.1",
+			"Q": "_____ of a motorized vehicle running on the roads in China should buy the mandatory traffic accident insurance for his motorized vehicle according to the provisions of the Law on Road Traffic Safety.",
+			"A": "The owner and manager",
+			"B": "The guarantor",
+			"C": "The passenger",
+			"D": "The driver",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.9.1.2",
+			"Q": "The objects of compensation liability of the mandatory traffic accident insurance of the motorized vehicles are _______ of a road accident.",
+			"A": "The drivers",
+			"B": "The victims other than the persons and the insured in the same vehicle",
+			"C": "The insured",
+			"D": "The passengers",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.9.1.3",
+			"Q": "With regard to the insured vehicle that has repeatedly violated the traffic regulations, caused traffic accidents or caused major traffic accidents, the insurance company should _______ the rate of insurance premiums.",
+			"A": "Maintain",
+			"B": "Reduce",
+			"C": "Raise",
+			"D": "Properly adjust",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "1.9.1.4",
+			"Q": "If the insured person has no fault in a traffic accident, the insurance company should ____ the rate of insurance premiums.",
+			"A": "Properly raise",
+			"B": "Reduce",
+			"C": "Properly reduce",
+			"D": "Not raise",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.9.1.5",
+			"Q": "After signing the contract on the mandatory traffic accident insurance of motorized vehicles, the insured person should _______.",
+			"A": "Place the label of insurance in the insured vehicle",
+			"B": "Keep the label of insurance in the insurance company",
+			"C": "Keep the label of insurance in the working unit",
+			"D": "Carry the label of insurance along",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.9.1.6",
+			"Q": "After the mandatory traffic accident insurance is bought for a motorized vehicle, the insurance company should assume compensation liability if ________.",
+			"A": "The driver has not obtained a driving license or is drunk",
+			"B": "The vehicle is damaged by another vehicle in a rear-end collision",
+			"C": "The insured person deliberately causes a traffic accident",
+			"D": "The insured vehicle is in detention",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The duration of coverage of the mandatory traffic accident insurance of motorized vehicles is _______.",
+			"Id": "1.9.1.7",
+			"A": "4 years",
+			"B": "3 years",
+			"C": "2 years",
+			"D": "1 year",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.9.1.8",
+			"Q": "If the insured person and the insurance company have disputes over compensation, they may apply for arbitration or _____ according to law.",
+			"A": "File a complaint to the Insurance Regulatory Commission",
+			"B": "Report to the insurance company",
+			"C": "Report to the local traffic control department of the public security organ",
+			"D": "File an action with the people’s court",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "1.9.1.9",
+			"Q": "If the owner and manager of a motorized vehicle fails to buy the mandatory traffic accident insurance as required, the traffic control department of the public security organ may impose a fine _____ the amount of the insurance premium that should be paid for minimum liability.",
+			"A": "2 times",
+			"B": "3 times",
+			"C": "4 times",
+			"D": "5 times",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "1.9.1.10",
+			"Q": "If a motorized vehicle running on the road fails to place the label of insurance, the traffic control department of the public security organ may serve a warning or impose a fine of _______.",
+			"A": "5 Yuan ~ 20 Yuan",
+			"B": "20 Yuan ~ 200 Yuan",
+			"C": "200 Yuan ~ 500 Yuan",
+			"D": "500 Yuan ~ 2,000 Yuan",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "1.9.2.1",
+			"Q": "The objects of compensation liability of the mandatory traffic accident insurance of motorized vehicles include the drivers of the insured vehicles.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.9.2.2",
+			"Q": "After the mandatory traffic accident insurance is bought for a motorized vehicle, the insurance company should reduce the rate of insurance premium in the next year if the insured vehicle commits no violation of the traffic regulations and does not cause any traffic accident.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.9.2.3",
+			"Q": "After the mandatory traffic accident insurance is bought for a motorized vehicle, the insurance company should reduce the rate of insurance premium if the insured vehicle causes traffic accident but the insured person has no fault.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.9.2.4",
+			"Q": "If the driver causes a traffic accident after getting drunk but causes loss to the property of the victim, the insurance company does not assume any compensation liability.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.9.2.5",
+			"Q": "If the insured person deliberately causes a traffic accident and causes loss to the property of the victim, the insurance company does not assume any compensation liability.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.9.2.6",
+			"Q": "If the owner and manager of a motorized vehicle fail to buy the mandatory traffic accident insurance for the vehicle, the traffic control department of the public security organ may detain the vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.9.2.7",
+			"Q": "If a motorized vehicle on the road fails to place the label of insurance, the traffic control department of the public security organ may impose a fine but is not allowed to detain the vehicle.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When the red traffic light is on, it _________.",
+			"Id": "2.1.1.1",
+			"A": "Means the vehicles are allowed to pass",
+			"B": "Means the vehicles are prohibited from passing",
+			"C": "Reminds the vehicles to pass slowly",
+			"D": "Means the vehicles should stop and yield",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When the green traffic light is on, it _________.",
+			"Id": "2.1.1.2",
+			"A": "Means the vehicles are prohibited from passing",
+			"B": "Means the vehicles should speed up and pass",
+			"C": "Means the vehicles are allowed to pass",
+			"D": "Means the vehicles should stop and yield",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When the yellow traffic light is on, it ________.",
+			"Id": "2.1.1.3",
+			"A": "Means the vehicles are prohibited from passing",
+			"B": "Means the vehicles are allowed to pass",
+			"C": "Means the vehicles should stop",
+			"D": "Warns the vehicles",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When the green traffic light is on and allows the vehicles to pass, __________.",
+			"Id": "2.1.1.4",
+			"A": "The right-turning vehicles should go first",
+			"B": "The left-turning vehicles should go first",
+			"C": "The turning vehicles are not allowed to obstruct the flow of the straight-goin vehicles and pedestrians",
+			"D": "The turning vehicles are not allowed to pass",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "2.1.1.5",
+			"Q": "When the red traffic light is on, ________ may pass if they do not obstruct the flow of the vehicles and pedestrians allowed to pass.",
+			"A": "The Right-turning vehicles",
+			"B": "The left-turning vehicles",
+			"C": "The vehicles turning at the T-shaped intersection",
+			"D": "The vehicle in all directions",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When the red traffic light is on, the vehicles should stop _________.",
+			"Id": "2.1.1.6",
+			"A": "Inside the stop line",
+			"B": "In the crosswalk",
+			"C": "In the intersection",
+			"D": "Outside the stop line",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When the yellow traffic light is on, _______.",
+			"Id": "2.1.1.7",
+			"A": "It allows the vehicles to pass",
+			"B": "The vehicles that have passed the stop line may continue to pass",
+			"C": "It allows the vehicles to turn left",
+			"D": "The vehicles should speed up and pass",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When the red X-shaped light is on, this lane _________.",
+			"Id": "2.1.1.8",
+			"A": "Prohibits the vehicles from passing",
+			"B": "Allows the vehicles to turn left",
+			"C": "Allows the vehicles to turn right",
+			"D": "Allows the vehicles to pass",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When the red arrow light is on, this lane ____________.",
+			"Id": "2.1.1.9",
+			"A": "Allows the vehicles to pass",
+			"B": "Allows the vehicles to turn left",
+			"C": "Allows the vehicles to turn right",
+			"D": "Prohibits the vehicles from passing",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When the head of the green arrow light points upward, it allows the vehicles to _____________.",
+			"Id": "2.1.1.10",
+			"A": "Turn left",
+			"B": "Turn right",
+			"C": "Go straight",
+			"D": "Make a U turn",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When the head of the green arrow light points to the left side, it allows the vehicles to ____________.",
+			"Id": "2.1.1.11",
+			"A": "Turn left",
+			"B": "Turn right",
+			"C": "Go straight",
+			"D": "Make a U turn",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When the head of the green arrow light points to the Right side, it allows the vehicles to _____________.",
+			"Id": "2.1.1.12",
+			"A": "Turn left",
+			"B": "Turn right",
+			"C": "Go straight",
+			"D": "Make a U turn",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When the head of the red arrow light points upward, it prohibits the vehicles from _____________.",
+			"Id": "2.1.1.13",
+			"A": "Turning left",
+			"B": "Turning right",
+			"C": "Going straight",
+			"D": "Making a U turn",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When the head of the red arrow light points to the left side, it prohibits the vehicles from _________.",
+			"Id": "2.1.1.14",
+			"A": "Turning left",
+			"B": "Turning right",
+			"C": "Going straight",
+			"D": "Making a U turn",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When the head of the red arrow light points to the Right side, it prohibits the vehicles from _________.",
+			"Id": "2.1.1.15",
+			"A": "Turning left",
+			"B": "Turning right",
+			"C": "Going straight",
+			"D": "Making a U turn",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The continuously flashing yellow light is the hazard lights that ________.",
+			"Id": "2.1.1.16",
+			"A": "Urges the vehicles and pedestrians to pass as fast as they can",
+			"B": "Stops the vehicles and pedestrians from passing",
+			"C": "Means the vehicles and pedestrians may continue to pass",
+			"D": "Means the vehicles and pedestrians should look and make sure it is safe to pass before they pass",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "If the two red lights at a level crossing flash alternately or one red light is on, _________.",
+			"Id": "2.1.1.17",
+			"A": "The vehicles may pass if it is safe to do so",
+			"B": "The vehicles and pedestrians are prohibited from passing",
+			"C": "The vehicles are prohibited from passing but the pedestrians may pass",
+			"D": "The pedestrians are prohibited from passing but the vehicles may pass",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "2.1.2.1",
+			"Q": "When the red light is on, it allows the vehicles to pass.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "2.1.2.2",
+			"Q": "When the green light is on, it prohibits the vehicles from passing",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "2.1.2.3",
+			"Q": "When the yellow light is on, it allows the vehicles to pass.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "2.1.2.4",
+			"Q": "When the red X-shaped light is on, it allows the vehicles in this lane to pass.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "2.1.2.5",
+			"Q": "When the red arrow light is on, it prohibits the vehicles in this lane from passing.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "2.1.2.6",
+			"Q": "When the head of the red arrow light points to the left side, it allows the vehicles to turn left.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "2.1.2.7",
+			"Q": "When the head of the green arrow light points upward, it allows the vehicles to go straight.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "2.1.2.8",
+			"Q": "When the head of the green arrow light points to the Right side, it allows the vehicles to turn Right.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "2.1.2.9",
+			"Q": "When the head of the red arrow light points to the Right side, it allows the vehicles to turn Right.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "2.1.2.10",
+			"Q": "When the head of the green arrow light points to the left side, it allows the vehicles to go straight.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "2.1.2.11",
+			"Q": "The continuously flashing yellow light is the hazard lights that means the drivers should look and make sure it is safe to pass before their vehicles pass.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "2.1.2.12",
+			"Q": "When the two red lights at a level crossing flash alternately, the vehicles and pedestrians are prohibited from passing.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "2.1.2.13",
+			"Q": "When one red light at a level crossing is on, the vehicles may pass if it is safe to do so.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
 		{
 			"Q": "The sign in the picture is _______.",
 			"Id": "2.2.1.1",
@@ -5812,6 +7032,637 @@
 			"D": "Rapidly occupy the lane and force the vehicle coming in the opposite direction to stop and yield",
 			"Answer": "A",
 			"Type": "N"
+		},
+		{
+			"Q": "When changing lane, the driver _____.",
+			"Id": "3.4.1.2",
+			"A": "Turn on the turn signal one second in advance",
+			"B": "Turn on the turn signal at least three seconds in advance to alert the following vehicle",
+			"C": "Does not need to turn on the turn signal in advance",
+			"D": "May decide whether to turn on the turn signal according to the traffic conditions",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle changes lane before an intersection, the driver should do so ______.",
+			"Id": "3.4.1.3",
+			"A": "In the area marked by solid lines before the intersection",
+			"B": "In the area marked by solid lines in the intersection",
+			"C": "In the area marked by broken lines as indicated by the guide arrow",
+			"D": "Before the stop line at the intersection",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.4",
+			"Q": "When a vehicle needs to change to the left lane, the driver should _______ in advance and enter the left lane provided he does not obstruct the normal running of other vehicles.",
+			"A": "Turn on the hazard lights",
+			"B": "Turn on the turn signal",
+			"C": "Make a hand signal",
+			"D": "Turn on the left-turn signal",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.5",
+			"Q": "When merging with the traffic flow on the main road, the driver should turn on the turn signal in advance and ___.",
+			"A": "Directly merge into the traffic flow without observation",
+			"B": "Force his way and merge into the traffic flow",
+			"C": "Observe carefully and make sure it is safe to merge before merging into the traffic flow",
+			"D": "Speed up, merge and continuously change lanes",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle approaches a crosswalk, the driver should ________.",
+			"Id": "3.4.1.6",
+			"A": "Speed up and pass",
+			"B": "Stop immediately",
+			"C": "Honk to indicate the pedestrians to yield",
+			"D": "Observe the movement of pedestrians and non-motorized vehicles before passing",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When starting up a vehicle stopping at the roadside, the driver should first ________.",
+			"Id": "3.4.1.7",
+			"A": "Shift to the start gear",
+			"B": "Honk",
+			"C": "Observe the conditions around the vehicles",
+			"D": "Increase engine rotation speed",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.8",
+			"Q": "When the green arrow for a lane is on and there are still pedestrians in the crosswalk before the vehicle, the driver should ___________.",
+			"A": "Directly start up and pass",
+			"B": "Start up and bypass the pedestrians from behind",
+			"C": "Start up and bypass before the pedestrians",
+			"D": "Start up after the pedestrians have passed",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "After a driver has started up but discovers there are many vehicles overtaking from behind, the driver should __.",
+			"Id": "3.4.1.9",
+			"A": "Make hand signals to indicate the vehicles behind to yield",
+			"B": "Speed up and enter the carriageway",
+			"C": "Turn left and directly enter the carriageway",
+			"D": "Move forward slowly and wait for chance to enter the carriageway",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": " When reserving on an ordinary road and discovering some vehicles are passing, the driver should ______.",
+			"Id": "3.4.1.10",
+			"A": "Continue to reverse",
+			"B": "Honk to indicate the intention",
+			"C": "Voluntarily stop and yield",
+			"D": "Speed up and reverse",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When reversing to make a U turn on an ordinary road, the driver should do so _______.",
+			"Id": "3.4.1.11",
+			"A": "At a section where traffic is heavy",
+			"B": "At a place where road is narrow",
+			"C": "At a place where there are many non-motorized vehicles and pedestrians",
+			"D": "At a place where the normal traffic is not affected",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "If an improper place is chosen for crossing another vehicle, the driver should immediately _______.",
+			"Id": "3.4.1.12",
+			"A": "Speed up and select a better place",
+			"B": "Reduce speed and cross each other slowly, or stop to yield",
+			"C": "Occupy the left lane to force the opposite party to reduce speed and yield",
+			"D": "Turn the head light to indicate the opposite party to stop and yield",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.13",
+			"Q": "If a vehicle enters a left lane for overtaking but is unable to ensure a safe horizontal distance with the normally-running vehicle in front, the driver should ________.",
+			"A": "Speed up and overtake",
+			"B": "Overtake after running a distance in parallel",
+			"C": "Give up overtaking",
+			"D": "Overtake with care",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.14",
+			"Q": "When overtaking on a road without a central line, the driver should turn on the left-turn signal and overtake __________.",
+			"A": "By borrowing the sidewalk",
+			"B": "By honking and from both sides",
+			"C": "From the right side of the vehicle to be overtaken",
+			"D": "From the left side of the vehicle to be overtaken",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "If the vehicle to be overtaken has no space for overtaking, the driver should ______.",
+			"Id": "3.4.1.15",
+			"A": "Voluntarily give up overtaking",
+			"B": "Overtake by force",
+			"C": "Honk to urge the vehicle to move to the roadside",
+			"D": "Overtake with care",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle is being overtaken by another vehicle, the driver should _____.",
+			"Id": "3.4.1.16",
+			"A": "Continue to speed up and run",
+			"B": "Reduce speed and run on the right side",
+			"C": "Run by the central line of the road",
+			"D": "Speed up and yield",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a following vehicle gives the overtaking signal, the driver should ________ if conditions permit.",
+			"Id": "3.4.1.17",
+			"A": "Reduce speed rapidly or apply an emergency braking",
+			"B": "Yield a proper space and speed up",
+			"C": "Voluntarily reduce speed and indicate the following vehicle to overtake",
+			"D": "Move to the right side and speed up",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle reaches a sharp curve, the driver should _______.",
+			"Id": "3.4.1.18",
+			"A": "Go forward by borrowing the opposite lane",
+			"B": "Brake suddenly and go slowly",
+			"C": "Drive along the outer side of the curve",
+			"D": "Fully reduce speed and drive on the right side",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.19",
+			"Q": "Before a vehicle enters a curve of a mountain road, the driver ______ if there is no vehicle coming in the opposite direction.",
+			"A": "Should reduce speed, honk and drive on the right side",
+			"B": "Should drive along the outer side of the curve",
+			"C": "May briefly borrow the opposite lane",
+			"D": "May speed up and pass along the tangent line of the curve",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When the green light at a congested intersection is on, the vehicles _______.",
+			"Id": "3.4.1.20",
+			"A": "May directly enter the intersection",
+			"B": "Cannot enter the intersection",
+			"C": "Enter the intersection if it is safe to do so",
+			"D": "May pass the intersection by borrowing the opposite lane",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.21",
+			"Q": "When passing an intersection without traffic lights, the driver should reduce speed or stop to look, and _____ before entering the intersection.",
+			"A": "Yield to the right -turning vehicles",
+			"B": "Yield to the left-turning vehicles",
+			"C": "Yield to the straight-going vehicles",
+			"D": "Yield to the vehicles making a U turn",
+			"Answer": "C",
+			"Type": "N"
+		},		
+		{
+			"Q": "When passing an unmanned level crossing, the driver should ________.",
+			"Id": "3.4.1.22",
+			"A": "Speed up and pass",
+			"B": "Reduce speed and pass",
+			"C": "Maintain the speed and pass",
+			"D": "Stop, look and pass",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.23",
+			"Q": "Before entering a level crossing, the vehicle should reduce speed and change to a lower gear, and _____ after entering the level crossing.",
+			"A": "Cannot change gear",
+			"B": "Can change gear",
+			"C": "Can change to a higher gear",
+			"D": "Stop and look",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "Before a vehicle leaves a roundabout, the driver should turn on _______.",
+			"Id": "3.4.1.24",
+			"A": "The left-turn signal",
+			"B": "The hazard lights",
+			"C": "The right -turn signal",
+			"D": "The high beam light",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle enters a roundabout, the driver ______.",
+			"Id": "3.4.1.25",
+			"A": "Should turn on the right -turn signal",
+			"B": "Should turn on the hazard lights",
+			"C": "Should turn on the left-turn signal",
+			"D": "Does not need to turn on any turn signal",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.26",
+			"Q": "When overtaking a vehicle stopping on the Right side, the driver should ________ in case that vehicle starts up suddenly or opens the door.",
+			"A": "Keep a safe horizontal distance from that vehicle, reduce speed and pass",
+			"B": "Maintain the normal speed",
+			"C": "Keep honking",
+			"D": "Speed up and pass",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.27",
+			"Q": "When a vehicle approaches an intersection without crosswalk, the driver should _______ if he finds people are crossing the street.",
+			"A": "Reduce speed or stop to yield",
+			"B": "Honk to indicate them to yield",
+			"C": "Pass before the pedestrians",
+			"D": "Immediately change lane and bypass the pedestrians",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When encountering non-motorized vehicles intending to bypass a stopping vehicle, the driver should ________.",
+			"Id": "3.4.1.28",
+			"A": "Honk to indicate them to yield",
+			"B": "Yield to them",
+			"C": "Speed up and bypass",
+			"D": "Follow them closely and honk",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When encountering non-motorized vehicles cutting in on the road, the driver should ________.",
+			"Id": "3.4.1.29",
+			"A": "Honk to warn",
+			"B": "Speed up and pass",
+			"C": "Voluntarily reduce speed and yield",
+			"D": "Suddenly speed up when approaching",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When encountering a flock of sheep crossing a road, the driver should _______.",
+			"Id": "3.4.1.30",
+			"A": "Honk continuously to drive away the flock",
+			"B": "Speed up and bypass the flock",
+			"C": "Drive slowly and use the vehicle to scare away the flock",
+			"D": "Reduce speed and go slowly, or stop to yield when necessary",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When discovering animals cutting in on the road, the driver should _______.",
+			"Id": "3.4.1.31",
+			"A": "Voluntarily reduce speed or stop to yield",
+			"B": "Honk to drive them away",
+			"C": "Speed up and bypass",
+			"D": "Reduce speed and use the vehicle to drive away them",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When encountering an ambulance rushing in the same lane in the opposite direction, the driver should _____.",
+			"Id": "3.4.1.32",
+			"A": "Move to the road side, reduce speed or stop to yield",
+			"B": "Drive on by using another lane",
+			"C": "Speed up and change lane to avoid",
+			"D": "Continue to go in the original lane",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When discovering another motorized vehicle running abnormally on the road, the driver should ______.",
+			"Id": "3.4.1.33",
+			"A": "Honk to warn",
+			"B": "Take timely measures to evade",
+			"C": "Turn on the high beam light to warn",
+			"D": "Use the vehicle to obstruct",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a ball rolls onto a road, the driver should _______.",
+			"Id": "3.4.1.34",
+			"A": "Maintain the original speed",
+			"B": "Swiftly bypass",
+			"C": "Immediately reduce speed and be prepared to stop anytime so as not to hurt the chasing children",
+			"D": "Ride over the rubber ball",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When encountering drunk pedestrians on the road, the driver should _______.",
+			"Id": "3.4.1.35",
+			"A": "Honk to warn",
+			"B": "Swiftly bypass from one side",
+			"C": "Reduce speed and go slowly, while maintaining a sufficient horizontal distance",
+			"D": "Follow closely",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.36",
+			"Q": "When encountering pedestrians on the road who are highly concentrated in speaking over cell phones, the driver should __________.",
+			"A": "Honk when approaching them",
+			"B": "Speed up and bypass from one side",
+			"C": "Maintain the normal speed",
+			"D": "Reduce speed and honk to remind them",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.37",
+			"Q": "When a pedestrian suffering behavioral disorder obstructs the normal flow of the vehicles on the road, the driver should ______.",
+			"A": "Reduce speed in advance and go slowly, or stop when necessary",
+			"B": "Honk to urge him to yield",
+			"C": "Speed up and bypass from one side",
+			"D": "Turn on the head light to warn him",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When encountering children on the road, the driver should _________.",
+			"Id": "3.4.1.38",
+			"A": "Honk to indicate the intention",
+			"B": "Reduce speed and go slowly, or stop to yield when necessary",
+			"C": "Swiftly bypass from one side",
+			"D": "Speed up and bypass",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When encountering school children crossing the road in a queue, the driver should _______.",
+			"Id": "3.4.1.39",
+			"A": "Speed up in advance and pass forcefully",
+			"B": "Stop to yield",
+			"C": "Reduce speed and go slowly",
+			"D": "Continuously honk to urge them",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When encountering an old man on the road, the driver should _____.",
+			"Id": "3.4.1.40",
+			"A": "Speed up in advance and pass",
+			"B": "Bypass from behind",
+			"C": "Properly reduce speed and honk in advance",
+			"D": "Continuously honk to warn",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When encountering a blind man on the road, the driver should _________.",
+			"Id": "3.4.1.41",
+			"A": "Honk to indicate him to yield",
+			"B": "Swiftly bypass",
+			"C": "Follow closely",
+			"D": "Reduce speed and evade",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle passes a bumped road, the driver should ________.",
+			"Id": "3.4.1.42",
+			"A": "Pass slowly and steadily",
+			"B": "Speed up and dash over under inertia",
+			"C": "Change to the neutral gear and slide over",
+			"D": "Maintain the original speed and pass",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When encountering somebody herding animals on the road, the driver should _____.",
+			"Id": "3.4.1.43",
+			"A": "Honk to indicate him to yield",
+			"B": "Properly reduce speed and keep a large safe distance",
+			"C": "Swiftly bypass",
+			"D": "Follow closely",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When overtaking bike-riding youngsters on the road, the driver should _______.",
+			"Id": "3.4.1.44",
+			"A": "Swiftly bypass",
+			"B": "Maintain the normal speed",
+			"C": "Reduce speed in advance and go slowly, or stop when necessary",
+			"D": "Continuously honk",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle overtakes the bike riders going in the same direction, the rational way to deal with is to _____.",
+			"Id": "3.4.1.45",
+			"A": "Yield to the bike riders",
+			"B": "Observe them, reduce speed and go slowly, while keeping a sufficient safe distance.",
+			"C": "Continuously honk to remind them to yield",
+			"D": "Continuously honk and speed up to overtake",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle encounters an old man riding bike on the road, the driver should ______.",
+			"Id": "3.4.1.46",
+			"A": "Honk to indicate him to yield when approaching him",
+			"B": "Honk in advance, reduce speed and evade",
+			"C": "Swiftly bypass",
+			"D": "Follow closely",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle encounters a bike rider coming in the opposite direction on the road, the driver should _____.",
+			"Id": "3.4.1.47",
+			"A": "Continuously change the high and low bean lights",
+			"B": "Continuously honk",
+			"C": "Use the high beam light",
+			"D": "Use the low beam light, reduce speed or stop to evade",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle encounters a man-powered cart on the road, the driver should _______.",
+			"Id": "3.4.1.48",
+			"A": "Speed up and bypass",
+			"B": "Reduce speed and go slowly, keeping a safe distance",
+			"C": "Follow closely",
+			"D": "Honk to indicate the cart to yield",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle encounters an animal-drawn cart on the road, the driver should _______.",
+			"Id": "3.4.1.49",
+			"A": "Suddenly speed up and bypass",
+			"B": "Honk when approaching",
+			"C": "Honk in distance and reduce speed in advance",
+			"D": "Follow closely",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.50",
+			"Q": "When a vehicle on the main road approaches a conjunction with a feeder road, the driver should ______ in order to prevent a collision with a vehicle that suddenly enters from the feeder road.",
+			"A": "Reduce speed in advance, observe and drive with care",
+			"B": "Maintain the normal speed",
+			"C": "Honk and swiftly pass",
+			"D": "Speed up in advance and pass",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "If a vehicle has the Right of way at an intersection but encounters a vehicle cutting in, the driver should _____.",
+			"Id": "3.4.1.51",
+			"A": "Rush to pass",
+			"B": "Speed up in advance and pass",
+			"C": "Go forward at the normal speed according to the right of way and refuses to evade",
+			"D": "Reduce speed and evade, or stop to yield when necessary",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle stops in a section where stopping is allowed, the driver should stop the vehicle __________.",
+			"Id": "3.4.1.52",
+			"A": "By the center of the road in the coming direction",
+			"B": "By the roadside in the coming direction",
+			"C": "By the center of the road in the opposite direction",
+			"D": "By the roadside in the opposite direction",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a motorized vehicle stops temporarily at the roadside, the driver ________.",
+			"Id": "3.4.1.53",
+			"A": "May stop the vehicle in the opposite direction",
+			"B": "May stop the vehicle in parallel",
+			"C": "Is not allowed to stop in the opposite direction or in parallel",
+			"D": "May stop anyway he likes as long as it is convenient for him to get out",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle stops temporarily in a rainy day, the driver should turn on ______.",
+			"Id": "3.4.1.54",
+			"A": "The head and tail fog lights",
+			"B": "The hazard lights",
+			"C": "The high beam light",
+			"D": "The reverse light",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.55",
+			"Q": "When a vehicle stops temporarily in a foggy day, the driver should turn on _______, the contour light and the tail light.",
+			"A": "The hazard lights",
+			"B": "The left-turn signal",
+			"C": "The high beam light",
+			"D": "The reserve light",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle stops temporarily at night, the driver should turn on ____, the contour light and the tail light.",
+			"Id": "3.4.1.56",
+			"A": "The head and tail fog light",
+			"B": "The high beam light",
+			"C": "The hazard lights",
+			"D": "The reverse light",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle stops temporarily in a snowy day, the driver should turn on _______.",
+			"Id": "3.4.1.57",
+			"A": "The head and tail fog light",
+			"B": "The reserve light",
+			"C": "The high beam light",
+			"D": "The hazard lights",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.58",
+			"Q": "When a vehicle stops temporarily at the roadside, the distance between the Right wheels of the vehicle and the road shoulder should not exceed ________.",
+			"A": "30cm",
+			"B": "40cm",
+			"C": "50cm",
+			"D": "60cm",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When seeing a “watch for children” sign while driving, the driver should _______.",
+			"Id": "3.4.1.59",
+			"A": "Speed up and pass",
+			"B": "Bypass",
+			"C": "Carefully select a speed",
+			"D": "Maintain the normal speed",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.60",
+			"Q": "When a vehicle approaches a bus stopping at a bus stop, the driver should ______ in case the bus starts up suddenly or pedestrians cross in front of the bus.",
+			"A": "Reduce speed, keep a sufficient distance and be ready to stop anytime",
+			"B": "Maintain the normal speed",
+			"C": "Be ready to apply emergency braking",
+			"D": "Honk to remind, speed up and pass",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.61",
+			"Q": "When driving at night, the driver should ________ if the vehicle coming in the opposite direction fails to turn off the high beam light.",
+			"A": "Maintain the normal speed",
+			"B": "Speed up and evade the light",
+			"C": "Reduce speed or stop to yield",
+			"D": "Also turn on the high beam light",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "3.4.1.62",
+			"Q": "When driving in a rainy day, the driver should _____ when a pedestrian holding umbrella or in raincoat is walking on the highway.",
+			"A": "Drive at the normal speed",
+			"B": "Continuously honk to indicate him to yield",
+			"C": "Speed up and bypass",
+			"D": "Honk in advance and properly reduce speed",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving in a roundabout, the driver should ____ if a vehicle cuts in.",
+			"Id": "3.4.1.63",
+			"A": "Speed up and pass ahead of it",
+			"B": "Maintain the normal speed",
+			"C": "Speed up and refuse to allow the vehicle in",
+			"D": "Reduce speed and evade",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When reaching an intersection, the driver should _____ if a turning vehicle cuts in.",
+			"Id": "3.4.1.64",
+			"A": "Stop to evade",
+			"B": "Maintain the normal speed",
+			"C": "Speed up and pass ahead of it",
+			"D": "Honk and pass ahead of it",
+			"Answer": "A",
+			"Type": "N"
 		}
+		
 	]
 }

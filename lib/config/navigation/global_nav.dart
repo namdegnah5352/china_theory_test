@@ -3,6 +3,7 @@ import '../constants.dart';
 import '../../domain/entities/special.dart';
 import '../../domain/entities/settings_data.dart';
 import '../../domain/entities/question.dart';
+import '../../domain/entities/section.dart';
 import 'app_navigation.dart';
 
 class GlobalNav {
@@ -14,6 +15,7 @@ class GlobalNav {
 
   GlobalNav._internal();
   late List<Special> specials;
+  late List<Section> sections;
   SettingsData? settingsData;
   List<Question>? questions;
   late final AppNavigation appNavigation;
