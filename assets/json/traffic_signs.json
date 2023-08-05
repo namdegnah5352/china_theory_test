@@ -8378,6 +8378,706 @@
 			"Q": "When an accident has caused congestion on an expressway, the vehicles may run in the emergency strip on the right or in the shoulder of the road.",
 			"Answer": "Wrong",
 			"Type": "Logic"
+		},
+		{
+			"Q": "When a vehicle follows another vehicle on a mountain road, it should ____.",
+			"Id": "4.2.1.1",
+			"A": "Closely follow the vehicle in front",
+			"B": "Properly increase the safe distance",
+			"C": "Properly reduce the safe distance",
+			"D": "Try to find a chance to overtake",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "4.2.1.2",
+			"Q": "When a vehicle stops halfway on a slope following another vehicle, the vehicle should keep _______ from the vehicle in front.",
+			"A": "The same distance as on a level road",
+			"B": "A smaller distance than on a level road",
+			"C": "A distance half of that on a level road",
+			"D": "A larger distance than on a level road",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When overtaking on a mountain road, the vehicle should overtake ______.",
+			"Id": "4.2.1.3",
+			"A": "By selecting a relatively gentle downhill section",
+			"B": "By taking every possible chance",
+			"C": "By selecting a wide gentle uphill section",
+			"D": "By selecting a fairly long downhill section",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "4.2.1.4",
+			"Q": "When encountering a vehicle coming in the opposite direction on a mountain road, the driver should ______ when crossing each other.",
+			"A": "Not reduce speed",
+			"B": "Stick to the center of the road",
+			"C": "Speed up",
+			"D": "Select a safe section to reduce speed or stop",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When stopping halfway on a downhill road, the brake pedal should be depressed ______.",
+			"Id": "4.2.1.5",
+			"A": "Earlier than on a level road",
+			"B": "Later than on a level road",
+			"C": "As timely as on a level road",
+			"D": "More gently than on a level road",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "4.2.1.6",
+			"Q": "When driving on a long downhill road, the speed can become faster and faster under inertia and the best way to control the speed is _______.",
+			"A": "Shift to the neutral gear and slide",
+			"B": "Use the engine to brake",
+			"C": "Depress the clutch and slide",
+			"D": "Use the foot brake to control the speed",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "Continuously using the foot brake on a long downhill road ________.",
+			"Id": "4.2.1.7",
+			"A": "Can shorten the engine’s service life",
+			"B": "Increases the driver’s labor intensity",
+			"C": "Can drastically reduce the braking efficiency due to the rising temperature of the brake",
+			"D": "Can easily cause vehicle overturn",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "4.2.1.8",
+			"Q": "When a vehicle runs on a narrow mountain road, the driver should ______ if the party close to the mountain mass refuses to yield.",
+			"A": "Use the left lane and pass with care",
+			"B": "Reduce speed and select a safe place to evade",
+			"C": "Maintain the normal speed",
+			"D": "Honk to urge the other party to yield",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "4.2.2.1",
+			"Q": "When a vehicle goes uphill, the driver should observe the road conditions and the length of the slope in advance and shift to the lower gear in a timely manner to ensure the vehicle has sufficient power.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.2.2.2",
+			"Q": "When a vehicle goes downhill, the driver should properly control the speed and fully use the engine to brake.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.2.2.3",
+			"Q": "When a vehicle goes down a long slope, it should run at a lower gear and fully use the engine to brake.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.2.2.4",
+			"Q": "When a vehicle goes downhill, it may fully use the neutral gear and slide.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.2.2.5",
+			"Q": "When a vehicle passes a curve on a mountain road, the driver should reduce speed, honk and stick to the Right.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.2.2.6",
+			"Q": "When a vehicle goes downhill on a mountain road, it is not allowed to overtake.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.2.2.7",
+			"Q": "When a vehicle goes uphill on a mountain road, it should change to the lower gear in advance, speed up and dash uphill.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.2.2.8",
+			"Q": "When a vehicle follows another vehicle on a mountain road, it should properly reduce the safe distance.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.2.2.9",
+			"Q": "After a vehicle enters a mountain road, it should pay special attention to the 'continuous curves' sign. In addition, it should voluntarily evade vehicles and pedestrians, reduce speed in a time manner and honk in advance.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},	
+		{
+			"Id": "4.2.2.10",
+			"Q": "When a vehicle goes uphill on a mountain road, it should change to a lower gear in a timely, accurate and rapid manner so as to avoid a situation in which driving at a high gear can reduce the power of the engine.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.2.2.11",
+			"Q": "When passing a dangerous section of a mountain road, the driver should drive with care and avoid stopping.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.2.2.12",
+			"Q": "When passing a section of a mountain road which is prone to landside and mudflow, the driver should not stop.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.3.1.1",
+			"Q": "When a vehicle reaches the opening of a tunnel allowing one-way passage and discovers another vehicle coming in the opposite direction, the driver should ________.",
+			"A": "Reduce speed and pass",
+			"B": "Move to the right side in the tunnel and stop to yield",
+			"C": "Move to the right side outside the tunnel and stop to yield",
+			"D": "Maintain the normal speed and pass",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle enters a two-way tunnel, the driver should turn on ________.",
+			"Id": "4.3.1.2",
+			"A": "The hazard lights",
+			"B": "The high beam light",
+			"C": "The fog light",
+			"D": "The width light or the low beam light",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle turns left through an interchange, the driver should ______.",
+			"Id": "4.3.1.3",
+			"A": "First observe the traffic signs and then go forward as guided by the markings",
+			"B": "First observe the markings and then go forward as guided by the traffic lights",
+			"C": "Not observe the signs and markings and should turn right first before passing the interchange",
+			"D": "Not observe the signs and markings and should look for the exit after entering the interchange",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "4.3.2.1",
+			"Q": "When a vehicle passing through an interchange discovers it has chosen a Wrong route, it should immediately make a U turn from where it is or reverse to change route.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.3.2.2",
+			"Q": "When a vehicle’s load exceeds the weight permitted by the bridge weight-limit sign, it should pass slowly.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.3.2.3",
+			"Q": "As the traffic flow at an interchange is generally one-way, the vehicles do not have to reduce speed when passing.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.3.2.4",
+			"Q": "When a vehicle turns Right through an interchange, it should pass the interchange before turning Right.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.3.2.5",
+			"Q": "When a vehicle turns left through an interchange, it should turn Right and turn Right again before passing the interchange.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.3.2.6",
+			"Q": "When a vehicle turn left through an interchange, it should pass the interchange before turning Right, entering the ramp and turning Right again.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.1.1",
+			"Q": "When driving at night on a road that has no lighting, the driver may use _____ and the light must reach over 30 meters away if the speed is less than 30 kilometers per hour.",
+			"A": "The low beam light",
+			"B": "The high beam light",
+			"C": "The fog light",
+			"D": "The hazard lights",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "4.4.1.2",
+			"Q": "When driving at night on a road that has no lighting, the driver may use ______ and the light must reach over 100 meters away if the speed exceeds 30 kilometers per hour.",
+			"A": "The low beam light",
+			"B": "The high beam light",
+			"C": "The fog light",
+			"D": "The hazard lights",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving at night on a road that has good lighting, the driver should use _______.",
+			"Id": "4.4.1.3",
+			"A": "The fog light",
+			"B": "The low beam light",
+			"C": "The high beam light",
+			"D": "The hazard lights",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving at night, there could be a sharp curve or a big hole ahead if the lighting _______.",
+			"Id": "4.4.1.4",
+			"A": "Shortens",
+			"B": "Leaves the road surface",
+			"C": "Does not change its distance",
+			"D": "Becomes lower",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle running at night reaches the top of a slope, its lighting _______.",
+			"Id": "4.4.1.5",
+			"A": "Moves from the center of the road to the roadside",
+			"B": "Moves from the roadside to the center of the road",
+			"C": "Leaves the road surface",
+			"D": "Does not change its distance",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle running at night encounters a curve ahead, its lighting ____.",
+			"Id": "4.4.1.6",
+			"A": "Does not change its distance",
+			"B": "Become lower",
+			"C": "Leave the road surface",
+			"D": "Moves from the center of the road to the roadside",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "4.4.1.7",
+			"Q": "When vehicles cross each other at night, the drivers should not look straight to the light from the vehicle coming in the opposite direction. Instead, he should move his sight _______.",
+			"A": "To the right side and go forward at a lower speed",
+			"B": "To the left side and go forward at a lower speed",
+			"C": "To the right side and maintain the normal speed",
+			"D": "To the left side and go forward at a higher speed",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "4.4.1.8",
+			"Q": "When overtaking at night, the driver should _______, and overtake only after making sure the vehicle in front has reduced speed and yield.",
+			"A": "Turn on the high beam light",
+			"B": "Continuously switch the high and low beam lights",
+			"C": "Turn on the low beam light",
+			"D": "Turn on the hazard lights",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "4.4.1.9",
+			"Q": "When crossing another vehicle at night, the driver should change to the low beam light _____ from the vehicle coming in the opposite direction.",
+			"A": "30 meters",
+			"B": "50 meters",
+			"C": "100 meters",
+			"D": "150 meters",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When crossing a non-motorized vehicle on a narrow road or bridge, the driver should use ________.",
+			"Id": "4.4.1.10",
+			"A": "The high beam light",
+			"B": "The low beam light",
+			"C": "The hazard lights",
+			"D": "The fog light",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "4.4.2.1",
+			"Q": "When driving at night, the vehicle light covers a small scope and the driver’s view is limited if compared with driving in the daytime.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.2",
+			"Q": "When driving at night, the driver’s observation ability is visibly poorer and his visibility range becomes shorter than driving in the daytime.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.3",
+			"Q": "When driving at night, the driver does not easily have visual fatigue.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.4",
+			"Q": "When driving at night, the driver should go at a lower speed because his field of vision is limited and he can hardly observe the traffic conditions beyond the area covered by his vehicle light.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.5",
+			"Q": "When vehicles cross each other, the light from the vehicle in the opposite direction can dazzle the driver and make it impossible for him to clearly see the traffic conditions ahead. Therefore, the driver should move his sight to the Right side to evade the light from that vehicle and should go forward at a lower speed.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.6",
+			"Q": "When a vehicle starts to move, the driver should first turn on the low beam light.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.7",
+			"Q": "When following a vehicle, the following vehicle may use the high beam light.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.8",
+			"Q": "When the vehicles cross each other at night, the driver may continuous change lights to remind the vehicle coming in the opposite direction and at the same should reduce speed and go forward or stop on the Right side.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.9",
+			"Q": "When driving at night, the driver should try as much as possible to avoid overtaking. When he really needs to overtake, he may switch the high and low beam lights to alert the vehicle in front.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.10",
+			"Q": "When driving at night, the driver should use the high beam light if his vehicle runs at a speed of less than 30 kilometers per hour.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.11",
+			"Q": "When driving at night on a road with poor lighting, the driver should use the low beam light if his vehicle runs at a speed of more than 30 kilometers per hour.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.12",
+			"Q": "When driving at night on a road with no or poor lighting, the driver should switch from the low beam light to the high beam light. But the vehicle following in the same direction is not allowed to use the high beam light.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.13",
+			"Q": "When driving at night, the driver should reduce speed and go forward if the vehicle coming in the opposite direction fails to turn off the high beam light. This is designed to prevent an accident from happening when there are pedestrians crossing the place where the lights of the two vehicles meet.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.14",
+			"Q": "When driving at night, the driver should speed up and pass if the vehicle coming in the opposite direction fails to turn off the high beam light.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.15",
+			"Q": "When driving at night in windy, snowy, rainy and foggy weather conditions, the driver should use the fog light or the dazzle-free low beam light.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.16",
+			"Q": "When passing a level crossing without traffic signals at night, the driver is not allowed to change the high and low beam lights.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.4.2.17",
+			"Q": "When driving at night, the driver should reduce speed or stop to yield if the vehicle coming in the opposite direction fails to turn off the high beam light.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},	
+		{
+			"Q": "In a rainy day, the vertical distance between vehicles should be _______ longer than on a dry road.",
+			"Id": "4.5.1.1",
+			"A": "1 time",
+			"B": "1.5 times",
+			"C": "2 times",
+			"D": "3 times",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "4.5.1.2",
+			"Q": "When driving in a rainstorm and the windscreen wiper cannot totally wipe off the rain water, the driver should ________.",
+			"A": "Drive at a reduced speed",
+			"B": "Concentrate his attention and drive with care",
+			"C": "Immediately reduce speed and stop at the road side",
+			"D": "Maintain the normal speed",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "In an icy and snowy day, the vertical distance between vehicles should be _______ longer than on a dry road.",
+			"Id": "4.5.1.3",
+			"A": "1.5 times",
+			"B": "2 times",
+			"C": "3 times",
+			"D": "3.4 times",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "4.5.1.4",
+			"Q": "When reducing speed or stopping on a road covered by ice and snow, the driver should fully use _______ to reduce the speed.",
+			"A": "The foot brake",
+			"B": "The engine’s braking role",
+			"C": "The handbrake",
+			"D": "The retarder",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "4.5.1.5",
+			"Q": "When driving in a snowy day, the driver should ________ in order to prevent side skidding or scratching other vehicles.",
+			"A": "Reduce speed and maintain a safe distance",
+			"B": "Closely follow the vehicle in front and honk to remind it",
+			"C": "Keep a fairly small distance with the vehicle in front",
+			"D": "Keep a fairly small horizontal distance with the vehicles in the neighboring lane",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "4.5.1.6",
+			"Q": "When vehicles cross each other on an icy road, the driver should ________, firmly hold the steering wheel and cross slowly.",
+			"A": "Reduce speed when approaching",
+			"B": "Properly speed up",
+			"C": "Reduce speed in advance",
+			"D": "Maintain the speed",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "4.5.1.7",
+			"Q": "When driving on a mountain road covered by ice and snow, the vehicle behind should ______ if the vehicle in front is climbing a slope.",
+			"A": "Select a proper place to stop and climb after the vehicle in front has passed",
+			"B": "Rapidly overtake the vehicle in front",
+			"C": "Climb slowly",
+			"D": "Closely follow and climb",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving in a foggy day, the driver should turn on ______.",
+			"Id": "4.5.1.8",
+			"A": "The reverse light",
+			"B": "The low beam light",
+			"C": "The high beam light",
+			"D": "The fog light",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "4.5.1.9",
+			"Q": "When driving in a foggy day, the driver should closely observe the movements of the pedestrians and other vehicles due to poor visibility and ______.",
+			"A": "Honk continuously",
+			"B": "Drive at the normal speed",
+			"C": "Turn on the high beam light",
+			"D": "Drive at a low speed",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving in thick or extremely thick fog, the driver should ____ due to low visibility.",
+			"Id": "4.5.1.10",
+			"A": "Turn on the head light",
+			"B": "Turn on the contour light and fog light",
+			"C": "Stop at a safe place",
+			"D": "Turn on the hazard lights",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "4.5.1.11",
+			"Q": "When driving on a muddy road, the driver should select the proper gear, _____ to control the speed, and pass at an even speed without stopping.",
+			"A": "Use the handbrake",
+			"B": "Depress the clutch pedal",
+			"C": "Depress the brake pedal",
+			"D": "Use the accelerator pedal",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When driving on a muddy road, the driver should _______ if the wheels of his vehicle spin.",
+			"Id": "4.5.1.12",
+			"A": "Remove the muddy and cover with sands, rocks, grasses or wood",
+			"B": "Change to a high gear",
+			"C": "Violently turn the steering wheel",
+			"D": "Violently depress the accelerator pedal",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "4.5.1.13",
+			"Q": "When driving in a strong wind, the driver must _______ and reduce speed if he feels the steering wheel “is suddenly deprived” due to the frequent changes in the speed and direction of the wind.",
+			"A": "Turn the steering wheel in the direction against the wind",
+			"B": "Turn the steering wheel in the direction with the wind",
+			"C": "Apply emergency braking",
+			"D": "Firmly hold the steering wheel with both hands",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "4.5.1.14",
+			"Q": "When a vehicle wades across the water, the driver should maintain a low speed, and _____ the brake pedal so as to restore the braking efficiency.",
+			"A": "Gently depress",
+			"B": "Intermittently and strongly depress",
+			"C": "Continuously and gently depress",
+			"D": "Intermittently and gently depress",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle passes a construction section, the driver should _______.",
+			"Id": "4.5.1.15",
+			"A": "Select a proper place to stop",
+			"B": "Bypass according to the directional signs",
+			"C": "Pass slowly on the right side",
+			"D": "Reduce speed and go on the left side",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle breaks down in a level crossing and is unable to move on, the driver should _______.",
+			"Id": "4.5.1.16",
+			"A": "Manage to repair the vehicle",
+			"B": "Manage to move the vehicle out of the crossing as fast as possible",
+			"C": "Stay in the vehicle and wait for help",
+			"D": "Get off the vehicle and wait for help",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "4.5.2.1",
+			"Q": "When driving in windy, rainy, snowy, foggy and other complex weather conditions, the driver should turn on the head light, honk continuously and overtake rapidly if the vehicle in front goes slowly.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.2",
+			"Q": "As the braking distance increases on a wet road in a rainy day, the driver should use the emergency brake as much as possible to reduce speed.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.3",
+			"Q": "When driving on an ordinary road in a foggy day, the driver should turn on the fog light and the high beam light simultaneously.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.4",
+			"Q": "When driving in a foggy day, the driver should use the horn as less as possible or does not use it at all.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.5",
+			"Q": "When driving in a heavy rain, the driver should control the speed to avoid the danger arising from “water slide”.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.6",
+			"Q": "As thick fog reduces visibility, turning on the high beam light can increase the visibility.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.7",
+			"Q": "When there is a continuous rain, the shoulders of the mountain roads may become loose and the embankments may collapse. When driving in this weather, the driver should select the middle solid road and refrain from going close to the roadsides.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.8",
+			"Q": "Honking in a foggy day can arouse the attention of the opposite side. After hearing the honking from the opposite side, the driver should also honk to respond.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.9",
+			"Q": "When driving in a strong wind, the driver should abruptly turn the steering wheel to return to the original direction if he feels the vehicle deviates horizontally when hit by a fierce gale.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.10",
+			"Q": "When driving on a road covered by ice and snow, the driver must reduce speed and increase the safe distance.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.11",
+			"Q": "When driving in a snowy day, the driver should drive along the vehicle tracks if there are any.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.12",
+			"Q": "Emergency braking on a road covered by ice and snow can easily cause side skidding. The driver should use the engine braking to reduce speed.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.13",
+			"Q": "Emergency braking should not be used to deal with unexpected situations on the road covered by ice and snow. But sudden turning can be used to evade.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.14",
+			"Q": "When vehicles encounter a slope on a low-grade mountain road covered by ice and snow, the vehicle going downhill should yield to the one going uphill.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.15",
+			"Q": "When driving in a foggy day, the driver should use the horn more so as to arouse the attention of the opposite side.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.16",
+			"Q": "When hearing a honking from the vehicle coming in the opposite direction in thick fog, the driver should honk in time to respond.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.17",
+			"Q": "When a vehicle goes on a road covered by ice and snow, the driver should reduce speed and shorten the distance from the vehicle in front.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.18",
+			"Q": "When a vehicles reaches a muddy or burst-and-muddy section, the driver should stop, observe and select the level and solid section or the section with vehicle tracks.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.19",
+			"Q": "When a vehicle experiences a side skid on a muddy road, the driver should be sober-minded, release the accelerator pedal and at the same time turn the steering wheel to the direction of the rear wheel skidding.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.5.2.20",
+			"Q": "When a vehicle wades across the water, the braking efficiency of the brake does not change.",
+			"Answer": "Wrong",
+			"Type": "Logic"
 		}		
 	]
 }
