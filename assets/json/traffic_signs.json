@@ -7232,7 +7232,7 @@
 			"D": "Yield to the vehicles making a U turn",
 			"Answer": "C",
 			"Type": "N"
-		},		
+		},
 		{
 			"Q": "When passing an unmanned level crossing, the driver should ________.",
 			"Id": "3.4.1.22",
@@ -7662,7 +7662,722 @@
 			"D": "Honk and pass ahead of it",
 			"Answer": "A",
 			"Type": "N"
-		}
-		
+		},
+		{
+			"Id": "3.4.2.1",
+			"Q": "When a vehicle changes lane, the driver should turn on the turn signal in advance, observe traffic conditions, maintain a safe distance and move into the new lane.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.2",
+			"Q": "When a vehicle changes lane before an intersection, the driver should turn on the turn signal and change lane after entering the area marked by solid lines.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.3",
+			"Q": "When a vehicle changes to the Right lane, the driver should turn on the Right-turn signal in advance, observe and enter the new lane if it is safe to do so.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.4",
+			"Q": "When a vehicle changes lane, the driver only needs to turn on the turn signal before rapidly entering the new lane.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.5",
+			"Q": "When a vehicle merges with the traffic flow, the driver should turn on the turn signal in advance, go straight, observe the traffic conditions on both sides through the rear-view mirror, and merge with the traffic flow if it is safe to do so.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.6",
+			"Q": "When a vehicle changes lane, the driver should turn on the turn signal and rapidly enter the new lane.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.7",
+			"Q": "Before a vehicle merges into the traffic flow from another road, the driver should observe the traffic conditions beside and behind the vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.8",
+			"Q": "When a vehicle passes a crosswalk, the driver should yield to the pedestrians.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.9",
+			"Q": "When a vehicle approaches a crosswalk, it should try to pass from behind the pedestrians if pedestrians are cross the street.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.10",
+			"Q": "When a vehicle is ready to start up after a temporary stopping, the driver should honk to notify the vehicles in the left lane.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.11",
+			"Q": "When a vehicle starts up, the driver should observe the traffic conditions and begin to start up after making sure it is safe to do so.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.12",
+			"Q": "A vehicle should try to speed up after starting from the roadside and rapidly turn left into the traffic flow on the road.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.13",
+			"Q": "After a vehicle starts from the roadside, the driver should pay close attention to the traffic conditions on both sides, turn left slowly and gradually join the traffic flow on the road.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.14",
+			"Q": "When reversing, the driver should carefully observe the reversing line and make sure it is safe to reverse before reversing.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.15",
+			"Q": "In the course of reversing, the driver should carefully observe the space on both sides of the front so as to avoid scratching arising from an unduly large turning angle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.16",
+			"Q": "In the course of reversing, the driver should move slowly, observe the conditions on both sides and in the rear and be ready to stop anytime.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.17",
+			"Q": "When reversing, the driver should speed up and reverse and complete the operation rapidly if the road conditions behind the vehicle are good.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.18",
+			"Q": "When running on a road with a broken central line, the vehicles should go in their respective lanes and are not allowed to cross the central line when there are vehicles coming in the opposite direction.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.19",
+			"Q": "If a vehicle may encounter a vehicle coming in the opposite direction in the course of overtaking, the driver should speed up in advance and overtake.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.20",
+			"Q": "When a vehicle passes a tunnel, it is prohibited from overtaking.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.21",
+			"Q": "When a vehicle passes a level crossing, it is prohibited from overtaking.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.22",
+			"Q": "When a vehicle passes a sharp curve, it may overtake if traffic is light.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.23",
+			"Q": "When a vehicle passes a narrow road or bridge, it is prohibited from overtaking.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.24",
+			"Q": "When there is another vehicle making a U turn on the road ahead, the driver should overtake rapidly while that vehicle is in the course of stopping and gear shifting.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.25",
+			"Q": "When another vehicle is overtaking, the driver should speed up and do not allow that vehicle to overtake.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.26",
+			"Q": "When another vehicle is overtaking, the driver is not allowed to turn left or apply emergency braking so as to avoid rear-end or side collision due to the slow reaction of that vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.27",
+			"Q": "When a vehicles turns, it should do so on the Right side and refrain from occupying the lane of the other party. The left turn should be gentle and the Right turn should be sharp.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.28",
+			"Q": "When vehicles make a gentle turn, the vehicles in the outer turning lane may use the lane for vehicles coming in the opposite direction.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.29",
+			"Q": "Before a vehicle enters an intersection, the driver should reduce speed, observe and make sure it is safe to do so.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.30",
+			"Q": "When passing an intersection, the vehicles in the fast lane may not change lane for a right turn.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.31",
+			"Q": "When passing a level crossing, the vehicles should not enter the crossing even if the traffic signal allows them to do so if there is a congestion ahead.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.32",
+			"Q": "When a vehicle passes a level crossing, the driver should use the low gear to pass and should not change gear halfway in order to avoid engine kill.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.33",
+			"Q": "When passing an unmanned level crossing, the driver may speed up and pass if he sees no train is coming.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.34",
+			"Q": "When passing a manned level crossing, the driver should obey to the command of the crossing manager and refrain from competing with the train.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.35",
+			"Q": "Before a vehicle enters a roundabout, the driver should turn on the Right-turn signal.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.36",
+			"Q": "If discovering pedestrians abruptly cross the road while driving, the driver should immediately reduce speed and evade.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.37",
+			"Q": "When encountering pedestrians wearing cotton-padded caps or overcoats in winter, the driver should honk and be ready to brake.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.38",
+			"Q": "When encountering people carrying load on shoulder poles or carrying farm tools on shoulders, the driver should observe their movement, control speed and pass by keeping a sufficient safe distance.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.39",
+			"Q": "When the pedestrians are violating the traffic regulations, the vehicles may not yield to the pedestrians.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.40",
+			"Q": "After the green light at an intersection is on, the vehicles may not yield if non-motorized vehicles cut in.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.41",
+			"Q": "When animals abruptly cross a road, the driver should evade if it is safe for the passengers and goods in the vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.42",
+			"Q": "When animals cross a road and impede the traffic, the driver may continuously honk to drive them away.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.43",
+			"Q": "When discovering another vehicle running abnormally, the driver should voluntarily evade to avoid a traffic accident.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.44",
+			"Q": "When a pedestrian deliberately refuses to yield to the vehicle, the driver may continuously honk and pass.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.45",
+			"Q": "When making a U turn, the driver should observe whether there is a “no U turn” sign and should never make a U turn at a place where U turn is prohibited.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.46",
+			"Q": "The vehicles may make U turns in a dangerous section with care.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.47",
+			"Q": "Before a vehicle makes a U turn, the driver should first observe the traffic conditions behind the vehicle. When advancing or reversing in the course of making a U turn, he should observe the traffic conditions before and behind the vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.48",
+			"Q": "In the course of making a U turn, the driver should strictly control the speed, carefully observe the road conditions before and behind the vehicle, and may advance or reverse only if it is safe to do so.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.49",
+			"Q": "When making a U turn on a slope, the foot brake instead of the handbrake should be used for each stopping.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.50",
+			"Q": "When encountering a “watch for children” sign, the driver should speed up and pass in case the children abruptly cross the road.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.51",
+			"Q": "When encountering children playing on the highway, the driver should continuously honk, speed up and pass.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.52",
+			"Q": "When encountering children play on the roadside, the driver should reduce speed in advance and pass with care.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.53",
+			"Q": "When encountering old people walking on the road and obstructing the traffic, the driver may continuously honk to urge them to yield.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.54",
+			"Q": "When encountering slow-moving old people crossing the road, the driver may continuously honk to urge them.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.55",
+			"Q": "When encountering blind people or other pedestrians who have difficulty moving about, the driver should reduce speed, go slowly, and stop when necessary.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.56",
+			"Q": "When encountering disabled people obstructing the traffic, the driver should voluntarily reduce speed and yield.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.57",
+			"Q": "When encountering pedestrians who lack traffic experience, the driver should watch out, control the speed and be ready to stop or yield anytime.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.58",
+			"Q": "In a vehicle that has safety belts, the driver should request the passengers to buckle up.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.59",
+			"Q": "In a traffic accident, the driver should first protect him and then protect the passengers in the vehicle.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.60",
+			"Q": "When encountering somebody herding animals and obstructing the traffic, the driver should continuously honk to warn.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.61",
+			"Q": "When encountering somebody herding animals crossing the road or going in the same direction, the driver may continuously honk to urge him to yield.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.62",
+			"Q": "When bicycles ahead obstruct the traffic flow, the driver may honk to remind them, speed up and bypass.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.63",
+			"Q": "When braking or stopping after overtaking a man-powered cart on a down slope, the driver should leave a sufficient safe distance for the cart.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.64",
+			"Q": "When an animal-drawn cart cuts in on the road, the driver should honk to warn in a timely manner.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.65",
+			"Q": "When a motorized vehicle encounters the cut in by another vehicle in a roundabout, the driver may not evade as long as he has the Right of way.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.66",
+			"Q": "When reaching an intersection, a left-turning vehicle may enter the left-turn waiting area anytime.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.67",
+			"Q": "When reaching a sharp curve, the driver should reduce speed and drive on the Right side so as to avoid colliding with the vehicle crossing the central line of the curve in the opposite direction.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.68",
+			"Q": "When driving in continuous curves, the driver should try to go along the inner side of the curves.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.69",
+			"Q": "When encountering a vehicle that has the Right of way, the driver should voluntarily yield.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.70",
+			"Q": "When stopping on the road, the driver should select a section where stopping is allowed and should park the car on the Right side of the road in the coming direction.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.71",
+			"Q": "When a vehicle temporarily stops at the roadside, the driver may stop the vehicle in the opposite direction or in parallel.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.72",
+			"Q": "When a vehicle stops for a long time, the driver should select a car park to do so.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.4.2.73",
+			"Q": "When a vehicle passes a school or a residential area, the driver should observe the signs and markings, go slowly and refrain from honking.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When entering an expressway toll gate, the driver should select a gate where _______.",
+			"Id": "4.1.1.1",
+			"A": "There are more vehicles",
+			"B": "The red light is on",
+			"C": "Service is temporarily suspended",
+			"D": "The green light is on",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "After entering an expressway ramp, the vehicle _________.",
+			"Id": "4.1.1.2",
+			"A": "Is allowed to overtake",
+			"B": "Is prohibited from making a U turn",
+			"C": "Is allowed to stop",
+			"D": "Is allowed to reverse",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "4.1.1.3",
+			"Q": "After entering the acceleration lane of an expressway, the driver should increase the speed to more than _________ per hour.",
+			"A": "30km",
+			"B": "40km",
+			"C": "60km",
+			"D": "90km",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "4.1.1.4",
+			"Q": "After entering the acceleration lane of an expressway and when the traffic in the carriageway is light, the driver may _______.",
+			"A": "Enter the carriageway behind the normally running vehicles",
+			"B": "Enter the carriageway before the normally running vehicles",
+			"C": "Stop and wait for the passing of the normally running vehicles",
+			"D": "Speed up and directly enter the carriageway",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "4.1.1.5",
+			"Q": "When running on an expressway that has three lanes in the same direction, the vehicles whose speed ranges between 90 kilometers per hour and 110 kilometers per hour should run _________.",
+			"A": "In the far left lane",
+			"B": "In the middle lane",
+			"C": "In the far right lane",
+			"D": "In any lane",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "4.1.1.6",
+			"Q": "When running on an expressway that has four lanes in the same direction, the vehicles whose speed is higher than 110 kilometers per hour should run ______.",
+			"A": "The far left lane",
+			"B": "The second left lane",
+			"C": "The third left lane",
+			"D": "The far right lane",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "4.1.1.7",
+			"Q": "When running on an expressway that has four lanes in the same direction, the vehicles whose speed is lower than 80 kilometers per hour should run ______.",
+			"A": "The far left lane",
+			"B": "The second left lane",
+			"C": "The third left lane",
+			"D": "The far right lane",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "4.1.1.8",
+			"Q": "When running on expressway that has three lanes in the same direction, the minimum speed on the far Right lane is _____ per hour.",
+			"A": "40km",
+			"B": "60km",
+			"C": "80km",
+			"D": "100km",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "4.1.1.9",
+			"Q": "When overtaking on an expressway, the minimum horizontal distance between vehicles should be ______ if the speed is 100 kilometers per hour.",
+			"A": "0.8m",
+			"B": "1.0m",
+			"C": "1.2m",
+			"D": "1.5m",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "4.1.1.10",
+			"Q": "The distance-ascertaining section of an expressway is used for the drivers to ascertain the safe distance when the speed is ______ per hour.",
+			"A": "120km",
+			"B": "100km",
+			"C": "90km",
+			"D": "60km",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle runs on an expressway at the speed of 100 kilometers per hour, the safe distance is _______.",
+			"Id": "4.1.1.11",
+			"A": "50m",
+			"B": "60m",
+			"C": "80m",
+			"D": "100m",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "4.1.1.12",
+			"Q": "When a vehicle runs on an expressway at the speed of 100 kilometers per hour, the dangerous distance between vehicles is _______.",
+			"A": "50m",
+			"B": "100m",
+			"C": "110m",
+			"D": "120m",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "4.1.1.13",
+			"Q": "The best chance to leave the carriageway of an expressway is _______ ahead of an exit. The driver should turn on the Right-turn signal, properly adjust the speed and smoothly enters the deceleration lane.",
+			"A": "2km",
+			"B": "1km",
+			"C": "500m",
+			"D": "50m",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When running on an expressway, the driver should ____ if he has missed the exit.",
+			"Id": "4.1.1.14",
+			"A": "Reverse to the original place",
+			"B": "Continue to go ahead and find the next exit",
+			"C": "Immediately stop",
+			"D": "Make a U turn from where he is",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "4.1.1.15",
+			"Q": "When a vehicle has to stop on an expressway due to a vehicle trouble, the driver should place a breakdown warning sign ______ behind the vehicle, and should turn on the contour light and tail light at night.",
+			"A": "200m",
+			"B": "150m",
+			"C": "100m",
+			"D": "50m",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "4.1.1.16",
+			"Q": "After a vehicle enters the deceleration lane of an expressway, the driver should turn off the turn signal, look at the speedometer, and reduce the speed to less than ______ before entering the ramp.",
+			"A": "The speed specified in the sign",
+			"B": "80km per hour",
+			"C": "60km per hour",
+			"D": "40km per hour",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "4.1.1.17",
+			"Q": "When a vehicle leaves the opening of an expressway tunnel, it will be attacked by side wind and the vehicle can have _____.",
+			"A": "A feeling of deceleration",
+			"B": "A feeling of acceleration",
+			"C": "A feeling of pressure",
+			"D": "A feeling of deviation",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "4.1.2.1",
+			"Q": "After a vehicle enters the ramp, the driver should swiftly increase the speed to more than 60 kilometers per hour.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.2",
+			"Q": "A vehicle may stop on the ramp of an expressway.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.3",
+			"Q": "A vehicle is not allowed to make a U turn on the ramp of an expressway.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.4",
+			"Q": "A vehicle is not allowed to reverse on the ramp of an expressway.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.5",
+			"Q": "When a vehicle has increased its speed to more than 60 kilometers per hour on the ramp of an expressway, it may directly enter the carriageway.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.6",
+			"Q": "When discovering the normally running vehicles are following each other fairly closely on an expressway, the driver should find chance and cut in between them.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.7",
+			"Q": "When running on an expressway that has two lanes in the same direction, the vehicle whose speed is lower than 100 kilometers per hour should run in the left lane.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.8",
+			"Q": "The vehicles should run by the Right shoulder of an expressway.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.9",
+			"Q": "The safe distance ascertaining section of an expressway is used to ascertain the safe distance for the vehicles running at 100 kilometers per hour.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.10",
+			"Q": "When a vehicle runs on an expressway at the speed of 100 kilometers per hour, its safe distance is more than 100 meters.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.11",
+			"Q": "A vehicle running on an expressway may frequently change lanes.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.12",
+			"Q": "If a vehicle running on an expressway misses an exit, it may reverse to the exit along the shoulder.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.13",
+			"Q": "When a vehicle leaves an expressway, it should reduce speed in the deceleration lane before entering the ramp.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.14",
+			"Q": "When a vehicle runs on an expressway, the driver may ascertain the speed according to his feeling.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.15",
+			"Q": "After a vehicle enters the ramp from an expressway, it should reduce its speed below the prescribed speed limit.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.16",
+			"Q": "When changing lanes on an expressway, the driver should turn on the turn signal in advance, observe the traffic conditions, and slowly turn the steering wheel and enter the new lane after making sure it is safe to do so.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.17",
+			"Q": "When driving on an expressway with a visibility of less than 100 meters, the driver should limit the speed below 40 kilometers per hour and should keep a distance of more than 50 meters from the vehicle in front.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "4.1.2.18",
+			"Q": "When an accident has caused congestion on an expressway, the vehicles may run in the emergency strip on the right or in the shoulder of the road.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		}		
 	]
 }
