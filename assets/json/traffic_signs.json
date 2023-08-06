@@ -9078,6 +9078,412 @@
 			"Q": "When a vehicle wades across the water, the braking efficiency of the brake does not change.",
 			"Answer": "Wrong",
 			"Type": "Logic"
+		},
+		{
+			"Id": "5.1.1.1",
+			"Q": "When discovering a tire is leaking, the driver should firmly hold the steering wheel, ______, do his best to control the driving direction and leave the carriageway as soon as possible.",
+			"A": "Swiftly brake and reduce speed",
+			"B": "Slowly brake and reduce speed",
+			"C": "Swiftly turning to the other side",
+			"D": "Use emergency braking",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "5.1.1.2",
+			"Q": "When a vehicle leaves the main carriageway due to tire leakage, the driver______ so as not to cause any traffic accident.",
+			"A": "May use emergency braking",
+			"B": "May turn swiftly to the opposite side",
+			"C": "Should not use emergency braking",
+			"D": "Should swiftly turn and brake",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "5.1.1.3",
+			"Q": "When a rear tire blows out, the driver should remain calm, _____, do his best to ensure the vehicle goes straight, reduce speed and stop.",
+			"A": "Swiftly turn the steering wheel to adjust",
+			"B": "Firmly hold the steering wheel with both hands",
+			"C": "Swiftly turn the steering wheel to the opposite direction",
+			"D": "Swiftly take braking measures",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "5.1.1.4",
+			"Q": "When the driver senses a front tire blows out, he should firmly hold the steering wheel with both hands, _____, and do his best to ensure the vehicle goes straight.",
+			"A": "Release the accelerator pedal",
+			"B": "Stabilize the accelerator pedal in a timely manner",
+			"C": "Swiftly pull the handbrake",
+			"D": "Swiftly depress the brake pedal",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "5.1.1.5",
+			"Q": "If a front tire blows out, it can cause considerable danger. The driver should do his best to control the steering wheel and swiftly _______.",
+			"A": "Reduce speed",
+			"B": "Immediately shift the gear to the low position",
+			"C": "Brake and stop the vehicle",
+			"D": "Apply emergency braking",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "5.1.1.6",
+			"Q": "If a front tire blowout has caused a turn in direction, the driver should not avoid excess adjustment. Instead, he should control the direction of the vehicle, ____, and slowly reduce the speed of the vehicle.",
+			"A": "Apply emergency braking",
+			"B": "Use the handbrake",
+			"C": "Gently depress the brake pedal",
+			"D": "Swiftly depress the brake pedal",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "5.1.1.7",
+			"Q": "When a tire blows out while driving, the driver should do his best to__ to slowly reduce the speed of the vehicle.",
+			"A": "Use emergency braking",
+			"B": "Turn the steering wheel in the opposite direction",
+			"C": "Swiftly depress the brake pedal",
+			"D": "Immediately shift the gear to a low position",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "5.1.1.8",
+			"Q": "Before the driver can control the speed of the vehicle that has a tire blowout, he should _______ so that the vehicle will not swing horizontally and cause even greater danger.",
+			"A": "Venture to use the foot brake",
+			"B": "Swiftly turn the steering wheel",
+			"C": "Release the accelerator pedal",
+			"D": "Immediately depress the brake pedal",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "The emergency measure to deal with a sudden tire blowout on the road is to _______.",
+			"Id": "5.1.1.9",
+			"A": "Swiftly brake and reduce speed",
+			"B": "Firmly hold the steering wheel and steadily stop the vehicle as fast as possible",
+			"C": "Swiftly turn the steering wheel to adjust the direction",
+			"D": "Go slowly to find a place for tire change",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The Wrong measure to deal with a sudden tire blowout on the road is to ______.",
+			"Id": "5.1.1.10",
+			"A": "Keep calm and slowly release the accelerator pedal",
+			"B": "Firmly hold the steering wheel to ensure the vehicle goes straight",
+			"C": "Apply emergency braking and stop the vehicle in the shortest possible time",
+			"D": "Gently depress the brake pedal after the vehicle slows down",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "5.1.1.11",
+			"Q": "When the tire pressure is too low, the fast-running tire can change its shape like waves and increase its temperature, which in turn can cause ________.",
+			"A": "Unstable tire pressure",
+			"B": "Even lower tire pressure",
+			"C": "Increases resistance to the vehicle",
+			"D": "Tire blowout",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "The Wrong measure to avoid tire blowout is to _________.",
+			"Id": "5.1.1.12",
+			"A": "Reduce tire pressure",
+			"B": "Check the tires regularly",
+			"C": "Remove objects from tire tread grooves in a timely manner",
+			"D": "Replace the tire that has cracks or deep cuts",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "5.1.2.1",
+			"Q": "When the driver discovers a tire is leaking, he should swiftly brake and reduce speed, steer the vehicle of the carriageway and park it at a safe place on the roadside.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.1.2.2",
+			"Q": "When the driver discovers a tire is leaking and steers the vehicle off the main carriageway, he should refrain from applying emergency so as to avoid a vehicle turnover or a rear-end collision arising from the late braking of the following vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.1.2.3",
+			"Q": "When a tire on one side blows out on the road (especially on an expressway), the steering wheel will automatically turn violently to the other direction.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.1.2.4",
+			"Q": "A rear tire blowout can sway the tail of the vehicle. The driver should firmly hold the steering wheel with both hands to ensure the vehicle go straight, reduce speed and then stop.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.1.2.5",
+			"Q": "A front tire blowout is very dangerous. The vehicle will immediately turn to the side where the tire is blown out and have a direct impact on the driver’s control of the steering wheel.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.1.2.6",
+			"Q": "When the driver senses a tire blowout on the road, he should swiftly depress the brake pedal to reduce speed, do all his can to control the steering wheel and stop the vehicle as soon as possible.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.1.2.7",
+			"Q": "When the driver senses a tire blowout on the road, he should control the direction of the vehicle, gently depress the brake pedal to slowly reduce the speed and gradually park the vehicle steadily on the roadside.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.1.2.8",
+			"Q": "When a tire blows out on the road, the driver should immediately turn the steering wheel in the opposite direction to control the direction of the vehicle.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.1.2.9",
+			"Q": "When a tire blows out suddenly on the road, the driver should refrain from violently depressing the brake pedal in panic. Instead, he should try his best to shift the gear to a low position and use the engine braking to reduce the speed of the vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.1.2.10",
+			"Q": "After a tire blows out and before the driver can control the speed of the vehicle, he should refrain from using the foot brake to stop the vehicle. Otherwise, a horizontal swing of the vehicle can cause greater danger.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.1.2.11",
+			"Q": "When the vehicle has changed its direction due to a front tire blowout on the road, the driver should firmly hold the steering wheel with both hands to ensure the vehicle goes straight.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.1.2.12",
+			"Q": "When the driver senses a tire blowout on the road, he should control the direction of the vehicle and use emergency braking to bring the vehicle swiftly to a stop.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When the driver discovers that steering is stiff, the Wrong measure is to ___________.",
+			"Id": "5.2.1.1",
+			"A": "Reduce speed and stop the vehicle as fast as possible",
+			"B": "Stop at a safe place",
+			"C": "Continue to drive",
+			"D": "Identify the cause",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "5.2.1.2",
+			"Q": "When driving a vehicle with power steering, the driver should reduce speed and ______ if he suddenly discovers that steering is difficult.",
+			"A": "Firmly hold the steering wheel to ensure the vehicle goes straight",
+			"B": "Control the steering and drive slowly",
+			"C": "Continue to drive",
+			"D": "Select a safe place to stop and identify the cause",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "5.2.1.3",
+			"Q": "After steering gets out of control, the driver should _____ so that the vehicle can slow down and stop as fast as possible if the vehicle deviates from the straight-going direction.",
+			"A": "Gently depress the brake pedal",
+			"B": "Pull up the handbrake",
+			"C": "Immediately shift the gear to a low position to reduce speed",
+			"D": "Decisively and continuously depress and release the brake pedal",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "5.2.1.4",
+			"Q": "When a vehicle deviates from the normal direction due to steering failure and an accident has become unavoidable, the driver should _______ to reduce the impact of vehicle collision.",
+			"A": "Immediately reduce speed and do his best to shorten the stopping distance",
+			"B": "Immediately steer and adjust",
+			"C": "Immediately steer to the side where there is no obstacle and evade",
+			"D": "Immediately steer to the wide where there is obstacle and evade",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "If a fast-running vehicle has a steering failure, using emergency braking can easily cause ________.",
+			"Id": "5.2.1.5",
+			"A": "A side skid",
+			"B": "An overturn",
+			"C": "A forward movement of the compartment",
+			"D": "A tire blowout",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "5.2.2.1",
+			"Q": "When driving a vehicle equipped with power steering, the driver should firmly hold the steering wheel and go slowly if he suddenly discovers that steering is difficult.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.2.2.2",
+			"Q": "When the driver discovers that steering suddenly gets stiff but he can still steer, he should slowly drive the vehicle to a nearby workshop for repairs before getting on the road again.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.2.2.3",
+			"Q": "After a sudden steering failure, the driver may not use emergency braking if the vehicle and the road conditions ahead allow the vehicle to go straight.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.2.2.4",
+			"Q": "If a fast-running vehicle has a steering failure, using emergency braking can easily cause an overturn.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.2.2.5",
+			"Q": "When a vehicle suddenly has a steering failure, the driver should immediately depress the brake pedal violently to reduce speed and bring the vehicle to a stop as soon as possible.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.2.2.6",
+			"Q": "When a vehicle has deviated from the straight-going direction and an accident has become unavoidable, the driver should decisively and continuously depress the brake pedal so as to shorten the stopping distance and reduce the impact of vehicle collision.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Q": "The road on which the wheels can most easily block when braking is ______.",
+			"Id": "5.3.1.1",
+			"A": "Concrete road",
+			"B": "Dirt road",
+			"C": "Road covered by ice and snow",
+			"D": "Sand road",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "5.3.1.2",
+			"Q": "The anti-lock braking system (ABS) can effectively prevent wheel blocking when ______ and can maximize the efficiency of the brake.",
+			"A": "Braking intermittently",
+			"B": "Braking continuously",
+			"C": "Gently depressing the brake pedal",
+			"D": "Applying emergency braking",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "5.3.1.3",
+			"Q": "When driving a vehicle not equipped with the anti-lock braking system (ABS), the driver should _____ the brake pedal if he brakes on a road covered by ice and snow, a wet and slippery road, a gravel road, or a smooth road.",
+			"A": "Gently or intermittently depress",
+			"B": "Depress as on other roads",
+			"C": "Violently depress",
+			"D": "Depress with force",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "5.3.1.4",
+			"Q": "When there is a braking failure on the road, the driver should keep calm, firmly hold the steering wheel, and ______ to reduce speed.",
+			"A": "Continuously depress the brake pedal",
+			"B": "Immediately shift the gear to a low position or use the handbrake",
+			"C": "Immediately depress the clutch pedal",
+			"D": "Immediately pull up the handbrake",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When there is a braking failure on a downhill road, the driver should not _______.",
+			"Id": "5.3.1.5",
+			"A": "Steer the vehicle to the uphill direction",
+			"B": "Use the vehicle body to hit the roadside rocks or trees",
+			"C": "Use the emergency lane to stop the vehicle",
+			"D": "Pull up the handbrake or shift the gear to two positions lower",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "5.3.2.1",
+			"Q": "When the driver discovers a vehicle not equipped with anti-lock braking system (ABS) deviates from the normal direction, he should immediately release the brake pedal and depress the pedal again after the direction is in control.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.3.2.2",
+			"Q": "When the driver discovers a vehicle equipped with anti-lock braking system has a braking failure, he should gently depress the brake pedal.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.3.2.3",
+			"Q": "When braking a vehicle equipped with anti-lock braking system (ABS), the driver may depress the brake pedal with force.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.3.2.4",
+			"Q": "When braking a vehicle equipped with anti-lock braking system (ABS), the braking distance does not change.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.3.2.5",
+			"Q": "When there is a sudden braking failure, the driver should evade people first and things second when evading obstacles.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.3.2.6",
+			"Q": "When braking, the steering will become impossible if the front wheels are blocked.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.3.2.7",
+			"Q": "When braking, side skid or tail swing may occur if the rear wheels are blocked.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.3.2.8",
+			"Q": "n order to maximize the braking efficiency, it is unadvisable to pull the handbrake to the full at one stroke.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.3.2.9",
+			"Q": "After a braking failure occurs, the first thing for the driver to do is to control the direction of the vehicle before he manages to control the speed.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.3.2.10",
+			"Q": "When there is a sudden braking failure on a downhill road, the driver may use the front bumper to hit the hill to force the vehicle to a stop if he has no alternative.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.3.2.11",
+			"Q": "After a braking failure, the driver should immediately look for and steer the vehicle to the emergency lane. After the vehicle is stopped, he should pull the handbrake to the full to prevent a second danger arising from sliding.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.3.2.12",
+			"Q": "When there is a braking failure on a downhill road, the driver should immediately shift two gear positions from the high gear to the low gear and use the engine’s braking role to control the speed of the vehicle if he has no terrain or opportunity to utilize.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.3.2.13",
+			"Q": "After there is a braking failure on a downhill road, the driver should shift one gear position a time from the high gear to the low gear and use the engine’s braking role to control the speed of the vehicle if he has no terrain or opportunity to utilize.",
+			"Answer": "Right",
+			"Type": "Logic"
 		}		
 	]
 }
