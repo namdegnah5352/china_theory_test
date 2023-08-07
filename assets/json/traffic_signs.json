@@ -254,8 +254,8 @@
 		{
 			"Id": "6.1",
 			"value": "Common knowledge on Overall Structures of Motorized Vehicles",
-			"mcnoq": 11,
-			"jqnoq": 5
+			"mcnoq": 7,
+			"jqnoq": 11
 		},
 		{
 			"Id": "6.2",
@@ -9484,6 +9484,688 @@
 			"Q": "After there is a braking failure on a downhill road, the driver should shift one gear position a time from the high gear to the low gear and use the engine’s braking role to control the speed of the vehicle if he has no terrain or opportunity to utilize.",
 			"Answer": "Right",
 			"Type": "Logic"
-		}		
+		},
+		{
+			"Q": "When there is an engine kill on the road, the driver should _________.",
+			"Id": "5.4.1.1",
+			"A": "Immediately reduce speed and stop the vehicle",
+			"B": "Turn off the ignition switch",
+			"C": "Place the gear lever in the neutral position and go forward",
+			"D": "Turn on the right -turn signal, slowly sliding the vehicle to the roadside, stop the vehicle and check",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "5.4.2.1 ",
+			"Q": "fter the engine stops suddenly and cannot be restarted, the driver should stop at the roadside and identify the cause.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.4.2.2 ",
+			"Q": "hen the engine suddenly stops on the road and cannot be restarted, the driver should apply emergency braking to force the vehicle to stop as fast as possible.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Q": "The road surface on which side skidding can most easily occur is _______.",
+			"Id": "5.5.1.1",
+			"A": "A dry concrete road",
+			"B": "A road when rain begins",
+			"C": "A wet concrete road",
+			"D": "A road in a heavy rain",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle runs at ______, emergency braking can easily cause side skidding, tail swing or other dangers.",
+			"Id": "5.5.1.2",
+			"A": "More than 60km per hour",
+			"B": "Less than 60km per hour",
+			"C": "Less than 40km per hour",
+			"D": "Less than 30km per hour",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "5.5.1.3",
+			"Q": "When a vehicle has a side skidding, the driver should immediately ______. At the same time, he should turn the steering wheel in the direction of the side skid and then turn back in good time to adjust. After the vehicle returns to the normal direction, it can continue to go ahead.",
+			"A": "Pull the handbrake to the full",
+			"B": "Depress the accelerator pedal",
+			"C": "Depress the clutch pedal",
+			"D": "Release the brake pedal",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle skids sideways on a muddy road, the driver should ______.",
+			"Id": "5.5.1.4",
+			"A": "Turn the steering wheel in the direction of the side skid to properly adjust the direction",
+			"B": "Turn the steering wheel in the opposite direction of the side skid to properly adjust the direction",
+			"C": "Swiftly brake to reduce speed",
+			"D": "Swiftly brake to stop the vehicle",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "If a vehicle skids sideways due to steering or collision, the driver _______.",
+			"Id": "5.5.1.5",
+			"A": "Is not allowed to use the foot brake",
+			"B": "May slowly depress the brake pedal",
+			"C": "May use the food brake",
+			"D": "May use intermittent braking",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "5.5.2.1",
+			"Q": "When a vehicle turns at an excessively high speed, it can easily dash out of a curve or skid sideways.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.5.2.2",
+			"Q": "Emergency braking on a muddy or slippery road can easily cause a side skid or even an overturn, fall or collision with other vehicles and the pedestrians.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.5.2.3",
+			"Q": "Turning violently on a muddy or slippery road can easily cause a steering failure, or even an overturn, fall or collision with other vehicles and the pedestrians.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.5.2.4",
+			"Q": "When a vehicle skids sideways, the driver should turn the steering wheel in the opposite direction of the side skid.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.5.2.5",
+			"Q": "When a vehicle skids sideways on a muddy road, the driver should turn the steering wheel in the opposite direction of the side skid.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.6.1.1",
+			"Q": "When a vehicle is likely to have a head-on collision with another vehicle, the driver should first ______ and then swiftly depress the brake pedal.",
+			"A": "Take braking measures",
+			"B": "Turn to the left side",
+			"C": "Turn slightly to the right side and immediately turn back properly",
+			"D": "Take measures to protect himself",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "5.6.1.2",
+			"Q": "When a vehicle is unavoidably having a head-on collision with another vehicle, the driver should _____ so as to reduce the impact of the head-on collision.",
+			"A": "Change to side collision",
+			"B": "Apply emergency braking",
+			"C": "Immediately turn the steering wheel to the right",
+			"D": "Immediately turn the steering wheel to the left",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "5.6.1.3",
+			"Q": "When a collision occurs to the passenger seat side or the impact is relatively small, the Wrong measure for the driver is to ________.",
+			"A": "Firmly hold the steering wheel",
+			"B": "Both feet depress",
+			"C": "Jump out of the vehicle from one side",
+			"D": "Lean his body backwards against the seat",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "5.6.2.1",
+			"Q": "When a vehicle crosses another one, overtakes or evades an obstacle, it can easily scratch another vehicle or other objects. Therefore, the vehicle should increase its horizontal distance with another vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.6.2.2",
+			"Q": "When a head-on collision is unavoidable, the driver should free the steering wheel, raise the legs and lie sideward on the Right seat at the moment of the head-on collision. This can ensure his body is not stuck by the steering wheel.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.6.2.3",
+			"Q": "When a collision is unavoidable, the driver should do his best to avoid side collision.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.6.2.4",
+			"Q": "When a side collision occurs to the side of the driver’s seat, the driver should manage to jump out of the vehicle.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.6.2.5",
+			"Q": "When a vehicle has a rear-end collision with the vehicle in front, the driver should lean firmly against the bank of his seat and swiftly put both hand around the back of his head to protect that part.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.7.1.1",
+			"Q": "When a vehicle rolls continuously to a deep ditch, the driver should swiftly hide his body to the lower space in front of his seat, hold ______ to stabilize his body so that his body will not roll and get hurt.",
+			"A": "The pedal",
+			"B": "The steering column",
+			"C": "The steering wheel",
+			"D": "The gear lever",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle overturns slowly and jumping out of the vehicle is possible, the driver should jump ______.",
+			"Id": "5.7.1.2",
+			"A": "In the driving direction",
+			"B": "In the overturning direction",
+			"C": "In the opposite direction of the overturn",
+			"D": "To the overturning side",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "The wrong measure when a vehicle suddenly overturns sideways is to _______.",
+			"Id": "5.7.1.3",
+			"A": "Tightly hold the steering wheel with both hands",
+			"B": "Hook the pedals with both feet",
+			"C": "Press his back against the seat",
+			"D": "Open the door and jump",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "5.7.2.1",
+			"Q": "When sensing an overturn is unavoidable, the driver should do its best to stabilize his body and immediately jump out of the vehicle.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.7.2.2",
+			"Q": "When the driver senses he will inevitably be thrown out of the vehicle, he should violently straighten both his legs to increase the force of being thrown out and jump out of the vehicle.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.7.2.3",
+			"Q": "After jumping out of the vehicle and landing on the ground, the driver should put both his hands around his head and roll in the direction of inertia so as to evade the vehicle and keep off the danger area.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.7.2.4",
+			"Q": "When a vehicle overturns slowly and jumping out of the vehicle is possible, the driver should jump in the direction of the overturn.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When the engine catches fire, the Wrong measure is to _____.",
+			"Id": "5.8.1.1",
+			"A": "Swiftly turn off the engine",
+			"B": "Extinguish the fire by covering",
+			"C": "Open the bonnet to extinguish the fire",
+			"D": "Use the fire extinguisher to put out the fire",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When the fuel of a vehicle catches fire, what cannot be used to put out the fire is __________.",
+			"Id": "5.8.1.2",
+			"A": "Roadside sandy soil",
+			"B": "Cotton-padded clothes",
+			"C": "Overalls",
+			"D": "Water",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When putting out a fire, the Wrong method is to ____________.",
+			"Id": "5.8.1. ",
+			"A": "Stand leeward to the fire",
+			"B": "Take off the clothes made of chemical fiber",
+			"C": "Protect the exposed skin",
+			"D": "Do not breathe through mouth or cry loudly",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "The Wrong method to use a fire extinguisher is to _________.",
+			"Id": "5.8.1.4",
+			"A": "Stand on the windward side",
+			"B": "Stay away from the source of fire as much as possible",
+			"C": "Direct the fire extinguisher at the source of fire",
+			"D": "Direct the fire extinguisher at the flames",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "5.8.2.1",
+			"Q": "When a vehicle catches fire, the driver should manage to park the vehicle in an open place far away from the urban areas, buildings, trees, vehicles and inflammable materials, and report the accident and place to the rescue institution.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.8.2.2",
+			"Q": "When a vehicle catches fire on an expressway, the driver should drive the vehicle into the service area or the parking lot to put out the fire.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.8.2.3",
+			"Q": "When the engine catches fire, the driver should immediately cut off the engine and open the bonnet to put out the fire.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.8.2.4",
+			"Q": "Water can be used to put out both the fire on wood, paper, clothes and tires and the fire on electric equipment and gasoline.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.8.2.5",
+			"Q": "When the alcoholic coolant catches fire, the driver may immediately use water to spray the burning place so as to dilute the alcoholic coolant.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.8.2.6",
+			"Q": "When putting out a fire, the driver should take off the clothes made of chemical fiber and protect the exposed skin.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.8.2.7",
+			"Q": "When putting out a fire, the driver should refrain from breathing through mouth or crying loudly. Otherwise, the fire and smoke will scorch the upper respiratory tract.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.8.2.8",
+			"Q": "When using a fire extinguisher to put out a fire, the person should stand on the windward side, direct the fire extinguisher at the fire and let the wind to blow the bubbles to the source of the fire.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.8.2.9",
+			"Q": "Before the driver escapes from a fire disaster, he should turn off the ignition switch, cut off the power switch and the blind, and manage to turn off the fuel tank switch.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When a running vehicle suddenly falls into water, the driver should __________ to escape.",
+			"Id": "5.9.1.1",
+			"A": "Immediately open the door and jump out of the vehicle",
+			"B": "Open the door and swim out after the vehicle stabilizes in water",
+			"C": "Use feet to smash the window and swim out after the vehicle stabilizes in water",
+			"D": "Close the window and make telephone calls for help",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle falls into water, the method that can be selected for self-rescue is ________.",
+			"Id": "5.9.1.2",
+			"A": "Smash the window glass",
+			"B": "Close the windows",
+			"C": "Make telephone calls for help",
+			"D": "Open the door",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "After a vehicle falls into water, the Wrong method is ________.",
+			"Id": "5.9.1.3",
+			"A": "Smash the glass",
+			"B": "Make telephone calls for help",
+			"C": "Allow the water to slowly fill up the compartment",
+			"D": "Open the window",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "5.9.1.4",
+			"Q": "When a vehicle falls into water, it is difficult to open the door because of the external water pressure. Therefore the driver should immediately ______ so that he can have the chance to survive.",
+			"A": "Use tools to open the door",
+			"B": "Close the windows to prevent water from flowing into the vehicle",
+			"C": "Make telephone calls for help",
+			"D": "Open the window or smash the window glass",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle falls into water, the method to escape is to find the direction of the water surface and _____.",
+			"Id": "5.9.1.5",
+			"A": "Wait for the rescue personnel",
+			"B": "Open the door to escape",
+			"C": "Take measures to prevent water from flowing to the driver’s cab",
+			"D": "Open the door or smash the window glass when the driver’s cab is full of water",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "After a vehicle falls into water, the Wrong method for the driver to rescue himself is to ________.",
+			"Id": "5.9.1.6",
+			"A": "Close the window to prevent water from flowing into the vehicle",
+			"B": "Immediately use hand to open the door",
+			"C": "Let the water to fill up the driver’s cab so that the water pressure both inside and outside is equal",
+			"D": "Use a large plastic bag to cover the head and tight the neck closely",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "5.9.2.1",
+			"Q": "When a vehicle falls into water, the method to survive is to close the doors and windows and wait for the rescue personnel.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.9.2.2",
+			"Q": "After a vehicle falls into water, the driver should keep calm and tell the passengers to be calm, have deep breath and open the doors or windows to escape when water nearly fills up the compartment.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.9.2.3",
+			"Q": "When a vehicle falls into water, the driver should in no way panic. In particular, those who cannot swim should first manage to escape through the windows. As long as they reach the water surface, they will have more chances to survive.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.9.2.4",
+			"Q": "When it is difficult to open the door because of the external water pressure, the driver should take all possible measures to prevent water from flowing into the compartment so that he can have a chance to survive.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.9.2.5",
+			"Q": "After a vehicle falls into water, the driver should immediately close the windows to prevent water from flowing into the compartment and to keep the air from flowing out. At the same time, they make telephone calls to tell the rescue personnel the place of the accident and wait for their arrival.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Q": " When discovering people or animals crossing the expressway, the driver should ________.",
+			"Id": "5.10.1.1",
+			"A": "Immediately apply emergency braking",
+			"B": "Immediately turn right to evade",
+			"C": "Take decisive measures to evade and minimize the loss",
+			"D": "Immediately turn left to evade",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "5.10.1.2",
+			"Q": " If a vehicle experiences a “water sliding” phenomenon when running on an expressway in rain, the driver should _________.",
+			"A": "Reduce speed by suddenly depress the brake pedal",
+			"B": "Immediately turn the steering wheel to adjust",
+			"C": "Control the direction and gradually reduce the speed",
+			"D": "Increase the speed to increase the displacement of the wheels",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": " The Wrong measure taken to prevent the “water sliding” phenomenon on an expressway is to _________.",
+			"Id": "5.10.1.3",
+			"A": "Refrain from using the tires with shallow tread grooves",
+			"B": "Refrain from using the tires with excessively low air pressure",
+			"C": "Control the speed and do his best to drive slowly",
+			"D": "Increase the speed and the displacement",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "5.10.1.4",
+			"Q": "When driving on an expressway in heavy rain, it is imperative to _________ in order to prevent “water sliding” from causing a danger.",
+			"A": "Reduce speed",
+			"B": "Increase speed",
+			"C": "Install slide-proof devices",
+			"D": "Increase the tire pressure",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "5.10.1.5",
+			"Q": "When a vehicle needs to stop for trouble shooting after having a trouble on an expressway, the driver should stop the vehicle __________.",
+			"A": "In the far outer lane",
+			"B": "In the inner lane",
+			"C": "In the emergency strip",
+			"D": "In the triangle area on the ramp",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "5.10.1.6",
+			"Q": "When a vehicle stops in emergency on an expressway, the driver and the passengers should _______ and wait for rescue personnel.",
+			"A": "Stand at the roadside on the front right side of the vehicle",
+			"B": "Refrain from getting off the vehicle and walking around",
+			"C": "Stand at the side of the shoulder or emergency strip",
+			"D": "Swiftly move to the roadside outside the guardrail on the rear right side of the vehicle",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle must stop in an unexpected situation on an expressway, it is strictly prohibited to stop ____.",
+			"Id": "5.10.1.7",
+			"A": "In the carriageway",
+			"B": "In the shoulder",
+			"C": "In the service area",
+			"D": "In the emergency strip",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle must stop in an unexpected situation on an expressway, it should swiftly _______.",
+			"Id": "5.10.1.8",
+			"A": "Brake to reduce speed and stop",
+			"B": "Gradually change to the right lane and stop",
+			"C": "Directly stop in the carriageway",
+			"D": "Turn right and stop",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "5.10.1.9",
+			"Q": "When a vehicle is unable to leave the carriageway of an expressway due to a trouble, the Wrong measure for the driver to take is to __________.",
+			"A": "Immediately turn on the hazard lights",
+			"B": "Place a warning sign 150 meters behind the vehicle in the coming direction",
+			"C": "Keep the driver and passengers in the vehicle",
+			"D": "Turn on the width light and tail light at night",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "Unless stopping due to an abnormal situation on the expressway, the driver should select _______ for stopping.",
+			"Id": "5.10.1.10",
+			"A": "The ramp",
+			"B": "The acceleration lane",
+			"C": "The deceleration lane",
+			"D": "the service area",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "5.10.1.11",
+			"Q": "When a vehicle is unable to continue to move forward in heavy fog on an expressway due to a trouble, the dangerous measure for the driver is to ________.",
+			"A": "Leave the vehicle from the right side of the vehicle as soon as possible",
+			"B": "Stand outside the guardrail as much as possible",
+			"C": "Turn on the hazard lights and tail light",
+			"D": "Place a warning sign 150 meters behind the vehicle in the coming direction",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle accidentally hits the guardrail of an expressway, an effective protective measure is to _________.",
+			"Id": "5.10.1.12",
+			"A": "Firmly hold the steering wheel and properly adjust",
+			"B": "Turn dramatically in the opposite direction",
+			"C": "Swiftly turn in the direction of the collision",
+			"D": "Immediately apply emergency braking",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "5.10.2.1",
+			"Q": "When a vehicle encounters an emergency on an expressway, the driver should swiftly turn the steering wheel to evade.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.10.2.2",
+			"Q": "When a bus encounters an avoidable walking across the expressway, the driver should apply emergency braking or hit the guardrail to stop.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.10.2.3",
+			"Q": "When discovering somebody or animal suddenly walking across an expressway, the emergency evasion measure should not exceed the necessary limit. Otherwise, it would cause undue damage.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.10.2.4",
+			"Q": "When encountering an emergency on an expressway, the driver should not drastically turn to evade. Instead, he should brake to reduce the speed so that the vehicle can stop or move slowly before collision. This is designed to reduce the degree of damage.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.10.2.5",
+			"Q": "Making a sharp turn on an expressway can very easily cause a side skid or overturn due to the centrifugal force.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.10.2.6",
+			"Q": "When a vehicle runs on an expressway in rain, the water film is formed between the tires and the road surface. As the speed increases, the tire grip decreases and can easily cause a “water sliding” phenomenon.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.10.2.7",
+			"Q": "When a vehicle runs on an expressway in a rainy day, the speed should be higher in order to avoid steering failure arising from the “water sliding” phenomenon.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.10.2.8",
+			"Q": "When a vehicle runs on an expressway in a rainy day, the speed should be relatively low in order to avoid steering failure arising from the “water sliding” phenomenon.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.10.2.9",
+			"Q": "When a vehicle running on an expressway needs to stop when encountering an unexpected emergency, the driver may directly stop the vehicle in the carriageway.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.10.2.10",
+			"Q": "When a vehicle running on an expressway is unable to leave the emergency strip due to a trouble, the driver and the passengers are not allowed to get off the vehicle and move around. Instead, they should stay in the vehicle to wait for rescue.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.10.2.11",
+			"Q": "When a vehicle running on an expressway is temporarily unable to leave the emergency strip or shoulder due to a trouble, the driver and the passengers should get off the vehicle and wait at the roadside. But they are not allowed to leave the expressway.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.10.2.12",
+			"Q": "When a vehicle running on an expressway is unable to leave the carriageway due to a trouble, the driver may conduct emergency repairs in the carriageway.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.10.2.13",
+			"Q": "Unless stopping due to obstacles or vehicle breakdown on an expressway, the vehicles are not allowed to stop to take and drop people or load and unload cargos.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.10.2.14",
+			"Q": "When a vehicle encounters a collision on an expressway in a foggy day, the driver should leave the vehicle from the left side as soon as possible.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.10.2.15",
+			"Q": "At the moment when a vehicle accidentally hits the guardrail of an expressway, the driver should swiftly steer in the opposite direction to evade.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.10.2.16",
+			"Q": "When a vehicle accidentally hits the guardrail of an expressway, the driver should stabilize the steering wheel and adjust properly. He should never turn the steering wheel drastically.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.11.1.1",
+			"Q": "A vehicle that reaches the end of an expressway tunnel or carved valley can easily encounters side winds. When the driver senses the vehicle is deviating from the normal direction, he should __________.",
+			"A": "Turn the steering wheel in the direction against the wind",
+			"B": "Apply emergency braking",
+			"C": "Adjust the direction in the direction of the wind",
+			"D": "Firmly hold the steering wheel with both hands and properly reduce the speed",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "5.11.2.1",
+			"Q": "When a vehicle deviates from the normal direction due to side winds at the end of a tunnel, the driver should firmly hold the steering wheel and make slight adjustment.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.11.2.2",
+			"Q": "When a vehicle encounters a strong side wind in a mountain valley, the driver should drastically turn the steering wheel to adjust the direction of the vehicle if he feels the vehicle deviates from the normal direction.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.11.2.3",
+			"Q": "When a vehicle runs out of an expressway tunnel, it generally can encounter the attack of side winds. At this moment, the driver should swiftly turn the steering wheel in the direction against the wind and rapidly reduce the speed.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When evading an emergency, the driver should be calm and stick to the principle of ________.",
+			"Id": "5.12.1.1",
+			"A": "Evading people first and objects later",
+			"B": "Evading vehicles first and objects later",
+			"C": "Evading vehicles first and people later",
+			"D": "Evading objects first and people later",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When a fast-running vehicle is likely to collide with the vehicle in front, the driver should ______.",
+			"Id": "5.12.1.2",
+			"A": "Brake to reduce speed first and turn to evade later",
+			"B": "Turn sharply to evade",
+			"C": "Turn to evade first and brake to reduce speed later",
+			"D": "Brake to reduce speed and turn to evade simultaneously",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "5.12.2.1",
+			"Q": "When a fast-running vehicle encounters an emergency, the driver should turn to evade first and brake to slow down later so as to mitigate the damage.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.12.2.2",
+			"Q": "When a fast-running vehicle makes a sharp turn, it can very easily cause side collision or an overturn due to the centrifugal force.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "5.12.2.3",
+			"Q": "When the front wheels are blocked due to braking, the driver cannot change the direction of the vehicle by turning the steering wheel.",
+			"Answer": "Right",
+			"Type": "Logic"
+		}	
 	]
 }
