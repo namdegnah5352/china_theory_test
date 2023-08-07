@@ -10166,6 +10166,361 @@
 			"Q": "When the front wheels are blocked due to braking, the driver cannot change the direction of the vehicle by turning the steering wheel.",
 			"Answer": "Right",
 			"Type": "Logic"
-		}	
+		},
+		{
+			"Q": "A motor vehicle mainly comprises four parts: engine, chassis, body and ____.",
+			"Id": "6.1.1.1",
+			"A": "Electric equipment",
+			"B": "Chassis",
+			"C": "Compartment",
+			"D": "Driver’s cab",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When the engine coolant is unable to circulate, the engine will _______.",
+			"Id": "6.1.1.2",
+			"A": "Consume less fuel",
+			"B": "Be too cool",
+			"C": "Consume same amount of fuel",
+			"D": "Be too hot",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "6.1.1.3",
+			"Q": "The pressure indicated by the engine oil pressure meter represents the engine oil pressure of the __________ of the engine.",
+			"A": "Main oil route",
+			"B": "Crankshaft box",
+			"C": "Fuel inlet pipe of the engine oil pump",
+			"D": "Engine oil pump",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "The main role of the engine lubrication system is _______.",
+			"Id": "6.1.1.4",
+			"A": "Sealing",
+			"B": "Cooling",
+			"C": "Cleaning",
+			"D": "Lubrication",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "The power of the engine is transmitted to _____ through the clutch, gearbox and transmission shaft.",
+			"Id": "6.1.1.5",
+			"A": "Damper",
+			"B": "Steering node",
+			"C": "Driving wheels",
+			"D": "Driven wheels",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "6.1.1.6",
+			"Q": "If the braking device works only on one of the front wheels when braking is applied, it will cause _______ to the motor vehicle and can very easily cause an accident.",
+			"A": "A side skid",
+			"B": "A side pulling",
+			"C": "A slip",
+			"D": "A vibration",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "6.1.1.7",
+			"Q": "The steering wheel designed to control the direction of the vehicle is used to control ____to change the direction of the vehicle.",
+			"A": "Driven wheels",
+			"B": "Rear wheels",
+			"C": "Turning wheels",
+			"D": "Driven wheels",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "6.1.1.8",
+			"Q": "The clutch pedal designed to control the clutch is used to control the power connection and separation between _______ and the transmission system.",
+			"A": "The clutch",
+			"B": "The gear",
+			"C": "The differential mechanism",
+			"D": "The engine",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "The brake pedal designed to control ______ is used to reduce speed or stop a vehicle.",
+			"Id": "6.1.1.9",
+			"A": "The foot brake",
+			"B": "The handbrake",
+			"C": "The gear",
+			"D": "The clutch",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "6.1.1.10",
+			"Q": "The accelerator pedal designed to control ____ of the engine or oil pump plunger is used to control the rotation speed of the engine.",
+			"A": "The accelerator",
+			"B": "The air throttle",
+			"C": "The clutch",
+			"D": "The fuel injector",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The gear lever designed to control _____ is used to change the speed, torque and direction of a vehicle.",
+			"Id": "6.1.1.12",
+			"A": "The clutch",
+			"B": "The brake",
+			"C": "The gear",
+			"D": "The air throttle",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "6.1.2.1",
+			"Q": "A motor vehicle comprises four basic parts: engine, chassis, ignition system and body.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.1.2.2",
+			"Q": "The ignition system is made up of battery, ignition switch, ignition coil, capacitor, distributor block and plugs.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.1.2.3 ",
+			"Q": "he gear is designed to smoothly connect and completely separate the engine and the transmission system for starting to move and changing gear.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.1.2.4",
+			"Q": "The foot brake is designed to keep a stopped vehicle from moving.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.1.2.5",
+			"Q": "epressing the accelerator pedal reduces the rotation speed of the engine and releasing the pedal increases the rotation speed of the engine.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.1.2.6",
+			"Q": "Depressing the clutch pedal connects the clutch, and releasing the pedal separates the clutch.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.1.2.7",
+			"Q": "When the brake pedal is depressed, the handbrake works.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Q": "The speedometer comprises two parts: speed meter and mileage meter. The speed meter indicates _______.",
+			"Id": "6.2.1.1",
+			"A": "The acceleration time",
+			"B": "The driving speed",
+			"C": "The rotation speed of the engine",
+			"D": "The total mileage",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "6.2.1.2",
+			"Q": "The engine oil pressure meter is used to indicate the pressure of the lubrication oil in the main oil pipe of the ______ when the engine works.",
+			"A": "The driving system",
+			"B": "The cooling system",
+			"C": "The transmission system",
+			"D": "The lubrication system",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When the _____light on the dashboard is on or blinks while a vehicle is on the road, it indicates _______.",
+			"Id": "6.2.1.3",
+			"A": "The braking system is abnormal",
+			"B": "The lubrication oil is insufficient",
+			"C": "The oil way may be in trouble",
+			"D": "The tires are too hot",
+			"Answer": "A",
+			"Type": "P"
+		},
+		{
+			"Id": "6.2.1.4",
+			"Q": "When the ____ light on the dashboard is on while a vehicle is on the road, it reminds the driver he should________.",
+			"A": "Send the vehicle to the service station",
+			"B": "Add fuel",
+			"C": "Stop and added engine oil",
+			"D": "Identify the trouble of the oil way",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "When the ____ light on the dashboard is always on, it indicates that the driver and the passengers ______.",
+			"Id": "6.2.1.5",
+			"A": "Have already buckled up",
+			"B": "The driving posture is incorrect",
+			"C": "Have not buckled up",
+			"D": "The safety belts are too loose",
+			"Answer": "C",
+			"Type": "P"
+		},	
+		{
+			"Q": "When the ____ light on the dashboard is on while a vehicle is on the road, it indicates ______.",
+			"Id": "6.2.1.6",
+			"A": "The temperature in the vehicle is too high",
+			"B": "The engine temperature is too low",
+			"C": "The fuel temperature is too high",
+			"D": "The engine temperature is too high or the coolant is insufficient",
+			"Answer": "D",
+			"Type": "P"
+		},
+		{
+			"Q": "When the ____ light on the dashboard is on, it reminds the driver he is using ______.",
+			"Id": "6.2.1.8",
+			"A": "he low beam light",
+			"B": "The high beam light",
+			"C": "The head fog light",
+			"D": "The tail fog light",
+			"Answer": "B",
+			"Type": "P"
+		},
+		{
+			"Q": "The safety pillow of the chair is mainly designed to ______.",
+			"Id": "6.2.1.9",
+			"A": "Relax the head when the vehicle is on the road",
+			"B": "Protect the neck when there is a rear-end collision",
+			"C": "Maintain the correct posture when there is a rear-end collision",
+			"D": "Relax the neck during a long journey",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The height of the pillow of the chair should be adjusted so that the center of the pillow _______.",
+			"Id": "6.2.1.10",
+			"A": "Holds the neck",
+			"B": "Is at the same level of the neck",
+			"C": "Is at the same level of the head",
+			"D": "Hold the cervical vertebra",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "Before driving a vehicle to a road, the driver should buckled up, the main aim being to _________.",
+			"Id": "6.2.1.11",
+			"A": "Avoid the punishment of the administrative department",
+			"B": "Fix the seating place",
+			"C": "Force the back against the chair",
+			"D": "Effectively protect the body when there is a collision or emergency braking",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When a vehicle equipped with safety bags is on the road, the passenger in the front seat _______.",
+			"Id": "6.2.1.12",
+			"A": "Should buckled up",
+			"B": "Do not necessarily buckled up",
+			"C": "May or may not buckled up",
+			"D": "Should use the hand to hold the safety belt",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When the driver adjusts his seat, he should adjust it _____.",
+			"Id": "6.2.1.13",
+			"A": "So that the tips of his straightened hands can reach the top of the steering wheel",
+			"B": "So that the writs of his straightened hands can reach beyond the top of the steering wheel",
+			"C": "So that he can easily depress the accelerator pedal to the floor",
+			"D": "So that he can easily depress the clutch and brake pedals to the floor",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "Before driving a vehicle out, the driver should check whether the steering, lighting and ______ work well.",
+			"Id": "6.2.1.14",
+			"A": "Braking",
+			"B": "Rear seats",
+			"C": "In-vehicle tools",
+			"D": "Audio",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "6.2.2.1",
+			"Q": "When the _____ light on the dashboard is on or blinks while a vehicle is on the road, the driver may continue to go forward if he fails to discover anything abnormal for the time being.",
+			"Answer": "Wrong",
+			"Type": "PLogic"
+		},
+		{
+			"Id": "6.2.2.2",
+			"Q": "When the _____ light on the dashboard is on or blinks while a vehicle is on the road, it indicates that the braking system is abnormal.",
+			"Answer": "Right",
+			"Type": "PLogic"
+		},
+		{
+			"Id": "6.2.2.3",
+			"Q": "When the _____ light on the dashboard is on while a vehicle is on the road, it reminds the driver he needs to add engine oil.",
+			"Answer": "Wrong",
+			"Type": "PLogic"
+		},
+		{
+			"Id": "6.2.2.4",
+			"Q": "When the _____ light on the dashboard is on, it indicates the safety belt is not properly buckled up.",
+			"Answer": "Right",
+			"Type": "PLogic"
+		},
+		{
+			"Id": "6.2.2.5",
+			"Q": "When the ____ light on the dashboard is on, it reminds the driver that his seat is not properly adjusted.",
+			"Answer": "Wrong",
+			"Type": "PLogic"
+		},
+		{
+			"Id": "6.2.2.6",
+			"Q": "When the ____ light on the dashboard is on while a vehicle is on the road, it indicates the temperature in the vehicle is abnormal.",
+			"Answer": "Wrong",
+			"Type": "PLogic"
+		},	
+		{
+			"Id": "6.2.2.7",
+			"Q": "When the ____ light on the dashboard is on while a vehicle is on the road, it indicates the engine oil could be insufficient and the engine oil pressure is too low.",
+			"Answer": "Right",
+			"Type": "PLogic"
+		},
+		{
+			"Id": "6.2.2.8",
+			"Q": "When the _____ light on the dashboard is on, it indicates that the low beam light is on.",
+			"Answer": "Wrong",
+			"Type": "PLogic"
+		},
+		{
+			"Id": "6.2.2.9",
+			"Q": "When the _____ light on the dashboard is on, it indicates the fog light is on.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.2.2.10",
+			"Q": "When driving a vehicle equipped with air bags, the driver should buckle up.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.2.2.11",
+			"Q": "When driving a vehicle equipped with air bags, the driver does not need to buckle up.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},		
+		{
+			"Id": "6.2.2.12",
+			"Q": "When the _____ light on the dashboard is on, it indicates the low beam light is on.",
+			"Answer": "Wrong",
+			"Type": "PLogic"
+		}
+		
 	]
 }
