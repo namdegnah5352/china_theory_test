@@ -10850,6 +10850,214 @@
 			"D": "Use a soft stretcher to carry",
 			"Answer": "D",
 			"Type": "N"
-		},		
+		},
+		{
+			"Id": "7.1.2.1",
+			"Q": "When a wounded person is under the wheel of the vehicle or the cargo, it is necessary to pull him out as soon as possible.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.2",
+			"Q": "When a wounded person is unable to get off the vehicle by himself, he should be removed from the vehicle so as to avoid a secondary injury.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.3",
+			"Q": "The wounded person who is losing blood can be treated by exerting external pressure to stop the bleeding and put on a bandage.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.4",
+			"Q": "When rescuing a wounded person in coma, it is necessary to take warm-keeping measures to prevent heat loss.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.5",
+			"Q": "When a wounded person suffering burns is thirsty, he may drink a small quantity of slightly salty water.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.6",
+			"Q": "When rescuing a wounded person who has been poisoned by toxic gas, the first measure is to send him to a place where air is fresh so that he will not continue to be poisoned.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.7",
+			"Q": "When removing a wounded person suffering spinal fracture, the rescuer should never help the wounded person to walk. He may be carried away with a soft stretcher.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.8",
+			"Q": "When there is bleeding at the bone fracture of a wounded person, the first thing to do is to keep it in position before stopping the bleeding and dress the wound.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.9",
+			"Q": "When a wounded person suffering bone fracture in the thigh, shank and spine, it is necessary to keep the fracture in position and refrain to move the wounded person.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.10",
+			"Q": "When putting a bone fracture in position, the fixing should be proper and solid. Both the two fractured parts and the upper and lower joints should be fixed.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.11",
+			"Q": "When putting a bone fracture in the upper limb in position, the limb must be straightened and tied up.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.12",
+			"Q": "When putting a bone fracture in the lower limb, the limb must be crooked and tied up.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.13",
+			"Q": "When the bone of a wounded person suffering bone fracture is exposed, it is necessary to put it in position and tie it up.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.14",
+			"Q": "When carrying a wounded person suffering bone fracture onto a stretcher, two rescuers should put their hands under the wounded person and carry him together onto the stretcher.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.15",
+			"Q": "When the spine of a wounded person suffering bone fracture could be damaged, the rescuers should refrain from changing his posture.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.16",
+			"Q": "If a wounded person is breathless, it is necessary to immediately conduct mouth-to-mouth artificial respiration.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.17",
+			"Q": "When rescuing a wounded person in an emergency, it is necessary to firstly stop the bleeding by compression before other methods are taken according to the conditions of bleeding.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.18",
+			"Q": "When using tourniquet to stop the bleeding of a wounded person, the rescuer must make sure it is tightly bonded. Otherwise, bleeding will continue in the deeper artery.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.19",
+			"Q": "When a wounded suffers bleeding in the forearm or shank, the rescuers may place a cushion in the armpit or in the rook of the arm, crook the armpit or rook and tie up.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.20",
+			"Q": "When using a bondage to dress a wounded person, the knot should be made neither above the wound nor at the back of the body. Otherwise, the wounded person will feel uncomfortable when sleeping.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.21",
+			"Q": "When there is no bondage for rescuing a wounded person, towels, handkerchiefs, bed sheets and stockings can be used for dressing.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.1.22",
+			"Q": "When there is a bleeding in the upper limb of a wounded person but he suffers no bone fracture or joint damage, the bleeding can be stopped by pressurized dressing.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.1.2.23",
+			"Q": "When there is a bleeding in the bone fracture of a wounded person, the fractured bone should be put into position before stopping the bleeding and sterilizing and dressing the wound.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Q": "__________ refers to the material and article that has the danger of overall explosion.",
+			"Id": "7.2.1.1",
+			"A": "Explosive",
+			"B": "Inflammable solid material",
+			"C": "Inflammable gas",
+			"D": "Self-igniting article",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "Gun powder, explosives and detonating powder are ________.",
+			"Id": "7.2.1.2",
+			"A": "Oxidizing materials",
+			"B": "Inflammable solid materials",
+			"C": "Explosives",
+			"D": "Self-igniting articles",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "Matches, sulfur and red phosphorus are _________.",
+			"Id": "7.2.1.3",
+			"A": "Explosives",
+			"B": "Inflammable solid materials",
+			"C": "Self-igniting articles",
+			"D": "Oxidizing materials",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "_____ of the following are a dangerous inflammable solid material.",
+			"Id": "7.2.1.4",
+			"A": "Matches",
+			"B": "Fireworks",
+			"C": "Calcium carbide",
+			"D": "Explosives",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "7.2.2.1",
+			"Q": "Dangerous chemicals possess the characteristics of explosion, inflammation, poison, erosion and radiation.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.2.2.2",
+			"Q": "When compressed gas is likely to burn or explode, it is necessary to cover the cylinder with sandy soil and remove it from the danger area.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.2.2.3",
+			"Q": "Once inflammable gas causes a fire disaster, it should be put out with water in good time.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.2.2.4",
+			"Q": "When an erosive material catches fire, it should be put out with water cannon.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "7.2.2.5",
+			"Q": "When putting out a fire disaster that gives out erosive steam or poisonous gas, the firefighters should wear gas masks and other related protective articles and should operate from the windward side.",
+			"Answer": "Right",
+			"Type": "Logic"
+		}		
 	]
 }
