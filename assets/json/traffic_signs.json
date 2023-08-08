@@ -10520,7 +10520,336 @@
 			"Q": "When the _____ light on the dashboard is on, it indicates the low beam light is on.",
 			"Answer": "Wrong",
 			"Type": "PLogic"
-		}
-		
+		},
+		{
+			"Q": "Routine vehicle maintenance mainly comprises cleaning, re-supply and _____.",
+			"Id": "6.3.1.1",
+			"A": "Inspection",
+			"B": "Trouble shooting",
+			"C": "Test driving",
+			"D": "Tightening",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "Before driving a vehicle, the driver should check and see whether the steering, tires, lighting and ____ work well.",
+			"Id": "6.3.1.2",
+			"A": "In-vehicle tools",
+			"B": "Braking",
+			"C": "Seats",
+			"D": "Spare tire",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The maximum free adjustment angle of the steering wheel of a motor vehicle is no more than ________.",
+			"Id": "6.3.1.3",
+			"A": "5 degrees",
+			"B": "30 degrees",
+			"C": "10 degrees",
+			"D": "20 degrees",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The routine inspection and maintenance of the engine compartment should include _______.",
+			"Id": "6.3.1.4",
+			"A": "Engine temperature",
+			"B": "Punctual ignition",
+			"C": "Quantities of engine oil, coolant and braking liquid",
+			"D": "Engine sound",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "When checking the engine oil, it is necessary to put the vehicle on a level place and do it ______.",
+			"Id": "6.3.1.5",
+			"A": "Immediately after the engine is turned off",
+			"B": "When the engine runs idly",
+			"C": "When the engine runs fast",
+			"D": "Before the cool engine is started up or 30 minutes after the engine is turned off.",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When stopping on the way, it is necessary to check to see whether there is a water, ___ or gas leakage.",
+			"Id": "6.3.1.6",
+			"A": "Rain",
+			"B": "Electricity",
+			"C": "Oil",
+			"D": "Light",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "6.3.1.7",
+			"Q": "During a routine vehicle maintenance, it is necessary to check whether the tire pressure is normal, whether there is any cut in the tire, and whether _________.",
+			"A": "A new tire should be replaced",
+			"B": "The tires should be rotated",
+			"C": "The tires should be cleaned",
+			"D": "The objects in the tire tread grooves should be removed",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "6.3.1.8",
+			"Q": "When checking a tire, the depth from the tire surface to the bottom of the tread groove should not be less than ______. Otherwise, the tire should be replaced.",
+			"A": "1.6mm",
+			"B": "1.2mm",
+			"C": "1.0mm",
+			"D": "0.8mm",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "Using a cracked or damaged tire on the road can easily cause _______.",
+			"Id": "6.3.1.9",
+			"A": "Side pulling",
+			"B": "Tire blowout",
+			"C": "Steering failure",
+			"D": "Greater resistance to the vehicle",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Q": "The Wrong method to use a special spare tire is to _______.",
+			"Id": "6.3.1.10",
+			"A": "Use it as a normal tire for a long time",
+			"B": "Use it temporarily after a tire blowout",
+			"C": "Use it temporarily when a tire is leaking",
+			"D": "It cannot be used as a normal tire",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "6.3.2.1",
+			"Q": "A pre-driving checking should cover the driver’s cab, the engine compartment, the exterior of the vehicle and the tires.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.3.2.2",
+			"Q": "When checking the clutch pedal, it is necessary to depress the pedal to the floor to see if the space between the pedal and the floor is proper.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.3.2.3",
+			"Q": "When checking the windscreen wiper, it is preferably done when it is dry.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "3.2.4 T",
+			"Q": "e pre-driving checking of the engine compartment should cover the windscreen wash, engine oil, coolant, battery liquid and fan belt.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.3.2.5",
+			"Q": "To avoid a tire blowout, it is necessary to regularly check whether the tire pressure conforms to the standard and whether the exterior of the vehicle is damaged and to remove the objects in the tread grooves of the tires.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.3.2.6",
+			"Q": "To avoid a tire blowout, it is necessary to regularly rotate the tires and properly reduce the tire pressure.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.3.2.7",
+			"Q": "The special spare tire can only be used temporarily when a tire is leaking or a tire blows out.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.3.2.8",
+			"Q": "The special spare tire can both be used temporarily when a tire is leaking or a tire blows out and also used as a normal tire.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.3.2.9",
+			"Q": "A tire whose pressure is higher or lower than the standard can cause a tire blowout.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Id": "6.3.2.10",
+			"Q": "Using a cracked or damaged tire on the road can easily cause a tire blowout.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},
+		{
+			"Q": "When rescuing the injured, it is necessary to ________.",
+			"Id": "7.1.1.1",
+			"A": "Save life first and treat the wounds later",
+			"B": "Treat the wounds first and safe life later",
+			"C": "Help the slightly wounded persons first",
+			"D": "Help the seriously wounded persons later",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When a wounded person is under the wheel or cargo, the Wrong method is to ______.",
+			"Id": "7.1.1.2",
+			"A": "Manage to move the vehicle",
+			"B": "Take relevant rescue methods",
+			"C": "Pull the limbs of the wounded",
+			"D": "Remove the cargo",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Id": "7.1.1.3",
+			"Q": "When there many wounded persons in an extremely serious accident who need to be sent to hospital, the persons ______ should be the first to be sent.",
+			"A": "Suffering large cuts",
+			"B": "Suffering bone fractures",
+			"C": "Suffering burns",
+			"D": "In coma",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When there many wounded persons, those who should be sent to hospital last are the persons ________.",
+			"Id": "7.1.1.4",
+			"A": "Suffering cervical vertebra damage",
+			"B": "Suffering massive hemorrhage",
+			"C": "Suffering breathing difficulty",
+			"D": "Whose intestines and veins are exposed.",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When carrying the wounded persons in coma or in danger of suffocation, they should lie _______.",
+			"Id": "7.1.1.5",
+			"A": "Face down",
+			"B": "Face up",
+			"C": "On their side",
+			"D": "On their side and face down",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Q": "When rescuing the persons who are losing blood, it is necessary to ______ first.",
+			"Id": "7.1.1.6",
+			"A": "Observe",
+			"B": "Dress the wounds",
+			"C": "Stop bleeding",
+			"D": "Inquire",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "The Wrong measure to rescue a person sustaining burns all over his body is to _________.",
+			"Id": "7.1.1.7",
+			"A": "Use sandy soil to cover",
+			"B": "Swiftly put out the flames of his clothes",
+			"C": "Spray cool water to his body",
+			"D": "Take off his burning clothes",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "The first-aid measure to rescue a poisoned person is to _______.",
+			"Id": "7.1.1.8",
+			"A": "Take warming-up measures",
+			"B": "Bring him to a place where air is fresh",
+			"C": "Give him artificial respiration",
+			"D": "Depress the heart over the chest",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "7.1.1.9",
+			"Q": "When using splints, sticks or tree branches to keep the unexposed bones in position, it is necessary that these things should _________.",
+			"A": "Exceed the upper and lower joints of the wound",
+			"B": "Exceed the lower joint of the wound",
+			"C": "Exceed the upper joint of the wound",
+			"D": "Not exceed the upper and lower joints of the wound",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "The person suffering joint injury (sprain, dislocation or fracture) __________.",
+			"Id": "7.1.1.10",
+			"A": "Is allowed to change the location at the moment of being wounded",
+			"B": "Should avoid activity",
+			"C": "Should try to reset the dislocation",
+			"D": "May properly adjust the posture at the moment of being wounded",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "7.1.1.11",
+			"Q": "When the wounded person suffering main artery bleeding, the bleeding can be stopped by pressing the thumb on the artery ________ to stop the pulse of the artery and stop the bleeding.",
+			"A": "Lower to the wound",
+			"B": "Closer to the heart",
+			"C": "Farther to the heart",
+			"D": "In the center of the wound",
+			"Answer": "B",
+			"Type": "N"
+		},
+		{
+			"Id": "7.1.1.12",
+			"Q": "The method to press the general neck artery to stop bleeding is usually used to the wounded person who suffers ______ artery bleeding when other bleeding-stopping methods do not work.",
+			"A": "Neck",
+			"B": "Facial",
+			"C": "Intercostal",
+			"D": "Temporal",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Id": "7.1.1.13",
+			"Q": "When there is a bleeding in an upper limb or shank without bone fracture or joint damage, the bleeding can be stopped by __________.",
+			"A": "Tourniquet",
+			"B": "Compression dressing",
+			"C": "Cushioned limb folding",
+			"D": "Pressure bondage",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "The article that cannot be used to stop bleeding by dressing is _________.",
+			"Id": "7.1.1.14",
+			"A": "Bondage",
+			"B": "Sling",
+			"C": "Tourniquet",
+			"D": "Hemp rope",
+			"Answer": "D",
+			"Type": "N"
+		},
+		{
+			"Id": "7.1.1.15",
+			"Q": "Stopping bleeding with tourniquet refers to ligating an elastic rubber tube and rubber band at ________ of the upper limb or the middle thigh of the wounded person.",
+			"A": "One-third",
+			"B": "One-half",
+			"C": "Two-thirds",
+			"D": "Three-quarters",
+			"Answer": "A",
+			"Type": "N"
+		},
+		{
+			"Q": "When rescuing a wounded person suffering spinal fracture, it is necessary to ___________.",
+			"Id": "7.1.1.16",
+			"A": "Take warm-keeping measure",
+			"B": "Use soft stretcher to carry",
+			"C": "Use sling to keep in position",
+			"D": "Help the wounded person to move",
+			"Answer": "C",
+			"Type": "N"
+		},
+		{
+			"Q": "The Wrong method to rescue a wounded person suffering spinal fracture is to ______.",
+			"Id": "7.1.1.17",
+			"A": "Strictly refrain from moving him",
+			"B": "Keep the spine stable",
+			"C": "Refrain from helping the wounded person to walk",
+			"D": "Use a soft stretcher to carry",
+			"Answer": "D",
+			"Type": "N"
+		},		
 	]
 }
