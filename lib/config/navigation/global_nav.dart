@@ -1,6 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 import '../constants.dart';
 import '../../domain/entities/special.dart';
+import '../../domain/entities/not_learnt.dart';
 import '../../domain/entities/settings_data.dart';
 import '../../domain/entities/question.dart';
 import '../../domain/entities/section.dart';
@@ -16,6 +17,7 @@ class GlobalNav {
   GlobalNav._internal();
   late List<Special> specials;
   late List<Section> sections;
+  late List<NotLearnt> notLearts;
   SettingsData? settingsData;
   List<Question>? questions;
   late final AppNavigation appNavigation;
@@ -35,4 +37,6 @@ void setUpShared(SharedPreferences sharedPreferences) {
   if (soundSettings == null) sharedPreferences.setBool(AppConstants.soundsKey, AppConstants.sounds);
   String? specialSettings = sharedPreferences.getString(AppConstants.specialKey);
   if (specialSettings == null) sharedPreferences.setString(AppConstants.specialKey, AppConstants.specialStart);
+  String? notLearntSettings = sharedPreferences.getString(AppConstants.notLearntKey);
+  if (notLearntSettings == null) sharedPreferences.setString(AppConstants.notLearntKey, AppConstants.notLearntStart);
 }

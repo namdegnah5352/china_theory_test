@@ -1,8 +1,12 @@
 class AppConstants {
   //specials
   static const specialKey = 'specialKey';
+
   static const specialStart = '{"special": []}';
   static const specialCode = 'S';
+  //notLearnt
+  static const notLearntKey = 'notLearntKey';
+  static const notLearntStart = '{"notLearnt": []}';
   //truth
   static const truthSettingsKey = 'truthSettingsKey';
   static const truthSettings = false;
