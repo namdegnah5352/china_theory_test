@@ -61,6 +61,13 @@ class Question {
     };
   }
 
+  Map<String, dynamic> getNotLearnt() {
+    final data = <String, dynamic>{};
+    data['"id"'] = '"$id"';
+    data['"code"'] = '"NL"';
+    return data;
+  }
+
   Widget getImage(String file, double size, bool pinchable, BuildContext? context) {
     Image image = Image.asset(file, fit: BoxFit.fitHeight, height: size);
 

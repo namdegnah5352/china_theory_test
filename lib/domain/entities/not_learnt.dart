@@ -1,6 +1,6 @@
 import 'dart:convert';
 import '../../config/constants.dart';
-
+import 'question.dart';
 import '../../config/navigation/global_nav.dart';
 
 List<NotLearnt> notLearntModelFromJson(String str) =>
@@ -44,6 +44,17 @@ extension NotLearnts on List<NotLearnt> {
     String ans = '{"notLearnt": [';
     for (var notLearnt in this) {
       ans += notLearnt.toJson().toString();
+      ans += ',';
+    }
+    ans = ans.substring(0, ans.length - 1);
+    ans += ']}';
+    GlobalNav.instance.sharedPreferences!.setString(AppConstants.notLearntKey, ans);
+  }
+
+  void addAllAsNotLearnt(List<Question> questions) {
+    String ans = '{"notLearnt": [';
+    for (var question in questions) {
+      ans += question.getNotLearnt().toString();
       ans += ',';
     }
     ans = ans.substring(0, ans.length - 1);

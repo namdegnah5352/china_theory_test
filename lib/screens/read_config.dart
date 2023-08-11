@@ -4,6 +4,7 @@ import '../domain/entities/section.dart';
 import 'package:flutter/services.dart';
 import 'question_search.dart';
 import '../domain/entities/special.dart';
+import '../domain/entities/not_learnt.dart';
 import '../config/navigation/global_nav.dart';
 import '../config/constants.dart';
 import 'package:collection/collection.dart';
@@ -22,6 +23,10 @@ class _ReadConfigState extends State<ReadConfig> {
     var jsonText = await rootBundle.loadString('assets/json/traffic_signs.json');
     List<Question> data = questionModelFromJson(jsonText);
     globalNav.specials = specialModelFromJson(globalNav.sharedPreferences!.getString(AppConstants.specialKey)!);
+    globalNav.notLearts = notLearntModelFromJson(globalNav.sharedPreferences!.getString(AppConstants.notLearntKey)!);
+    if (globalNav.notLearts.isEmpty) {
+      globalNav.notLearts.addAllAsNotLearnt(data);
+    }
     for (var question in data) {
       question.picture = question.getPicture(50, false, null);
       question.special = globalNav.specials.firstWhereOrNull((element) => element.id == question.id);

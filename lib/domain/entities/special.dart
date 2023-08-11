@@ -20,10 +20,10 @@ class Special {
   }
 
   Map<String, dynamic> toJson() {
-    final _data = <String, dynamic>{};
-    _data['"id"'] = '"$id"';
-    _data['"code"'] = '"$code"';
-    return _data;
+    final data = <String, dynamic>{};
+    data['"id"'] = '"$id"';
+    data['"code"'] = '"$code"';
+    return data;
   }
 }
 
