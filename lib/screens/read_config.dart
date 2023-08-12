@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../domain/entities/question.dart';
 import '../domain/entities/section.dart';
+import '../domain/entities/sub_section.dart';
 import 'package:flutter/services.dart';
 import 'question_search.dart';
 import '../domain/entities/special.dart';
@@ -34,10 +35,12 @@ class _ReadConfigState extends State<ReadConfig> {
     globalNav.questions = data;
     print('The number of questions done is ${data.length} out of 1350');
     globalNav.sections = sectionModelFromJson(jsonText);
-    // now read each subsection using section.id so 'SubSection${section.id}'
-    // do them one by one
-    // for each one load all the questions
-    // before all questions loaded do a firstWhereOrNull, after all loaded this is not required.
+    for (var section in globalNav.sections) {
+      section.subsections = subSectionModelFromJson(jsonText, int.parse(section.id));
+      for (var subsection in section.subsections) {
+        subsection.loadQuestions(globalNav.questions!);
+      }
+    }
     return data;
   }
 

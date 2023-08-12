@@ -141,7 +141,7 @@
 			"Id": "3.4",
 			"value": "Safe Driving",
 			"mcnoq": 64,
-			"jqnoq": 74
+			"jqnoq": 73
 		}
 	],
 	"subsection4": [
@@ -254,8 +254,8 @@
 		{
 			"Id": "6.1",
 			"value": "Common knowledge on Overall Structures of Motorized Vehicles",
-			"mcnoq": 7,
-			"jqnoq": 11
+			"mcnoq": 11,
+			"jqnoq": 7
 		},
 		{
 			"Id": "6.2",
@@ -726,8 +726,8 @@
 			"Type": "N"
 		},
 		{
-			"Id": "When cau",
-			"Q": "ing a road accident involving no human casualties, the parties to the accident should __________________ if they have no dispute over the fact and cause.",
+			"Id": "1.1.1.45",
+			"Q": "When cauing a road accident involving no human casualties, the parties to the accident should __________________ if they have no dispute over the fact and cause.",
 			"A": "Park the vehicles in the original place, preserve the scene and wait for the traffic police to handle",
 			"B": "Immediately leave the scene and discuss compensation on their own",
 			"C": "Not leave the scene",
@@ -2506,7 +2506,7 @@
 			"Type": "N"
 		},
 		{
-			"Id": "1.2.1.10 ",
+			"Id": "1.2.1.107",
 			"Q": "hen a motorized vehicle runs on the expressway in hailing and other weather conditions with a visibility range of less than 100 meters, it should keep a distance of ________ with the vehicle in front in the same lane.",
 			"A": "30 meters",
 			"B": "40 meters",
@@ -2768,53 +2768,65 @@
 			"Type": "Logic"
 		},
 		{
-			"Id": "1.2.2.1 ",
+			"Id": "1.2.2.1",
 			"Q": "f a registered motorized vehicle changes the engine, the owner of the vehicle should apply to the traffic control department of the public security organ that has registered the vehicle for registration alternation.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
 		{
-			"Id": "1.2.2.2 ",
+			"Id": "1.2.2.2",
 			"Q": "f a registered motorized vehicle changes the chassis, the owner of the vehicle should apply to the traffic control department of the public security organ that has registered the vehicle for registration alternation.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
 		{
-			"Id": "1.2.2.3 ",
+			"Id": "1.2.2.3",
 			"Q": "hen applying for the transfer registration of a motorized vehicle, the party should have the vehicle inspected by the traffic control department of the public security organ that has registered the vehicle.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
 		{
-			"Id": "1.2.2.4 ",
+			"Id": "1.2.2.4",
 			"Q": "hen a driver drives a motorized vehicle during the period of probation, the driver should paste or hang a uniform probation mark on the rear part of the vehicle.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
 		{
-			"Id": "1.2.2.5 ",
+			"Id": "1.2.2.5",
 			"Q": "he driver of a motorized vehicle may drive a police car, a fire engine, a wrecker or an ambulance during the period of probation.",
 			"Answer": "Wrong",
 			"Type": "Logic"
 		},
 		{
-			"Id": "1.2.2.6 ",
+			"Id": "1.2.2.6",
 			"Q": "he driver of a motorized vehicle may, during the period of probation, drive a vehicle carrying dangerous articles under the supervision and guidance of a regular driver.",
 			"Answer": "Wrong",
 			"Type": "Logic"
 		},
 		{
-			"Id": "1.2.2.7 ",
+			"Id": "1.2.2.7",
 			"Q": "f the penalty points of a motorized vehicle driver fail to reach 12 points in one scoring cycle and if the fines have all been paid, the points will be eliminated.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
 		{
-			"Id": "1.2.2.8 ",
+			"Id": "1.2.2.8",
 			"Q": "f the penalty points of a motorized vehicle driver fail to reach 12 points in one scoring cycle but the fines have not been paid up, the points will also be eliminated.",
 			"Answer": "Wrong",
 			"Type": "Logic"
 		},
+		{
+			"Id": "1.2.2.9",
+			"Q": "If the driving license of a motorized vehicle driver is lost, the driver can still drive a motorized vehicle.",
+			"Answer": "Wrong",
+			"Type": "Logic"
+		},
+		{
+			"Id": "1.2.2.10",
+			"Q": "The motorized vehicle driver is not allowed to drive a motorized vehicle when his driving license is detained.",
+			"Answer": "Right",
+			"Type": "Logic"
+		},		
 		{
 			"Id": "1.2.2.11",
 			"Q": "If a motorized vehicle driver has received 12 penalty points in one scoring cycle, the driver is not allowed to drive a motorized vehicle.",
@@ -3078,7 +3090,7 @@
 			"Type": "N"
 		},
 		{
-			"Id": "1.4.2.1 ",
+			"Id": "1.4.2.1",
 			"Q": " motorized vehicle driver who has injured a pedestrian should assume the civil liability for traffic accident.",
 			"Answer": "Right",
 			"Type": "Logic"
@@ -9496,13 +9508,13 @@
 			"Type": "N"
 		},
 		{
-			"Id": "5.4.2.1 ",
+			"Id": "5.4.2.1",
 			"Q": "fter the engine stops suddenly and cannot be restarted, the driver should stop at the roadside and identify the cause.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
 		{
-			"Id": "5.4.2.2 ",
+			"Id": "5.4.2.2",
 			"Q": "hen the engine suddenly stops on the road and cannot be restarted, the driver should apply emergency braking to force the vehicle to stop as fast as possible.",
 			"Answer": "Wrong",
 			"Type": "Logic"
@@ -9723,7 +9735,7 @@
 		},
 		{
 			"Q": "When putting out a fire, the Wrong method is to ____________.",
-			"Id": "5.8.1. ",
+			"Id": "5.8.1.3",
 			"A": "Stand leeward to the fire",
 			"B": "Take off the clothes made of chemical fiber",
 			"C": "Protect the exposed skin",
@@ -10269,6 +10281,16 @@
 		},
 		{
 			"Q": "The gear lever designed to control _____ is used to change the speed, torque and direction of a vehicle.",
+			"Id": "6.1.1.11",
+			"A": "The clutch",
+			"B": "The brake",
+			"C": "The gear",
+			"D": "The air throttle",
+			"Answer": "C",
+			"Type": "N"
+		},		
+		{
+			"Q": "The gear lever designed to control _____ is used to change the speed, torque and direction of a vehicle.",
 			"Id": "6.1.1.12",
 			"A": "The clutch",
 			"B": "The brake",
@@ -10290,7 +10312,7 @@
 			"Type": "Logic"
 		},
 		{
-			"Id": "6.1.2.3 ",
+			"Id": "6.1.2.3",
 			"Q": "he gear is designed to smoothly connect and completely separate the engine and the transmission system for starting to move and changing gear.",
 			"Answer": "Wrong",
 			"Type": "Logic"
@@ -10380,9 +10402,19 @@
 			"Type": "P"
 		},
 		{
+			"Q": "When the _____ light on the dashboard is on while a vehicle is on the road, it indicates ______.",
+			"Id": "6.2.1.7",
+			"A": "The engine oil is insufficient and its pressure is too low",
+			"B": "The braking oil is leaking",
+			"C": "The fuel is leaking",
+			"D": "The engine oil is too much and its pressure is too high",
+			"Answer": "A",
+			"Type": "N"
+		},		
+		{
 			"Q": "When the ____ light on the dashboard is on, it reminds the driver he is using ______.",
 			"Id": "6.2.1.8",
-			"A": "he low beam light",
+			"A": "The low beam light",
 			"B": "The high beam light",
 			"C": "The head fog light",
 			"D": "The tail fog light",
@@ -10640,8 +10672,8 @@
 			"Type": "Logic"
 		},
 		{
-			"Id": "3.2.4 T",
-			"Q": "e pre-driving checking of the engine compartment should cover the windscreen wash, engine oil, coolant, battery liquid and fan belt.",
+			"Id": "6.3.2.4",
+			"Q": "The pre-driving checking of the engine compartment should cover the windscreen wash, engine oil, coolant, battery liquid and fan belt.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
@@ -10978,7 +11010,7 @@
 			"Type": "Logic"
 		},
 		{
-			"Id": "7.1.1.22",
+			"Id": "7.1.2.22",
 			"Q": "When there is a bleeding in the upper limb of a wounded person but he suffers no bone fracture or joint damage, the bleeding can be stopped by pressurized dressing.",
 			"Answer": "Wrong",
 			"Type": "Logic"
