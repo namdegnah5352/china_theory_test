@@ -3,7 +3,8 @@ import '../domain/entities/question.dart';
 import '../domain/entities/section.dart';
 import '../domain/entities/sub_section.dart';
 import 'package:flutter/services.dart';
-import 'question_search.dart';
+// import 'question_search.dart';
+import 'sections_screen.dart';
 import '../domain/entities/special.dart';
 import '../domain/entities/not_learnt.dart';
 import '../config/navigation/global_nav.dart';
@@ -50,7 +51,7 @@ class _ReadConfigState extends State<ReadConfig> {
         future: loadJsonData(context),
         builder: (BuildContext context, AsyncSnapshot<List<Question>> snapshot) {
           if (snapshot.hasData) {
-            return const QuestionSearch();
+            return const SectionsScreen();
           } else {
             return loadingScreen(context);
           }
