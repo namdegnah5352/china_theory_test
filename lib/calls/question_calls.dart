@@ -2,6 +2,7 @@ import '../domain/entities/question.dart';
 import 'dart:math';
 import '../config/navigation/global_nav.dart';
 import '../config/navigation/navigation_paths.dart';
+import '../domain/entities/sub_section.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 
@@ -30,4 +31,8 @@ Future<void> loadHomePage() async {
 
 Future<void> loadQuestionPage(Question question) async {
   await globalNav.appNavigation.pushNamed(NavigationPaths.question, arguments: question);
+}
+
+Future<void> loadSubSection(List<SubSection> subSections) async {
+  await globalNav.appNavigation.pushNamed(NavigationPaths.subSection, arguments: subSections);
 }

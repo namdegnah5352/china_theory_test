@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../config/navigation/global_nav.dart';
 import '../domain/entities/section.dart';
+import '../calls/question_calls.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 
@@ -21,19 +22,19 @@ class _SectionsScreenState extends State<SectionsScreen> {
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 20),
             ...sections.map((section) {
               return Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const SizedBox(height: 10),
+                  const SizedBox(height: 5),
                   TextButton(
-                    onPressed: null,
+                    onPressed: () async => await loadSubSection(section.subsections),
                     child: Text(section.value),
                   ),
-                  const SizedBox(height: 10),
+                  const SizedBox(height: 5),
                 ],
               );
             }),

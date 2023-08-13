@@ -4,4 +4,5 @@ class NavigationPaths {
   static const String search = '/search';
   static const String special = '/special';
   static const String question = '/question';
+  static const String subSection = '/subSection';
 }

@@ -6,6 +6,8 @@ import '../../screens/question_search_screen.dart';
 import '../../screens/read_config.dart';
 import '../../screens/question_screen.dart';
 import '../../domain/entities/question.dart';
+import '../../screens/sub_section_screen.dart';
+import '../../domain/entities/sub_section.dart';
 
 class AppRouter {
   Route? onGenerateRoute(RouteSettings settings) {
@@ -31,6 +33,10 @@ class AppRouter {
       case NavigationPaths.home:
         return MaterialPageRoute(
           builder: (_) => const ReadConfig(),
+        );
+      case NavigationPaths.subSection:
+        return MaterialPageRoute(
+          builder: (_) => SubSectionScreen(arg as List<SubSection>),
         );
       default:
         return MaterialPageRoute(
