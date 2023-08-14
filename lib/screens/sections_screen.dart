@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../config/navigation/global_nav.dart';
 import '../domain/entities/section.dart';
 import '../calls/question_calls.dart';
+import 'app_drawer.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 
@@ -19,6 +20,7 @@ class _SectionsScreenState extends State<SectionsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Sections')),
+      drawer: const AppDrawer(),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Column(
