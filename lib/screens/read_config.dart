@@ -34,7 +34,6 @@ class _ReadConfigState extends State<ReadConfig> {
       question.special = globalNav.specials.firstWhereOrNull((element) => element.id == question.id);
     }
     globalNav.questions = data;
-    print('The number of questions done is ${data.length} out of 1350');
     globalNav.sections = sectionModelFromJson(jsonText);
     for (var section in globalNav.sections) {
       section.subsections = subSectionModelFromJson(jsonText, int.parse(section.id));

@@ -1,6 +1,6 @@
+import 'package:china_theory_test/domain/entities/not_learnt.dart';
 import 'package:flutter/material.dart';
 import '../domain/entities/question.dart';
-import '../calls/question_calls.dart';
 import '../config/navigation/global_nav.dart';
 import '../config/constants.dart';
 import 'package:audioplayers/audioplayers.dart';
@@ -22,6 +22,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
   late bool truthSettings;
   late bool soundSettings;
   late bool specialSettings;
+  late bool notLearnt;
   final double volumeSetting = 0.05;
 
   @override
@@ -31,6 +32,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
     truthSettings = globalNav.sharedPreferences!.getBool(AppConstants.truthSettingsKey)!;
     soundSettings = globalNav.sharedPreferences!.getBool(AppConstants.soundsKey)!;
     specialSettings = widget.question.special != null;
+    notLearnt = globalNav.notLearts.isNotLearnt(widget.question.id);
     super.initState();
   }
 
@@ -82,7 +84,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
                     : const SizedBox(height: 1, width: 1),
               ),
               const SizedBox(height: 15),
-              getNextButton(ans, 'Next'),
+              getNextButton(),
               const SizedBox(height: 15),
               getSpecial(),
             ],
@@ -188,31 +190,37 @@ class _QuestionScreenState extends State<QuestionScreen> {
     );
   }
 
-  Widget getNextButton(bool value, String question) {
+  Widget getNextButton() {
     return SizedBox(
-      height: 100,
+      height: 50,
       child: FilledButton.tonal(
-        onPressed: (value || truthSettings)
-            ? () async {
-                Navigator.pop(context);
-                Question question = getRandomQuestion();
-                await loadQuestionPage(question);
+        onPressed: (notLearnt)
+            ? () {
+                setState(() {
+                  globalNav.notLearts.removeNotLearnt(widget.question.id);
+                  notLearnt = !notLearnt;
+                });
               }
-            : null,
+            : () {
+                setState(() {
+                  globalNav.notLearts.addNotLearnt(widget.question.id);
+                  notLearnt = !notLearnt;
+                });
+              },
         style: ButtonStyle(
           padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
           alignment: Alignment.center,
-          backgroundColor: MaterialStateProperty.all<Color>(value || truthSettings ? Colors.green : Colors.blueGrey),
+          backgroundColor: MaterialStateProperty.all<Color>(notLearnt ? Colors.green : Colors.blueGrey),
           shape: MaterialStateProperty.all(RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(15),
-            side: BorderSide(width: value ? 3 : 1),
+            side: BorderSide(width: notLearnt ? 3 : 1),
           )),
         ),
         child: Text(
-          question,
+          notLearnt ? 'Not Learnt' : 'Learnt',
           maxLines: 2,
           textAlign: TextAlign.center,
-          style: value ? const TextStyle(color: Colors.black, fontSize: 20) : const TextStyle(color: Colors.white),
+          style: notLearnt ? const TextStyle(color: Colors.black, fontSize: 20) : const TextStyle(color: Colors.white),
         ),
       ),
     );

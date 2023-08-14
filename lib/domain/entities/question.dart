@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:china_theory_test/config/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
 import 'special.dart';
@@ -64,7 +65,7 @@ class Question {
   Map<String, dynamic> getNotLearnt() {
     final data = <String, dynamic>{};
     data['"id"'] = '"$id"';
-    data['"code"'] = '"NL"';
+    data['"code"'] = '"${AppConstants.notLeartCode}"';
     return data;
   }
 

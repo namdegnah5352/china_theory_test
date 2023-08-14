@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:collection/collection.dart';
 import '../../config/constants.dart';
 import 'question.dart';
 import '../../config/navigation/global_nav.dart';
@@ -29,13 +30,14 @@ class NotLearnt {
 }
 
 extension NotLearnts on List<NotLearnt> {
-  void addNotLearnt(NotLearnt notLearnt) {
+  void addNotLearnt(String id) {
+    NotLearnt notLearnt = NotLearnt(id: id, code: AppConstants.notLeartCode);
     add(notLearnt);
     save();
   }
 
-  void removeNotLearnt(NotLearnt notLearnt) {
-    NotLearnt toRemove = firstWhere((element) => element.id == notLearnt.id);
+  void removeNotLearnt(String id) {
+    NotLearnt toRemove = firstWhere((element) => element.id == id);
     remove(toRemove);
     save();
   }
@@ -60,5 +62,11 @@ extension NotLearnts on List<NotLearnt> {
     ans = ans.substring(0, ans.length - 1);
     ans += ']}';
     GlobalNav.instance.sharedPreferences!.setString(AppConstants.notLearntKey, ans);
+  }
+
+  bool isNotLearnt(String id) {
+    NotLearnt? ans = firstWhereOrNull((element) => element.id == id);
+    if (ans == null) return false;
+    return true;
   }
 }
