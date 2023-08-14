@@ -8,6 +8,7 @@ import '../../screens/question_screen.dart';
 import '../../domain/entities/question.dart';
 import '../../screens/sub_section_screen.dart';
 import '../../domain/entities/sub_section.dart';
+import '../../screens/sub_section_questions.dart';
 
 class AppRouter {
   Route? onGenerateRoute(RouteSettings settings) {
@@ -37,6 +38,10 @@ class AppRouter {
       case NavigationPaths.subSection:
         return MaterialPageRoute(
           builder: (_) => SubSectionScreen(arg as List<SubSection>),
+        );
+      case NavigationPaths.subSectionQuestion:
+        return MaterialPageRoute(
+          builder: (_) => SubSectionQuestions(arg as List<Question>),
         );
       default:
         return MaterialPageRoute(

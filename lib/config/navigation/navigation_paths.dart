@@ -5,4 +5,5 @@ class NavigationPaths {
   static const String special = '/special';
   static const String question = '/question';
   static const String subSection = '/subSection';
+  static const String subSectionQuestion = '/subSectionQuestion';
 }

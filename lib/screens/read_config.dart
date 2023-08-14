@@ -40,6 +40,7 @@ class _ReadConfigState extends State<ReadConfig> {
       section.subsections = subSectionModelFromJson(jsonText, int.parse(section.id));
       for (var subsection in section.subsections) {
         subsection.loadQuestions(globalNav.questions!);
+        section.questions.addAll(subsection.questions);
       }
     }
     return data;

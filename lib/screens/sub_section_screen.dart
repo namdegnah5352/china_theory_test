@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../domain/entities/sub_section.dart';
+import '../calls/question_calls.dart';
 
 class SubSectionScreen extends StatefulWidget {
   const SubSectionScreen(this.subsections, {super.key});
@@ -21,14 +22,14 @@ class _SubSectionScreenState extends State<SubSectionScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SizedBox(height: 20),
-              ...widget.subsections.map((section) {
+              ...widget.subsections.map((subSection) {
                 return Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const SizedBox(height: 5),
                     TextButton(
-                      onPressed: null,
-                      child: Text(section.value),
+                      onPressed: () async => await loadSubSectionQuestions(subSection.questions),
+                      child: Text(subSection.value),
                     ),
                     const SizedBox(height: 5),
                   ],
