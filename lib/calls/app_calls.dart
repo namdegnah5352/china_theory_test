@@ -63,7 +63,7 @@ List<Question> filterQuestions(List<Question> questions) {
   List<Question> result = [];
   for (var question in questions) {
     answer = globalNav.notLearts.firstWhereOrNull((element) => element.id == question.id);
-    if (answer != null) {
+    if (answer == null) {
       result.add(question);
     }
   }
