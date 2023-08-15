@@ -4,6 +4,7 @@ import '../domain/entities/section.dart';
 import '../calls/app_calls.dart';
 import 'app_drawer.dart';
 import '../calls/app_calls.dart';
+import '../domain/entities/sub_section.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 
@@ -25,7 +26,7 @@ class _SectionsScreenState extends State<SectionsScreen> {
         actions: [
           IconButton.filled(
             onPressed: () async {
-              await loadTestStart();
+              await loadTestStart(globalNav.questions!);
             },
             icon: const Icon(Icons.add),
           )
@@ -44,7 +45,11 @@ class _SectionsScreenState extends State<SectionsScreen> {
                 children: [
                   const SizedBox(height: 5),
                   TextButton(
-                    onPressed: () async => await loadSubSection(section.subsections),
+                    onPressed: () async {
+                      ({List<SubSection> subsections, Section section}) listParts;
+                      listParts = (subsections: section.subsections, section: section);
+                      await loadSubSection(listParts);
+                    },
                     child: Text(section.value),
                   ),
                   const SizedBox(height: 5),

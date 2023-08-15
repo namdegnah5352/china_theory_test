@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import '../config/text_styles.dart';
+import '../domain/entities/question.dart';
+import '../calls/app_calls.dart';
 
 class TestScreen extends StatefulWidget {
-  const TestScreen({super.key});
-
+  const TestScreen(this.questions, {super.key});
+  final List<Question> questions;
   @override
   State<TestScreen> createState() => _TestScreenState();
 }
@@ -11,12 +13,17 @@ class TestScreen extends StatefulWidget {
 class _TestScreenState extends State<TestScreen> {
   late final TextEditingController noQuestionsController;
   late final TextEditingController timeController;
+  late final List<Question> toUseQuestions;
   @override
   void initState() {
+    toUseQuestions = filterQuestions(widget.questions);
     noQuestionsController = TextEditingController();
-    noQuestionsController.text = '10';
+    noQuestionsController.text = '${toUseQuestions.length}';
     timeController = TextEditingController();
-    timeController.text = '5 min 27 seconds';
+    var secs = toUseQuestions.length * 27;
+    int min = (secs / 60).floor();
+    int seconds = secs - min * 60;
+    timeController.text = '$min min $seconds seconds';
     super.initState();
   }
 
@@ -51,7 +58,6 @@ class _TestScreenState extends State<TestScreen> {
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
             alignment: Alignment.center,
-            // backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
           ),
           child: const Text('Start Test'),
         ),
