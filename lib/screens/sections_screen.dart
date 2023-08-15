@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import '../config/navigation/global_nav.dart';
 import '../domain/entities/section.dart';
-import '../calls/question_calls.dart';
+import '../calls/app_calls.dart';
 import 'app_drawer.dart';
+import '../calls/app_calls.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 
@@ -19,7 +20,17 @@ class _SectionsScreenState extends State<SectionsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Sections')),
+      appBar: AppBar(
+        title: const Text('Sections'),
+        actions: [
+          IconButton.filled(
+            onPressed: () async {
+              await loadTestStart();
+            },
+            icon: const Icon(Icons.add),
+          )
+        ],
+      ),
       drawer: const AppDrawer(),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),

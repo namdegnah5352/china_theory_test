@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../domain/entities/question.dart';
 import 'question_screen.dart';
-import '../calls/question_calls.dart';
+import '../calls/app_calls.dart';
 
 class QuestionListTile extends StatefulWidget {
   final Question question;

@@ -3,6 +3,7 @@ import 'dart:math';
 import '../config/navigation/global_nav.dart';
 import '../config/navigation/navigation_paths.dart';
 import '../domain/entities/sub_section.dart';
+import 'dart:async';
 
 GlobalNav globalNav = GlobalNav.instance;
 
@@ -39,4 +40,17 @@ Future<void> loadSubSection(List<SubSection> subSections) async {
 
 Future<void> loadSubSectionQuestions(List<Question> questions) async {
   await globalNav.appNavigation.pushNamed(NavigationPaths.subSectionQuestion, arguments: questions);
+}
+
+Future<void> loadTestStart() async {
+  await globalNav.appNavigation.pushNamed(NavigationPaths.testStart);
+}
+
+// int count = 0;
+void tickleMe(Function toTickle) {
+  Timer.periodic(const Duration(seconds: 1), (timer) {
+    // count++;
+    // toTickle(count);
+    // if (count == 1111111) timer.cancel();
+  });
 }

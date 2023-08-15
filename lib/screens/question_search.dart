@@ -2,7 +2,7 @@ import 'package:china_theory_test/config/constants.dart';
 import 'package:flutter/material.dart';
 import '../domain/entities/question.dart';
 import 'question_list_tile.dart';
-import '../calls/question_calls.dart';
+import '../calls/app_calls.dart';
 import 'question_screen.dart';
 import 'app_drawer.dart';
 import '../config/navigation/global_nav.dart';

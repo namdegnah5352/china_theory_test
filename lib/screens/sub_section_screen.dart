@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../domain/entities/sub_section.dart';
-import '../calls/question_calls.dart';
+import '../calls/app_calls.dart';
 
 class SubSectionScreen extends StatefulWidget {
   const SubSectionScreen(this.subsections, {super.key});
