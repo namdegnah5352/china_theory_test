@@ -11,6 +11,7 @@ import '../../domain/entities/sub_section.dart';
 import '../../screens/sub_section_questions.dart';
 import '../../screens/test/test_screen.dart';
 import '../../domain/entities/section.dart';
+import '../../screens/test/test_go.dart';
 
 class AppRouter {
   Route? onGenerateRoute(RouteSettings settings) {
@@ -50,6 +51,10 @@ class AppRouter {
       case NavigationPaths.testStart:
         return MaterialPageRoute(
           builder: (_) => TestScreen(arg as List<Question>),
+        );
+      case NavigationPaths.testGo:
+        return MaterialPageRoute(
+          builder: (_) => TestGo(arg as List<Question>),
         );
       default:
         return MaterialPageRoute(

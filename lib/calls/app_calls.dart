@@ -51,13 +51,24 @@ Future<void> loadTestStart(List<Question> questions) async {
   await globalNav.appNavigation.pushNamed(NavigationPaths.testStart, arguments: questions);
 }
 
-// int count = 0;
-void tickleMe(Function toTickle) {
+Future<void> loadTestGo(List<Question> questions) async {
+  await globalNav.appNavigation.pushNamed(NavigationPaths.testGo, arguments: questions);
+}
+
+int count = 0;
+void countSeconds(Function callback, [bool? cancel]) {
   Timer.periodic(const Duration(seconds: 1), (timer) {
-    // count++;
-    // toTickle(count);
-    // if (count == 1111111) timer.cancel();
+    if (cancel != null && cancel == true) {
+      timer.cancel();
+    } else {
+      count++;
+      callback(count);
+    }
   });
+}
+
+void resetCounter() {
+  count = 0;
 }
 
 List<Question> filterQuestions(List<Question> questions) {
