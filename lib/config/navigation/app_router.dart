@@ -53,8 +53,10 @@ class AppRouter {
           builder: (_) => TestScreen(arg as List<Question>),
         );
       case NavigationPaths.testGo:
+        ({List<Question> questions, int noQuestions, int noSeconds}) listParts;
+        listParts = arg as ({List<Question> questions, int noQuestions, int noSeconds});
         return MaterialPageRoute(
-          builder: (_) => TestGo(arg as List<Question>),
+          builder: (_) => TestGo(listParts.questions, listParts.noQuestions, listParts.noSeconds),
         );
       default:
         return MaterialPageRoute(

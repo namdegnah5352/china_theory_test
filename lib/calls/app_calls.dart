@@ -51,14 +51,17 @@ Future<void> loadTestStart(List<Question> questions) async {
   await globalNav.appNavigation.pushNamed(NavigationPaths.testStart, arguments: questions);
 }
 
-Future<void> loadTestGo(List<Question> questions) async {
-  await globalNav.appNavigation.pushNamed(NavigationPaths.testGo, arguments: questions);
+Future<void> loadTestGo(List<Question> questions, int noQuestions, int noSeconds) async {
+  ({List<Question> questions, int noQuestions, int noSeconds}) listParts;
+  listParts = (questions: questions, noQuestions: noQuestions, noSeconds: noSeconds);
+  await globalNav.appNavigation.pushNamed(NavigationPaths.testGo, arguments: listParts);
 }
 
 int count = 0;
-void countSeconds(Function callback, [bool? cancel]) {
+void countSeconds(Function callback) {
   Timer.periodic(const Duration(seconds: 1), (timer) {
-    if (cancel != null && cancel == true) {
+    if (count < 0) {
+      count = 0;
       timer.cancel();
     } else {
       count++;
@@ -68,7 +71,7 @@ void countSeconds(Function callback, [bool? cancel]) {
 }
 
 void resetCounter() {
-  count = 0;
+  count = -10;
 }
 
 List<Question> filterQuestions(List<Question> questions) {

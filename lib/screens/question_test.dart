@@ -3,7 +3,8 @@ import '../domain/entities/question.dart';
 
 class QuestionTest extends StatefulWidget {
   final Question question;
-  const QuestionTest(this.question, {super.key});
+  final Function callback;
+  const QuestionTest(this.question, this.callback, {super.key});
 
   @override
   State<QuestionTest> createState() => _QuestionTestState();
@@ -16,7 +17,6 @@ class _QuestionTestState extends State<QuestionTest> {
   @override
   void initState() {
     controller = TextEditingController();
-    controller.text = widget.question.questionText;
     super.initState();
   }
 
@@ -28,6 +28,7 @@ class _QuestionTestState extends State<QuestionTest> {
 
   @override
   Widget build(BuildContext context) {
+    controller.text = widget.question.questionText;
     return Padding(
       padding: const EdgeInsetsDirectional.symmetric(horizontal: 20),
       child: SingleChildScrollView(
@@ -49,22 +50,6 @@ class _QuestionTestState extends State<QuestionTest> {
               'Plogic' || 'Logic' => getLogicAnswer(widget.question),
               _ => getFourAnswers(widget.question),
             },
-            const SizedBox(height: 20),
-            Container(
-              height: 40,
-              decoration: BoxDecoration(
-                color: ans ? Colors.green : Colors.red,
-                borderRadius: BorderRadius.circular(15),
-                border: Border.all(width: 2, color: Colors.black54),
-              ),
-              child: ans
-                  ? const Center(
-                      child: Text(
-                      'Correct',
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800),
-                    ))
-                  : const SizedBox(height: 1, width: 1),
-            ),
           ],
         ),
       ),
@@ -104,7 +89,8 @@ class _QuestionTestState extends State<QuestionTest> {
     return FilledButton.tonal(
       onPressed: () {
         setState(() {
-          ans = question.toLowerCase() == value.toLowerCase();
+          // ans = question.toLowerCase() == value.toLowerCase();
+          widget.callback();
         });
       },
       style: ButtonStyle(
@@ -125,13 +111,14 @@ class _QuestionTestState extends State<QuestionTest> {
     return FilledButton.tonal(
       onPressed: () async {
         setState(() {
-          ans = widget.question.answer == value;
+          // ans = widget.question.answer == value;
+          widget.callback();
         });
       },
       style: ButtonStyle(
         padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
         alignment: Alignment.center,
-        backgroundColor: MaterialStateProperty.all<Color>(widget.question.answer == value ? Colors.green : Colors.blue),
+        backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
       ),
       child: Text(
         question,

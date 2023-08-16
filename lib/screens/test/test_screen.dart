@@ -14,13 +14,14 @@ class _TestScreenState extends State<TestScreen> {
   late final TextEditingController noQuestionsController;
   late final TextEditingController timeController;
   late final List<Question> toUseQuestions;
+  int secs = 0;
   @override
   void initState() {
     toUseQuestions = filterQuestions(widget.questions);
     noQuestionsController = TextEditingController();
     noQuestionsController.text = '${toUseQuestions.length}';
     timeController = TextEditingController();
-    var secs = toUseQuestions.length * 27;
+    secs = toUseQuestions.length * 27;
     int min = (secs / 60).floor();
     int seconds = secs - min * 60;
     timeController.text = '$min min $seconds seconds';
@@ -55,7 +56,7 @@ class _TestScreenState extends State<TestScreen> {
         const SizedBox(height: 20),
         FilledButton.tonal(
           onPressed: () {
-            loadTestGo(widget.questions);
+            loadTestGo(widget.questions, toUseQuestions.length, secs);
           },
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),

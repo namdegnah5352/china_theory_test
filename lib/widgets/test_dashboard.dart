@@ -2,18 +2,20 @@ import 'package:flutter/material.dart';
 import '../calls/app_calls.dart' as calls;
 
 class TestDashboard extends StatefulWidget {
-  const TestDashboard({super.key});
+  const TestDashboard(this.noQuestions, this.seconds, {super.key});
+  final int noQuestions;
+  final int seconds;
 
   @override
   State<TestDashboard> createState() => _TestDashboardState();
 }
 
 class _TestDashboardState extends State<TestDashboard> {
-  int counter = 0;
+  int icounter = 0;
+  int min = 0;
+  int iseconds = 0;
   @override
   void initState() {
-    calls.resetCounter();
-    counter = 0;
     calls.countSeconds(counterFunction);
     super.initState();
   }
@@ -21,14 +23,17 @@ class _TestDashboardState extends State<TestDashboard> {
   void counterFunction(int count) {
     if (mounted) {
       setState(() {
-        counter = count;
+        icounter = count;
+        var toDo = widget.seconds - icounter;
+        min = (toDo / 60).floor();
+        iseconds = toDo - min * 60;
       });
     }
   }
 
   @override
   void dispose() {
-    calls.countSeconds(counterFunction, true);
+    calls.resetCounter();
     super.dispose();
   }
 
@@ -36,7 +41,13 @@ class _TestDashboardState extends State<TestDashboard> {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20),
-      child: Center(child: Text('$counter')),
+      child: Column(
+        children: [
+          const SizedBox(height: 20),
+          Center(child: Text('$min min and $iseconds seconds')),
+          const SizedBox(height: 20),
+        ],
+      ),
     );
   }
 }
