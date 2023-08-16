@@ -46,9 +46,7 @@ class _SectionsScreenState extends State<SectionsScreen> {
                   const SizedBox(height: 5),
                   TextButton(
                     onPressed: () async {
-                      ({List<SubSection> subsections, Section section}) listParts;
-                      listParts = (subsections: section.subsections, section: section);
-                      await loadSubSection(listParts);
+                      await loadSubSection(section.subsections, section);
                     },
                     child: Text(section.value),
                   ),

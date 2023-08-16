@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../config/text_styles.dart';
-import '../domain/entities/question.dart';
-import '../calls/app_calls.dart';
+import '../../config/text_styles.dart';
+import '../../domain/entities/question.dart';
+import '../../calls/app_calls.dart';
 
 class TestScreen extends StatefulWidget {
   const TestScreen(this.questions, {super.key});

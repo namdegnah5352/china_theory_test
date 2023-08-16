@@ -37,7 +37,9 @@ Future<void> loadQuestionPage(Question question) async {
   await globalNav.appNavigation.pushNamed(NavigationPaths.question, arguments: question);
 }
 
-Future<void> loadSubSection(({List<SubSection> subsections, Section section}) listParts) async {
+Future<void> loadSubSection(List<SubSection> subsections, Section section) async {
+  ({List<SubSection> subsections, Section section}) listParts;
+  listParts = (subsections: section.subsections, section: section);
   await globalNav.appNavigation.pushNamed(NavigationPaths.subSection, arguments: listParts);
 }
 

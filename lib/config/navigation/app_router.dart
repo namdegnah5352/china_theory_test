@@ -9,7 +9,7 @@ import '../../domain/entities/question.dart';
 import '../../screens/sub_section_screen.dart';
 import '../../domain/entities/sub_section.dart';
 import '../../screens/sub_section_questions.dart';
-import '../../screens/test_screen.dart';
+import '../../screens/test/test_screen.dart';
 import '../../domain/entities/section.dart';
 
 class AppRouter {
