@@ -4,13 +4,15 @@ import '../domain/entities/question.dart';
 import '../screens/question_test.dart';
 import '../config/navigation/global_nav.dart';
 import '../config/constants.dart';
+import '../calls/test_calls.dart' as testcalls;
+import '../calls/app_calls.dart' as appcalls;
 
 GlobalNav globalNav = GlobalNav.instance;
 
 class ServeTestQuestions extends StatefulWidget {
-  const ServeTestQuestions(this.questions, this.finishTest, {super.key});
+  const ServeTestQuestions(this.questions, this.popMaster, {super.key});
   final List<Question> questions;
-  final Function finishTest;
+  final Function popMaster;
   @override
   State<ServeTestQuestions> createState() => _ServeTestQuestionsState();
 }
@@ -18,15 +20,16 @@ class ServeTestQuestions extends StatefulWidget {
 class _ServeTestQuestionsState extends State<ServeTestQuestions> {
   int index = 0;
   int mark = 0;
-  void increaseIndex(String value) {
-    setState(() {
-      markQuestion(widget.questions[index], value);
-      index++;
-      if (index == widget.questions.length) {
-        widget.finishTest(AppConstants.questionsFinished, mark);
-        Navigator.of(context).pop();
-      }
-    });
+  void increaseIndex(String value) async {
+    markQuestion(widget.questions[index], value);
+    index++;
+    if (index == widget.questions.length) {
+      testcalls.finishTest(AppConstants.questionsFinished, mark);
+      widget.popMaster();
+      await appcalls.loadTestResults(mark);
+    } else {
+      setState(() {});
+    }
   }
 
   void markQuestion(Question question, String value) {
@@ -37,7 +40,6 @@ class _ServeTestQuestionsState extends State<ServeTestQuestions> {
     }
   }
 
-  void markLogicQuestion(Question question, String value) {}
   @override
   Widget build(BuildContext context) {
     return Padding(

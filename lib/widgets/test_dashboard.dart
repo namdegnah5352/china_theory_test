@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../calls/app_calls.dart' as calls;
+import 'serve_test_questions.dart';
 
 class TestDashboard extends StatefulWidget {
   const TestDashboard(this.noQuestions, this.seconds, {super.key});
@@ -22,12 +23,16 @@ class _TestDashboardState extends State<TestDashboard> {
 
   void counterFunction(int count) {
     if (mounted) {
-      setState(() {
-        icounter = count;
-        var toDo = widget.seconds - icounter;
-        min = (toDo / 60).floor();
-        iseconds = toDo - min * 60;
-      });
+      if (count == widget.seconds) {
+        // the counter has finished so the test has finished
+      } else {
+        setState(() {
+          icounter = count;
+          var toDo = widget.seconds - icounter;
+          min = (toDo / 60).floor();
+          iseconds = toDo - min * 60;
+        });
+      }
     }
   }
 

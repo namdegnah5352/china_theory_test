@@ -18,7 +18,7 @@ class _TestResultsState extends State<TestResults> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text(widget.mark.toString()),
+            Text('Your score is ${widget.mark}'),
           ],
         ),
       ),

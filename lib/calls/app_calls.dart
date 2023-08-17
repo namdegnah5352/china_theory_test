@@ -55,9 +55,9 @@ Future<void> loadTestResults(int mark) async {
   await globalNav.appNavigation.pushNamed(NavigationPaths.testResults, arguments: mark);
 }
 
-Future<void> loadTestGo(List<Question> questions, int noQuestions, int noSeconds) async {
-  ({List<Question> questions, int noQuestions, int noSeconds}) listParts;
-  listParts = (questions: questions, noQuestions: noQuestions, noSeconds: noSeconds);
+Future<void> loadTestGo(List<Question> questions, int noQuestions, int noSeconds, Function popMaster) async {
+  ({List<Question> questions, int noQuestions, int noSeconds, Function popMaster}) listParts;
+  listParts = (questions: questions, noQuestions: noQuestions, noSeconds: noSeconds, popMaster: popMaster);
   await globalNav.appNavigation.pushNamed(NavigationPaths.testGo, arguments: listParts);
 }
 
