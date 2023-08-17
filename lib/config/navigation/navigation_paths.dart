@@ -8,4 +8,5 @@ class NavigationPaths {
   static const String subSectionQuestion = '/subSectionQuestion';
   static const String testStart = '/testStart';
   static const String testGo = '/testGo';
+  static const String testResults = '/testResults';
 }

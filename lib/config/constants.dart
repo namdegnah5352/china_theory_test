@@ -16,4 +16,6 @@ class AppConstants {
   static const sounds = false;
   //visual
   static const appBarOpacity = 0.4;
+  static const questionsFinished = true;
+  static const timerFinished = false;
 }

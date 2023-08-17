@@ -90,7 +90,7 @@ class _QuestionTestState extends State<QuestionTest> {
       onPressed: () {
         setState(() {
           // ans = question.toLowerCase() == value.toLowerCase();
-          widget.callback();
+          widget.callback(value.toLowerCase());
         });
       },
       style: ButtonStyle(
@@ -112,7 +112,7 @@ class _QuestionTestState extends State<QuestionTest> {
       onPressed: () async {
         setState(() {
           // ans = widget.question.answer == value;
-          widget.callback();
+          widget.callback(value);
         });
       },
       style: ButtonStyle(

@@ -56,7 +56,7 @@ class _TestScreenState extends State<TestScreen> {
         const SizedBox(height: 20),
         FilledButton.tonal(
           onPressed: () {
-            loadTestGo(widget.questions, toUseQuestions.length, secs);
+            loadTestGo(toUseQuestions, toUseQuestions.length, secs);
           },
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),

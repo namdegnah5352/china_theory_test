@@ -37,7 +37,11 @@ class Question {
     b = json['B'] ??= '';
     c = json['C'] ??= '';
     d = json['D'] ??= '';
-    answer = json['Answer'];
+    answer = switch (json['Answer'].toLowerCase()) {
+      'wrong' || 'false' => 'false',
+      'right' || 'true' => 'true',
+      _ => json['Answer'],
+    };
     type = json['Type'];
   }
 

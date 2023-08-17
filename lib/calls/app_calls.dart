@@ -51,6 +51,10 @@ Future<void> loadTestStart(List<Question> questions) async {
   await globalNav.appNavigation.pushNamed(NavigationPaths.testStart, arguments: questions);
 }
 
+Future<void> loadTestResults(int mark) async {
+  await globalNav.appNavigation.pushNamed(NavigationPaths.testResults, arguments: mark);
+}
+
 Future<void> loadTestGo(List<Question> questions, int noQuestions, int noSeconds) async {
   ({List<Question> questions, int noQuestions, int noSeconds}) listParts;
   listParts = (questions: questions, noQuestions: noQuestions, noSeconds: noSeconds);
@@ -65,6 +69,7 @@ void countSeconds(Function callback) {
       timer.cancel();
     } else {
       count++;
+      print('timer running');
       callback(count);
     }
   });
