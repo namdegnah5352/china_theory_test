@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import '../calls/app_calls.dart' as calls;
-import 'serve_test_questions.dart';
+import '../calls/app_calls.dart' as appcalls;
+import '../calls/test_calls.dart' as testcalls;
 
 class TestDashboard extends StatefulWidget {
-  const TestDashboard(this.noQuestions, this.seconds, {super.key});
+  const TestDashboard(this.noQuestions, this.seconds, this.popMaster, {super.key});
   final int noQuestions;
   final int seconds;
+  final Function popMaster;
 
   @override
   State<TestDashboard> createState() => _TestDashboardState();
@@ -17,14 +18,15 @@ class _TestDashboardState extends State<TestDashboard> {
   int iseconds = 0;
   @override
   void initState() {
-    calls.countSeconds(counterFunction);
+    appcalls.countSeconds(counterFunction);
     super.initState();
   }
 
-  void counterFunction(int count) {
+  void counterFunction(int count) async {
     if (mounted) {
       if (count == widget.seconds) {
-        // the counter has finished so the test has finished
+        widget.popMaster();
+        await appcalls.loadTestResults(testcalls.mark);
       } else {
         setState(() {
           icounter = count;
@@ -38,7 +40,7 @@ class _TestDashboardState extends State<TestDashboard> {
 
   @override
   void dispose() {
-    calls.resetCounter();
+    appcalls.resetCounter();
     super.dispose();
   }
 

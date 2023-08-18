@@ -26,7 +26,7 @@ class _TestGoState extends State<TestGo> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          TestDashboard(widget.noQuestions, widget.noSeconds),
+          TestDashboard(widget.noQuestions, widget.noSeconds, goAway),
           ServeTestQuestions(widget.questions, goAway),
         ],
       ),

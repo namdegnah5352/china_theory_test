@@ -19,14 +19,14 @@ class ServeTestQuestions extends StatefulWidget {
 
 class _ServeTestQuestionsState extends State<ServeTestQuestions> {
   int index = 0;
-  int mark = 0;
+
   void increaseIndex(String value) async {
     markQuestion(widget.questions[index], value);
     index++;
     if (index == widget.questions.length) {
-      testcalls.finishTest(AppConstants.questionsFinished, mark);
+      testcalls.finishTest(AppConstants.questionsFinished, testcalls.mark);
       widget.popMaster();
-      await appcalls.loadTestResults(mark);
+      await appcalls.loadTestResults(testcalls.mark);
     } else {
       setState(() {});
     }
@@ -34,7 +34,7 @@ class _ServeTestQuestionsState extends State<ServeTestQuestions> {
 
   void markQuestion(Question question, String value) {
     if (value == question.answer) {
-      mark++;
+      testcalls.mark++;
     } else {
       globalNav.notLearts.addNotLearnt(question.id);
     }

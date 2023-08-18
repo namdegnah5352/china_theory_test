@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import '../../config/text_styles.dart';
 import '../../domain/entities/question.dart';
-import '../../calls/app_calls.dart';
+import '../../calls/app_calls.dart' as appcalls;
+import '../../calls/test_calls.dart' as testcalls;
 
 class TestScreen extends StatefulWidget {
   const TestScreen(this.questions, {super.key});
@@ -17,7 +18,7 @@ class _TestScreenState extends State<TestScreen> {
   int secs = 0;
   @override
   void initState() {
-    toUseQuestions = filterQuestions(widget.questions);
+    toUseQuestions = appcalls.filterQuestions(widget.questions);
     noQuestionsController = TextEditingController();
     noQuestionsController.text = '${toUseQuestions.length}';
     timeController = TextEditingController();
@@ -60,7 +61,8 @@ class _TestScreenState extends State<TestScreen> {
         const SizedBox(height: 20),
         FilledButton.tonal(
           onPressed: () {
-            loadTestGo(toUseQuestions, toUseQuestions.length, secs, goAway);
+            testcalls.mark = 0;
+            appcalls.loadTestGo(toUseQuestions, toUseQuestions.length, secs, goAway);
           },
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
