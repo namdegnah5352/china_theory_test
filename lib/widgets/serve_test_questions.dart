@@ -24,7 +24,6 @@ class _ServeTestQuestionsState extends State<ServeTestQuestions> {
     markQuestion(widget.questions[index], value);
     index++;
     if (index == widget.questions.length) {
-      testcalls.finishTest(AppConstants.questionsFinished, testcalls.mark);
       widget.popMaster();
       await appcalls.loadTestResults(testcalls.mark);
     } else {

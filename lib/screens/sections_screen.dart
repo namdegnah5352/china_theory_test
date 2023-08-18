@@ -35,26 +35,28 @@ class _SectionsScreenState extends State<SectionsScreen> {
       drawer: const AppDrawer(),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const SizedBox(height: 20),
-            ...sections.map((section) {
-              return Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const SizedBox(height: 5),
-                  TextButton(
-                    onPressed: () async {
-                      await loadSubSection(section.subsections, section);
-                    },
-                    child: Text(section.value),
-                  ),
-                  const SizedBox(height: 5),
-                ],
-              );
-            }),
-          ],
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const SizedBox(height: 20),
+              ...sections.map((section) {
+                return Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const SizedBox(height: 5),
+                    TextButton(
+                      onPressed: () async {
+                        await loadSubSection(section.subsections, section);
+                      },
+                      child: Text(section.value),
+                    ),
+                    const SizedBox(height: 5),
+                  ],
+                );
+              }),
+            ],
+          ),
         ),
       ),
     );

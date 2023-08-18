@@ -4,6 +4,8 @@ import '../../config/constants.dart';
 import 'question.dart';
 import '../../config/navigation/global_nav.dart';
 
+GlobalNav globalNav = GlobalNav.instance;
+
 List<NotLearnt> notLearntModelFromJson(String str) =>
     List<NotLearnt>.from(json.decode(str)["notLearnt"].map((x) => NotLearnt.fromJson(x)));
 String notLearntModelToJson(List<NotLearnt> data) => json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
@@ -61,7 +63,8 @@ extension NotLearnts on List<NotLearnt> {
     }
     ans = ans.substring(0, ans.length - 1);
     ans += ']}';
-    GlobalNav.instance.sharedPreferences!.setString(AppConstants.notLearntKey, ans);
+    globalNav.sharedPreferences!.setString(AppConstants.notLearntKey, ans);
+    globalNav.notLearts = notLearntModelFromJson(globalNav.sharedPreferences!.getString(AppConstants.notLearntKey)!);
   }
 
   bool isNotLearnt(String id) {
