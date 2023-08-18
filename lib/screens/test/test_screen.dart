@@ -62,7 +62,8 @@ class _TestScreenState extends State<TestScreen> {
         FilledButton.tonal(
           onPressed: () {
             testcalls.mark = 0;
-            appcalls.loadTestGo(toUseQuestions, toUseQuestions.length, secs, goAway);
+            testcalls.noQuestions = toUseQuestions.length;
+            appcalls.loadTestGo(toUseQuestions, secs, goAway);
           },
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),

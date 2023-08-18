@@ -4,9 +4,8 @@ import '../../widgets/test_dashboard.dart';
 import '../../domain/entities/question.dart';
 
 class TestGo extends StatefulWidget {
-  const TestGo(this.questions, this.noQuestions, this.noSeconds, this.popMaster, {super.key});
+  const TestGo(this.questions, this.noSeconds, this.popMaster, {super.key});
   final List<Question> questions;
-  final int noQuestions;
   final int noSeconds;
   final Function popMaster;
   @override
@@ -26,7 +25,7 @@ class _TestGoState extends State<TestGo> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          TestDashboard(widget.noQuestions, widget.noSeconds, goAway),
+          TestDashboard(widget.noSeconds, goAway),
           ServeTestQuestions(widget.questions, goAway),
         ],
       ),

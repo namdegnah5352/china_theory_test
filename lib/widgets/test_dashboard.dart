@@ -3,8 +3,7 @@ import '../calls/app_calls.dart' as appcalls;
 import '../calls/test_calls.dart' as testcalls;
 
 class TestDashboard extends StatefulWidget {
-  const TestDashboard(this.noQuestions, this.seconds, this.popMaster, {super.key});
-  final int noQuestions;
+  const TestDashboard(this.seconds, this.popMaster, {super.key});
   final int seconds;
   final Function popMaster;
 
@@ -26,7 +25,7 @@ class _TestDashboardState extends State<TestDashboard> {
     if (mounted) {
       if (count == widget.seconds) {
         widget.popMaster();
-        await appcalls.loadTestResults(testcalls.mark);
+        await appcalls.loadTestResults();
       } else {
         setState(() {
           icounter = count;

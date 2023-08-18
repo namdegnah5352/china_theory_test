@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import '../../calls/test_calls.dart' as testcalls;
 
 class TestResults extends StatefulWidget {
-  const TestResults(this.mark, {super.key});
-  final int mark;
+  const TestResults({super.key});
 
   @override
   State<TestResults> createState() => _TestResultsState();
@@ -18,7 +18,7 @@ class _TestResultsState extends State<TestResults> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Text('Your score is ${widget.mark}'),
+            Text('Your score is ${testcalls.mark} out of ${testcalls.noQuestions}'),
           ],
         ),
       ),

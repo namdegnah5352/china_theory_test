@@ -25,7 +25,7 @@ class _ServeTestQuestionsState extends State<ServeTestQuestions> {
     index++;
     if (index == widget.questions.length) {
       widget.popMaster();
-      await appcalls.loadTestResults(testcalls.mark);
+      await appcalls.loadTestResults();
     } else {
       setState(() {});
     }
