@@ -1,7 +1,7 @@
 import 'package:china_theory_test/domain/entities/not_learnt.dart';
 import 'package:flutter/material.dart';
 import '../domain/entities/question.dart';
-import '../screens/question_test.dart';
+import '../screens/test/question_test.dart';
 import '../config/navigation/global_nav.dart';
 import '../config/constants.dart';
 import '../calls/test_calls.dart' as testcalls;

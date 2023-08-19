@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../domain/entities/question.dart';
+import '../../domain/entities/question.dart';
 
 class QuestionTest extends StatefulWidget {
   final Question question;
@@ -89,7 +89,6 @@ class _QuestionTestState extends State<QuestionTest> {
     return FilledButton.tonal(
       onPressed: () {
         setState(() {
-          // ans = question.toLowerCase() == value.toLowerCase();
           widget.callback(value.toLowerCase());
         });
       },
@@ -111,14 +110,13 @@ class _QuestionTestState extends State<QuestionTest> {
     return FilledButton.tonal(
       onPressed: () async {
         setState(() {
-          // ans = widget.question.answer == value;
           widget.callback(value);
         });
       },
       style: ButtonStyle(
         padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
         alignment: Alignment.center,
-        backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
+        backgroundColor: MaterialStateProperty.all<Color>(Theme.of(context).colorScheme.primaryContainer),
       ),
       child: Text(
         question,

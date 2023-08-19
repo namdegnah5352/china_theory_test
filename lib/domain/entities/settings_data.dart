@@ -1,4 +1,4 @@
-import '/config/enums.dart';
+import '../../config/enums.dart';
 
 class SettingsData {
   bool useLightMode;
