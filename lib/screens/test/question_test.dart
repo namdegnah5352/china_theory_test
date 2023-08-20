@@ -89,14 +89,13 @@ class _QuestionTestState extends State<QuestionTest> {
     return FilledButton.tonal(
       onPressed: () {
         setState(() {
-          widget.callback(value.toLowerCase());
+          widget.callback(value);
         });
       },
       style: ButtonStyle(
         padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
         alignment: Alignment.center,
-        backgroundColor:
-            MaterialStateProperty.all<Color>(question.toLowerCase() == value.toLowerCase() ? Colors.green : Colors.blue),
+        backgroundColor:          MaterialStateProperty.all<Color>MaterialStateProperty.all<Color>(Theme.of(context).colorScheme.primaryContainer),
       ),
       child: Text(
         question,
