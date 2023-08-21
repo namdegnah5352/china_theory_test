@@ -16,7 +16,7 @@ class NotLearnt {
     required this.code,
   });
   late final String id;
-  late final String code;
+  late String code;
 
   NotLearnt.fromJson(Map<String, dynamic> json) {
     id = json['id'];
@@ -32,17 +32,23 @@ class NotLearnt {
 }
 
 extension NotLearnts on List<NotLearnt> {
-  void addNotLearnt(String id) {
-    NotLearnt notLearnt = NotLearnt(id: id, code: AppConstants.notLeartCode);
-    add(notLearnt);
+  void changeStatus(String id, String status) {
+    NotLearnt toChange = firstWhere((element) => element.id == id);
+    toChange.code = status;
     save();
   }
 
-  void removeNotLearnt(String id) {
-    NotLearnt toRemove = firstWhere((element) => element.id == id);
-    remove(toRemove);
-    save();
-  }
+  // void addNotLearnt(String id) {
+  //   NotLearnt notLearnt = NotLearnt(id: id, code: AppConstants.notLeartCode);
+  //   add(notLearnt);
+  //   save();
+  // }
+
+  // void removeNotLearnt(String id) {
+  //   NotLearnt toRemove = firstWhere((element) => element.id == id);
+  //   remove(toRemove);
+  //   save();
+  // }
 
   void save() {
     String ans = '{"notLearnt": [';
@@ -71,5 +77,13 @@ extension NotLearnts on List<NotLearnt> {
     NotLearnt? ans = firstWhereOrNull((element) => element.id == id);
     if (ans == null) return false;
     return true;
+  }
+
+  NotLearnt? find(String id) {
+    NotLearnt? ans = firstWhereOrNull((element) => element.id == id);
+    if (ans == null) {
+      print('Not learn not found for id $id');
+    }
+    return ans;
   }
 }

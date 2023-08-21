@@ -5,6 +5,7 @@ import '../config/navigation/global_nav.dart';
 import '../config/constants.dart';
 import 'package:audioplayers/audioplayers.dart';
 import '../domain/entities/special.dart';
+import '../config/text_styles.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 
@@ -22,8 +23,8 @@ class _QuestionScreenState extends State<QuestionScreen> {
   late bool truthSettings;
   late bool soundSettings;
   late bool specialSettings;
-  late bool notLearnt;
   final double volumeSetting = 0.05;
+  late String learntValue;
 
   @override
   void initState() {
@@ -32,7 +33,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
     truthSettings = globalNav.sharedPreferences!.getBool(AppConstants.truthSettingsKey)!;
     soundSettings = globalNav.sharedPreferences!.getBool(AppConstants.soundsKey)!;
     specialSettings = widget.question.special != null;
-    notLearnt = globalNav.notLearts.isNotLearnt(widget.question.id);
+    learntValue = globalNav.notLearts.find(widget.question.id)!.code;
     super.initState();
   }
 
@@ -84,7 +85,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
                     : const SizedBox(height: 1, width: 1),
               ),
               const SizedBox(height: 15),
-              getNextButton(),
+              getStatusDropdown(),
               const SizedBox(height: 15),
               getSpecial(),
             ],
@@ -190,40 +191,78 @@ class _QuestionScreenState extends State<QuestionScreen> {
     );
   }
 
-  // Widget getStatusDropdown() {}
-  Widget getNextButton() {
-    return SizedBox(
-      height: 50,
-      child: FilledButton.tonal(
-        onPressed: (notLearnt)
-            ? () {
-                setState(() {
-                  globalNav.notLearts.removeNotLearnt(widget.question.id);
-                  notLearnt = !notLearnt;
-                });
-              }
-            : () {
-                setState(() {
-                  globalNav.notLearts.addNotLearnt(widget.question.id);
-                  notLearnt = !notLearnt;
-                });
-              },
-        style: ButtonStyle(
-          padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
-          alignment: Alignment.center,
-          backgroundColor: MaterialStateProperty.all<Color>(notLearnt ? Colors.green : Colors.blueGrey),
-          shape: MaterialStateProperty.all(RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(15),
-            side: BorderSide(width: notLearnt ? 3 : 1),
-          )),
+  Widget getStatusDropdown() {
+    return LimitedBox(
+      maxWidth: 90,
+      maxHeight: 56,
+      child: DropdownButtonFormField<String>(
+        value: learntValue,
+        style: skillsBody,
+        decoration: const InputDecoration(
+          floatingLabelBehavior: FloatingLabelBehavior.auto,
+          border: OutlineInputBorder(),
         ),
-        child: Text(
-          notLearnt ? 'Not Learnt' : 'Learnt',
-          maxLines: 2,
-          textAlign: TextAlign.center,
-          style: notLearnt ? const TextStyle(color: Colors.black, fontSize: 20) : const TextStyle(color: Colors.white),
-        ),
+        items: quantities,
+        menuMaxHeight: 300,
+        onChanged: (value) {
+          learntValue = value!;
+          globalNav.notLearts.changeStatus(widget.question.id, learntValue);
+        },
       ),
     );
   }
+
+  // Widget getNextButton() {
+  //   return SizedBox(
+  //     height: 50,
+  //     child: FilledButton.tonal(
+  //       onPressed: (notLearnt)
+  //           ? () {
+  //               setState(() {
+  //                 globalNav.notLearts.removeNotLearnt(widget.question.id);
+  //                 notLearnt = !notLearnt;
+  //               });
+  //             }
+  //           : () {
+  //               setState(() {
+  //                 globalNav.notLearts.addNotLearnt(widget.question.id);
+  //                 notLearnt = !notLearnt;
+  //               });
+  //             },
+  //       style: ButtonStyle(
+  //         padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
+  //         alignment: Alignment.center,
+  //         backgroundColor: MaterialStateProperty.all<Color>(notLearnt ? Colors.green : Colors.blueGrey),
+  //         shape: MaterialStateProperty.all(RoundedRectangleBorder(
+  //           borderRadius: BorderRadius.circular(15),
+  //           side: BorderSide(width: notLearnt ? 3 : 1),
+  //         )),
+  //       ),
+  //       child: Text(
+  //         notLearnt ? 'Not Learnt' : 'Learnt',
+  //         maxLines: 2,
+  //         textAlign: TextAlign.center,
+  //         style: notLearnt ? const TextStyle(color: Colors.black, fontSize: 20) : const TextStyle(color: Colors.white),
+  //       ),
+  //     ),
+  //   );
+  // }
+}
+
+List<DropdownMenuItem<String>> get quantities {
+  List<DropdownMenuItem<String>> quantities = const [
+    DropdownMenuItem(
+      value: AppConstants.learnt,
+      child: Text(AppConstants.learnt),
+    ),
+    DropdownMenuItem(
+      value: AppConstants.notLearnt,
+      child: Text(AppConstants.notLearnt),
+    ),
+    DropdownMenuItem(
+      value: AppConstants.stashed,
+      child: Text(AppConstants.stashed),
+    ),
+  ];
+  return quantities;
 }

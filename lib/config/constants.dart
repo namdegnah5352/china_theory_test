@@ -7,7 +7,9 @@ class AppConstants {
   //notLearnt
   static const notLearntKey = 'notLearntKey';
   static const notLearntStart = '{"notLearnt": []}';
-  static const notLeartCode = 'NL';
+  static const notLearnt = 'NotLearnt';
+  static const stashed = 'Stashed';
+  static const learnt = 'Learnt';
   //truth
   static const truthSettingsKey = 'truthSettingsKey';
   static const truthSettings = false;

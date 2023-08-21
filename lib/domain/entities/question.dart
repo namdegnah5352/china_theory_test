@@ -69,7 +69,7 @@ class Question {
   Map<String, dynamic> getNotLearnt() {
     final data = <String, dynamic>{};
     data['"id"'] = '"$id"';
-    data['"code"'] = '"${AppConstants.notLeartCode}"';
+    data['"code"'] = '"${AppConstants.notLearnt}"';
     return data;
   }
 

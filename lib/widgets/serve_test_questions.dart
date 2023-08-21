@@ -35,7 +35,7 @@ class _ServeTestQuestionsState extends State<ServeTestQuestions> {
     if (value == question.answer) {
       testcalls.mark++;
     } else {
-      globalNav.notLearts.addNotLearnt(question.id);
+      globalNav.notLearts.changeStatus(question.id, AppConstants.notLearnt);
     }
   }
 
