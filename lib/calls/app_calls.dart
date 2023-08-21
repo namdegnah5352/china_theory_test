@@ -1,3 +1,4 @@
+import 'package:china_theory_test/config/constants.dart';
 import 'package:china_theory_test/domain/entities/not_learnt.dart';
 import 'package:collection/collection.dart';
 import '../domain/entities/section.dart';
@@ -80,11 +81,11 @@ void resetCounter() {
 }
 
 List<Question> filterQuestions(List<Question> questions) {
-  NotLearnt? answer;
+  NotLearnt answer;
   List<Question> result = [];
   for (var question in questions) {
-    answer = globalNav.notLearts.firstWhereOrNull((element) => element.id == question.id);
-    if (answer == null) {
+    answer = globalNav.notLearts.firstWhere((element) => element.id == question.id);
+    if (answer.code == AppConstants.learnt) {
       result.add(question);
     }
   }
