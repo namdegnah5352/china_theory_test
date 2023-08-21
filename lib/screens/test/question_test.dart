@@ -61,9 +61,9 @@ class _QuestionTestState extends State<QuestionTest> {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         const SizedBox(height: 20),
-        getLogicButton(question.answer, 'True'),
+        getButton(question.answer, 'True'),
         const SizedBox(height: 20),
-        getLogicButton(question.answer, 'False'),
+        getButton(question.answer, 'False'),
       ],
     );
   }
@@ -82,26 +82,6 @@ class _QuestionTestState extends State<QuestionTest> {
         getButton('D', widget.question.d),
         const SizedBox(height: 20),
       ],
-    );
-  }
-
-  Widget getLogicButton(String value, String question) {
-    return FilledButton.tonal(
-      onPressed: () {
-        setState(() {
-          widget.callback(value);
-        });
-      },
-      style: ButtonStyle(
-        padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
-        alignment: Alignment.center,
-        backgroundColor:          MaterialStateProperty.all<Color>MaterialStateProperty.all<Color>(Theme.of(context).colorScheme.primaryContainer),
-      ),
-      child: Text(
-        question,
-        maxLines: 2,
-        textAlign: TextAlign.center,
-      ),
     );
   }
 
