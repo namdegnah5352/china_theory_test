@@ -61,7 +61,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
               TextField(
                 readOnly: true,
                 controller: controller,
-                maxLines: 4,
+                maxLines: AppConstants.questionLineMax,
               ),
               switch (widget.question.type) {
                 'P' => getFourAnswers(widget.question),

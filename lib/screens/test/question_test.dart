@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../domain/entities/question.dart';
+import '../../config/constants.dart';
 
 class QuestionTest extends StatefulWidget {
   final Question question;
@@ -43,7 +44,7 @@ class _QuestionTestState extends State<QuestionTest> {
             TextField(
               readOnly: true,
               controller: controller,
-              maxLines: 4,
+              maxLines: AppConstants.questionLineMax,
             ),
             switch (widget.question.type) {
               'P' => getFourAnswers(widget.question),

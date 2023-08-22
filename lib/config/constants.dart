@@ -20,4 +20,6 @@ class AppConstants {
   static const appBarOpacity = 0.4;
   static const questionsFinished = true;
   static const timerFinished = false;
+  //layout options
+  static const questionLineMax = 6;
 }
