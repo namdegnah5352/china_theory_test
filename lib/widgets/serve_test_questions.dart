@@ -6,6 +6,7 @@ import '../config/navigation/global_nav.dart';
 import '../config/constants.dart';
 import '../calls/test_calls.dart' as testcalls;
 import '../calls/app_calls.dart' as appcalls;
+import 'package:audioplayers/audioplayers.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 
@@ -31,10 +32,16 @@ class _ServeTestQuestionsState extends State<ServeTestQuestions> {
     }
   }
 
-  void markQuestion(Question question, String value) {
+  void markQuestion(Question question, String value) async {
     if (value == question.answer) {
       testcalls.mark++;
     } else {
+      // Play Sound
+      if (globalNav.sharedPreferences!.getBool(AppConstants.soundsKey)!) {
+        final player = AudioPlayer();
+        await player.play(AssetSource('media/Doh.mp3'), mode: PlayerMode.lowLatency, volume: AppConstants.volumeSetting);
+      }
+
       globalNav.notLearts.changeStatus(question.id, AppConstants.notLearnt);
     }
   }
@@ -46,8 +53,6 @@ class _ServeTestQuestionsState extends State<ServeTestQuestions> {
       child: Column(
         children: [
           const SizedBox(height: 10),
-          Center(child: Text('Serve')),
-          const SizedBox(height: 5),
           QuestionTest(widget.questions[index], increaseIndex),
         ],
       ),

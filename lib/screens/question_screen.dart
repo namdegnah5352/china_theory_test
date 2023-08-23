@@ -23,7 +23,6 @@ class _QuestionScreenState extends State<QuestionScreen> {
   late bool truthSettings;
   late bool soundSettings;
   late bool specialSettings;
-  final double volumeSetting = 0.05;
   late String learntValue;
 
   @override
@@ -174,7 +173,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
         });
         if ((ans == false) && soundSettings) {
           final player = AudioPlayer();
-          await player.play(AssetSource('media/Doh.mp3'), mode: PlayerMode.lowLatency, volume: volumeSetting);
+          await player.play(AssetSource('media/Doh.mp3'), mode: PlayerMode.lowLatency, volume: AppConstants.volumeSetting);
         }
       },
       style: ButtonStyle(

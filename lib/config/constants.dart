@@ -16,6 +16,7 @@ class AppConstants {
   //sounds
   static const soundsKey = 'soundsKey';
   static const sounds = false;
+  static const volumeSetting = 0.05;
   //visual
   static const appBarOpacity = 0.4;
   static const questionsFinished = true;

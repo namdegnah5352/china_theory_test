@@ -77,7 +77,6 @@ class _TestScreenState extends State<TestScreen> {
           controller: noQuestionsController,
           decoration: InputDecoration(
             labelText: 'No Questions',
-            // helperText: 'Helper',
             helperStyle: skillsBody,
             contentPadding: const EdgeInsets.only(left: 10),
             errorMaxLines: 2,
