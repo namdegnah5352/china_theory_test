@@ -19,6 +19,12 @@ class ServeTestQuestions extends StatefulWidget {
 }
 
 class _ServeTestQuestionsState extends State<ServeTestQuestions> {
+  @override
+  void initState() {
+    widget.questions.shuffle();
+    super.initState();
+  }
+
   int index = 0;
 
   void increaseIndex(String value) async {
