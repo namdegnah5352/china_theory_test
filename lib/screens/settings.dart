@@ -22,10 +22,12 @@ class _SettingsState extends State<Settings> {
 
   bool showMediumSizeLayout = false;
   bool showLargeSizeLayout = false;
+  bool notLearntShowOnly = false;
   @override
   void initState() {
     truthSettings = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.truthSettingsKey)!;
     soundSettings = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.soundsKey)!;
+    notLearntShowOnly = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.notLeartSettingsKey)!;
     super.initState();
   }
 
@@ -58,6 +60,17 @@ class _SettingsState extends State<Settings> {
                 setState(() {
                   GlobalNav.instance.sharedPreferences!.setBool(AppConstants.soundsKey, value);
                   soundSettings = value;
+                });
+              },
+            ),
+            const SizedBox(height: 40),
+            SwitchListTile(
+              title: const Text('Show only Not Learnt'),
+              value: notLearntShowOnly,
+              onChanged: (value) {
+                setState(() {
+                  GlobalNav.instance.sharedPreferences!.setBool(AppConstants.notLeartSettingsKey, value);
+                  notLearntShowOnly = value;
                 });
               },
             ),

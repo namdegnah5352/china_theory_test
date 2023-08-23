@@ -1,8 +1,10 @@
+import 'package:china_theory_test/domain/entities/not_learnt.dart';
 import 'package:flutter/material.dart';
 import '../config/constants.dart';
 import '../screens/question_list_tile.dart';
 import '../config/navigation/global_nav.dart';
 import '../domain/entities/question.dart';
+import '../domain/entities/not_learnt.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 
@@ -40,10 +42,15 @@ class _SearchScreenState extends State<SubSectionQuestions> {
                 physics: const NeverScrollableScrollPhysics(),
                 itemBuilder: (context, index) {
                   final question = widget.questions[index];
-                  return Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 20),
-                    child: QuestionListTile(question),
-                  );
+                  final notLearnt = globalNav.notLearts.find(question.id);
+                  if (notLearnt != null && notLearnt.code == AppConstants.notLearnt) {
+                    return Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 20),
+                      child: QuestionListTile(question),
+                    );
+                  } else {
+                    return const SizedBox(width: 0, height: 0);
+                  }
                 }),
           ],
         ),

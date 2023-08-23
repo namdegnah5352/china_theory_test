@@ -10,6 +10,8 @@ class AppConstants {
   static const notLearnt = 'NotLearnt';
   static const stashed = 'Stashed';
   static const learnt = 'Learnt';
+  static const notLeartSettingsKey = 'notLeartSettingsKey';
+  static const notLearntSettingDefault = false;
   //truth
   static const truthSettingsKey = 'truthSettingsKey';
   static const truthSettings = false;
