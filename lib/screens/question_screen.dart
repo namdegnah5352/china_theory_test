@@ -247,21 +247,3 @@ class _QuestionScreenState extends State<QuestionScreen> {
   //   );
   // }
 }
-
-List<DropdownMenuItem<String>> get quantities {
-  List<DropdownMenuItem<String>> quantities = const [
-    DropdownMenuItem(
-      value: AppConstants.learnt,
-      child: Text(AppConstants.learnt),
-    ),
-    DropdownMenuItem(
-      value: AppConstants.notLearnt,
-      child: Text(AppConstants.notLearnt),
-    ),
-    DropdownMenuItem(
-      value: AppConstants.stashed,
-      child: Text(AppConstants.stashed),
-    ),
-  ];
-  return quantities;
-}

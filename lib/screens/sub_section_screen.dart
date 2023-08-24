@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../domain/entities/sub_section.dart';
 import '../domain/entities/section.dart';
 import '../calls/app_calls.dart';
+import '../widgets/change_status_dialog.dart';
 
 class SubSectionScreen extends StatefulWidget {
   const SubSectionScreen(this.subsections, this.section, {super.key});
@@ -23,7 +24,8 @@ class _SubSectionScreenState extends State<SubSectionScreen> {
               await loadTestStart(widget.section.questions);
             },
             icon: const Icon(Icons.add),
-          )
+          ),
+          ChangeStatusDialog(widget.section.questions),
         ],
       ),
       body: Padding(
