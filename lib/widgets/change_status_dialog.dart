@@ -7,6 +7,7 @@ import '../config/navigation/global_nav.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 
+
 class ChangeStatusDialog extends StatefulWidget {
   const ChangeStatusDialog(this.questions, {super.key});
   final List<Question> questions;
@@ -16,13 +17,17 @@ class ChangeStatusDialog extends StatefulWidget {
 }
 
 class _ChangeStatusDialogState extends State<ChangeStatusDialog> {
-  late _temp from;
-  late _temp to;
-
+  // late _temp from;
+  // late _temp to;
+  late ({String value}) stringValue;
+  late Person = ({String name, int age});
   @override
   void initState() {
-    from = _temp(value: AppConstants.notLearnt);
-    to = _temp(value: AppConstants.notLearnt);
+    Person = ({String name, int age});
+    var fromValue = (value: AppConstants.notLearnt);
+    var toValue = (value: AppConstants.notLearnt);
+    // from = _temp(value: AppConstants.notLearnt);
+    // to = _temp(value: AppConstants.notLearnt);
     super.initState();
   }
 
@@ -42,7 +47,7 @@ class _ChangeStatusDialogState extends State<ChangeStatusDialog> {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   const Expanded(child: Text('From')),
-                  getStatusDropdown(from),
+                  getStatusDropdown(fromValue),
                 ],
               ),
               const SizedBox(height: 10),
@@ -72,12 +77,12 @@ class _ChangeStatusDialogState extends State<ChangeStatusDialog> {
     );
   }
 
-  Widget getStatusDropdown(_temp valueToSet) {
+  Widget getStatusDropdown(({String values}) toReturn) {
     return LimitedBox(
       maxWidth: 120,
       maxHeight: 56,
       child: DropdownButtonFormField<String>(
-        value: valueToSet.value,
+        value: toReturn.values,
         style: skillsBody,
         decoration: const InputDecoration(
           floatingLabelBehavior: FloatingLabelBehavior.auto,
@@ -86,7 +91,7 @@ class _ChangeStatusDialogState extends State<ChangeStatusDialog> {
         items: quantities,
         menuMaxHeight: 300,
         onChanged: (value) {
-          valueToSet.value = value!;
+          toReturn.values = value!;
         },
       ),
     );
