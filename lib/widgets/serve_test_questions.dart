@@ -39,6 +39,7 @@ class _ServeTestQuestionsState extends State<ServeTestQuestions> {
   }
 
   void markQuestion(Question question, String value) async {
+    testcalls.noQuestionsDone++;
     if (value == question.answer) {
       testcalls.mark++;
     } else {

@@ -14,7 +14,10 @@ class TestDashboard extends StatefulWidget {
 class _TestDashboardState extends State<TestDashboard> {
   int icounter = 0;
   int min = 0;
+  int used = 0;
   int iseconds = 0;
+  int usedSeconds = 0;
+
   @override
   void initState() {
     appcalls.countSeconds(counterFunction);
@@ -30,8 +33,10 @@ class _TestDashboardState extends State<TestDashboard> {
         setState(() {
           icounter = count;
           var toDo = widget.seconds - icounter;
+          used = (count / 60).floor();
           min = (toDo / 60).floor();
           iseconds = toDo - min * 60;
+          usedSeconds = count - used * 60;
         });
       }
     }
@@ -50,7 +55,9 @@ class _TestDashboardState extends State<TestDashboard> {
       child: Column(
         children: [
           const SizedBox(height: 20),
-          Center(child: Text('$min min and $iseconds seconds')),
+          Center(child: Text('$min min and $iseconds seconds left')),
+          Center(child: Text('$used min and $usedSeconds seconds used')),
+          Center(child: Text('${testcalls.noQuestionsDone} out of ${testcalls.noQuestions} done')),
           const SizedBox(height: 20),
         ],
       ),

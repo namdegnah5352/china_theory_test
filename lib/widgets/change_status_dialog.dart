@@ -1,5 +1,4 @@
 import 'package:china_theory_test/config/constants.dart';
-import 'package:china_theory_test/domain/entities/not_learnt.dart';
 import 'package:flutter/material.dart';
 import '../domain/entities/question.dart';
 import '../config/text_styles.dart';
