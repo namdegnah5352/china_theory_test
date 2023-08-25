@@ -38,18 +38,6 @@ extension NotLearnts on List<NotLearnt> {
     save();
   }
 
-  // void addNotLearnt(String id) {
-  //   NotLearnt notLearnt = NotLearnt(id: id, code: AppConstants.notLeartCode);
-  //   add(notLearnt);
-  //   save();
-  // }
-
-  // void removeNotLearnt(String id) {
-  //   NotLearnt toRemove = firstWhere((element) => element.id == id);
-  //   remove(toRemove);
-  //   save();
-  // }
-
   void save() {
     String ans = '{"notLearnt": [';
     for (var notLearnt in this) {
@@ -58,7 +46,8 @@ extension NotLearnts on List<NotLearnt> {
     }
     ans = ans.substring(0, ans.length - 1);
     ans += ']}';
-    GlobalNav.instance.sharedPreferences!.setString(AppConstants.notLearntKey, ans);
+    globalNav.sharedPreferences!.setString(AppConstants.notLearntKey, ans);
+    globalNav.notLearts = notLearntModelFromJson(globalNav.sharedPreferences!.getString(AppConstants.notLearntKey)!);
   }
 
   void addAllAsNotLearnt(List<Question> questions) {

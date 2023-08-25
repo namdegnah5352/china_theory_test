@@ -3,6 +3,7 @@ import 'package:china_theory_test/config/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
 import 'special.dart';
+import 'not_learnt.dart';
 
 List<Question> questionModelFromJson(String str) =>
     List<Question>.from(json.decode(str)["question"].map((x) => Question.fromJson(x)));
@@ -89,5 +90,15 @@ class Question {
           ),
         ),
     };
+  }
+}
+
+extension QuestionExtensions on List<Question> {
+  void changeStatus(String from, String to) {
+    for (var question in this) {
+      NotLearnt toChange = globalNav.notLearts.firstWhere((element) => element.id == question.id);
+      if (toChange.code == from) toChange.code = to;
+    }
+    globalNav.notLearts.save();
   }
 }

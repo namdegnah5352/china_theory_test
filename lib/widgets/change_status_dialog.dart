@@ -1,4 +1,5 @@
 import 'package:china_theory_test/config/constants.dart';
+import 'package:china_theory_test/domain/entities/not_learnt.dart';
 import 'package:flutter/material.dart';
 import '../domain/entities/question.dart';
 import '../config/text_styles.dart';
@@ -15,11 +16,13 @@ class ChangeStatusDialog extends StatefulWidget {
 }
 
 class _ChangeStatusDialogState extends State<ChangeStatusDialog> {
-  late String learntValue;
+  late _temp from;
+  late _temp to;
 
   @override
   void initState() {
-    learntValue = AppConstants.notLearnt;
+    from = _temp(value: AppConstants.notLearnt);
+    to = _temp(value: AppConstants.notLearnt);
     super.initState();
   }
 
@@ -29,30 +32,37 @@ class _ChangeStatusDialogState extends State<ChangeStatusDialog> {
       builder: (context) => AlertDialog(
         title: const Text('Change Question Status'),
         content: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20),
+          padding: const EdgeInsets.symmetric(horizontal: 30),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
             children: [
+              const SizedBox(height: 10),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  const Expanded(child: Text('From')),
+                  getStatusDropdown(from),
+                ],
+              ),
               const SizedBox(height: 10),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Expanded(
-                    child: const Text('From'),
-                  ),
-                  Expanded(child: const Text('To')),
+                  const Expanded(child: Text('To')),
+                  getStatusDropdown(to),
                 ],
               ),
-              const SizedBox(height: 10),
-              Row(),
             ],
           ),
         ),
         actions: <Widget>[
           TextButton(
-            child: const Text('Okay'),
-            onPressed: () => Navigator.of(context).pop(),
-          ),
+              child: const Text('Okay'),
+              onPressed: () {
+                widget.questions.changeStatus(from.value, to.value);
+                Navigator.of(context).pop();
+              }),
           FilledButton(
             child: const Text('Dismiss'),
             onPressed: () => Navigator.of(context).pop(),
@@ -62,12 +72,12 @@ class _ChangeStatusDialogState extends State<ChangeStatusDialog> {
     );
   }
 
-  Widget getStatusDropdown() {
+  Widget getStatusDropdown(_temp valueToSet) {
     return LimitedBox(
-      maxWidth: 90,
+      maxWidth: 120,
       maxHeight: 56,
       child: DropdownButtonFormField<String>(
-        value: learntValue,
+        value: valueToSet.value,
         style: skillsBody,
         decoration: const InputDecoration(
           floatingLabelBehavior: FloatingLabelBehavior.auto,
@@ -76,8 +86,7 @@ class _ChangeStatusDialogState extends State<ChangeStatusDialog> {
         items: quantities,
         menuMaxHeight: 300,
         onChanged: (value) {
-          learntValue = value!;
-          //globalNav.notLearts.changeStatus(widget.question.id, learntValue);
+          valueToSet.value = value!;
         },
       ),
     );
@@ -90,4 +99,9 @@ class _ChangeStatusDialogState extends State<ChangeStatusDialog> {
       icon: const Icon(Icons.sledding),
     );
   }
+}
+
+class _temp {
+  String value;
+  _temp({required this.value});
 }
