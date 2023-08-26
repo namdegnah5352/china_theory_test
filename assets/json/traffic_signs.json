@@ -433,7 +433,7 @@
 			"C": "Turn left",
 			"D": "Pull over",
 			"Answer": "B",
-			"Type": "N"
+			"Type": "P"
 		},
 		{
 			"Q": "The illustrated hand signal of the traffic police indicates that the vehicles should _______________.",
@@ -443,7 +443,7 @@
 			"C": "Turn left sharply",
 			"D": "Pull over",
 			"Answer": "C",
-			"Type": "N"
+			"Type": "P"
 		},
 		{
 			"Q": "The illustrated hand signal of the traffic police indicates that the vehicle violating the traffic rules should __________________.",
@@ -453,7 +453,7 @@
 			"C": "Turn left",
 			"D": "Go straight",
 			"Answer": "A",
-			"Type": "N"
+			"Type": "P"
 		},
 		{
 			"Q": "When driving a motorized vehicle, the driver must obey the principle of _______.",
