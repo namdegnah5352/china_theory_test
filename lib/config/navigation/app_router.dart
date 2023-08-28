@@ -12,7 +12,7 @@ import '../../screens/sub_section_questions.dart';
 import '../../screens/test/test_screen.dart';
 import '../../domain/entities/section.dart';
 import '../../screens/test/test_go.dart';
-import '../../screens/test/test_results.dart';
+import '../../screens/test/test_result.dart';
 
 class AppRouter {
   Route? onGenerateRoute(RouteSettings settings) {
@@ -55,7 +55,7 @@ class AppRouter {
         );
       case NavigationPaths.testResults:
         return MaterialPageRoute(
-          builder: (_) => const TestResults(),
+          builder: (_) => const TestResult(),
         );
       case NavigationPaths.testGo:
         ({List<Question> questions, int noSeconds, Function popMaster}) listParts;

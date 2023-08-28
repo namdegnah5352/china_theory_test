@@ -62,6 +62,7 @@ class _TestScreenState extends State<TestScreen> {
         FilledButton.tonal(
           onPressed: () {
             testcalls.mark = 0;
+            testcalls.noQuestionsDone = 0;
             testcalls.noQuestions = toUseQuestions.length;
             appcalls.loadTestGo(toUseQuestions, secs, goAway);
           },

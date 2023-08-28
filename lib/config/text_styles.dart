@@ -69,6 +69,6 @@ TextStyle getDialogHeaderStyle(BuildContext context) {
   return anyStyle(start: getContextHelperStyle(context), fontSize: 16);
 }
 
-TextStyle getGoodResult(BuildContext context) {
-  return anyStyle(start: getContextHelperStyle(context), fontSize: 30, fontWeight: FontWeight.bold);
+TextStyle getGoodResult(BuildContext context, double size) {
+  return anyStyle(start: getContextHelperStyle(context), fontSize: size, fontWeight: FontWeight.bold);
 }
