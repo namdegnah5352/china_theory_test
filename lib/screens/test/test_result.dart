@@ -36,9 +36,7 @@ class _TestResultState extends State<TestResult> with SingleTickerProviderStateM
       body: Center(
         child: AnimatedBuilder(
           animation: animation,
-          child: const Text(
-            '100% Well Done!',
-          ),
+          child: const Text('100% Well Done!'),
           builder: (context, child) => Transform.scale(
             scale: animation.value,
             child: child,

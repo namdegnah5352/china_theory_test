@@ -10,38 +10,36 @@ class TestResults extends StatefulWidget {
 }
 
 class _TestResultsState extends State<TestResults> with SingleTickerProviderStateMixin {
-  late AnimationController _controller;
-  late double _size;
-  bool _large = false;
-
-  void _updateSize() {
-    setState(() {
-      _size = _large ? 250.0 : 100.0;
-      _large = !_large;
-    });
-  }
+  late AnimationController controller;
+  late Animation<double> animation;
 
   @override
   void initState() {
-    _controller = AnimationController(
-      duration: Duration(seconds: 2),
+    controller = AnimationController(
+      duration: const Duration(seconds: 8),
       vsync: this,
-    );
-    _size = 100;
+    )..repeat();
+    animation = Tween<double>(begin: 0.5, end: 2).animate(controller);
     super.initState();
   }
 
-  void _onAnimationChanged() {
-    setState(() {
-      _size = _controller.value * 100;
-    });
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
   }
 
-  @override
-  void didUpdateWidget(covariant TestResults oldWidget) {
-    super.didUpdateWidget(oldWidget);
-    _updateSize();
-    _controller.forward();
+  Widget perfectResult() {
+    return Center(
+      child: AnimatedBuilder(
+        animation: animation,
+        child: Text('100% Well done', style: getGoodResult(context, 30)),
+        builder: (context, child) => Transform.scale(
+          scale: animation.value,
+          child: child,
+        ),
+      ),
+    );
   }
 
   @override
@@ -61,16 +59,9 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
             const SizedBox(height: 10),
             Text('Your score is ${testcalls.mark} out of ${testcalls.noQuestions}'),
             const SizedBox(height: 30),
-            result == 1 ? Text('100% Well done', style: getGoodResult(context, 30)) : const Text('must improve'),
-            AnimatedSize(
-              duration: _controller.duration!,
-              curve: Curves.easeInOut,
-              child: Container(
-                width: _size,
-                height: _size,
-                color: Colors.red,
-              ),
-            ),
+            if (result != 1) const Text('must improve'),
+            const SizedBox(height: 30),
+            perfectResult(),
           ],
         ),
       ),
