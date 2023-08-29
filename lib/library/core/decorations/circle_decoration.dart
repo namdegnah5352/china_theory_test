@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../style/text_styles.dart';
-
+import '../../../config/text_styles.dart';
 class CircleDecoration extends Decoration {
   const CircleDecoration({
     required this.backgroundColor,
