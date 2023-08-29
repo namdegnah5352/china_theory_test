@@ -17,6 +17,14 @@ class SubSectionQuestions extends StatefulWidget {
 }
 
 class _SearchScreenState extends State<SubSectionQuestions> {
+  late bool notLearntSettings;
+
+  @override
+  void initState() {
+    notLearntSettings = globalNav.sharedPreferences!.getBool(AppConstants.notLeartSettingsKey)!;
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -43,7 +51,8 @@ class _SearchScreenState extends State<SubSectionQuestions> {
                 itemBuilder: (context, index) {
                   final question = widget.questions[index];
                   final notLearnt = globalNav.notLearts.find(question.id);
-                  if (notLearnt != null && notLearnt.code == AppConstants.notLearnt) {
+                  if (notLearnt != null &&
+                      (notLearnt.code == AppConstants.notLearnt || notLearntSettings == AppConstants.notLearntSettingsAll)) {
                     return Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 20),
                       child: QuestionListTile(question),

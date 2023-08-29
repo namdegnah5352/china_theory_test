@@ -14,6 +14,8 @@ class AppConstants {
   static const learnt = 'Learnt';
   static const notLeartSettingsKey = 'notLeartSettingsKey';
   static const notLearntSettingDefault = false;
+  static const notLearntSettingsAll = false;
+  static const notLearntSettingsOnlyNotLearnt = true;
   //truth
   static const truthSettingsKey = 'truthSettingsKey';
   static const truthSettings = false;
