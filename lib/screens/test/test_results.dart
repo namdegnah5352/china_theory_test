@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../calls/test_calls.dart' as testcalls;
 import '../../config/text_styles.dart';
+import '../../library/core/clippers/star_clipper.dart';
 
 class TestResults extends StatefulWidget {
   const TestResults({super.key});
@@ -42,6 +43,17 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
     );
   }
 
+  Widget starCelebration(double size) {
+    return ClipPath(
+      clipper: StarClipper(5, 3),
+      child: Container(
+        width: size,
+        height: size,
+        color: Colors.yellow,
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     var result = testcalls.mark / testcalls.noQuestions;
@@ -62,6 +74,8 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
             if (result != 1) const Text('must improve'),
             const SizedBox(height: 30),
             perfectResult(),
+            const SizedBox(height: 10),
+            starCelebration(50),
           ],
         ),
       ),
