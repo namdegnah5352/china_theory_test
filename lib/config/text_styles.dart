@@ -55,6 +55,11 @@ TextStyle getContextStyle(BuildContext context) {
   return anyStyle(start: start, color: Theme.of(context).colorScheme.primary, fontWeight: FontWeight.w700, fontSize: 24);
 }
 
+TextStyle getPrimaryContainer(BuildContext context, double size) {
+  return anyStyle(
+      start: start, color: Theme.of(context).colorScheme.primaryContainer, fontWeight: FontWeight.w500, fontSize: size);
+}
+
 TextStyle getContextHelperStyle(BuildContext context) {
   return anyStyle(start: start, color: Theme.of(context).colorScheme.primary, fontWeight: FontWeight.w500, fontSize: 12);
 }

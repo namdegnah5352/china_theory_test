@@ -33,7 +33,7 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
     return Center(
       child: AnimatedBuilder(
         animation: animation,
-        child: Text('100% Well done', style: getGoodResult(context, 30)),
+        child: Text('100% Well done!', style: getGoodResult(context, 30)),
         builder: (context, child) => Transform.scale(
           scale: animation.value,
           child: child,
@@ -48,7 +48,7 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.primaryContainer,
       appBar: AppBar(
-        title: const Text('Results'),
+        title: Text('Results', style: getPrimaryContainer(context, 22)),
         backgroundColor: Theme.of(context).colorScheme.primary,
       ),
       body: Padding(
