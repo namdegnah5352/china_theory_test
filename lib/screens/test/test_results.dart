@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../../calls/test_calls.dart' as testcalls;
 import '../../config/text_styles.dart';
 import '../../library/core/clippers/star_clipper.dart';
+import 'dart:math';
 
 class TestResults extends StatefulWidget {
   const TestResults({super.key});
@@ -12,7 +13,8 @@ class TestResults extends StatefulWidget {
 
 class _TestResultsState extends State<TestResults> with SingleTickerProviderStateMixin {
   late AnimationController controller;
-  late Animation<double> animation;
+  late Animation<double> animationScale;
+  late Animation<double> animationRotation;
 
   @override
   void initState() {
@@ -20,7 +22,8 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
       duration: const Duration(seconds: 8),
       vsync: this,
     )..repeat();
-    animation = Tween<double>(begin: 0.5, end: 2).animate(controller);
+    animationScale = Tween<double>(begin: 0.5, end: 2).animate(controller);
+    animationRotation = Tween<double>(begin: 0, end: 2 * pi).animate(controller);
     super.initState();
   }
 
@@ -33,10 +36,23 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
   Widget perfectResult() {
     return Center(
       child: AnimatedBuilder(
-        animation: animation,
+        animation: animationScale,
         child: Text('100% Well done!', style: getGoodResult(context, 30)),
         builder: (context, child) => Transform.scale(
-          scale: animation.value,
+          scale: animationScale.value,
+          child: child,
+        ),
+      ),
+    );
+  }
+
+  Widget perfectStar() {
+    return Center(
+      child: AnimatedBuilder(
+        animation: animationRotation,
+        child: starCelebration(50),
+        builder: (context, child) => Transform.rotate(
+          angle: animationRotation.value,
           child: child,
         ),
       ),
@@ -75,7 +91,7 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
             const SizedBox(height: 30),
             perfectResult(),
             const SizedBox(height: 10),
-            starCelebration(50),
+            perfectStar(),
           ],
         ),
       ),
