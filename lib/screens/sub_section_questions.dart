@@ -61,16 +61,7 @@ class _SearchScreenState extends State<SubSectionQuestions> {
                       return const SizedBox(width: 0, height: 0);
                     }
                   }
-
-                  // if (notLearnt != null &&
-                  //     (notLearnt.code == AppConstants.notLearnt || notLearntSettings == AppConstants.notLearntSettingsAll)) {
-                  //   return Padding(
-                  //     padding: const EdgeInsets.symmetric(horizontal: 20),
-                  //     child: QuestionListTile(question),
-                  //   );
-                  // } else {
-                  //   return const SizedBox(width: 0, height: 0);
-                  // }
+                  return null;
                 }),
           ],
         ),
