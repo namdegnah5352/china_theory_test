@@ -36,7 +36,7 @@ class _QuestionTestState extends State<QuestionTest> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            const SizedBox(height: 20),
+            const SizedBox(height: 5),
             switch (widget.question.type[0]) {
               'P' => widget.question.getPicture(150, true, context)!,
               _ => const SizedBox(height: 1, width: 1),
@@ -61,7 +61,7 @@ class _QuestionTestState extends State<QuestionTest> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        const SizedBox(height: 20),
+        const SizedBox(height: 5),
         getButton(question.answer, 'True'),
         const SizedBox(height: 20),
         getButton(question.answer, 'False'),
@@ -73,7 +73,7 @@ class _QuestionTestState extends State<QuestionTest> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        const SizedBox(height: 20),
+        const SizedBox(height: 5),
         getButton('A', widget.question.a),
         const SizedBox(height: 20),
         getButton('B', widget.question.b),

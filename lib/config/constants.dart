@@ -28,7 +28,7 @@ class AppConstants {
   static const questionsFinished = true;
   static const timerFinished = false;
   //layout options
-  static const questionLineMax = 6;
+  static const questionLineMax = 8;
 }
 
 List<DropdownMenuItem<String>> get quantities {

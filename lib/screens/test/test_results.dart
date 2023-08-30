@@ -19,7 +19,7 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
   @override
   void initState() {
     controller = AnimationController(
-      duration: const Duration(seconds: 8),
+      duration: const Duration(seconds: 5),
       vsync: this,
     )..repeat();
     animationScale = Tween<double>(begin: 0.5, end: 2).animate(controller);
@@ -38,6 +38,19 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
       child: AnimatedBuilder(
         animation: animationScale,
         child: Text('100% Well done!', style: getGoodResult(context, 30)),
+        builder: (context, child) => Transform.scale(
+          scale: animationScale.value,
+          child: child,
+        ),
+      ),
+    );
+  }
+
+  Widget growingStar() {
+    return Center(
+      child: AnimatedBuilder(
+        animation: animationScale,
+        child: perfectStar(),
         builder: (context, child) => Transform.scale(
           scale: animationScale.value,
           child: child,
@@ -87,11 +100,17 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
             const SizedBox(height: 10),
             Text('Your score is ${testcalls.mark} out of ${testcalls.noQuestions}'),
             const SizedBox(height: 30),
-            if (result != 1) const Text('must improve'),
-            const SizedBox(height: 30),
-            perfectResult(),
-            const SizedBox(height: 10),
-            perfectStar(),
+            result != 1
+                ? const Text('must improve')
+                : Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      const SizedBox(height: 30),
+                      perfectResult(),
+                      const SizedBox(height: 10),
+                      growingStar(),
+                    ],
+                  ),
           ],
         ),
       ),

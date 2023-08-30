@@ -58,7 +58,6 @@ class _TestDashboardState extends State<TestDashboard> {
           Center(child: Text('$min min and $iseconds seconds left')),
           Center(child: Text('$used min and $usedSeconds seconds used')),
           Center(child: Text('${testcalls.noQuestionsDone} out of ${testcalls.noQuestions} done')),
-          const SizedBox(height: 20),
         ],
       ),
     );
