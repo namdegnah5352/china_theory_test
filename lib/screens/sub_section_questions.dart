@@ -17,11 +17,11 @@ class SubSectionQuestions extends StatefulWidget {
 }
 
 class _SearchScreenState extends State<SubSectionQuestions> {
-  late bool notLearntSettings;
+  late String showValue;
 
   @override
   void initState() {
-    notLearntSettings = globalNav.sharedPreferences!.getBool(AppConstants.notLeartSettingsKey)!;
+    showValue = globalNav.sharedPreferences!.getString(AppConstants.notLeartSettingsKey)!;
     super.initState();
   }
 
@@ -51,15 +51,26 @@ class _SearchScreenState extends State<SubSectionQuestions> {
                 itemBuilder: (context, index) {
                   final question = widget.questions[index];
                   final notLearnt = globalNav.notLearts.find(question.id);
-                  if (notLearnt != null &&
-                      (notLearnt.code == AppConstants.notLearnt || notLearntSettings == AppConstants.notLearntSettingsAll)) {
-                    return Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 20),
-                      child: QuestionListTile(question),
-                    );
-                  } else {
-                    return const SizedBox(width: 0, height: 0);
+                  if (notLearnt != null) {
+                    if (notLearnt.code == showValue) {
+                      return Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 20),
+                        child: QuestionListTile(question),
+                      );
+                    } else {
+                      return const SizedBox(width: 0, height: 0);
+                    }
                   }
+
+                  // if (notLearnt != null &&
+                  //     (notLearnt.code == AppConstants.notLearnt || notLearntSettings == AppConstants.notLearntSettingsAll)) {
+                  //   return Padding(
+                  //     padding: const EdgeInsets.symmetric(horizontal: 20),
+                  //     child: QuestionListTile(question),
+                  //   );
+                  // } else {
+                  //   return const SizedBox(width: 0, height: 0);
+                  // }
                 }),
           ],
         ),

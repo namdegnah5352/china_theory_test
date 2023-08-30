@@ -30,7 +30,6 @@ class GlobalNav {
 }
 
 void setUpShared(SharedPreferences sharedPreferences) {
-  // User_id the unique identifier of the user
   bool? truthSettings = sharedPreferences.getBool(AppConstants.truthSettingsKey);
   if (truthSettings == null) sharedPreferences.setBool(AppConstants.truthSettingsKey, AppConstants.truthSettings);
   bool? soundSettings = sharedPreferences.getBool(AppConstants.soundsKey);
@@ -39,7 +38,8 @@ void setUpShared(SharedPreferences sharedPreferences) {
   if (specialSettings == null) sharedPreferences.setString(AppConstants.specialKey, AppConstants.specialStart);
   String? notLearntSettings = sharedPreferences.getString(AppConstants.notLearntKey);
   if (notLearntSettings == null) sharedPreferences.setString(AppConstants.notLearntKey, AppConstants.notLearntStart);
-  bool? notLearntSettingsOption = sharedPreferences.getBool(AppConstants.notLeartSettingsKey);
-  if (notLearntSettingsOption == null)
-    sharedPreferences.setBool(AppConstants.notLeartSettingsKey, AppConstants.notLearntSettingDefault);
+  String? notLearntSettingsOption = sharedPreferences.getString(AppConstants.notLeartSettingsKey);
+  if (notLearntSettingsOption == null) {
+    sharedPreferences.setString(AppConstants.notLeartSettingsKey, AppConstants.notLearnt);
+  }
 }

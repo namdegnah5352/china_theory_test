@@ -3,6 +3,7 @@ import '../domain/entities/settings_data.dart';
 import '../config/enums.dart';
 import '../config/navigation/global_nav.dart';
 import '../config/constants.dart';
+import '../config/text_styles.dart';
 
 class Settings extends StatefulWidget {
   const Settings({super.key});
@@ -19,15 +20,17 @@ class _SettingsState extends State<Settings> {
   late bool soundSettings;
   SettingsData? settingsData;
   GlobalNav globalNav = GlobalNav.instance;
+  late String showValue;
 
   bool showMediumSizeLayout = false;
   bool showLargeSizeLayout = false;
-  bool notLearntShowOnly = false;
+  // bool notLearntShowOnly = false;
   @override
   void initState() {
     truthSettings = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.truthSettingsKey)!;
     soundSettings = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.soundsKey)!;
-    notLearntShowOnly = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.notLeartSettingsKey)!;
+    // notLearntShowOnly = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.notLeartSettingsKey)!;
+    showValue = globalNav.sharedPreferences!.getString(AppConstants.notLeartSettingsKey)!;
     super.initState();
   }
 
@@ -39,7 +42,7 @@ class _SettingsState extends State<Settings> {
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 20),
             SwitchListTile(
@@ -64,15 +67,14 @@ class _SettingsState extends State<Settings> {
               },
             ),
             const SizedBox(height: 40),
-            SwitchListTile(
-              title: const Text('Show only Not Learnt'),
-              value: notLearntShowOnly,
-              onChanged: (value) {
-                setState(() {
-                  GlobalNav.instance.sharedPreferences!.setBool(AppConstants.notLeartSettingsKey, value);
-                  notLearntShowOnly = value;
-                });
-              },
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                const SizedBox(width: 15),
+                Expanded(child: Text('Show only', style: skillsBody)),
+                getStatusDropdown(),
+                const SizedBox(width: 20),
+              ],
             ),
           ],
         ),
@@ -101,6 +103,27 @@ class _SettingsState extends State<Settings> {
               )
             ]
           : [Container()],
+    );
+  }
+
+  Widget getStatusDropdown() {
+    return LimitedBox(
+      maxWidth: 120,
+      maxHeight: 56,
+      child: DropdownButtonFormField<String>(
+        value: showValue,
+        style: skillsBody,
+        decoration: const InputDecoration(
+          floatingLabelBehavior: FloatingLabelBehavior.auto,
+          border: OutlineInputBorder(),
+        ),
+        items: quantities,
+        menuMaxHeight: 300,
+        onChanged: (value) {
+          showValue = value!;
+          globalNav.sharedPreferences!.setString(AppConstants.notLeartSettingsKey, showValue);
+        },
+      ),
     );
   }
 }
