@@ -30,4 +30,10 @@ class Section {
     data['percent'] = percent;
     return data;
   }
+
+  List<Question> getFinalQuestions() {
+    List<Question> ans = [];
+
+    return ans;
+  }
 }

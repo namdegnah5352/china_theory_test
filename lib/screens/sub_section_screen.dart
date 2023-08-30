@@ -23,7 +23,7 @@ class _SubSectionScreenState extends State<SubSectionScreen> {
             onPressed: () async {
               await loadTestStart(widget.section.questions);
             },
-            icon: const Icon(Icons.add),
+            icon: Icon(Icons.add, color: Theme.of(context).colorScheme.primaryContainer),
           ),
           ChangeStatusDialog(widget.section.questions),
         ],

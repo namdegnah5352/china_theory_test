@@ -27,6 +27,11 @@ class GlobalNav {
     sharedPreferences = await SharedPreferences.getInstance();
     setUpShared(sharedPreferences!);
   }
+
+  List<Question> getFinalTestQuestions() {
+    List<Question> ans = [];
+    return ans;
+  }
 }
 
 void setUpShared(SharedPreferences sharedPreferences) {

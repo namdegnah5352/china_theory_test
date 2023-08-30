@@ -3,8 +3,6 @@ import '../config/navigation/global_nav.dart';
 import '../domain/entities/section.dart';
 import '../calls/app_calls.dart';
 import 'app_drawer.dart';
-import '../calls/app_calls.dart';
-import '../domain/entities/sub_section.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 
@@ -26,10 +24,17 @@ class _SectionsScreenState extends State<SectionsScreen> {
         actions: [
           IconButton.filled(
             onPressed: () async {
+              // this gets the final questions
+              await loadTestStart(globalNav.getFinalTestQuestions());
+            },
+            icon: Icon(Icons.folder_zip, color: Theme.of(context).colorScheme.primaryContainer),
+          ),
+          IconButton.filled(
+            onPressed: () async {
               await loadTestStart(globalNav.questions!);
             },
-            icon: const Icon(Icons.add),
-          )
+            icon: Icon(Icons.add, color: Theme.of(context).colorScheme.primaryContainer),
+          ),
         ],
       ),
       drawer: const AppDrawer(),

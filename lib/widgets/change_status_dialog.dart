@@ -95,7 +95,7 @@ class _ChangeStatusDialogState extends State<ChangeStatusDialog> {
   Widget build(BuildContext context) {
     return IconButton.filled(
       onPressed: () => openDialog(context),
-      icon: const Icon(Icons.sledding),
+      icon: Icon(Icons.sledding, color: Theme.of(context).colorScheme.primaryContainer),
     );
   }
 }
