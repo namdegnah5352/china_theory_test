@@ -17,7 +17,7 @@ class _SubSectionScreenState extends State<SubSectionScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Subsection'),
+        title: const Text('Subsections'),
         actions: [
           IconButton.filled(
             onPressed: () async {

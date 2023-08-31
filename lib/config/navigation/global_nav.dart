@@ -30,6 +30,9 @@ class GlobalNav {
 
   List<Question> getFinalTestQuestions() {
     List<Question> ans = [];
+    for (var index = 0; index < sections.length; index++) {
+      ans.addAll(sections[index].getFinalQuestions());
+    }
     return ans;
   }
 }

@@ -29,7 +29,10 @@ class _SearchScreenState extends State<SubSectionQuestions> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Questions'),
+        title: Text(
+          'Subsection Questions',
+          style: TextStyle(color: Theme.of(context).colorScheme.primary),
+        ),
         backgroundColor: Theme.of(context).primaryColor.withOpacity(AppConstants.appBarOpacity),
       ),
       body: SafeArea(child: buildPage()),
