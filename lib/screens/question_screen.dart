@@ -196,7 +196,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
       maxHeight: 56,
       child: DropdownButtonFormField<String>(
         value: learntValue,
-        style: skillsBody,
+        style: getPrimary(context, 16),
         decoration: const InputDecoration(
           floatingLabelBehavior: FloatingLabelBehavior.auto,
           border: OutlineInputBorder(),

@@ -26,9 +26,8 @@ TextStyle anyStyle({
 }
 
 TextStyle start = const TextStyle(fontSize: 12, color: simplyBlack, fontWeight: FontWeight.normal);
-// TextStyle whiteButtonText = GoogleFonts.roboto(fontSize: 14, color: simplyWhite, fontWeight: FontWeight.w600);
-// TextStyle footerStyle = GoogleFonts.roboto(fontSize: 12, color: Colors.black87, fontWeight: FontWeight.w400, height: 1.33);
-TextStyle unfocussed = TextStyle(fontSize: 16, fontWeight: FontWeight.w400, color: simplyWhite, height: 1, letterSpacing: 1.2);
+TextStyle unfocussed =
+    const TextStyle(fontSize: 16, fontWeight: FontWeight.w400, color: simplyWhite, height: 1, letterSpacing: 1.2);
 
 TextStyle focussed = anyStyle(
   start: unfocussed,
@@ -58,6 +57,10 @@ TextStyle getContextStyle(BuildContext context) {
 TextStyle getPrimaryContainer(BuildContext context, double size) {
   return anyStyle(
       start: start, color: Theme.of(context).colorScheme.primaryContainer, fontWeight: FontWeight.w500, fontSize: size);
+}
+
+TextStyle getPrimary(BuildContext context, double size) {
+  return anyStyle(start: start, color: Theme.of(context).colorScheme.primary, fontSize: size);
 }
 
 TextStyle getContextHelperStyle(BuildContext context) {
