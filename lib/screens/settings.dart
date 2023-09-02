@@ -24,12 +24,10 @@ class _SettingsState extends State<Settings> {
 
   bool showMediumSizeLayout = false;
   bool showLargeSizeLayout = false;
-  // bool notLearntShowOnly = false;
   @override
   void initState() {
     truthSettings = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.truthSettingsKey)!;
     soundSettings = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.soundsKey)!;
-    // notLearntShowOnly = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.notLeartSettingsKey)!;
     showValue = globalNav.sharedPreferences!.getString(AppConstants.notLeartSettingsKey)!;
     super.initState();
   }
@@ -71,7 +69,7 @@ class _SettingsState extends State<Settings> {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 const SizedBox(width: 15),
-                Expanded(child: Text('Show only', style: skillsBody)),
+                Expanded(child: Text('Show only', style: getPrimary(context, 16))),
                 getStatusDropdown(),
                 const SizedBox(width: 20),
               ],
@@ -112,7 +110,7 @@ class _SettingsState extends State<Settings> {
       maxHeight: 56,
       child: DropdownButtonFormField<String>(
         value: showValue,
-        style: skillsBody,
+        style: getPrimary(context, 16),
         decoration: const InputDecoration(
           floatingLabelBehavior: FloatingLabelBehavior.auto,
           border: OutlineInputBorder(),
