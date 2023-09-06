@@ -46,6 +46,19 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
     );
   }
 
+  Widget perQuestionDisplay(int value) {
+    return Center(
+      child: AnimatedBuilder(
+        animation: animationScale,
+        child: Text('$value s / question', style: getGoodResult(context, 10)),
+        builder: (context, child) => Transform.scale(
+          scale: animationScale.value,
+          child: child,
+        ),
+      ),
+    );
+  }
+
   Widget growingStar() {
     return Center(
       child: AnimatedBuilder(
@@ -86,6 +99,7 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
   @override
   Widget build(BuildContext context) {
     var result = testcalls.mark / testcalls.noQuestions;
+    int perQuestion = (testcalls.secondsUsed / testcalls.noQuestions).floor();
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.primaryContainer,
       appBar: AppBar(
@@ -98,7 +112,10 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const SizedBox(height: 10),
-            Text('Your score is ${testcalls.mark} out of ${testcalls.noQuestions}'),
+            Text(
+              'Your score is ${testcalls.mark} out of ${testcalls.noQuestions}',
+              style: getPrimary(context, 16),
+            ),
             const SizedBox(height: 30),
             result != 1
                 ? const Text('must improve')
@@ -106,9 +123,13 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       const SizedBox(height: 30),
+                      growingStar(),
+                      const SizedBox(height: 10),
                       perfectResult(),
                       const SizedBox(height: 10),
                       growingStar(),
+                      const SizedBox(height: 10),
+                      perQuestionDisplay(perQuestion),
                     ],
                   ),
           ],

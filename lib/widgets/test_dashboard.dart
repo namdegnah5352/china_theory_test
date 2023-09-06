@@ -25,6 +25,7 @@ class _TestDashboardState extends State<TestDashboard> {
   }
 
   void counterFunction(int count) async {
+    testcalls.secondsUsed = count;
     if (mounted) {
       if (count == widget.seconds) {
         widget.popMaster();

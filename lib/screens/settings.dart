@@ -29,12 +29,12 @@ class _SettingsState extends State<Settings> {
     truthSettings = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.truthSettingsKey)!;
     soundSettings = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.soundsKey)!;
     showValue = globalNav.sharedPreferences!.getString(AppConstants.notLeartSettingsKey)!;
+    settingsData = globalNav.settingsData!;
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
-    settingsData = globalNav.settingsData!;
     return Scaffold(
       appBar: createAppBar(resetSettings, settingsData!),
       body: Padding(
