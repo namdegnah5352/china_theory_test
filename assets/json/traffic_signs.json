@@ -1327,7 +1327,7 @@
 		},
 		{
 			"Id": "1.1.2.31",
-			"Q": "otorized vehicles should pass the intersections according to the traffic signals.",
+			"Q": "Motorized vehicles should pass the intersections according to the traffic signals.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
@@ -1375,7 +1375,7 @@
 		},
 		{
 			"Id": "1.1.2.39",
-			"Q": " driver may drive on the road an illegally assembled motorized vehicle or a motorized vehicle reaching the scrapped standard.",
+			"Q": " A driver may drive on the road an illegally assembled motorized vehicle or a motorized vehicle reaching the scrapped standard.",
 			"Answer": "Wrong",
 			"Type": "Logic"
 		},
