@@ -4,13 +4,16 @@ import '../config/constants.dart';
 import '../screens/question_list_tile.dart';
 import '../config/navigation/global_nav.dart';
 import '../domain/entities/question.dart';
-import '../domain/entities/not_learnt.dart';
+import '../domain/entities/sub_section.dart';
+import '../calls/app_calls.dart';
+import '../widgets/change_status_dialog.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 
 class SubSectionQuestions extends StatefulWidget {
-  const SubSectionQuestions(this.questions, {super.key});
+  const SubSectionQuestions(this.questions, this.subSection, {super.key});
   final List<Question> questions;
+  final SubSection subSection;
 
   @override
   State<SubSectionQuestions> createState() => _SearchScreenState();
@@ -33,6 +36,15 @@ class _SearchScreenState extends State<SubSectionQuestions> {
           'Subsection Questions',
           style: TextStyle(color: Theme.of(context).colorScheme.primary),
         ),
+        actions: [
+          IconButton.filled(
+            onPressed: () async {
+              await loadTestStart(widget.subSection.questions);
+            },
+            icon: Icon(Icons.add, color: Theme.of(context).colorScheme.primaryContainer),
+          ),
+          ChangeStatusDialog(widget.subSection.questions),
+        ],
         backgroundColor: Theme.of(context).primaryColor.withOpacity(AppConstants.appBarOpacity),
       ),
       body: SafeArea(child: buildPage()),

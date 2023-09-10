@@ -17,7 +17,10 @@ class _SubSectionScreenState extends State<SubSectionScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Subsections'),
+        title: Text(
+          'Subsections',
+          style: TextStyle(color: Theme.of(context).colorScheme.primary),
+        ),
         actions: [
           IconButton.filled(
             onPressed: () async {
@@ -41,7 +44,7 @@ class _SubSectionScreenState extends State<SubSectionScreen> {
                   children: [
                     const SizedBox(height: 5),
                     TextButton(
-                      onPressed: () async => await loadSubSectionQuestions(subSection.questions),
+                      onPressed: () async => await loadSubSectionQuestions(subSection.questions, subSection),
                       child: Text(subSection.value),
                     ),
                     const SizedBox(height: 5),

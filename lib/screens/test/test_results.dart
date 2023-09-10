@@ -116,6 +116,8 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
               'Your score is ${testcalls.mark} out of ${testcalls.noQuestions}',
               style: getPrimary(context, 16),
             ),
+            const SizedBox(height: 10),
+            perQuestionDisplay(perQuestion),
             const SizedBox(height: 30),
             result != 1
                 ? const Text('must improve')
@@ -128,8 +130,6 @@ class _TestResultsState extends State<TestResults> with SingleTickerProviderStat
                       perfectResult(),
                       const SizedBox(height: 10),
                       growingStar(),
-                      const SizedBox(height: 10),
-                      perQuestionDisplay(perQuestion),
                     ],
                   ),
           ],
