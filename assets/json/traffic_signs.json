@@ -1457,7 +1457,7 @@
 		},
 		{
 			"Id": "1.2.1.5",
-			"Q": "f a registered motorized vehicle reaches the state’s mandatory write-off standard, the owner of the vehicle should ____________ before the expiration of the write-off period.",
+			"Q": "If a registered motorized vehicle reaches the state’s mandatory write-off standard, the owner of the vehicle should ____________ before the expiration of the write-off period.",
 			"A": "Sell it to the waste recycling station",
 			"B": "Sell to the vehicle recycling enterprise",
 			"C": "Hand it over to the traffic control department of the public security organ",
@@ -1497,7 +1497,7 @@
 		},
 		{
 			"Id": "1.2.1.9",
-			"Q": "he small and mini non-commercial passenger vehicles should be inspected once every two years within __________ as from the date of registration.",
+			"Q": "The small and mini non-commercial passenger vehicles should be inspected once every two years within __________ as from the date of registration.",
 			"A": "2 years",
 			"B": "3 years",
 			"C": "4 years",
