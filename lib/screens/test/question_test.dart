@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import '../../domain/entities/question.dart';
 import '../../config/constants.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import '../../config/navigation/global_nav.dart';
+
+SharedPreferences sharedPreferences = GlobalNav.instance.sharedPreferences!;
 
 class QuestionTest extends StatefulWidget {
   final Question question;
@@ -13,10 +17,12 @@ class QuestionTest extends StatefulWidget {
 
 class _QuestionTestState extends State<QuestionTest> {
   late TextEditingController controller;
+  late bool randomAnswerSettings;
   bool ans = false;
 
   @override
   void initState() {
+    randomAnswerSettings = sharedPreferences.getBool(AppConstants.randomAnswersKey)!;
     controller = TextEditingController();
     super.initState();
   }
@@ -70,17 +76,25 @@ class _QuestionTestState extends State<QuestionTest> {
   }
 
   Widget getFourAnswers(Question question) {
+    var answers = [
+      getButton('A', widget.question.a),
+      getButton('B', widget.question.b),
+      getButton('C', widget.question.c),
+      getButton('D', widget.question.d)
+    ];
+    if (randomAnswerSettings) answers.shuffle();
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         const SizedBox(height: 5),
-        getButton('A', widget.question.a),
+        answers[0],
         const SizedBox(height: 20),
-        getButton('B', widget.question.b),
+        answers[1],
         const SizedBox(height: 20),
-        getButton('C', widget.question.c),
+        answers[2],
         const SizedBox(height: 20),
-        getButton('D', widget.question.d),
+        answers[3],
         const SizedBox(height: 20),
       ],
     );

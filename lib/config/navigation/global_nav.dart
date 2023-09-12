@@ -50,4 +50,6 @@ void setUpShared(SharedPreferences sharedPreferences) {
   if (notLearntSettingsOption == null) {
     sharedPreferences.setString(AppConstants.notLeartSettingsKey, AppConstants.notLearnt);
   }
+  bool? randomAnswerSettings = sharedPreferences.getBool(AppConstants.randomAnswersKey);
+  if (randomAnswerSettings == null) sharedPreferences.setBool(AppConstants.randomAnswersKey, AppConstants.randomAnswersDefault);
 }

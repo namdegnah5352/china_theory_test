@@ -4,6 +4,9 @@ import '../config/enums.dart';
 import '../config/navigation/global_nav.dart';
 import '../config/constants.dart';
 import '../config/text_styles.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
+SharedPreferences sharedPreferences = GlobalNav.instance.sharedPreferences!;
 
 class Settings extends StatefulWidget {
   const Settings({super.key});
@@ -18,6 +21,7 @@ class _SettingsState extends State<Settings> {
 
   late bool truthSettings;
   late bool soundSettings;
+  late bool randomAnswerSettings;
   SettingsData? settingsData;
   GlobalNav globalNav = GlobalNav.instance;
   late String showValue;
@@ -26,9 +30,10 @@ class _SettingsState extends State<Settings> {
   bool showLargeSizeLayout = false;
   @override
   void initState() {
-    truthSettings = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.truthSettingsKey)!;
-    soundSettings = GlobalNav.instance.sharedPreferences!.getBool(AppConstants.soundsKey)!;
-    showValue = globalNav.sharedPreferences!.getString(AppConstants.notLeartSettingsKey)!;
+    truthSettings = sharedPreferences.getBool(AppConstants.truthSettingsKey)!;
+    soundSettings = sharedPreferences.getBool(AppConstants.soundsKey)!;
+    randomAnswerSettings = sharedPreferences.getBool(AppConstants.randomAnswersKey)!;
+    showValue = sharedPreferences.getString(AppConstants.notLeartSettingsKey)!;
     settingsData = globalNav.settingsData!;
     super.initState();
   }
@@ -48,7 +53,7 @@ class _SettingsState extends State<Settings> {
               value: truthSettings,
               onChanged: (value) {
                 setState(() {
-                  GlobalNav.instance.sharedPreferences!.setBool(AppConstants.truthSettingsKey, value);
+                  sharedPreferences.setBool(AppConstants.truthSettingsKey, value);
                   truthSettings = value;
                 });
               },
@@ -59,8 +64,19 @@ class _SettingsState extends State<Settings> {
               value: soundSettings,
               onChanged: (value) {
                 setState(() {
-                  GlobalNav.instance.sharedPreferences!.setBool(AppConstants.soundsKey, value);
+                  sharedPreferences.setBool(AppConstants.soundsKey, value);
                   soundSettings = value;
+                });
+              },
+            ),
+            const SizedBox(height: 40),
+            SwitchListTile(
+              title: const Text('Random Answers'),
+              value: randomAnswerSettings,
+              onChanged: (value) {
+                setState(() {
+                  sharedPreferences.setBool(AppConstants.randomAnswersKey, value);
+                  randomAnswerSettings = value;
                 });
               },
             ),

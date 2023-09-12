@@ -27,6 +27,9 @@ class AppConstants {
   static const appBarOpacity = 0.4;
   static const questionsFinished = true;
   static const timerFinished = false;
+  //random answers
+  static const randomAnswersKey = 'randomAnswersKey';
+  static const randomAnswersDefault = false;
   //layout options
   static const questionLineMax = 8;
 }
