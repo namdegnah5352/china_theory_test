@@ -22,12 +22,14 @@ class _TestGoState extends State<TestGo> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Test')),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          TestDashboard(widget.noSeconds, goAway),
-          ServeTestQuestions(widget.questions, goAway),
-        ],
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            TestDashboard(widget.noSeconds, goAway),
+            ServeTestQuestions(widget.questions, goAway),
+          ],
+        ),
       ),
     );
   }
