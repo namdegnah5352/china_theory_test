@@ -2617,7 +2617,7 @@
 		},
 		{
 			"Id": "1.2.1.121",
-			"Q": "f a motorized vehicle has a road accident with another motorized vehicle that has caused no human casualties and if the parties have no dispute over the fact and cause, the parties should ________.",
+			"Q": "If a motorized vehicle has a road accident with another motorized vehicle that has caused no human casualties and if the parties have no dispute over the fact and cause, the parties should ________.",
 			"A": "Leave the scene and discuss compensation on their own",
 			"B": "Park the vehicles on the scene, preserve the scene and wait for the traffic police to handle the case",
 			"C": "Discuss compensation on the scene",
@@ -2666,8 +2666,8 @@
 			"Type": "N"
 		},
 		{
-			"Id": "1.2.2.9 ",
-			"Q": "f the driving license of a motorized vehicle driver is lost, the driver can still drive a motorized vehicle.",
+			"Id": "1.2.2.9",
+			"Q": "If the driving license of a motorized vehicle driver is lost, the driver can still drive a motorized vehicle.",
 			"Answer": "Wrong",
 			"Type": "Logic"
 		},
@@ -2769,49 +2769,49 @@
 		},
 		{
 			"Id": "1.2.2.1",
-			"Q": "f a registered motorized vehicle changes the engine, the owner of the vehicle should apply to the traffic control department of the public security organ that has registered the vehicle for registration alternation.",
+			"Q": "If a registered motorized vehicle changes the engine, the owner of the vehicle should apply to the traffic control department of the public security organ that has registered the vehicle for registration alternation.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
 		{
 			"Id": "1.2.2.2",
-			"Q": "f a registered motorized vehicle changes the chassis, the owner of the vehicle should apply to the traffic control department of the public security organ that has registered the vehicle for registration alternation.",
+			"Q": "If a registered motorized vehicle changes the chassis, the owner of the vehicle should apply to the traffic control department of the public security organ that has registered the vehicle for registration alternation.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
 		{
 			"Id": "1.2.2.3",
-			"Q": "hen applying for the transfer registration of a motorized vehicle, the party should have the vehicle inspected by the traffic control department of the public security organ that has registered the vehicle.",
+			"Q": "When applying for the transfer registration of a motorized vehicle, the party should have the vehicle inspected by the traffic control department of the public security organ that has registered the vehicle.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
 		{
 			"Id": "1.2.2.4",
-			"Q": "hen a driver drives a motorized vehicle during the period of probation, the driver should paste or hang a uniform probation mark on the rear part of the vehicle.",
+			"Q": "When a driver drives a motorized vehicle during the period of probation, the driver should paste or hang a uniform probation mark on the rear part of the vehicle.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
 		{
 			"Id": "1.2.2.5",
-			"Q": "he driver of a motorized vehicle may drive a police car, a fire engine, a wrecker or an ambulance during the period of probation.",
+			"Q": "The driver of a motorized vehicle may drive a police car, a fire engine, a wrecker or an ambulance during the period of probation.",
 			"Answer": "Wrong",
 			"Type": "Logic"
 		},
 		{
 			"Id": "1.2.2.6",
-			"Q": "he driver of a motorized vehicle may, during the period of probation, drive a vehicle carrying dangerous articles under the supervision and guidance of a regular driver.",
+			"Q": "The driver of a motorized vehicle may, during the period of probation, drive a vehicle carrying dangerous articles under the supervision and guidance of a regular driver.",
 			"Answer": "Wrong",
 			"Type": "Logic"
 		},
 		{
 			"Id": "1.2.2.7",
-			"Q": "f the penalty points of a motorized vehicle driver fail to reach 12 points in one scoring cycle and if the fines have all been paid, the points will be eliminated.",
+			"Q": "If the penalty points of a motorized vehicle driver fail to reach 12 points in one scoring cycle and if the fines have all been paid, the points will be eliminated.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
 		{
 			"Id": "1.2.2.8",
-			"Q": "f the penalty points of a motorized vehicle driver fail to reach 12 points in one scoring cycle but the fines have not been paid up, the points will also be eliminated.",
+			"Q": "If the penalty points of a motorized vehicle driver fail to reach 12 points in one scoring cycle but the fines have not been paid up, the points will also be eliminated.",
 			"Answer": "Wrong",
 			"Type": "Logic"
 		},
@@ -3091,7 +3091,7 @@
 		},
 		{
 			"Id": "1.4.2.1",
-			"Q": " motorized vehicle driver who has injured a pedestrian should assume the civil liability for traffic accident.",
+			"Q": "A motorized vehicle driver who has injured a pedestrian should assume the civil liability for traffic accident.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
