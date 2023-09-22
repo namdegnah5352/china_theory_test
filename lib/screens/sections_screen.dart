@@ -1,3 +1,4 @@
+import 'package:china_theory_test/config/constants.dart';
 import 'package:flutter/material.dart';
 import '../config/navigation/global_nav.dart';
 import '../domain/entities/section.dart';
@@ -25,13 +26,13 @@ class _SectionsScreenState extends State<SectionsScreen> {
           IconButton.filled(
             onPressed: () async {
               // this gets the final questions
-              await loadTestStart(globalNav.getFinalTestQuestions());
+              await loadTestStart(globalNav.getFinalTestQuestions(), AppConstants.finalTestTrue);
             },
             icon: Icon(Icons.folder_zip, color: Theme.of(context).colorScheme.primaryContainer),
           ),
           IconButton.filled(
             onPressed: () async {
-              await loadTestStart(globalNav.questions!);
+              await loadTestStart(globalNav.questions!, AppConstants.finalTestFalse);
             },
             icon: Icon(Icons.add, color: Theme.of(context).colorScheme.primaryContainer),
           ),

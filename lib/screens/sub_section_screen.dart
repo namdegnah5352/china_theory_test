@@ -1,3 +1,4 @@
+import 'package:china_theory_test/config/constants.dart';
 import 'package:flutter/material.dart';
 import '../domain/entities/sub_section.dart';
 import '../domain/entities/section.dart';
@@ -24,7 +25,7 @@ class _SubSectionScreenState extends State<SubSectionScreen> {
         actions: [
           IconButton.filled(
             onPressed: () async {
-              await loadTestStart(widget.section.questions);
+              await loadTestStart(widget.section.questions, AppConstants.finalTestFalse);
             },
             icon: Icon(Icons.add, color: Theme.of(context).colorScheme.primaryContainer),
           ),

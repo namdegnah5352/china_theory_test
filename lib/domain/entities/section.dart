@@ -33,10 +33,8 @@ class Section {
 
   List<Question> getFinalQuestions() {
     List<Question> ans = [];
-    int no = questions.length;
-    int nos = (no * percent / 100).floor();
     questions.shuffle();
-    for (var index = 0; index < nos; index++) {
+    for (var index = 0; index < percent; index++) {
       ans.add(questions[index]);
     }
     return ans;

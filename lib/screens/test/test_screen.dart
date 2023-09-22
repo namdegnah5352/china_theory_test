@@ -5,8 +5,9 @@ import '../../calls/app_calls.dart' as appcalls;
 import '../../calls/test_calls.dart' as testcalls;
 
 class TestScreen extends StatefulWidget {
-  const TestScreen(this.questions, {super.key});
+  const TestScreen(this.questions, this.finalTest, {super.key});
   final List<Question> questions;
+  final bool finalTest;
   @override
   State<TestScreen> createState() => _TestScreenState();
 }
@@ -18,7 +19,7 @@ class _TestScreenState extends State<TestScreen> {
   int secs = 0;
   @override
   void initState() {
-    toUseQuestions = appcalls.filterQuestions(widget.questions);
+    toUseQuestions = widget.finalTest ? widget.questions : appcalls.filterQuestions(widget.questions);
     noQuestionsController = TextEditingController();
     noQuestionsController.text = '${toUseQuestions.length}';
     timeController = TextEditingController();

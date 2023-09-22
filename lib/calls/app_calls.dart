@@ -50,8 +50,10 @@ Future<void> loadSubSectionQuestions(List<Question> questions, SubSection subSec
   await globalNav.appNavigation.pushNamed(NavigationPaths.subSectionQuestion, arguments: listParts);
 }
 
-Future<void> loadTestStart(List<Question> questions) async {
-  await globalNav.appNavigation.pushNamed(NavigationPaths.testStart, arguments: questions);
+Future<void> loadTestStart(List<Question> questions, bool finalTest) async {
+  ({List<Question> questions, bool finalTest}) listParts;
+  listParts = (questions: questions, finalTest: finalTest);
+  await globalNav.appNavigation.pushNamed(NavigationPaths.testStart, arguments: listParts);
 }
 
 Future<void> loadTestResults() async {

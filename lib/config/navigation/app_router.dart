@@ -52,8 +52,10 @@ class AppRouter {
           builder: (_) => SubSectionQuestions(listParts.questions, listParts.subSection),
         );
       case NavigationPaths.testStart:
+        ({List<Question> questions, bool finalTest}) listParts;
+        listParts = arg as ({List<Question> questions, bool finalTest});
         return MaterialPageRoute(
-          builder: (_) => TestScreen(arg as List<Question>),
+          builder: (_) => TestScreen(listParts.questions, listParts.finalTest),
         );
       case NavigationPaths.testResults:
         return MaterialPageRoute(

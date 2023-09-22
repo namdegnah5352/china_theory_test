@@ -39,7 +39,7 @@ class _SearchScreenState extends State<SubSectionQuestions> {
         actions: [
           IconButton.filled(
             onPressed: () async {
-              await loadTestStart(widget.subSection.questions);
+              await loadTestStart(widget.subSection.questions, AppConstants.finalTestFalse);
             },
             icon: Icon(Icons.add, color: Theme.of(context).colorScheme.primaryContainer),
           ),

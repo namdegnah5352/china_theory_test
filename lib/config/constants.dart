@@ -32,6 +32,9 @@ class AppConstants {
   static const randomAnswersDefault = false;
   //layout options
   static const questionLineMax = 8;
+  //big final test
+  static const finalTestTrue = true;
+  static const finalTestFalse = false;
 }
 
 List<DropdownMenuItem<String>> get quantities {
