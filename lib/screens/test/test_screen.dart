@@ -15,7 +15,7 @@ class TestScreen extends StatefulWidget {
 class _TestScreenState extends State<TestScreen> {
   late final TextEditingController noQuestionsController;
   late final TextEditingController timeController;
-  late final List<Question> toUseQuestions;
+  late List<Question> toUseQuestions;
   int secs = 0;
   @override
   void initState() {
@@ -32,6 +32,18 @@ class _TestScreenState extends State<TestScreen> {
 
   void goAway() {
     Navigator.pop(context);
+  }
+
+  List<Question> reduceQuestionSize(List<Question> input, int limit) {
+    if (limit < input.length) {
+      List<Question> ans = [];
+      input.shuffle();
+      for (var i = 0; i < limit; i++) {
+        ans.add(input[i]);
+      }
+      return ans;
+    }
+    return input;
   }
 
   @override
@@ -55,6 +67,45 @@ class _TestScreenState extends State<TestScreen> {
     );
   }
 
+  Widget getAjustableCount(TextEditingController noQuestionsController) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.start,
+      children: [
+        SizedBox(
+          width: 200,
+          child: TextFormField(
+            controller: noQuestionsController,
+            decoration: InputDecoration(
+              labelText: 'No Questions',
+              helperStyle: skillsBody,
+              contentPadding: const EdgeInsets.only(left: 10),
+              errorMaxLines: 2,
+              focusedBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(5),
+                borderSide: const BorderSide(color: Colors.black54),
+              ),
+              border: const OutlineInputBorder(
+                gapPadding: 4.0,
+                borderSide: BorderSide(color: Colors.black26),
+              ),
+            ),
+          ),
+        ),
+        const Spacer(),
+        FilledButton.tonal(
+          onPressed: () {
+            toUseQuestions = reduceQuestionSize(toUseQuestions, int.parse(noQuestionsController.text));
+          },
+          style: ButtonStyle(
+            padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
+            alignment: Alignment.center,
+          ),
+          child: const Text('Update'),
+        ),
+      ],
+    );
+  }
+
   Widget getControlCenter(TextEditingController noQuestionsController, TextEditingController timeController) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -74,24 +125,25 @@ class _TestScreenState extends State<TestScreen> {
           child: const Text('Start Test'),
         ),
         const SizedBox(height: 20),
-        TextFormField(
-          readOnly: true,
-          controller: noQuestionsController,
-          decoration: InputDecoration(
-            labelText: 'No Questions',
-            helperStyle: skillsBody,
-            contentPadding: const EdgeInsets.only(left: 10),
-            errorMaxLines: 2,
-            focusedBorder: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(5),
-              borderSide: const BorderSide(color: Colors.black54),
-            ),
-            border: const OutlineInputBorder(
-              gapPadding: 4.0,
-              borderSide: BorderSide(color: Colors.black26),
-            ),
-          ),
-        ),
+        getAjustableCount(noQuestionsController),
+        // TextFormField(
+        //   readOnly: true,
+        //   controller: noQuestionsController,
+        //   decoration: InputDecoration(
+        //     labelText: 'No Questions',
+        //     helperStyle: skillsBody,
+        //     contentPadding: const EdgeInsets.only(left: 10),
+        //     errorMaxLines: 2,
+        //     focusedBorder: OutlineInputBorder(
+        //       borderRadius: BorderRadius.circular(5),
+        //       borderSide: const BorderSide(color: Colors.black54),
+        //     ),
+        //     border: const OutlineInputBorder(
+        //       gapPadding: 4.0,
+        //       borderSide: BorderSide(color: Colors.black26),
+        //     ),
+        //   ),
+        // ),
         const SizedBox(height: 20),
         TextFormField(
           readOnly: true,

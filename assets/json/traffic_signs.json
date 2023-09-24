@@ -2507,7 +2507,7 @@
 		},
 		{
 			"Id": "1.2.1.107",
-			"Q": "hen a motorized vehicle runs on the expressway in hailing and other weather conditions with a visibility range of less than 100 meters, it should keep a distance of ________ with the vehicle in front in the same lane.",
+			"Q": "When a motorized vehicle runs on the expressway in hailing and other weather conditions with a visibility range of less than 100 meters, it should keep a distance of ________ with the vehicle in front in the same lane.",
 			"A": "30 meters",
 			"B": "40 meters",
 			"C": "50 meters",
@@ -9515,7 +9515,7 @@
 		},
 		{
 			"Id": "5.4.2.2",
-			"Q": "hen the engine suddenly stops on the road and cannot be restarted, the driver should apply emergency braking to force the vehicle to stop as fast as possible.",
+			"Q": "When the engine suddenly stops on the road and cannot be restarted, the driver should apply emergency braking to force the vehicle to stop as fast as possible.",
 			"Answer": "Wrong",
 			"Type": "Logic"
 		},
