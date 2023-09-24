@@ -23,11 +23,15 @@ class _TestScreenState extends State<TestScreen> {
     noQuestionsController = TextEditingController();
     noQuestionsController.text = '${toUseQuestions.length}';
     timeController = TextEditingController();
-    secs = toUseQuestions.length * 27;
+    timeController.text = getTimeText(toUseQuestions);
+    super.initState();
+  }
+
+  String getTimeText(List<Question> questions) {
+    secs = questions.length * 27;
     int min = (secs / 60).floor();
     int seconds = secs - min * 60;
-    timeController.text = '$min min $seconds seconds';
-    super.initState();
+    return '$min min $seconds seconds';
   }
 
   void goAway() {
@@ -67,7 +71,7 @@ class _TestScreenState extends State<TestScreen> {
     );
   }
 
-  Widget getAjustableCount(TextEditingController noQuestionsController) {
+  Widget getAdjustableCount(TextEditingController noQuestionsController) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
@@ -95,6 +99,9 @@ class _TestScreenState extends State<TestScreen> {
         FilledButton.tonal(
           onPressed: () {
             toUseQuestions = reduceQuestionSize(toUseQuestions, int.parse(noQuestionsController.text));
+            setState(() {
+              timeController.text = getTimeText(toUseQuestions);
+            });
           },
           style: ButtonStyle(
             padding: MaterialStateProperty.all<EdgeInsets>(const EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10)),
@@ -125,25 +132,7 @@ class _TestScreenState extends State<TestScreen> {
           child: const Text('Start Test'),
         ),
         const SizedBox(height: 20),
-        getAjustableCount(noQuestionsController),
-        // TextFormField(
-        //   readOnly: true,
-        //   controller: noQuestionsController,
-        //   decoration: InputDecoration(
-        //     labelText: 'No Questions',
-        //     helperStyle: skillsBody,
-        //     contentPadding: const EdgeInsets.only(left: 10),
-        //     errorMaxLines: 2,
-        //     focusedBorder: OutlineInputBorder(
-        //       borderRadius: BorderRadius.circular(5),
-        //       borderSide: const BorderSide(color: Colors.black54),
-        //     ),
-        //     border: const OutlineInputBorder(
-        //       gapPadding: 4.0,
-        //       borderSide: BorderSide(color: Colors.black26),
-        //     ),
-        //   ),
-        // ),
+        getAdjustableCount(noQuestionsController),
         const SizedBox(height: 20),
         TextFormField(
           readOnly: true,
