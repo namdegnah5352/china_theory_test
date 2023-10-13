@@ -32,6 +32,7 @@ class AppConstants {
   static const randomAnswersDefault = false;
   //layout options
   static const questionLineMax = 8;
+  static const questionAnswerLineMax = 3;
   //big final test
   static const finalTestTrue = true;
   static const finalTestFalse = false;

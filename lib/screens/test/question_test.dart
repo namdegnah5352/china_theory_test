@@ -114,7 +114,7 @@ class _QuestionTestState extends State<QuestionTest> {
       ),
       child: Text(
         question,
-        maxLines: 2,
+        maxLines: AppConstants.questionAnswerLineMax,
         textAlign: TextAlign.center,
       ),
     );
