@@ -184,7 +184,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
       ),
       child: Text(
         question,
-        maxLines: 2,
+        maxLines: AppConstants.questionAnswerLineMax,
         textAlign: TextAlign.center,
       ),
     );
