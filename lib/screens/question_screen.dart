@@ -64,7 +64,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
               ),
               switch (widget.question.type) {
                 'P' => getFourAnswers(widget.question),
-                'Plogic' || 'Logic' => getLogicAnswer(widget.question),
+                'Plogic' || 'PLogic' || 'Logic' => getLogicAnswer(widget.question),
                 _ => getFourAnswers(widget.question),
               },
               const SizedBox(height: 20),

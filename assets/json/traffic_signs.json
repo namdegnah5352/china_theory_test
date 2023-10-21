@@ -6874,7 +6874,7 @@
 			"Type": "Logic"
 		},
 		{
-			"Q": "qualified driver should not only be technically adept, but more importantly have good driving habits and ethical attainments.",
+			"Q": "A qualified driver should not only be technically adept, but more importantly have good driving habits and ethical attainments.",
 			"Answer": "true",
 			"Id": "3.3.2.2",
 			"Type": "Logic"
@@ -10409,7 +10409,7 @@
 			"C": "The fuel is leaking",
 			"D": "The engine oil is too much and its pressure is too high",
 			"Answer": "A",
-			"Type": "N"
+			"Type": "P"
 		},		
 		{
 			"Q": "When the ____ light on the dashboard is on, it reminds the driver he is using ______.",
@@ -10533,7 +10533,7 @@
 			"Id": "6.2.2.9",
 			"Q": "When the _____ light on the dashboard is on, it indicates the fog light is on.",
 			"Answer": "Wrong",
-			"Type": "Logic"
+			"Type": "PLogic"
 		},
 		{
 			"Id": "6.2.2.10",
