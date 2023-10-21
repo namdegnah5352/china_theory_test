@@ -61,6 +61,7 @@ enum Destination {
   home('Home', Icon(Icons.home_outlined), Icon(Icons.home), calls.loadHomePage),
   search('Search', Icon(Icons.search_outlined), Icon(Icons.search), calls.loadSearchPage),
   special('Special', Icon(Icons.outbond_outlined), Icon(Icons.outbond), calls.loadSpecialPage),
+  status('Status', Icon(Icons.stadium), Icon(Icons.inbox), calls.loadShowQuestionsPage),
   settings('Settings', Icon(Icons.inbox_outlined), Icon(Icons.inbox), calls.loadSettinsPage);
 
   const Destination(this.label, this.iconOutlined, this.icon, this.function);

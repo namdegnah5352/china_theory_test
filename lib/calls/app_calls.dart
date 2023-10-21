@@ -26,6 +26,10 @@ Future<void> loadSettinsPage() async {
   await globalNav.appNavigation.pushNamed(NavigationPaths.settings);
 }
 
+Future<void> loadShowQuestionsPage() async {
+  await globalNav.appNavigation.pushNamed(NavigationPaths.showQuestions);
+}
+
 Future<void> loadSpecialPage() async {
   await globalNav.appNavigation.pushNamed(NavigationPaths.special);
 }
