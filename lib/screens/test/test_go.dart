@@ -13,20 +13,38 @@ class TestGo extends StatefulWidget {
 }
 
 class _TestGoState extends State<TestGo> {
+  bool _showRunningTotal = true;
   void goAway() {
     Navigator.pop(context);
     widget.popMaster();
   }
 
+  bool get showRunningTotal => _showRunningTotal;
+  set showRunningTotal(bool value) => setState(() {
+        _showRunningTotal = value;
+      });
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Test')),
+      appBar: AppBar(
+        title: const Text('Test'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.hide_source),
+            onPressed: () {
+              setState(() {
+                _showRunningTotal = !_showRunningTotal;
+              });
+            },
+          )
+        ],
+      ),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            TestDashboard(widget.noSeconds, goAway),
+            TestDashboard(widget.noSeconds, goAway, showRunningTotal),
             ServeTestQuestions(widget.questions, goAway),
           ],
         ),

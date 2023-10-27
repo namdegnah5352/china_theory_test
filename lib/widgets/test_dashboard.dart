@@ -3,9 +3,10 @@ import '../calls/app_calls.dart' as appcalls;
 import '../calls/test_calls.dart' as testcalls;
 
 class TestDashboard extends StatefulWidget {
-  const TestDashboard(this.seconds, this.popMaster, {super.key});
+  const TestDashboard(this.seconds, this.popMaster, this.showRunningTotal, {super.key});
   final int seconds;
   final Function popMaster;
+  final bool showRunningTotal;
 
   @override
   State<TestDashboard> createState() => _TestDashboardState();
@@ -58,7 +59,9 @@ class _TestDashboardState extends State<TestDashboard> {
           const SizedBox(height: 20),
           Center(child: Text('$min min and $iseconds seconds left')),
           Center(child: Text('$used min and $usedSeconds seconds used')),
-          Center(child: Text('${testcalls.noQuestionsDone} out of ${testcalls.noQuestions} done')),
+          widget.showRunningTotal
+              ? Center(child: Text('${testcalls.noQuestionsDone} out of ${testcalls.noQuestions} done'))
+              : Container(width: 0),
         ],
       ),
     );
