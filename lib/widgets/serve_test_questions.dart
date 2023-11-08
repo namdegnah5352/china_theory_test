@@ -7,6 +7,7 @@ import '../config/constants.dart';
 import '../calls/test_calls.dart' as testcalls;
 import '../calls/app_calls.dart' as appcalls;
 import 'package:audioplayers/audioplayers.dart';
+import 'package:collection/collection.dart';
 
 GlobalNav globalNav = GlobalNav.instance;
 
@@ -21,7 +22,7 @@ class ServeTestQuestions extends StatefulWidget {
 class _ServeTestQuestionsState extends State<ServeTestQuestions> {
   @override
   void initState() {
-    widget.questions.shuffle();
+    shuffle(widget.questions);
     super.initState();
   }
 

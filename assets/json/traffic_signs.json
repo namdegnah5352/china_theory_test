@@ -9463,7 +9463,7 @@
 		},
 		{
 			"Id": "5.3.2.8",
-			"Q": "n order to maximize the braking efficiency, it is unadvisable to pull the handbrake to the full at one stroke.",
+			"Q": "In order to maximize the braking efficiency, it is unadvisable to pull the handbrake to the full at one stroke.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
@@ -9509,7 +9509,7 @@
 		},
 		{
 			"Id": "5.4.2.1",
-			"Q": "fter the engine stops suddenly and cannot be restarted, the driver should stop at the roadside and identify the cause.",
+			"Q": "After the engine stops suddenly and cannot be restarted, the driver should stop at the roadside and identify the cause.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
@@ -10313,7 +10313,7 @@
 		},
 		{
 			"Id": "6.1.2.3",
-			"Q": "he gear is designed to smoothly connect and completely separate the engine and the transmission system for starting to move and changing gear.",
+			"Q": "The gear is designed to smoothly connect and completely separate the engine and the transmission system for starting to move and changing gear.",
 			"Answer": "Wrong",
 			"Type": "Logic"
 		},
