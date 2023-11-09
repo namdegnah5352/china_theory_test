@@ -30,12 +30,14 @@ class _SectionsScreenState extends State<SectionsScreen> {
             },
             icon: Icon(Icons.folder_zip, color: Theme.of(context).colorScheme.primaryContainer),
           ),
+          const SizedBox(width: 10),
           IconButton.filled(
             onPressed: () async {
               await loadTestStart(globalNav.questions!, AppConstants.finalTestFalse);
             },
             icon: Icon(Icons.add, color: Theme.of(context).colorScheme.primaryContainer),
           ),
+          const SizedBox(width: 10),
         ],
       ),
       drawer: const AppDrawer(),

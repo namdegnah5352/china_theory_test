@@ -20,8 +20,13 @@ class ServeTestQuestions extends StatefulWidget {
 }
 
 class _ServeTestQuestionsState extends State<ServeTestQuestions> {
+  Container goodResult = Container(width: 10, height: 10, color: Colors.green);
+  Container badResult = Container(width: 10, height: 10, color: Colors.red);
+  late Widget result;
+
   @override
   void initState() {
+    result = goodResult;
     shuffle(widget.questions);
     super.initState();
   }
@@ -43,7 +48,10 @@ class _ServeTestQuestionsState extends State<ServeTestQuestions> {
     testcalls.noQuestionsDone++;
     if (value == question.answer) {
       testcalls.mark++;
+      // Make a container go green
+      result = goodResult;
     } else {
+      result = badResult;
       // Play Sound
       if (globalNav.sharedPreferences!.getBool(AppConstants.soundsKey)!) {
         final player = AudioPlayer();
@@ -62,6 +70,8 @@ class _ServeTestQuestionsState extends State<ServeTestQuestions> {
         children: [
           const SizedBox(height: 10),
           QuestionTest(widget.questions[index], increaseIndex),
+          const SizedBox(height: 5),
+          result,
         ],
       ),
     );

@@ -13,7 +13,7 @@ class TestGo extends StatefulWidget {
 }
 
 class _TestGoState extends State<TestGo> {
-  bool _showRunningTotal = true;
+  bool _showRunningTotal = false;
   void goAway() {
     Navigator.pop(context);
     widget.popMaster();
@@ -31,7 +31,7 @@ class _TestGoState extends State<TestGo> {
         title: const Text('Test'),
         actions: [
           IconButton(
-            icon: const Icon(Icons.hide_source),
+            icon: const Icon(Icons.fmd_bad),
             onPressed: () {
               setState(() {
                 _showRunningTotal = !_showRunningTotal;
