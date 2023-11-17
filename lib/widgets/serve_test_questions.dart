@@ -27,7 +27,9 @@ class _ServeTestQuestionsState extends State<ServeTestQuestions> {
   @override
   void initState() {
     result = goodResult;
-    shuffle(widget.questions);
+    for (var i = 0; i < 10; i++) {
+      shuffle(widget.questions);
+    }
     super.initState();
   }
 
