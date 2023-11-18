@@ -10999,13 +10999,13 @@
 		},
 		{
 			"Id": "7.1.2.20",
-			"Q": "When using a bondage to dress a wounded person, the knot should be made neither above the wound nor at the back of the body. Otherwise, the wounded person will feel uncomfortable when sleeping.",
+			"Q": "When using a bandage to dress a wounded person, the knot should be made neither above the wound nor at the back of the body. Otherwise, the wounded person will feel uncomfortable when sleeping.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
 		{
 			"Id": "7.1.2.21",
-			"Q": "When there is no bondage for rescuing a wounded person, towels, handkerchiefs, bed sheets and stockings can be used for dressing.",
+			"Q": "When there is no bandage for rescuing a wounded person, towels, handkerchiefs, bed sheets and stockings can be used for dressing.",
 			"Answer": "Right",
 			"Type": "Logic"
 		},
