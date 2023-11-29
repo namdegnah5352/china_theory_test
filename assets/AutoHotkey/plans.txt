@@ -1,0 +1,63 @@
+P as first character means a picture is received
+N means no picture and 4 questions
+Plogic means a picture and true/false
+Logic means true/false
+
+Call +44 797 300 0186 with a CMLink SIM in the mainland China (Free)
+
+"C:\Program Files\AutoHotkey\v2\AutoHotkey64.exe"
+
+C:\Users\paul_\Documents\AutoHotkey\againRestartProgram.ahk
+
+
+5:30 am
++ 12
+17:30 pm
++ 8
+25:30 pm
+-24
+01:30 am
+
+
+1) start in sky sports main event
+2) run set as full screen for 4 hours 12:30 - 4:30
+3) run start again for 4 hours 12:30 - 4:30
+4) click reduce to small screen, wait
+5) click 'go back' wait click again
+6) wait, click 'live tv', wait
+7) wait, run Wheeldown 24, wait
+8) wait, click 'opus sports, wait
+9) run set as full screen for 4 hours
+10) run start again 2 for 4 hours
+
+
+At 12:30 run set as full screen and start again for 4 hours
+At 5:30 run from (4) till (10)
+So have mouseClickStartProgram2 this contains 4, 5, 6, 7, 8
+At 5:30:20 run set as full screen
+At 5:39 run start again 2
+
+Dry run every night
+
+At 20:30 start at 'start program' main event hd automatic start on OBS Studio from 20:30 to 05:10 so 9 hours of recording: done
+At 20:30:20 start 'full screen' every 5 minutes for 4 hours so 20:30 to 00:30: done
+At 20:39 start 'again' (set to sky sports hd) for 4 hours every 9 minutes so 20:39 to 00:39: done
+At 01:00 start 'start program 2': done
+At 01:00:20 start 'full screen' every 5 minutes for 4 hours so 01:00:20 to 05:00: done
+At 01:09 start 'again2' (set to TNT sports hd 1) for 4 hours every 9 minutes so 01:09 to 05:09: done
+
+
+	;sky sports main event sd
+	;MouseMove 844, 514, 50
+	;sky football sd
+	;MouseMove 834, 812, 50
+	;sky footbal hd
+	MouseMove 815, 435, 50
+	;tnt sports 1
+	;MouseMove 826, 287, 50
+	;opus sports 2
+	;MouseMove 820, 363, 50
+	;bbc 2
+	;MouseMove 818, 360, 50
+	; the go back button
+	1829, 66, 50
