@@ -12,11 +12,11 @@
 	;sky football sd
 	;MouseMove 834, 812, 50
 	;sky footbal hd
-	MouseMove 815, 435, 50
+	;MouseMove 815, 435, 50
 	;tnt sports 1
 	;MouseMove 826, 287, 50
 	;tnt sports 2 hd
-	;MouseMove 824, 440, 50	
+	MouseMove 824, 440, 50	
 	;opus sports 2
 	;MouseMove 820, 363, 50
 	;opus sports 3

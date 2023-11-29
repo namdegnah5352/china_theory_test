@@ -61,3 +61,7 @@ At 01:09 start 'again2' (set to TNT sports hd 1) for 4 hours every 9 minutes so 
 	;MouseMove 818, 360, 50
 	; the go back button
 	1829, 66, 50
+	
+C:\Users\paul_\Documents\AutoHotkey\mouseClickRepeat.ahk
+C:\Users\paul_\Documents\GitHub\samples\china_theory_test\assets\AutoHotkey\mouseClickRepeat.ahk
+C:\Users\paul_\Documents\GitHub\samples\china_theory_test\assets\AutoHotkey\againRestartProgram2.ahk
