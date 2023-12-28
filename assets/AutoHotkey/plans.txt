@@ -10,13 +10,17 @@ Call +44 797 300 0186 with a CMLink SIM in the mainland China (Free)
 C:\Users\paul_\Documents\AutoHotkey\againRestartProgram.ahk
 
 
-5:30 am
+5:30 pm
 + 12
-17:30 pm
+13:00 pm
 + 8
-25:30 pm
+21:00 pm
 -24
 01:30 am
+
+start sky sports main event
+clash running
+switch internet before bed
 
 
 1) start in sky sports main event
@@ -65,3 +69,18 @@ At 01:09 start 'again2' (set to TNT sports hd 1) for 4 hours every 9 minutes so 
 C:\Users\paul_\Documents\AutoHotkey\mouseClickRepeat.ahk
 C:\Users\paul_\Documents\GitHub\samples\china_theory_test\assets\AutoHotkey\mouseClickRepeat.ahk
 C:\Users\paul_\Documents\GitHub\samples\china_theory_test\assets\AutoHotkey\againRestartProgram2.ahk
+
+Leave Clash Running
+Saturday Night: Arsenal vs Wolves Optus Sports 1, just because its A 
+Sunday Night: Arsenal Ladies (bbc2) and then City vs Spurs (sky Sports main channel)
+
+
+am start -a android.media.VOLUME_CHANGED -e "android.media.EXTRA_VOLUME_STREAM_TYPE" 3 -e "android.media.EXTRA_VOLUME_STREAM_VALUE" 12
+
+
+AIzaSyAa4VBj5bNMhoVNNE1qccjMQM0vkbBNGWQ
+
+mixed-port: 7890
+allow-lan: false
+external-controller: 127.0.0.1:53585
+secret: 183b6492-25f0-4612-9c33-93a84c53258e

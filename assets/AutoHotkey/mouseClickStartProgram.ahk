@@ -12,17 +12,21 @@
 	;sky football sd
 	;MouseMove 834, 812, 50
 	;sky footbal hd
-	;MouseMove 815, 435, 50
+	MouseMove 815, 435, 50	
+	;sky premiership league hd
+	;MouseMove 830, 590, 50	
 	;tnt sports 1
 	;MouseMove 826, 287, 50
 	;tnt sports 2 hd
-	MouseMove 824, 440, 50	
+	;MouseMove 824, 440, 50	
+	;opus sports 1
+	;MouseMove 830, 287, 50
 	;opus sports 2
 	;MouseMove 820, 363, 50
 	;opus sports 3
 	;MouseMove 819, 435, 50
 	;bbc 2
-	;MouseMove 818, 360, 50
+	;MouseMove 818, 737, 50
 	sleep 1000
     click
 	sleep 1000

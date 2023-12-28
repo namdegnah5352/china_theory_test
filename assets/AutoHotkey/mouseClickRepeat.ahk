@@ -4,7 +4,7 @@
 	MouseMove 1750, 618, 50
 	sleep 1000
 	click
-	sleep 500
+	sleep 1000
 	click
 	MouseMove 0, 0, 50
 }

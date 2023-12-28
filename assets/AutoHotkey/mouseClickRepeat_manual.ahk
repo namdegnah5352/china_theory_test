@@ -6,6 +6,7 @@
 	gap := 100
 	longGap := 1000
 	speed := 50
+	extremeGap := 3500
 	;click reduce to small screen, wait
 	MouseMove 1872, 1051, speed
 	sleep longGap
@@ -20,13 +21,14 @@
 	sleep longGap
 	;wait, click 'live tv', wait
 	MouseMove 393, 527, speed
+	sleep extremeGap
 	click
 	sleep longGap
 	;go back to sky sports
 	MouseMove 487, 1000, speed
 	;wait, run Wheeldown, wait
 	sleep longGap
-	Loop (1)
+	Loop (24)
 	{
 		Send "{Wheeldown}"
 		sleep gap	
