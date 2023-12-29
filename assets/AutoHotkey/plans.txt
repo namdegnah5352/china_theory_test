@@ -78,7 +78,7 @@ Sunday Night: Arsenal Ladies (bbc2) and then City vs Spurs (sky Sports main chan
 am start -a android.media.VOLUME_CHANGED -e "android.media.EXTRA_VOLUME_STREAM_TYPE" 3 -e "android.media.EXTRA_VOLUME_STREAM_VALUE" 12
 
 
-AIzaSyAa4VBj5bNMhoVNNE1qccjMQM0vkbBNGWQ
+
 
 mixed-port: 7890
 allow-lan: false
