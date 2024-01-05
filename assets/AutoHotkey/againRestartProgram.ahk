@@ -10,9 +10,11 @@
 	;sky football sd
 	;MouseMove 834, 812, 50
 	;sky footbal hd
-	MouseMove 815, 435, 50	
+	;MouseMove 815, 435, 50	
 	;sky premiership league hd
 	;MouseMove 830, 590, 50
+	;sky premiership league sd
+	MouseMove 860, 660, 50	
 	;tnt sports 1
 	;MouseMove 826, 287, 50
 	;tnt sports 2 hd
