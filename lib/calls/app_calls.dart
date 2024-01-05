@@ -1,6 +1,5 @@
 import 'package:china_theory_test/config/constants.dart';
 import 'package:china_theory_test/domain/entities/not_learnt.dart';
-import 'package:collection/collection.dart';
 import '../domain/entities/section.dart';
 import '../domain/entities/question.dart';
 import 'dart:math';
