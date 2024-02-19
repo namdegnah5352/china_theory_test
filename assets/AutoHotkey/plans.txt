@@ -10,13 +10,13 @@ Call +44 797 300 0186 with a CMLink SIM in the mainland China (Free)
 C:\Users\paul_\Documents\AutoHotkey\againRestartProgram.ahk
 
 
-5:30 pm
+19:30 pm
 + 12
-13:00 pm
+19:30 pm
 + 8
-21:00 pm
+27:30 pm
 -24
-01:30 am
+03:30 am
 
 start sky sports main event
 clash running
@@ -84,3 +84,13 @@ mixed-port: 7890
 allow-lan: false
 external-controller: 127.0.0.1:53585
 secret: 183b6492-25f0-4612-9c33-93a84c53258e
+
+https://mysub.cc/subscribe/20543/hMkO4LYCcd/clash/
+
+11 to 60010
+
+so to split in half
+
+11 to 30010
+
+30010 to 60010

@@ -1,43 +1,22 @@
 #Requires AutoHotkey v2.0
-
+#Include "constants.ahk"
 {
-	MouseMove 1872, 1051, 50
-	sleep 1000
+	MouseMove 115, 137, speed
+	sleep gap
 	click
-	sleep 1000
-	;sky sports main event sd
-	;MouseMove 844, 514, 50
-	;sky football sd
-	;MouseMove 834, 812, 50
-	;sky footbal hd
-	;MouseMove 815, 435, 50	
-	;sky premiership league hd
-	;MouseMove 830, 590, 50
-	;sky premiership league sd
-	MouseMove 860, 660, 50	
-	;tnt sports 1
-	;MouseMove 826, 287, 50
-	;tnt sports 2 hd
-	;MouseMove 824, 440, 50
-	;opus sports 1
-	;MouseMove 830, 287, 50	
-	;opus sports 2
-	;MouseMove 820, 290, 50	
-	;opus sports 1
-	;MouseMove 860, 280, 50
-	;opus sports 3
-	;MouseMove 819, 435, 50	
-	;bbc 2
-	;MouseMove 818, 737, 50	
-	sleep 1000
+	sleep gap
+	MouseMove 131, 75, speed
+	sleep gap
 	click
-	sleep 500
+	;Start one below to refresh
+	MouseMove xvalue, yvalue + between, speed
+	sleep gap
 	click
-	sleep 1000
-	MouseMove 1750, 618, 50
-	sleep 1000
+	sleep 2 * longGap
+	MouseMove xvalue, yvalue, speed	
 	click
-	sleep 500
+	sleep longGap
 	click
-	MouseMove 0, 0, 50	
+	sleep gap
+	MouseMove 0, 0, speed		
 }
